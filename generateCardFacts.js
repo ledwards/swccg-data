@@ -1,5 +1,7 @@
 const fs = require("fs");
 const path = require("path");
+const https = require("https");
+const { pipeline } = require("stream/promises");
 
 const main = async () => {
   await fetch(
@@ -8,7 +10,7 @@ const main = async () => {
     .then((res) => res.json())
     .then((json) => {
       fs.writeFileSync(
-        path.resolve(__dirname, "Dark.json"),
+        path.resolve(__dirname, "data", "Dark.json"),
         JSON.stringify(json, null, 2),
       );
       console.log("fetched Dark.json");
@@ -20,30 +22,53 @@ const main = async () => {
     .then((res) => res.json())
     .then((json) => {
       fs.writeFileSync(
-        path.resolve(__dirname, "Light.json"),
+        path.resolve(__dirname, "data", "Light.json"),
         JSON.stringify(json, null, 2),
       );
       console.log("fetched Light.json");
     });
 
   const darkCardData = await JSON.parse(
-    fs.readFileSync(path.resolve(__dirname, "Dark.json"), "utf8"),
+    fs.readFileSync(path.resolve(__dirname, "data", "Dark.json"), "utf8"),
   );
 
   const lightCardData = await JSON.parse(
-    fs.readFileSync(path.resolve(__dirname, "Light.json"), "utf8"),
+    fs.readFileSync(path.resolve(__dirname, "data", "Light.json"), "utf8"),
   );
 
   const cardData = [...darkCardData.cards, ...lightCardData.cards];
   let cardFacts = [];
 
   cardData.forEach((card) => {
-    const title = `${card.front.title}`.replace(/•/g, "").replace(/<>/g, "");
-    const frontTitle = `${card.front.title}`
+    const urls = [card.front.imageUrl];
+    if (card.back && card.back.imageUrl) {
+      urls.push(card.back.imageUrl);
+    }
+
+    urls.forEach((url) => {
+      let filename = `${card.gempId}_${url.split("/").pop()}`;
+      if (!fs.existsSync(`./images/${filename}`)) {
+        https.get(url, async (res) => {
+          const fileWriteStream = fs.createWriteStream(
+            path.join(__dirname, "images", filename),
+            {
+              autoClose: true,
+              flags: "w",
+            },
+          );
+          pipeline(res, fileWriteStream);
+        });
+      }
+    });
+
+    const title = `The card ${card.front.title}`
+      .replace(/•/g, "")
+      .replace(/<>/g, "");
+    const frontTitle = `The card ${card.front.title}`
       .replace(/•/g, "")
       .replace(/<>/g, "");
     const backTitle = card.back
-      ? `${card.back.title}`.replace(/•/g, "").replace(/<>/g, "")
+      ? `The card ${card.back.title}`.replace(/•/g, "").replace(/<>/g, "")
       : null;
 
     cardFacts.push(
