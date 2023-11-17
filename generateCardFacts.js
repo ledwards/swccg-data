@@ -1,7 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const https = require("https");
-const { pipeline } = require("stream/promises");
 
 const main = async () => {
   await fetch(
@@ -40,27 +38,6 @@ const main = async () => {
   let cardFacts = [];
 
   cardData.forEach((card) => {
-    const urls = [card.front.imageUrl];
-    if (card.back && card.back.imageUrl) {
-      urls.push(card.back.imageUrl);
-    }
-
-    urls.forEach((url) => {
-      let filename = `${card.gempId}_${url.split("/").pop()}`;
-      if (!fs.existsSync(`./images/${filename}`)) {
-        https.get(url, async (res) => {
-          const fileWriteStream = fs.createWriteStream(
-            path.join(__dirname, "images", filename),
-            {
-              autoClose: true,
-              flags: "w",
-            },
-          );
-          pipeline(res, fileWriteStream);
-        });
-      }
-    });
-
     const title = `The card ${card.front.title}`
       .replace(/•/g, "")
       .replace(/<>/g, "");
