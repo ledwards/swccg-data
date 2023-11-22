@@ -38,18 +38,16 @@ const main = async () => {
   let cardFacts = [];
 
   cardData.forEach((card) => {
-    const title = `The card ${card.front.title}`
-      .replace(/•/g, "")
-      .replace(/<>/g, "");
+    const title = `${card.front.title}`.replace(/•/g, "").replace(/<>/g, "");
     const frontTitle = `The card ${card.front.title}`
       .replace(/•/g, "")
       .replace(/<>/g, "");
     const backTitle = card.back
-      ? `The card ${card.back.title}`.replace(/•/g, "").replace(/<>/g, "")
+      ? `${card.back.title}`.replace(/•/g, "").replace(/<>/g, "")
       : null;
 
     cardFacts.push(
-      `${title} is a ${card.side} Side card from the ${
+      `The card named "${title}" is a ${card.side} Side card from the ${
         card.set
       } expansion set with rarity ${card.rarity || "n/a"}.`,
     ); // TODO: merge set ID
@@ -64,7 +62,8 @@ const main = async () => {
       }.`,
     );
 
-    cardFacts.push(`${title} has a uniqueness of ${card.front.uniqueness}.`); // TODO: explain
+    cardFacts.push(`${title} has a uniqueness of ${card.front.uniqueness}.`);
+    // TODO: do things with this uniqueness icon
 
     cardFacts.push(
       `${frontTitle} has a card image located at: ${card.front.imageUrl}`,
@@ -182,8 +181,7 @@ const main = async () => {
 
     if (card.canceledBy) {
       cardFacts.push(
-        `${title} is canceled by the card(s) ${card.canceledBy.join(", ")}.
-        }.`,
+        `${title} is canceled by the card(s) ${card.canceledBy.join(", ")}.`,
       );
     }
 
@@ -200,11 +198,14 @@ const main = async () => {
         cardFacts.push(`${title} has a ruling: ${ruling}`);
       });
     }
+
+    cardFacts.push("\n\n");
+    // TODO: Separate facts on the same card with spaces, and between card with \n
   });
 
   fs.writeFileSync(
     path.resolve(__dirname, "cardFacts.txt"),
-    cardFacts.join("\n"),
+    cardFacts.join(" "),
   );
 
   console.log(

@@ -61,7 +61,7 @@ const main = async () => {
           });
         }
       });
-    }, 50 * i);
+    }, 500 * i);
   });
 
   console.log(

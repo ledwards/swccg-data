@@ -1,4 +1,8 @@
-.DS_Store
+**/.DS_Store
+node_modules
+package-lock.json
+
 data/
 images/
-cardFacts.txt
+decks/
+output/
