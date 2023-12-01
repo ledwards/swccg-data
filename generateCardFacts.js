@@ -8,7 +8,7 @@ const main = async () => {
     .then((res) => res.json())
     .then((json) => {
       fs.writeFileSync(
-        path.resolve(__dirname, "data", "Dark.json"),
+        path.resolve(__dirname, "output", "cards", "Dark.json"),
         JSON.stringify(json, null, 2),
       );
       console.log("fetched Dark.json");
@@ -20,7 +20,7 @@ const main = async () => {
     .then((res) => res.json())
     .then((json) => {
       fs.writeFileSync(
-        path.resolve(__dirname, "data", "Light.json"),
+        path.resolve(__dirname, "output", "cards", "Light.json"),
         JSON.stringify(json, null, 2),
       );
       console.log("fetched Light.json");
