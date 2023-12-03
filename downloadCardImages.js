@@ -54,7 +54,7 @@ const main = async () => {
 
       urls.forEach((url) => {
         let filename = `${card.gempId}_${url.split("/").pop()}`;
-        if (!fs.existsSync(`./images/${filename}`)) {
+        if (!fs.existsSync(`./output/images/${filename}`)) {
           https.get(url, async (res) => {
             const fileWriteStream = fs.createWriteStream(
               path.join(__dirname, "output", "images", filename),

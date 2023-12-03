@@ -3,32 +3,88 @@ const fs = require("fs");
 const path = require("path");
 
 const DECKLISTS_URL = "https://www.starwarsccg.org/tournaments/#decklists";
-const CURRENT_META_YEARS = ["2023"];
+const CURRENT_META_YEARS = ["2022", "2023"];
+const REQUEST_DELAY = 500;
 
-const sanitizeTitle = (title) =>
-  title
-    .replaceAll(/[<>•]/g, "")
+// TODO:
+// couldn't match card: You Can Either Profit By This…
+//                     sanitized title: you can either profit by this
+//                     Light Side
+//                     deck: 2023 US Nationals Joel Cooper LS Profit
+//                     url: https://www.starwarsccg.org/2023-us-nationals-joel-cooper-ls-profit/
+
+const comparableTitle = (title) => {
+  const t = title
+    // decklist data entry errors
     .replace("Sullustian", "Sullustan")
-    .replace(" Of ", " of ")
-    .replace(" In ", " in ")
-    .replace(" And ", " and ")
-    .replace(" The ", " the ")
-    .replace("…", "...")
-    .replaceAll(/[‘’]/g, "'")
-    .replaceAll(/[“”]/g, '"')
-    .replaceAll(/"/g, "'")
-    .replace("&amp;", "&")
+    .replace("/Vengeance of the Dark", "")
+    .replace("Rebek", "Rebel")
+    .replace(/^BB-8$/, "BB-8 (Beebee-Ate)")
+    .replace("Bala-Tak", "Bala-Tik")
+    .replace("Artoo-Deetoo", "Artoo-Detoo")
+    .replace("Uhoh", "Uh-oh")
+    .replace("Control&amp;Set For Stun", "Control & Set for Stun")
+    .replace("Short Range Fighters", "Short-Range Fighters")
+    .replace("Coarse, Rough", "Coarse and Rough")
+    .replace(/^Morgan Elsbeth$/, "Magistrate Morgan Elsbeth")
+    .replace("SetForStun", "Set for Stun")
+    .replace("</strong></h1>", "")
+    .replaceAll(/\.\.\/\./g, ".../") // Profit
+
+    // blanked or renamed cards
+    .replace("Ralltiir Operations (V)", "Ralltiir Operations")
+    .replace("Macroscan (V)", "Death Star Reactor Terminal (V)")
+    .replace("Death Star Reactor Terminal (V)", "Death Star Reactor Terminal")
+
+    // idosyncracies
+    .replace("Alter (V)", "Alter (Premiere) (V)")
+
+    // normalize
+    .replaceAll(/[‘’“”'"!<>•…+]/g, "")
+    .replaceAll(/\&amp\;/g, "&")
+    .replaceAll(/\&nbsp\;/g, " ")
     .replace(" (AI)", "")
     .replace(/ \/ .*\(V\)/g, " (V)")
     .replace(/ \/.*/g, "")
+
+    // set, side disambiguations must be done later, keep (Ep I) in here for now
+
+    .toLowerCase()
     .trim();
+
+  return t;
+};
+
+const loadCardData = async () => {
+  let cardData = [];
+
+  console.log("(Step 0): Loading card data.");
+  const darkCardDataPromise = JSON.parse(
+    fs.readFileSync(
+      path.resolve(__dirname, "output", "cards", "Dark.json"),
+      "utf8",
+    ),
+  );
+
+  const lightCardDataPromise = JSON.parse(
+    fs.readFileSync(
+      path.resolve(__dirname, "output", "cards", "Light.json"),
+      "utf8",
+    ),
+  );
+
+  const [resolvedPromiseDark, resolvedPromiseLight] = await Promise.all([
+    darkCardDataPromise,
+    lightCardDataPromise,
+  ]);
+  cardData = [...resolvedPromiseDark.cards, ...resolvedPromiseLight.cards];
+
+  return cardData;
+};
 
 const main = async () => {
   let cardData = [];
   let decklists = [];
-
-  const fs = require("fs");
-  const path = require("path");
 
   console.log("(Step 0): Loading card data.");
   const darkCardDataPromise = JSON.parse(
@@ -66,7 +122,7 @@ const main = async () => {
       tournamentPageUrls = tournamentPageUrls.filter((url) =>
         CURRENT_META_YEARS.includes(url.split("/")[3].split("-")[0]),
       );
-      // .slice(0, 1); // for testing
+      //     // .slice(0, 1); // for testing
     });
 
   console.log(`(Step 2) Fetching: ${tournamentPageUrls.length} tournaments`);
@@ -90,24 +146,24 @@ const main = async () => {
             (e) => e.match(/www.*org\/\d{4}.*\//), // only get decklist links
           );
         return urls;
+        // return urls.slice(0, 1);
       }),
   );
   const decklistPageUrls = (
     await Promise.all(fetchTournamentPagePromises)
   ).flat();
+  // // .slice(0, 1);
 
   console.log(
     `(Step 3) Fetching ${decklistPageUrls.length} decklists from ${tournamentPageUrls.length} tournaments`,
   );
-  const delay = 250;
   const fetchDecklistPagePromises = decklistPageUrls.map((url, i) =>
-    new Promise((resolve) => setTimeout(resolve, delay * i)).then(() =>
+    new Promise((resolve) => setTimeout(resolve, REQUEST_DELAY * i)).then(() =>
       fetch(url)
         .then((res) => res.text())
         .then((html) => {
-          // TODO: If file exists, skip it
           console.log(
-            `(Step 3) Fetching decklist ${i + 1}/${
+            `(Step 3a) Fetching decklist ${i + 1}/${
               decklistPageUrls.length
             }: ${url}`,
           );
@@ -144,6 +200,10 @@ const main = async () => {
           }
 
           const sanitizedContent = rawContent.innerHTML
+            .replace(
+              /4-LOM With Concussion Rifle (V)1x Allegiant General Pryde/,
+              "4-LOM With Concussion Rifle (V)<br>1x Allegiant General Pryde",
+            )
             .replace(/\n/g, "")
             .replace(/<br>/g, "\n")
             .replace(/<\/p>/g, "\n\n")
@@ -153,6 +213,7 @@ const main = async () => {
           const txtContent = `${decklistTitle}\n${url}\n\n${sanitizedContent}`;
 
           let jsonContent = []; //populate cards array with card objects
+
           const lines = sanitizedContent.split("\n");
           lines.forEach((line) => {
             const lineMatches = line.match(/^(\d{1,2})x(.*)/);
@@ -160,29 +221,45 @@ const main = async () => {
             if (lineMatches) {
               const qty = lineMatches[1].trim();
               const title = lineMatches[2].trim();
+              const side =
+                decklistTitle.includes(" DS ") ||
+                decklistTitle.includes("SSAv") || // data entry error correction
+                decklistTitle.includes("Hunt Down") // data entry error correction
+                  ? "Dark"
+                  : "Light";
+
+              // handle Episode I vs. non-Episode I cards
+              const isEp1 = title.includes("(Ep I)");
+              title.replace(" (Ep I)", "");
 
               const card = cardData.find(
-                (c) => sanitizeTitle(title) == sanitizeTitle(c.front.title),
+                (c) =>
+                  side == c.side &&
+                  comparableTitle(title) == comparableTitle(c.front.title) &&
+                  (!isEp1 || isEp1 == c.front.icons.includes("Episode I")),
               );
 
               if (card) {
                 jsonContent.push({
-                  id: card.gempId,
+                  gempId: card.gempId,
                   title,
                   qty,
                 });
               } else {
                 console.log(
-                  `couldn't match card: ${title} with sanitized title: ${sanitizeTitle(
-                    title,
-                  )}`,
+                  `couldn't match card: ${title}
+                    sanitized title: ${comparableTitle(title)}
+                    ${side} Side ${isEp1 ? "(Ep I)" : ""}
+                    deck: ${decklistTitle}
+                    url: ${url}
+                    `,
                 );
               }
             }
           });
 
           // TODO: Some people have 3 names. Come up with a better way?
-          // TODO: Day 2 decks should be a category
+          // TODO: Day 2 decks should be a category/field
           const metadataMatches = decklistTitle.match(
             /(.*) (.+ .+) ([L|D]S) (.*)/,
           );
@@ -203,65 +280,94 @@ const main = async () => {
             archetype,
             txtContent,
             jsonContent,
-            gempContent: "",
           };
+
+          console.log(
+            `(Step 3b) Saving decklist ${decklistTitle} (txt/json/gemp)`,
+          );
+
+          saveTxtFile(decklist);
+          saveGempFile(decklist);
+          saveJsonFile(decklist);
 
           return decklist;
         }),
     ),
   );
-
   decklists = await Promise.all(fetchDecklistPagePromises);
 
-  console.log(`(Step 4a) Saving ${decklists.length} txt decklists`);
-  const writeTxtFilePromises = decklists.map((decklist) =>
-    fs.writeFileSync(
-      path.resolve(
-        __dirname,
-        "output",
-        "decks",
-        "txt",
-        `${decklist.filename}.txt`,
-      ),
-      decklist.txtContent,
-    ),
+  console.log(
+    `(Step 5) Saving definition file of ${decklists.length} decklists (txt/json)`,
   );
-  await Promise.all(writeTxtFilePromises);
 
-  console.log(`(Step 4b) Saving json file for ${decklists.length} decklists`);
+  fs.writeFileSync(
+    path.resolve(
+      __dirname,
+      "output",
+      "decks",
+      `allDecklists-${CURRENT_META_YEARS}.json`,
+    ),
+    JSON.stringify(decklists, null, 2),
+  );
+
+  fs.writeFileSync(
+    path.resolve(
+      __dirname,
+      "output",
+      "decks",
+      `allDecklists-${CURRENT_META_YEARS}.txt`,
+    ),
+    decklists.map((decklist) => decklist.txtContent).join("\n\n\n"),
+  );
+};
+
+main();
+
+const saveGempFile = (decklist) => {
+  let gempContent = `<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n<deck>\n`;
+  decklist.jsonContent.forEach((card) => {
+    for (let i = 0; i < card.qty; i++) {
+      gempContent += `<card blueprintId="${card.gempId}" title="${card.title}"/>\n`;
+    }
+  });
+  gempContent += `</deck>`;
+
+  const gempFilename = `[${decklist.tournament}] ${decklist.archetype} (${decklist.player})]`;
+
+  fs.writeFileSync(
+    path.resolve(
+      __dirname,
+      "output",
+      "decks",
+      "gemp",
+      `${gempFilename}.gemp.txt`, // TODO: better name
+    ),
+    gempContent,
+  );
+};
+
+const saveTxtFile = (decklist) => {
+  fs.writeFileSync(
+    path.resolve(
+      __dirname,
+      "output",
+      "decks",
+      "txt",
+      `${decklist.filename}.txt`,
+    ),
+    decklist.txtContent,
+  );
+};
+
+const saveJsonFile = (decklist) => {
   fs.writeFileSync(
     path.resolve(
       __dirname,
       "output",
       "decks",
       "json",
-      `allDecklists-${CURRENT_META_YEARS}.json`,
+      `${decklist.filename}.json`,
     ),
-    JSON.stringify(decklists, null, 2),
-  );
-
-  console.log(`(Step 4c) Saving gemp files for ${decklists.length} decklists`);
-  const writeGempFilePromises = decklists.map((decklist) =>
-    fs.writeFileSync(
-      path.resolve(
-        __dirname,
-        "output",
-        "decks",
-        "txt",
-        `${decklist.filename}.txt`,
-      ),
-      decklist.txtContent,
-    ),
-  );
-  await Promise.all(writeTxtFilePromises);
-
-  console.log(
-    `(Step 5) Saving all ${decklists.length} decklists in giant text file`,
-  );
-  fs.writeFileSync(
-    path.resolve(__dirname, "output", `allDecklists-${CURRENT_META_YEARS}.txt`),
-    decklists.map((decklist) => decklist.txtContent).join("\n\n\n"),
+    JSON.stringify(decklist.jsonContent, null, 2),
   );
 };
-
-main();

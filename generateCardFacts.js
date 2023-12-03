@@ -27,11 +27,17 @@ const main = async () => {
     });
 
   const darkCardData = await JSON.parse(
-    fs.readFileSync(path.resolve(__dirname, "data", "Dark.json"), "utf8"),
+    fs.readFileSync(
+      path.resolve(__dirname, "output", "cards", "Dark.json"),
+      "utf8",
+    ),
   );
 
   const lightCardData = await JSON.parse(
-    fs.readFileSync(path.resolve(__dirname, "data", "Light.json"), "utf8"),
+    fs.readFileSync(
+      path.resolve(__dirname, "output", "cards", "Light.json"),
+      "utf8",
+    ),
   );
 
   const cardData = [...darkCardData.cards, ...lightCardData.cards];
