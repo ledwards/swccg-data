@@ -210,7 +210,7 @@ const main = async () => {
   });
 
   fs.writeFileSync(
-    path.resolve(__dirname, "cardFacts.txt"),
+    path.resolve(__dirname, "output", "public", "cardFacts.txt"),
     cardFacts.join(" "),
   );
 

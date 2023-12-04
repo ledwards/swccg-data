@@ -3,15 +3,8 @@ const fs = require("fs");
 const path = require("path");
 
 const DECKLISTS_URL = "https://www.starwarsccg.org/tournaments/#decklists";
-const CURRENT_META_YEARS = ["2022", "2023"];
+const CURRENT_META_YEARS = null;
 const REQUEST_DELAY = 500;
-
-// TODO:
-// couldn't match card: You Can Either Profit By This…
-//                     sanitized title: you can either profit by this
-//                     Light Side
-//                     deck: 2023 US Nationals Joel Cooper LS Profit
-//                     url: https://www.starwarsccg.org/2023-us-nationals-joel-cooper-ls-profit/
 
 const comparableTitle = (title) => {
   const t = title
@@ -23,13 +16,20 @@ const comparableTitle = (title) => {
     .replace("Bala-Tak", "Bala-Tik")
     .replace("Artoo-Deetoo", "Artoo-Detoo")
     .replace("Uhoh", "Uh-oh")
-    .replace("Control&amp;Set For Stun", "Control & Set for Stun")
     .replace("Short Range Fighters", "Short-Range Fighters")
     .replace("Coarse, Rough", "Coarse and Rough")
     .replace(/^Morgan Elsbeth$/, "Magistrate Morgan Elsbeth")
     .replace("SetForStun", "Set for Stun")
+    .replace("Control&amp;Set For Stun", "Control & Set for Stun")
     .replace("</strong></h1>", "")
-    .replaceAll(/\.\.\/\./g, ".../") // Profit
+    .replace(/^Blue 11$/, "Blue 11")
+    .replaceAll(/\.\.\/\./g, "") // Profit
+    .replaceAll(/\.\.\./g, "") // Profit
+    .replaceAll(/…\//g, "") // Profit
+    .replaceAll(/\(V/g, "(V)")
+    .replace("Irritating (V)", "Irritating")
+    .replace("Like Sand (V)", "Like Sand")
+    .replace("Third Marker", "3rd Marker")
 
     // blanked or renamed cards
     .replace("Ralltiir Operations (V)", "Ralltiir Operations")
@@ -55,38 +55,11 @@ const comparableTitle = (title) => {
   return t;
 };
 
-const loadCardData = async () => {
-  let cardData = [];
-
-  console.log("(Step 0): Loading card data.");
-  const darkCardDataPromise = JSON.parse(
-    fs.readFileSync(
-      path.resolve(__dirname, "output", "cards", "Dark.json"),
-      "utf8",
-    ),
-  );
-
-  const lightCardDataPromise = JSON.parse(
-    fs.readFileSync(
-      path.resolve(__dirname, "output", "cards", "Light.json"),
-      "utf8",
-    ),
-  );
-
-  const [resolvedPromiseDark, resolvedPromiseLight] = await Promise.all([
-    darkCardDataPromise,
-    lightCardDataPromise,
-  ]);
-  cardData = [...resolvedPromiseDark.cards, ...resolvedPromiseLight.cards];
-
-  return cardData;
-};
-
 const main = async () => {
   let cardData = [];
   let decklists = [];
 
-  console.log("(Step 0): Loading card data.");
+  // console.log("(Step 0): Loading card data.");
   const darkCardDataPromise = JSON.parse(
     fs.readFileSync(
       path.resolve(__dirname, "output", "cards", "Dark.json"),
@@ -107,7 +80,7 @@ const main = async () => {
   ]);
   cardData = [...resolvedPromiseDark.cards, ...resolvedPromiseLight.cards];
 
-  console.log(`(Step 1) Fetching: ${DECKLISTS_URL}`);
+  // console.log(`(Step 1) Fetching: ${DECKLISTS_URL}`);
   let tournamentPageUrls = [];
   await fetch(DECKLISTS_URL)
     .then((res) => res.text())
@@ -119,10 +92,12 @@ const main = async () => {
       tournamentPageUrls = [
         ...tournamentsDiv.querySelectorAll(".pp-post-link"),
       ].map((e) => e.getAttribute("href"));
-      tournamentPageUrls = tournamentPageUrls.filter((url) =>
-        CURRENT_META_YEARS.includes(url.split("/")[3].split("-")[0]),
+      tournamentPageUrls = tournamentPageUrls.filter(
+        (url) =>
+          !CURRENT_META_YEARS || // make constant optional
+          CURRENT_META_YEARS.includes(url.split("/")[3].split("-")[0]),
       );
-      //     // .slice(0, 1); // for testing
+      // .slice(0, 1); // for testing
     });
 
   console.log(`(Step 2) Fetching: ${tournamentPageUrls.length} tournaments`);
@@ -131,11 +106,13 @@ const main = async () => {
       .then((res) => res.text())
       .then((html) => {
         const tournamentPageDoc = new jsdom.JSDOM(html).window.document;
-        console.log(
-          `(Step 2) Fetching tournament data for ${CURRENT_META_YEARS.join(
-            "-",
-          )}: ${url}`,
-        );
+        // console.log(
+        //   `(Step 2) Fetching tournament data for ${
+        //     CURRENT_META_YEARS
+        //       ? CURRENT_META_YEARS.join("-")
+        //       : "all years"
+        //   }: ${url}`,
+        // );
         const urls = [
           ...tournamentPageDoc.querySelectorAll(
             ".fl-module-content.fl-node-content a",
@@ -146,29 +123,29 @@ const main = async () => {
             (e) => e.match(/www.*org\/\d{4}.*\//), // only get decklist links
           );
         return urls;
-        // return urls.slice(0, 1);
+        // return urls.slice(0, 1); // for testing
       }),
   );
   const decklistPageUrls = (
     await Promise.all(fetchTournamentPagePromises)
   ).flat();
-  // // .slice(0, 1);
+  // .slice(0, 1); // for testing
 
-  console.log(
-    `(Step 3) Fetching ${decklistPageUrls.length} decklists from ${tournamentPageUrls.length} tournaments`,
-  );
+  // console.log(
+  //   `(Step 3) Fetching ${decklistPageUrls.length} decklists from ${tournamentPageUrls.length} tournaments`,
+  // );
   const fetchDecklistPagePromises = decklistPageUrls.map((url, i) =>
     new Promise((resolve) => setTimeout(resolve, REQUEST_DELAY * i)).then(() =>
       fetch(url)
         .then((res) => res.text())
         .then((html) => {
-          console.log(
-            `(Step 3a) Fetching decklist ${i + 1}/${
-              decklistPageUrls.length
-            }: ${url}`,
-          );
+          // console.log(
+          //   `(Step 3a) Fetching decklist ${i + 1}/${
+          //     decklistPageUrls.length
+          //   }: ${url}`,
+          // );
           const decklistPageDoc = new jsdom.JSDOM(html).window.document;
-          const decklistFilename = url.split("/")[3];
+          const decklistFilename = url.split("/")[3].replaceAll(/\//g, "");
           const decklistTitle = decklistPageDoc
             .querySelector("h1")
             .textContent.trim();
@@ -201,7 +178,7 @@ const main = async () => {
 
           const sanitizedContent = rawContent.innerHTML
             .replace(
-              /4-LOM With Concussion Rifle (V)1x Allegiant General Pryde/,
+              /4-LOM With Concussion Rifle \(V\)1x Allegiant General Pryde/,
               "4-LOM With Concussion Rifle (V)<br>1x Allegiant General Pryde",
             )
             .replace(/\n/g, "")
@@ -229,8 +206,9 @@ const main = async () => {
                   : "Light";
 
               // handle Episode I vs. non-Episode I cards
-              const isEp1 = title.includes("(Ep I)");
-              title.replace(" (Ep I)", "");
+              const ep1RE = / \(ep\s?\w\)/i;
+              const isEp1 = title.match(ep1RE);
+              title.replace(ep1RE, "");
 
               const card = cardData.find(
                 (c) =>
@@ -242,12 +220,12 @@ const main = async () => {
               if (card) {
                 jsonContent.push({
                   gempId: card.gempId,
-                  title,
+                  title: card.front.title,
                   qty,
                 });
               } else {
                 console.log(
-                  `couldn't match card: ${title}
+                  `ERROR: couldn't match card: ${title}
                     sanitized title: ${comparableTitle(title)}
                     ${side} Side ${isEp1 ? "(Ep I)" : ""}
                     deck: ${decklistTitle}
@@ -282,9 +260,9 @@ const main = async () => {
             jsonContent,
           };
 
-          console.log(
-            `(Step 3b) Saving decklist ${decklistTitle} (txt/json/gemp)`,
-          );
+          // console.log(
+          //   `(Step 3b) Saving decklist ${decklistTitle} (txt/json/gemp)`,
+          // );
 
           saveTxtFile(decklist);
           saveGempFile(decklist);
@@ -296,16 +274,18 @@ const main = async () => {
   );
   decklists = await Promise.all(fetchDecklistPagePromises);
 
-  console.log(
-    `(Step 5) Saving definition file of ${decklists.length} decklists (txt/json)`,
-  );
+  // console.log(
+  //   `(Step 5) Saving definition file of ${decklists.length} decklists (txt/json)`,
+  // );
 
   fs.writeFileSync(
     path.resolve(
       __dirname,
       "output",
       "decks",
-      `allDecklists-${CURRENT_META_YEARS}.json`,
+      CURRENT_META_YEARS
+        ? `allDecklists-${CURRENT_META_YEARS}.json`
+        : "allDecklists.json",
     ),
     JSON.stringify(decklists, null, 2),
   );
@@ -315,7 +295,9 @@ const main = async () => {
       __dirname,
       "output",
       "decks",
-      `allDecklists-${CURRENT_META_YEARS}.txt`,
+      CURRENT_META_YEARS
+        ? `allDecklists-${CURRENT_META_YEARS}.txt`
+        : "allDecklists.txt",
     ),
     decklists.map((decklist) => decklist.txtContent).join("\n\n\n"),
   );
@@ -332,7 +314,11 @@ const saveGempFile = (decklist) => {
   });
   gempContent += `</deck>`;
 
-  const gempFilename = `[${decklist.tournament}] ${decklist.archetype} (${decklist.player})]`;
+  const gempFilename =
+    `[${decklist.tournament}] ${decklist.archetype} (${decklist.player})]`.replaceAll(
+      /\//g,
+      "",
+    );
 
   fs.writeFileSync(
     path.resolve(
