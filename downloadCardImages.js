@@ -22,7 +22,7 @@ const main = async () => {
     .then((res) => res.json())
     .then((json) => {
       fs.writeFileSync(
-        path.resolve(__dirname, "ouput", "cards", "Light.json"),
+        path.resolve(__dirname, "output", "cards", "Light.json"),
         JSON.stringify(json, null, 2),
       );
       console.log("fetched Light.json");

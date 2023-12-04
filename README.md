@@ -1,5 +1,5 @@
-# swccgpt
-The AI Star Wars CCG Rules Expert
+# swccg-data
+Data Collection for Star Wars CCG
 
 ## Public Files
 ### cardFacts.txt
