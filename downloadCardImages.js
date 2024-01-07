@@ -3,6 +3,8 @@ const path = require("path");
 const https = require("https");
 const { pipeline } = require("stream/promises");
 
+const REQUEST_DELAY = 500;
+
 const main = async () => {
   await fetch(
     "https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/Dark.json",
@@ -67,7 +69,7 @@ const main = async () => {
           });
         }
       });
-    }, 500 * i);
+    }, REQUEST_DELAY * i);
   });
 
   console.log(

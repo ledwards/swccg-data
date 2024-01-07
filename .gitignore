@@ -2,6 +2,4 @@
 node_modules
 package-lock.json
 
-output/cards
-output/decks
-output/images
+output

@@ -3,11 +3,15 @@ const fs = require("fs");
 const path = require("path");
 
 const DECKLISTS_URL = "https://www.starwarsccg.org/tournaments/#decklists";
-const CURRENT_META_YEARS = null;
-const REQUEST_DELAY = 250;
+const REQUEST_DELAY = 500;
+
+const titleCase = (title) =>
+  title
+    ? title.toLowerCase().replace(/\b[a-z]/g, (s) => s.toUpperCase())
+    : null;
 
 const TOURNAMENT_SIGNIFIERS = [
-  "Playoff",
+  "Playoffs",
   "Series",
   "Prix",
   "Championship",
@@ -20,17 +24,18 @@ const TOURNAMENT_SIGNIFIERS = [
   "Nationals",
   "Continentals",
   "MPC",
+  "GEMPC7",
+  "GEMPC",
   "Event",
   "League",
   "PC20",
+  "Tournament",
+  "OCS",
+  "Mini-Worlds",
 ];
-
-const EVENT_TAGS = ["Day 2", "Day 3", "Top 8", "Semi-Finals", "Finals"];
 
 const main = async () => {
   let tournaments = [];
-  let players = [];
-  let archetypes = [];
 
   console.log(`(Step 1) Fetching: ${DECKLISTS_URL}`);
   const tournamentPageUrls = await fetch(DECKLISTS_URL)
@@ -43,12 +48,7 @@ const main = async () => {
       const urls = [...tournamentsDiv.querySelectorAll(".pp-post-link")]
         .map((e) => e.getAttribute("href"))
         .filter((url) => !url.includes("retro")) // no retro events for now
-        .filter((url) => !url.includes("jawa")) // no jawa events for now
-        .filter(
-          (url) =>
-            !CURRENT_META_YEARS || // make constant optional
-            CURRENT_META_YEARS.includes(url.split("/")[3].split("-")[0]),
-        );
+        .filter((url) => !url.includes("jawa")); // no jawa events for now
       return urls;
     });
 
@@ -74,17 +74,25 @@ const main = async () => {
               ".fl-module-content.fl-node-content a",
             ),
           ]
-            .map((e) => e.getAttribute("href"))
             .filter(
-              (e) => e.match(/www.*org\/(\d{4}|pc\-?20|champions-league).*\//), // only get decklist links
-            );
-
+              (node) =>
+                !node.textContent.includes("←") &&
+                !node.textContent.includes("→"),
+            )
+            .map((e) => e.getAttribute("href").replace(/^.*:\/\//, "https://"))
+            .filter(
+              (e) =>
+                e.match(/www.*org\/(\d{4}|pc\-?20|champions-league|euro).*\//), // only get decklist links
+            )
+            .filter((url) => url.split("-").length > 5) // all decks have way more dashes than this
+            .filter((url) => !url.includes("retro")) // this has to be done here again
+            .filter((url) => !url.includes("jawa"));
           return {
             url: url,
             slug: url.split("/")[3].replaceAll(/\//g, ""),
             date: date,
             year: year,
-            decklistUrls: urls,
+            decklistUrls: urls.map((u) => u.trim()),
           };
         })
         .catch((err) => {
@@ -113,20 +121,22 @@ const main = async () => {
           let decklistFullTitle = decklistPageDoc
             .querySelector("h1")
             .textContent.trim();
-          let tags = [];
 
           if (decklistFullTitle) {
             // normalize data
             decklistFullTitle = decklistFullTitle
               .replace("Day 1", "")
               .replace("US ", "U.S. ")
-              .replace("Championships ", "Championship ")
-              .replace("Playoffs ", "Playoff ")
-              .replace("Regional ", "Regionals ")
-              .replace("MPC ", "Match Play Championship ")
+              .replace("Championships", "Championship")
+              .replace("Playoff ", "Playoffs")
+              .replace(/Playoff$/gi, "Playoffs")
+              .replace("Regional ", "Regionals")
+              .replace(/Regional$/gi, "Regionals")
+              .replace(" MPC", "Match Play Championship ")
               .replace("TMW ", "Texas Mini Worlds ")
               .replace("EGP ", "Endor Grand Prix ")
               .replace("EC ", "European Championship ")
+              .replace("PC20", "PC 20th Anniversary Tournament")
               .replace(
                 "EUROPEAN CHAMPIONSHIP TOP 8",
                 "European Championship Top 8",
@@ -142,21 +152,6 @@ const main = async () => {
               "2017 Endor Grand Prix",
             );
 
-            // apply tags
-            EVENT_TAGS.forEach((tag) => {
-              if (decklistFullTitle.includes(tag)) {
-                decklistFullTitle = decklistFullTitle.replace(`${tag} `, "");
-                tags.push(tag);
-              }
-            });
-
-            ["DS", "LS"].forEach((side) => {
-              if (decklistFullTitle.includes(` ${side} `)) {
-                decklistFullTitle = decklistFullTitle.replace(` ${side} `, " ");
-                // would set side here but not used at tournament level
-              }
-            });
-
             const tournamentSignifiers = `(${TOURNAMENT_SIGNIFIERS.join("|")})`;
             const tournamentRE = new RegExp(
               // to make this tell between player and archetype either need to put DS/LS back in, or assume player is always 2 wordsm or pull from list of players or archetypes
@@ -166,14 +161,20 @@ const main = async () => {
 
             const matches = decklistFullTitle.match(tournamentRE);
             if (matches) {
-              const [_, year, event, _player, _side, _archetype] = matches;
+              let [_, year, event, _player, _side, _archetype] = matches;
+
+              event = titleCase(event.trim())
+                // recapitlize
+                .replace("Ocs", "OCS")
+                .replace("Mpc", "MPC")
+                .replace("Gempc", "GEMPC")
+                .replace("Pc", "PC");
 
               return {
                 url: tournament.url,
-                name: [year || "", event].join(" ").trim(),
+                name: [year || "", event].join(" "),
                 event: event,
                 year,
-                tags,
               };
             } else {
               console.log(
@@ -184,7 +185,7 @@ const main = async () => {
                 name: null,
                 event: null,
                 year: null,
-                tags: [],
+                date: null,
               };
             }
           } else {
@@ -194,9 +195,12 @@ const main = async () => {
               name: null,
               event: null,
               year: null,
-              tags: [],
+              date: null,
             };
           }
+        })
+        .catch((err) => {
+          console.log(`ERROR: ${err} with ${tournament.url}`);
         }),
     ),
   );
@@ -215,7 +219,7 @@ const main = async () => {
     });
 
   fs.writeFileSync(
-    path.resolve(__dirname, "output", "public", "tournaments.json"),
+    path.resolve(__dirname, "public", "tournaments.json"),
     JSON.stringify(tournaments, null, 2),
   );
 };
