@@ -2,4 +2,10 @@
 node_modules
 package-lock.json
 
-output
+output/cards/*.json
+output/decklists/gemp/*.gemp.txt
+output/decklists/txt/*.txt
+output/decklists/json/*.json
+output/decklists/html/*.html
+output/images/*.gif
+output/tmp/*
