@@ -14,7 +14,7 @@ const path = require("path");
 
 // TODO:
 // A few errors:
-// * https://www.starwF200_35arsccg.org/2023-alderaan-regionals-ryan-jellison-ls-aitc is Mandos
+// * https://www.starwarsccg.org/2023-alderaan-regionals-ryan-jellison-ls-aitc is Mandos
 // Look at the decklistUrls: [] entries - find out why
 
 const ONLY_RUN_MATCHER = null;
@@ -89,12 +89,12 @@ const blankedObjectives = () => {
   let ropsV = structuredClone(rops);
   ropsV.front.title = "Ralltiir Operations / In The Hands Of The Empire (V)";
   ropsV.abbr = rops.abbr.map((a) => a + " V");
+  ropsV.abbr = rops.abbr.map((a) => a + " (V)");
   ropsV.gempId = "7_300v"; // fake, obviously
   return [ropsV];
 };
 
 let allCards = [];
-let allObjectives = [];
 let allStartingInterrupts = [];
 let allDecklists = [];
 let allArchetypes = [];
@@ -116,7 +116,6 @@ const main = async () => {
   allCards = [...darkCardData.cards, ...lightCardData.cards];
   allCards.push(...blankedObjectives()); // blanked Obj still used in decklists
 
-  allObjectives = allCards.filter((c) => c.front.type == "Objective");
   allStartingInterrupts = allCards.filter(
     (c) =>
       c.front.type == "Interrupt" &&
@@ -219,12 +218,19 @@ const seedArchetypes = () => {
         ...new Set([
           archetypeName,
           shortName,
-          ...decklist.objective.abbr, // TODO: this won't be unique...
-          ...decklist.objective.abbr.map((a) => a.split("/")[0]), // TODO: this won't be unique...
+          ...decklist.objective.abbr,
+          ...decklist.objective.abbr.map(
+            (a) =>
+              `${a.split("/")[0]}${
+                a.match("(V)") && !a.split("/")[0].endsWith("(V)") ? " (V)" : ""
+              }`,
+          ),
         ]),
       ];
+      matchers = aliases;
     } else {
       aliases = [archetypeName, shortName];
+      matchers = [archetypeName, shortName];
     }
 
     const archetype = {
@@ -233,6 +239,7 @@ const seedArchetypes = () => {
       decklistUrls: [],
       shortName,
       aliases,
+      matchers,
     };
 
     const returnedArchetype = createOrUpdateArchetype(archetype);
@@ -259,7 +266,7 @@ const seedDecklistArchetypesFromTitles = () => {
       name: archetypeName || rawArchetypeName, // TODO: this used to be null, should we have left it?
       side: decklist.side,
       decklistUrls: [decklist.url],
-      aliases: [rawArchetypeName],
+      matchers: [rawArchetypeName],
     };
 
     if (foundArchetype) {
@@ -274,7 +281,6 @@ const seedDecklistArchetypesFromTitles = () => {
 };
 
 const manualPostProcessing = () => {
-  // e.g.: Add new aliases like Tatooine: Obi-Wan's Hut => just Obi-Wan's Hut
   const amd = allArchetypes.find(
     (a) => a.name == "Death Star II: Throne Room According To My Design",
   );
@@ -999,7 +1005,7 @@ const findArchetypeByNameOrAlias = (archetypeNameOrAlias) => {
   }
 
   const matchingArchetypes = allArchetypes.filter((arch) => {
-    return [arch.name, ...arch.aliases]
+    return [arch.name, ...arch.aliases, ...arch.matchers]
       .filter((a) => a) // why do i have to do this
       .find(
         (alias) =>
@@ -1022,6 +1028,7 @@ const createArchetype = (archetype) => {
     decklistUrls: archetype.decklistUrls || [],
     shortName: archetype.shortName,
     aliases: archetype.aliases || [],
+    matchers: archetype.matchers || [],
   };
   allArchetypes.push(archetypeToCreate);
   return archetypeToCreate;
@@ -1052,6 +1059,12 @@ const updateArchetype = (archetypeNameOrAlias, archetype) => {
       foundArchetype.aliases = [
         ...new Set([...foundArchetype.aliases, ...archetype.aliases]),
       ].filter((a) => a);
+    }
+
+    if (archetype.matchers) {
+      foundArchetype.matchers = [
+        ...new Set([...foundArchetype.matchers, ...archetype.matchers]),
+      ].filter((m) => m);
     }
 
     return null;

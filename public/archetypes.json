@@ -138,9 +138,16 @@
     "aliases": [
       "Ralltiir Operations (V)",
       "ROps(V)",
-      "RO/ITHOTE V",
-      "ROPS V",
-      "RO",
+      "RO/ITHOTE (V)",
+      "ROPS (V)",
+      "RO (V)"
+    ],
+    "matchers": [
+      "Ralltiir Operations (V)",
+      "ROps(V)",
+      "RO/ITHOTE (V)",
+      "ROPS (V)",
+      "RO (V)",
       "ROPS(V)",
       "ROPSv",
       "First Order ROPS(V)",
@@ -150,8 +157,8 @@
       "ROpsV",
       "ROps (V)",
       "ROPS(v)",
+      "ROPS V",
       "ROpsv",
-      "ROPS (V)",
       "ROPS(v) 9’s",
       "ROPS (v) 9’s",
       "ROPS (v)",
@@ -301,6 +308,11 @@
     ],
     "shortName": "OA",
     "aliases": [
+      "Old Allies",
+      "OA",
+      "OA/WNYH"
+    ],
+    "matchers": [
       "Old Allies",
       "OA",
       "OA/WNYH",
@@ -475,6 +487,12 @@
       "I Want That Map",
       "Map",
       "IWTM/ANYGITM",
+      "IWTM"
+    ],
+    "matchers": [
+      "I Want That Map",
+      "Map",
+      "IWTM/ANYGITM",
       "IWTM",
       "MAP",
       "I Want that Map"
@@ -604,6 +622,11 @@
       "Bring Him Before Me",
       "BHBM",
       "BHBM/TYFP"
+    ],
+    "matchers": [
+      "Bring Him Before Me",
+      "BHBM",
+      "BHBM/TYFP"
     ]
   },
   {
@@ -625,6 +648,12 @@
     ],
     "shortName": "LS Senate",
     "aliases": [
+      "Plead My Case To The Senate",
+      "LS Senate",
+      "PMCTTS/SAC",
+      "PMCTTS"
+    ],
+    "matchers": [
       "Plead My Case To The Senate",
       "LS Senate",
       "PMCTTS/SAC",
@@ -678,6 +707,11 @@
     ],
     "shortName": "IE",
     "aliases": [
+      "Imperial Entanglements",
+      "IE",
+      "IE/NOTSUTT"
+    ],
+    "matchers": [
       "Imperial Entanglements",
       "IE",
       "IE/NOTSUTT"
@@ -783,6 +817,13 @@
       "Court Of The Vile Gangster",
       "Court",
       "COTVG/ISEWYD",
+      "COTVG (V)"
+    ],
+    "matchers": [
+      "Court Of The Vile Gangster",
+      "Court",
+      "COTVG/ISEWYD",
+      "COTVG (V)",
       "COTVG",
       "Court FO"
     ]
@@ -855,6 +896,10 @@
     ],
     "shortName": "EBO",
     "aliases": [
+      "Echo Base Operations",
+      "EBO"
+    ],
+    "matchers": [
       "Echo Base Operations",
       "EBO"
     ]
@@ -982,6 +1027,12 @@
     ],
     "shortName": "Hunt Down",
     "aliases": [
+      "Hunt Down And Destroy The Jedi",
+      "Hunt Down",
+      "HDADTJ/TFHGOOTU",
+      "HDADTJ"
+    ],
+    "matchers": [
       "Hunt Down And Destroy The Jedi",
       "Hunt Down",
       "HDADTJ/TFHGOOTU",
@@ -1132,6 +1183,10 @@
     "shortName": "TRM",
     "aliases": [
       "Yavin 4: Massassi Throne Room",
+      "TRM"
+    ],
+    "matchers": [
+      "Yavin 4: Massassi Throne Room",
       "TRM",
       "Throne Room Mains"
     ]
@@ -1258,6 +1313,12 @@
       "Carbon Chamber Testing No-Flip",
       "CCT No-Flip",
       "CCT/MFD",
+      "CCT"
+    ],
+    "matchers": [
+      "Carbon Chamber Testing No-Flip",
+      "CCT No-Flip",
+      "CCT/MFD",
       "CCT",
       "CCT IG"
     ]
@@ -1274,6 +1335,11 @@
     ],
     "shortName": "RST",
     "aliases": [
+      "Rebel Strike Team",
+      "RST",
+      "RST/GD"
+    ],
+    "matchers": [
       "Rebel Strike Team",
       "RST",
       "RST/GD"
@@ -1322,6 +1388,13 @@
     ],
     "shortName": "Endor Ops",
     "aliases": [
+      "Endor Operations",
+      "Endor Ops",
+      "EO/IO",
+      "EOPS",
+      "EO"
+    ],
+    "matchers": [
       "Endor Operations",
       "Endor Ops",
       "EO/IO",
@@ -1387,6 +1460,11 @@
       "We Have A Plan",
       "WHAP",
       "WHAP/TWBLAC"
+    ],
+    "matchers": [
+      "We Have A Plan",
+      "WHAP",
+      "WHAP/TWBLAC"
     ]
   },
   {
@@ -1404,6 +1482,9 @@
     ],
     "shortName": "Coruscant CR(V)",
     "aliases": [
+      "Coruscant CR(V)"
+    ],
+    "matchers": [
       "Coruscant CR(V)",
       "Coruscant CR(V) Tanks",
       "Coruscant CRv",
@@ -1431,6 +1512,16 @@
     ],
     "shortName": "DS Combat",
     "aliases": [
+      "Let Them Make The First Move",
+      "DS Combat",
+      "LTMTFM/ALWWHR",
+      "DSC",
+      "LSC",
+      "Darksaber Combat",
+      "Lightsaber Combat",
+      "LTMTFM"
+    ],
+    "matchers": [
       "Let Them Make The First Move",
       "DS Combat",
       "LTMTFM/ALWWHR",
@@ -1559,6 +1650,12 @@
       "Diplomatic Mission To Alderaan",
       "Diplo",
       "DMTA/AWCBF",
+      "DMTA"
+    ],
+    "matchers": [
+      "Diplomatic Mission To Alderaan",
+      "Diplo",
+      "DMTA/AWCBF",
       "DMTA",
       "DIPLO",
       "Diplomatic Mission to Alderaan"
@@ -1594,6 +1691,12 @@
     ],
     "shortName": "DS Senate",
     "aliases": [
+      "My Lord, Is That Legal?",
+      "DS Senate",
+      "MLITL/IWMIL",
+      "MLITL"
+    ],
+    "matchers": [
       "My Lord, Is That Legal?",
       "DS Senate",
       "MLITL/IWMIL",
@@ -1728,6 +1831,11 @@
       "He Is The Chosen One",
       "HITCO",
       "HITCO/HWBB"
+    ],
+    "matchers": [
+      "He Is The Chosen One",
+      "HITCO",
+      "HITCO/HWBB"
     ]
   },
   {
@@ -1770,6 +1878,12 @@
       "Watto",
       "NMNPND/YAS",
       "NMNPND"
+    ],
+    "matchers": [
+      "No Money, No Parts, No Deal!",
+      "Watto",
+      "NMNPND/YAS",
+      "NMNPND"
     ]
   },
   {
@@ -1790,6 +1904,9 @@
     ],
     "shortName": "Tatooine CP(V)",
     "aliases": [
+      "Tatooine CP(V)"
+    ],
+    "matchers": [
       "Tatooine CP(V)",
       "Tatooine CPv",
       "Tatooine CP(v)"
@@ -1841,6 +1958,14 @@
     ],
     "shortName": "TTO",
     "aliases": [
+      "That Thing's Operational",
+      "TTO",
+      "EO/IO",
+      "EOPS",
+      "Endor Ops",
+      "EO"
+    ],
+    "matchers": [
       "That Thing's Operational",
       "TTO",
       "EO/IO",
@@ -1982,6 +2107,12 @@
       "ISB",
       "ISBO/ESA",
       "ISBO"
+    ],
+    "matchers": [
+      "ISB Operations",
+      "ISB",
+      "ISBO/ESA",
+      "ISBO"
     ]
   },
   {
@@ -1998,6 +2129,9 @@
     ],
     "shortName": "Hoth CP(V)",
     "aliases": [
+      "Hoth CP(V)"
+    ],
+    "matchers": [
       "Hoth CP(V)",
       "Hoth CPv",
       "Hoth Mains",
@@ -2087,6 +2221,11 @@
       "Watch Your Step",
       "WYS",
       "WYS/TPCBALR"
+    ],
+    "matchers": [
+      "Watch Your Step",
+      "WYS",
+      "WYS/TPCBALR"
     ]
   },
   {
@@ -2129,6 +2268,11 @@
     ],
     "shortName": "TIGIH",
     "aliases": [
+      "There Is Good In Him",
+      "TIGIH",
+      "TIGIH/ICSH"
+    ],
+    "matchers": [
       "There Is Good In Him",
       "TIGIH",
       "TIGIH/ICSH"
@@ -2176,6 +2320,11 @@
       "This Deal Is Getting Worse All The Time",
       "TDIGWATT",
       "TDIGWATT/PIDAIAF"
+    ],
+    "matchers": [
+      "This Deal Is Getting Worse All The Time",
+      "TDIGWATT",
+      "TDIGWATT/PIDAIAF"
     ]
   },
   {
@@ -2192,6 +2341,13 @@
     ],
     "shortName": "Gungans",
     "aliases": [
+      "Naboo Gungans",
+      "Gungans",
+      "PMCTTS/SAC",
+      "LS Senate",
+      "PMCTTS"
+    ],
+    "matchers": [
       "Naboo Gungans",
       "Gungans",
       "PMCTTS/SAC",
@@ -2328,6 +2484,13 @@
       "Agents Of Black Sun",
       "AOBS",
       "AOBS/VOTDP",
+      "AOBS (V)"
+    ],
+    "matchers": [
+      "Agents Of Black Sun",
+      "AOBS",
+      "AOBS/VOTDP",
+      "AOBS (V)",
       "Agents of Black Sun"
     ]
   },
@@ -2408,6 +2571,14 @@
       "Y4BO/TTTFIS",
       "YBO",
       "YOPS",
+      "Y4BO"
+    ],
+    "matchers": [
+      "Yavin 4 Base Operations",
+      "Y4O",
+      "Y4BO/TTTFIS",
+      "YBO",
+      "YOPS",
       "Y4BO",
       "Yavin 4 Ops",
       "Yavin 4 Base Ops",
@@ -2477,6 +2648,14 @@
     ],
     "shortName": "Hoth Walkers",
     "aliases": [
+      "Hoth Walkers",
+      "ISBO/ESA",
+      "ISBO",
+      "TSWBDIM/ITHETB",
+      "Walkers",
+      "TSWBDIM"
+    ],
+    "matchers": [
       "Hoth Walkers",
       "ISBO/ESA",
       "ISBO",
@@ -2553,6 +2732,12 @@
       "You Can Either Profit By This...",
       "Profit",
       "YCEPBT/OBD",
+      "YCEPBT"
+    ],
+    "matchers": [
+      "You Can Either Profit By This...",
+      "Profit",
+      "YCEPBT/OBD",
       "YCEPBT",
       "PROFIT"
     ]
@@ -2566,6 +2751,12 @@
     ],
     "shortName": "Hyperdrive",
     "aliases": [
+      "The Hyperdrive Generator's Gone",
+      "Hyperdrive",
+      "THGG/WNANO",
+      "THGG"
+    ],
+    "matchers": [
       "The Hyperdrive Generator's Gone",
       "Hyperdrive",
       "THGG/WNANO",
@@ -2609,6 +2800,12 @@
     ],
     "shortName": "HB No-Flip",
     "aliases": [
+      "Hidden Base No-Flip",
+      "HB No-Flip",
+      "HB/SWSTYF",
+      "HB"
+    ],
+    "matchers": [
       "Hidden Base No-Flip",
       "HB No-Flip",
       "HB/SWSTYF",
@@ -2690,6 +2887,12 @@
       "Set Your Course For Alderaan No-Flip",
       "SYCFA No-Flip",
       "SYCFA/TUPITU",
+      "SYCFA"
+    ],
+    "matchers": [
+      "Set Your Course For Alderaan No-Flip",
+      "SYCFA No-Flip",
+      "SYCFA/TUPITU",
       "SYCFA",
       "SYFCA",
       "SYCFA Bombers"
@@ -2704,6 +2907,9 @@
     ],
     "shortName": "Tatooine CR(V)",
     "aliases": [
+      "Tatooine CR(V)"
+    ],
+    "matchers": [
       "Tatooine CR(V)",
       "Tatooine CRv"
     ]
@@ -2811,6 +3017,11 @@
       "Quiet Mining Colony",
       "QMC",
       "QMC/IO"
+    ],
+    "matchers": [
+      "Quiet Mining Colony",
+      "QMC",
+      "QMC/IO"
     ]
   },
   {
@@ -2858,6 +3069,11 @@
     "aliases": [
       "Invasion",
       "I/IIC",
+      "I"
+    ],
+    "matchers": [
+      "Invasion",
+      "I/IIC",
       "I",
       "INVASION"
     ]
@@ -2881,7 +3097,16 @@
       "Hyperdrive (V)",
       "THGG/WNANOV",
       "THGGV",
-      "THGG",
+      "THGG (V)",
+      "THGGV (V)"
+    ],
+    "matchers": [
+      "The Hyperdrive Generator's Gone (V)",
+      "Hyperdrive (V)",
+      "THGG/WNANOV",
+      "THGGV",
+      "THGG (V)",
+      "THGGV (V)",
       "Hyperdrive V",
       "Hyperdrive v"
     ]
@@ -3045,6 +3270,12 @@
       "They Have No Idea We're Coming",
       "No Idea",
       "THNIWC/UWWOTCAS",
+      "THNIWC"
+    ],
+    "matchers": [
+      "They Have No Idea We're Coming",
+      "No Idea",
+      "THNIWC/UWWOTCAS",
       "THNIWC",
       "NO IDEA"
     ]
@@ -3093,7 +3324,14 @@
     "aliases": [
       "A Stunning Move",
       "ASM",
-      "ASM/AVH"
+      "ASM/AVH",
+      "ASM (V)"
+    ],
+    "matchers": [
+      "A Stunning Move",
+      "ASM",
+      "ASM/AVH",
+      "ASM (V)"
     ]
   },
   {
@@ -3233,6 +3471,12 @@
       "The Galaxy May Need A Legend",
       "Legend",
       "TGMNAL/WNLS",
+      "TGMNAL"
+    ],
+    "matchers": [
+      "The Galaxy May Need A Legend",
+      "Legend",
+      "TGMNAL/WNLS",
       "TGMNAL",
       "LEGEND"
     ]
@@ -3246,6 +3490,9 @@
     ],
     "shortName": "Yavin 4: Massassi Throne Room 12-Card",
     "aliases": [
+      "Yavin 4: Massassi Throne Room 12-Card"
+    ],
+    "matchers": [
       "Yavin 4: Massassi Throne Room 12-Card",
       "TRM 12 card"
     ]
@@ -3268,6 +3515,14 @@
       "WHT/DOTF",
       "LSC",
       "Lightsaber Combat",
+      "WHT"
+    ],
+    "matchers": [
+      "We'll Handle This",
+      "LS Combat",
+      "WHT/DOTF",
+      "LSC",
+      "Lightsaber Combat",
       "WHT",
       "Combat 7’s"
     ]
@@ -3280,6 +3535,12 @@
     ],
     "shortName": "SYCFA Flip",
     "aliases": [
+      "Set Your Course For Alderaan Flip",
+      "SYCFA Flip",
+      "SYCFA/TUPITU",
+      "SYCFA"
+    ],
+    "matchers": [
       "Set Your Course For Alderaan Flip",
       "SYCFA Flip",
       "SYCFA/TUPITU",
@@ -3297,6 +3558,10 @@
     "shortName": "JCC",
     "aliases": [
       "Coruscant: Jedi Council Chamber",
+      "JCC"
+    ],
+    "matchers": [
+      "Coruscant: Jedi Council Chamber",
       "JCC",
       "JCC Mains"
     ]
@@ -3310,6 +3575,9 @@
     ],
     "shortName": "Endor CP(V)",
     "aliases": [
+      "Endor CP(V)"
+    ],
+    "matchers": [
       "Endor CP(V)",
       "Endor CPv"
     ]
@@ -3324,6 +3592,10 @@
     "aliases": [
       "Death Star II: Throne Room According To My Design",
       "DSII Throne Room ATMD"
+    ],
+    "matchers": [
+      "Death Star II: Throne Room According To My Design",
+      "DSII Throne Room ATMD"
     ]
   },
   {
@@ -3335,6 +3607,12 @@
     ],
     "shortName": "MBO",
     "aliases": [
+      "Massassi Base Operations",
+      "MBO",
+      "MBO/OIAM",
+      "MOPS"
+    ],
+    "matchers": [
       "Massassi Base Operations",
       "MBO",
       "MBO/OIAM",
@@ -3375,6 +3653,11 @@
     "aliases": [
       "Carbon Chamber Testing",
       "CCT",
+      "CCT/MFD"
+    ],
+    "matchers": [
+      "Carbon Chamber Testing",
+      "CCT",
       "CCT/MFD",
       "CCT Musicians",
       "CCT Flip"
@@ -3388,6 +3671,10 @@
     ],
     "shortName": "Invisible Hand SSA(V)",
     "aliases": [
+      "Invisible Hand: Bridge Slip Sliding Away (V)",
+      "Invisible Hand SSA(V)"
+    ],
+    "matchers": [
       "Invisible Hand: Bridge Slip Sliding Away (V)",
       "Invisible Hand SSA(V)",
       "Invisible Hand SSA (V)"
@@ -3403,6 +3690,10 @@
     ],
     "shortName": "Dagobah Cave SSA(V)",
     "aliases": [
+      "Dagobah: Cave Slip Sliding Away (V)",
+      "Dagobah Cave SSA(V)"
+    ],
+    "matchers": [
       "Dagobah: Cave Slip Sliding Away (V)",
       "Dagobah Cave SSA(V)",
       "Dagobah Cave SSA (V)"
@@ -3424,6 +3715,9 @@
     "shortName": "Bespin CR(V)",
     "aliases": [
       "Bespin CR(V)"
+    ],
+    "matchers": [
+      "Bespin CR(V)"
     ]
   },
   {
@@ -3442,6 +3736,13 @@
     ],
     "shortName": "MWYHL No-Flip",
     "aliases": [
+      "Mind What You Have Learned No-Flip",
+      "MWYHL No-Flip",
+      "MWYHL/SYIC",
+      "Jedi Testing",
+      "MWYHL"
+    ],
+    "matchers": [
       "Mind What You Have Learned No-Flip",
       "MWYHL No-Flip",
       "MWYHL/SYIC",
@@ -3495,6 +3796,10 @@
     "shortName": "DLS SSA(V)",
     "aliases": [
       "Tatooine: Desert Landing Site Slip Sliding Away (V)",
+      "DLS SSA(V)"
+    ],
+    "matchers": [
+      "Tatooine: Desert Landing Site Slip Sliding Away (V)",
       "DLS SSA(V)",
       "Desert Landing Site SSAv",
       "Tatooine: Desert Landing Site SSAv",
@@ -3513,6 +3818,10 @@
     "aliases": [
       "Endor: Chief Chirpa's Hut",
       "Chirpa's Hut"
+    ],
+    "matchers": [
+      "Endor: Chief Chirpa's Hut",
+      "Chirpa's Hut"
     ]
   },
   {
@@ -3523,6 +3832,10 @@
     ],
     "shortName": "Death Star 12-Card",
     "aliases": [
+      "Death Star 12-Card",
+      "Death Star 12-Card"
+    ],
+    "matchers": [
       "Death Star 12-Card"
     ]
   },
@@ -3648,6 +3961,11 @@
       "Shadow Collective",
       "SC",
       "SC/YKWIAT"
+    ],
+    "matchers": [
+      "Shadow Collective",
+      "SC",
+      "SC/YKWIAT"
     ]
   },
   {
@@ -3675,6 +3993,10 @@
     ],
     "shortName": "Maul's Chambers SSA(V)",
     "aliases": [
+      "Dathomir: Maul's Chambers Slip Sliding Away (V)",
+      "Maul's Chambers SSA(V)"
+    ],
+    "matchers": [
       "Dathomir: Maul's Chambers Slip Sliding Away (V)",
       "Maul's Chambers SSA(V)",
       "Maul’s Chambers SSA(V)",
@@ -3767,7 +4089,19 @@
       "HDV",
       "Hunt Down V",
       "HDADTJ/TFHGOOTUV",
-      "HDADTJ",
+      "HDV (V)",
+      "Hunt Down V (V)",
+      "HDADTJ (V)"
+    ],
+    "matchers": [
+      "Hunt Down And Destroy The Jedi (V)",
+      "Hunt Down (V)",
+      "HDV",
+      "Hunt Down V",
+      "HDADTJ/TFHGOOTUV",
+      "HDV (V)",
+      "Hunt Down V (V)",
+      "HDADTJ (V)",
       "Hunt Down(v)",
       "Hunt Down (v)",
       "HD(V)",
@@ -3782,6 +4116,11 @@
     ],
     "shortName": "TIEs",
     "aliases": [
+      "TIEs",
+      "SYCFA/TUPITU",
+      "SYCFA"
+    ],
+    "matchers": [
       "TIEs",
       "SYCFA/TUPITU",
       "SYCFA"
@@ -3811,7 +4150,18 @@
       "RTP/SIAEMV",
       "RTPV",
       "Rescue V",
-      "RTP",
+      "RTP (V)",
+      "RTPV (V)",
+      "Rescue V (V)"
+    ],
+    "matchers": [
+      "Rescue The Princess (V)",
+      "RTP/SIAEMV",
+      "RTPV",
+      "Rescue V",
+      "RTP (V)",
+      "RTPV (V)",
+      "Rescue V (V)",
       "– Rescue the Princess (V)",
       "RTP(v)",
       "Rescue the Princess (V)",
@@ -3883,6 +4233,10 @@
     "shortName": "Quimuning",
     "aliases": [
       "Communing (Qui-Gon)",
+      "Quimuning"
+    ],
+    "matchers": [
+      "Communing (Qui-Gon)",
       "Quimuning",
       "Qui Communing",
       "Communing Qui-Gon",
@@ -3929,6 +4283,9 @@
     ],
     "shortName": "LTWW(V) Mains",
     "aliases": [
+      "LTWW(V) Mains"
+    ],
+    "matchers": [
       "LTWW(V) Mains",
       "LTWW CCH",
       "LTWW Mains",
@@ -3959,6 +4316,9 @@
     ],
     "shortName": "LTWW(V) Space",
     "aliases": [
+      "LTWW(V) Space"
+    ],
+    "matchers": [
       "LTWW(V) Space",
       "LTWW Space",
       "RENDEZVOUS POINT LTWW",
@@ -4114,6 +4474,10 @@
     "shortName": "Yodamuning",
     "aliases": [
       "Communing (Yoda)",
+      "Yodamuning"
+    ],
+    "matchers": [
+      "Communing (Yoda)",
       "Yodamuning",
       "Communing Yoda",
       "YODA COMMUNING",
@@ -4143,7 +4507,16 @@
       "Verge",
       "OTVOG/TCOTW",
       "OVG",
-      "OTVOG",
+      "OTVOG (V)",
+      "OVG (V)"
+    ],
+    "matchers": [
+      "On The Verge Of Greatness",
+      "Verge",
+      "OTVOG/TCOTW",
+      "OVG",
+      "OTVOG (V)",
+      "OVG (V)",
       "Verge of Greatness",
       "On The Verge of Greatness",
       "On the Verge of Greatness"
@@ -4230,6 +4603,10 @@
     "shortName": "Obimuning",
     "aliases": [
       "Communing (Obi-Wan)",
+      "Obimuning"
+    ],
+    "matchers": [
+      "Communing (Obi-Wan)",
       "Obimuning",
       "Communing Obi-Wan",
       "Obi-Wan Communing",
@@ -4245,6 +4622,11 @@
     ],
     "shortName": "MKOS",
     "aliases": [
+      "My Kind Of Scum",
+      "MKOS",
+      "MKOS/FAI"
+    ],
+    "matchers": [
       "My Kind Of Scum",
       "MKOS",
       "MKOS/FAI",
@@ -4271,6 +4653,11 @@
     "aliases": [
       "Agents In The Court",
       "AITC",
+      "AITC/NLFTE"
+    ],
+    "matchers": [
+      "Agents In The Court",
+      "AITC",
       "AITC/NLFTE",
       "AiTC",
       "Agents in the Court",
@@ -4285,6 +4672,10 @@
     ],
     "shortName": "Jakku CP(V)",
     "aliases": [
+      "Jakku CP(V)",
+      "Jakku CP(V)"
+    ],
+    "matchers": [
       "Jakku CP(V)",
       "Jakku CPv"
     ]
@@ -4314,6 +4705,13 @@
       "RO/ITHOTE",
       "ROPS",
       "RO"
+    ],
+    "matchers": [
+      "Ralltiir Operations",
+      "ROps",
+      "RO/ITHOTE",
+      "ROPS",
+      "RO"
     ]
   },
   {
@@ -4331,6 +4729,10 @@
     ],
     "shortName": "Chirpa's Hut LTWW(V)",
     "aliases": [
+      "Endor: Chief Chirpa's Hut LTWW(V)",
+      "Chirpa's Hut LTWW(V)"
+    ],
+    "matchers": [
       "Endor: Chief Chirpa's Hut LTWW(V)",
       "Chirpa's Hut LTWW(V)",
       "CHIEF CHIRPAS HUT LTWW",
@@ -4350,6 +4752,9 @@
     ],
     "shortName": "Mustafar CR(V)",
     "aliases": [
+      "Mustafar CR(V)"
+    ],
+    "matchers": [
       "Mustafar CR(V)",
       "Mustafar CRv",
       "MUSTAFAR CRV",
@@ -4367,6 +4772,9 @@
     ],
     "shortName": "Emperor's Orders",
     "aliases": [
+      "Emperor's Orders"
+    ],
+    "matchers": [
       "Emperor's Orders",
       "Emperor’s Orders / Exe: Ctrl Station (V) SSA",
       "Emperor’s Orders"
@@ -4384,6 +4792,10 @@
     ],
     "shortName": "DSII Throne Room SSA(V)",
     "aliases": [
+      "Death Star II: Throne Room Slip Sliding Away (V)",
+      "DSII Throne Room SSA(V)"
+    ],
+    "matchers": [
       "Death Star II: Throne Room Slip Sliding Away (V)",
       "DSII Throne Room SSA(V)",
       "DS2 Throne Room SSA",
@@ -4404,6 +4816,13 @@
       "YBO",
       "YOPS",
       "Y4BO"
+    ],
+    "matchers": [
+      "Asteroid Sanctuary",
+      "Y4BO/TTTFIS",
+      "YBO",
+      "YOPS",
+      "Y4BO"
     ]
   },
   {
@@ -4417,6 +4836,10 @@
     ],
     "shortName": "Rey Saga",
     "aliases": [
+      "Skywalker Saga (Rey)",
+      "Rey Saga"
+    ],
+    "matchers": [
       "Skywalker Saga (Rey)",
       "Rey Saga",
       "Saga Rey",
@@ -4453,6 +4876,10 @@
     ],
     "shortName": "ROTS Dooku",
     "aliases": [
+      "Revenge Of The Sith (Dooku)",
+      "ROTS Dooku"
+    ],
+    "matchers": [
       "Revenge Of The Sith (Dooku)",
       "ROTS Dooku",
       "Sith – Dooku",
@@ -4530,6 +4957,10 @@
     "shortName": "Anakin Saga",
     "aliases": [
       "Skywalker Saga (Anakin)",
+      "Anakin Saga"
+    ],
+    "matchers": [
+      "Skywalker Saga (Anakin)",
       "Anakin Saga",
       "Skywalker Saga Anakin",
       "Skywalker Saga Luke",
@@ -4563,6 +4994,10 @@
     "shortName": "ROTS Vader",
     "aliases": [
       "Revenge Of The Sith (Vader)",
+      "ROTS Vader"
+    ],
+    "matchers": [
+      "Revenge Of The Sith (Vader)",
       "ROTS Vader",
       "Revenge of the Sith Vader",
       "ROTS – Vader"
@@ -4576,6 +5011,10 @@
     ],
     "shortName": "Takodana CP(V)",
     "aliases": [
+      "Takodana CP(V)",
+      "Takodana CP(V)"
+    ],
+    "matchers": [
       "Takodana CP(V)"
     ]
   },
@@ -4606,6 +5045,10 @@
     "shortName": "ROTS Maul",
     "aliases": [
       "Revenge Of The Sith (Maul)",
+      "ROTS Maul"
+    ],
+    "matchers": [
+      "Revenge Of The Sith (Maul)",
       "ROTS Maul",
       "Revenge of the Sith Maul",
       "ROTS – Maul",
@@ -4621,6 +5064,12 @@
     "decklistUrls": [],
     "shortName": "MWYHL",
     "aliases": [
+      "Mind What You Have Learned",
+      "MWYHL",
+      "MWYHL/SYIC",
+      "Jedi Testing"
+    ],
+    "matchers": [
       "Mind What You Have Learned",
       "MWYHL",
       "MWYHL/SYIC",
@@ -4686,6 +5135,11 @@
       "Zero Hour",
       "ZH/LOL",
       "ZH"
+    ],
+    "matchers": [
+      "Zero Hour",
+      "ZH/LOL",
+      "ZH"
     ]
   },
   {
@@ -4694,6 +5148,14 @@
     "decklistUrls": [],
     "shortName": "Y4O Jedi Business",
     "aliases": [
+      "Yavin 4 Base Operations Jedi Business",
+      "Y4O Jedi Business",
+      "Y4BO/TTTFIS",
+      "YBO",
+      "YOPS",
+      "Y4BO"
+    ],
+    "matchers": [
       "Yavin 4 Base Operations Jedi Business",
       "Y4O Jedi Business",
       "Y4BO/TTTFIS",
@@ -4726,6 +5188,10 @@
     "shortName": "Pyre",
     "aliases": [
       "Endor: Anakin's Funeral Pyre",
+      "Pyre"
+    ],
+    "matchers": [
+      "Endor: Anakin's Funeral Pyre",
       "Pyre",
       "Funeral Pyre",
       "Endor: Anakin’s Funeral Pyre",
@@ -4745,6 +5211,10 @@
     "shortName": "Slave Quarters (V) LTWW(V)",
     "aliases": [
       "Tatooine: Slave Quarters (V) LTWW(V)",
+      "Slave Quarters (V) LTWW(V)"
+    ],
+    "matchers": [
+      "Tatooine: Slave Quarters (V) LTWW(V)",
       "Slave Quarters (V) LTWW(V)",
       "Slave Quarters LTWWv",
       "LTWWv Tatooine: Slave Quarters (V)",
@@ -4761,6 +5231,10 @@
     "shortName": "Pyre LTWW(V)",
     "aliases": [
       "Endor: Anakin's Funeral Pyre LTWW(V)",
+      "Pyre LTWW(V)"
+    ],
+    "matchers": [
+      "Endor: Anakin's Funeral Pyre LTWW(V)",
       "Pyre LTWW(V)",
       "LTWWv Endor: Anakin’s Funeral Pyre",
       "Funeral Pyre LTWWv"
@@ -4772,6 +5246,12 @@
     "decklistUrls": [],
     "shortName": "AITC Mandalorians",
     "aliases": [
+      "Agents In The Court Mandalorians No-Flip",
+      "AITC Mandalorians",
+      "AITC/NLFTE",
+      "AITC"
+    ],
+    "matchers": [
       "Agents In The Court Mandalorians No-Flip",
       "AITC Mandalorians",
       "AITC/NLFTE",
@@ -4825,6 +5305,12 @@
       "Thrawn",
       "AGTCP/TRIOR",
       "AGTCP"
+    ],
+    "matchers": [
+      "A Great Tactician Creates Plans",
+      "Thrawn",
+      "AGTCP/TRIOR",
+      "AGTCP"
     ]
   },
   {
@@ -4835,6 +5321,10 @@
     ],
     "shortName": "Coruscant SSA(V)",
     "aliases": [
+      "Coruscant: The Works Slip Sliding Away (V)",
+      "Coruscant SSA(V)"
+    ],
+    "matchers": [
       "Coruscant: The Works Slip Sliding Away (V)",
       "Coruscant SSA(V)",
       "Coruscant SSA(v) Blasters"
@@ -4848,6 +5338,9 @@
     ],
     "shortName": "Revenge Of The Sith",
     "aliases": [
+      "Revenge Of The Sith"
+    ],
+    "matchers": [
       "Revenge Of The Sith",
       "ROTS"
     ]
@@ -4858,6 +5351,10 @@
     "decklistUrls": [],
     "shortName": "Ajan Kloss LTWW(V)",
     "aliases": [
+      "Ajan Kloss: Training Course LTWW(V)",
+      "Ajan Kloss LTWW(V)"
+    ],
+    "matchers": [
       "Ajan Kloss: Training Course LTWW(V)",
       "Ajan Kloss LTWW(V)"
     ]
@@ -4880,6 +5377,12 @@
       "Hunt For The Droid General",
       "Clones",
       "HFTDG/HAC",
+      "HFTDG"
+    ],
+    "matchers": [
+      "Hunt For The Droid General",
+      "Clones",
+      "HFTDG/HAC",
       "HFTDG",
       "Hunt for the Droid General"
     ]
@@ -4894,6 +5397,14 @@
     ],
     "shortName": "Hoth Speeders",
     "aliases": [
+      "The Empire Knows We're Here",
+      "Hoth Speeders",
+      "TEKWH/PFGA",
+      "Speeders",
+      "Fridge",
+      "TEKWH"
+    ],
+    "matchers": [
       "The Empire Knows We're Here",
       "Hoth Speeders",
       "TEKWH/PFGA",

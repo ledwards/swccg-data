@@ -1,0 +1,45 @@
+TODO:
+1) aliases in decklists and in players should be more judicious - matchers are all raw things, aliases are true aliases
+2) missing cards
+3) The gemp bug
+
+
+
+BAD:
+
+====
+POST /gemp-swccg-server/deck HTTP/1.1
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+Content-Length: 735
+Content-Type: application/x-www-form-urlencoded
+Cookie: loggedUser=wVvRKEoPBInXhHs3NTYV; _ga=GA1.1.1447809419.1695738437; _ga_F898Z2M18G=GS1.1.1704603526.39.1.1704603968.0.0.0; _ga_7F0PMT05NC=GS1.1.1704597765.126.1.1704598266.0.0.0; _ga_LNNLLT0M62=GS1.1.1704510371.19.0.1704510379.0.0.0; _ga_ZEKSJFX6FP=GS1.1.1699915382.2.0.1699915386.0.0.0
+Host: gemp.starwarsccg.org
+Origin: https://gemp.starwarsccg.org
+Referer: https://gemp.starwarsccg.org/gemp-swccg/deckBuild.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+X-Requested-With: XMLHttpRequest
+
+deckName: [2019 MATCH PLAY CHAMPIONSHIP] Diplo (Pat Johnson)
+deckContents: 200_35,203_19,12_84,201_19,203_11,203_14,1_130,9_51,200_41,9_39,9_41,204_11,201_6,210_20,204_2,206_2,206_3,204_3,203_3,10_3,200_8,10_5,200_12,9_13,206_4,203_6,202_1,201_4,10_18,209_12,204_10,203_12,204_9,200_39,9_38,12_53,12_53,200_49,204_18,201_13,2_50,106_5,5_55,5_55,204_20,204_20,12_61,12_61,209_21,10_16,201_14,210_24,209_22,1_121,8_67,1_128,205_6,1_133,200_62,206_8|13_1,13_3,13_4,13_6,13_8,13_15,13_16,13_22,200_16,13_30,13_35,13_37,13_38,204_35,13_44,13_47,13_49,13_50,204_35
+
+GOOD:
+=====
+POST /gemp-swccg-server/deck HTTP/1.1
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: keep-alive
+Content-Length: 719
+Content-Type: application/x-www-form-urlencoded
+Cookie: loggedUser=wVvRKEoPBInXhHs3NTYV; _ga=GA1.1.1447809419.1695738437; _ga_F898Z2M18G=GS1.1.1704603526.39.1.1704603968.0.0.0; _ga_7F0PMT05NC=GS1.1.1704597765.126.1.1704598266.0.0.0; _ga_LNNLLT0M62=GS1.1.1704510371.19.0.1704510379.0.0.0; _ga_ZEKSJFX6FP=GS1.1.1699915382.2.0.1699915386.0.0.0
+Host: gemp.starwarsccg.org
+Origin: https://gemp.starwarsccg.org
+Referer: https://gemp.starwarsccg.org/gemp-swccg/deckBuild.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+X-Requested-With: XMLHttpRequest
+
+deckName: [2019 ENDOR GRAND PRIX] EBO (Jonny Chu)
+deckContents: 200_35,3_55,200_50,210_15,3_62,111_1,9_41,200_47,203_1,209_1,204_3,200_7,208_6,209_5,207_5,206_4,13_27,204_8,204_8,204_9,204_11,202_4,12_38,111_3,3_34,5_24,9_33,6_56,6_56,10_4,10_4,201_13,5_55,10_16,10_16,1_105,1_105,203_17,203_17,203_17,203_17,209_22,209_22,12_72,3_57,3_58,3_59,200_58,203_20,1_140,200_62,201_18,209_30,200_63,207_18,200_66,7_149,201_19,200_67,3_66|13_1,13_3,13_4,13_6,13_8,13_15,13_16,13_22,200_16,13_30,13_35,13_37,13_38,204_35,13_44,13_47,13_49,13_50,204_35

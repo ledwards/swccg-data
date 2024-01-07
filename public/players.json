@@ -7,6 +7,9 @@
     ],
     "aliases": [
       "A.J. Hatoum"
+    ],
+    "matchers": [
+      "A.J. Hatoum"
     ]
   },
   {
@@ -16,6 +19,9 @@
       "https://www.starwarsccg.org/2021-us-nationals-aaron-bott-ls-mwyhl/"
     ],
     "aliases": [
+      "Aaron Bott"
+    ],
+    "matchers": [
       "Aaron Bott"
     ]
   },
@@ -33,6 +39,9 @@
     ],
     "aliases": [
       "Aaron Frede"
+    ],
+    "matchers": [
+      "Aaron Frede"
     ]
   },
   {
@@ -43,6 +52,9 @@
     ],
     "aliases": [
       "Aaron Groth"
+    ],
+    "matchers": [
+      "Aaron Groth"
     ]
   },
   {
@@ -52,6 +64,9 @@
       "https://www.starwarsccg.org/2023-endor-grand-prix-aaron-kahler-ls-speeders/"
     ],
     "aliases": [
+      "Aaron Kahler"
+    ],
+    "matchers": [
       "Aaron Kahler"
     ]
   },
@@ -67,6 +82,9 @@
       "https://www.starwarsccg.org/2022-mpc-aaron-kingery-ds-rops/"
     ],
     "aliases": [
+      "Aaron Kingery"
+    ],
+    "matchers": [
       "Aaron Kingery"
     ]
   },
@@ -86,6 +104,9 @@
     ],
     "aliases": [
       "Adam Bott"
+    ],
+    "matchers": [
+      "Adam Bott"
     ]
   },
   {
@@ -100,6 +121,9 @@
     ],
     "aliases": [
       "Adam Fletcher"
+    ],
+    "matchers": [
+      "Adam Fletcher"
     ]
   },
   {
@@ -109,6 +133,9 @@
       "https://www.starwarsccg.org/2022-naboo-regionals-adam-harper-ls-whap/"
     ],
     "aliases": [
+      "Adam Harper"
+    ],
+    "matchers": [
       "Adam Harper"
     ]
   },
@@ -121,6 +148,9 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-adam-radic-ls-hidden-base/"
     ],
     "aliases": [
+      "Adam Radic"
+    ],
+    "matchers": [
       "Adam Radic"
     ]
   },
@@ -137,6 +167,9 @@
       "https://www.starwarsccg.org/2022-us-nationals-day-1-adam-schellberg-ls-whap/"
     ],
     "aliases": [
+      "Adam Schellberg"
+    ],
+    "matchers": [
       "Adam Schellberg",
       "ADAM SCHELLBERG"
     ]
@@ -162,6 +195,9 @@
     ],
     "aliases": [
       "Adam Trunzo"
+    ],
+    "matchers": [
+      "Adam Trunzo"
     ]
   },
   {
@@ -186,6 +222,9 @@
     ],
     "aliases": [
       "AJ Hatoum"
+    ],
+    "matchers": [
+      "AJ Hatoum"
     ]
   },
   {
@@ -197,6 +236,9 @@
       "https://www.starwarsccg.org/2021-worlds-alex-hatoum-ls-oa/"
     ],
     "aliases": [
+      "Alex Hatoum"
+    ],
+    "matchers": [
       "Alex Hatoum",
       "ALEX HATOUM"
     ]
@@ -209,6 +251,9 @@
     ],
     "aliases": [
       "Alex Klimo"
+    ],
+    "matchers": [
+      "Alex Klimo"
     ]
   },
   {
@@ -219,6 +264,9 @@
     ],
     "aliases": [
       "Alex Main"
+    ],
+    "matchers": [
+      "Alex Main"
     ]
   },
   {
@@ -228,6 +276,9 @@
       "https://www.starwarsccg.org/2023-alderaan-regionals-alexander-sheynis-ls-diplo/"
     ],
     "aliases": [
+      "Alexander Sheynis"
+    ],
+    "matchers": [
       "Alexander Sheynis"
     ]
   },
@@ -242,6 +293,9 @@
       "https://www.starwarsccg.org/2023-coruscant-regionals-amar-banger-ls-y4o/"
     ],
     "aliases": [
+      "Amar Banger"
+    ],
+    "matchers": [
       "Amar Banger",
       "AMAR BANGER"
     ]
@@ -254,6 +308,9 @@
     ],
     "aliases": [
       "Andrew Bollentino"
+    ],
+    "matchers": [
+      "Andrew Bollentino"
     ]
   },
   {
@@ -265,8 +322,12 @@
       "https://www.starwarsccg.org/2023-naboo-regionals-andrew-davies-ls-qui-gon-communing/"
     ],
     "aliases": [
-      "Andy Davies",
-      "Andrew Davies"
+      "Andrew Davies",
+      "Andy Davies"
+    ],
+    "matchers": [
+      "Andrew Davies",
+      "Andy Davies"
     ]
   },
   {
@@ -283,6 +344,9 @@
     ],
     "aliases": [
       "Andrew Moss"
+    ],
+    "matchers": [
+      "Andrew Moss"
     ]
   },
   {
@@ -293,6 +357,9 @@
     ],
     "aliases": [
       "Andy Talaga"
+    ],
+    "matchers": [
+      "Andy Talaga"
     ]
   },
   {
@@ -302,6 +369,9 @@
       "https://www.starwarsccg.org/2020-mpc-day-1-andy-wexstten-ls-no-idea/"
     ],
     "aliases": [
+      "Andy Wexstten"
+    ],
+    "matchers": [
       "Andy Wexstten"
     ]
   },
@@ -330,6 +400,9 @@
       "https://www.starwarsccg.org/2023-toola-regionals-angelo-consoli-ls-diplo/"
     ],
     "aliases": [
+      "Angelo Consoli"
+    ],
+    "matchers": [
       "Angelo Consoli"
     ]
   },
@@ -376,6 +449,9 @@
       "https://www.starwarsccg.org/2023-worlds-day-2-anthony-howard-ls-yavin-4-base-operations/"
     ],
     "aliases": [
+      "Anthony Howard"
+    ],
+    "matchers": [
       "Anthony Howard",
       "ANTHONY HOWARD"
     ]
@@ -390,6 +466,9 @@
     ],
     "aliases": [
       "Apollo Chu"
+    ],
+    "matchers": [
+      "Apollo Chu"
     ]
   },
   {
@@ -399,6 +478,9 @@
       "https://www.starwarsccg.org/2019-nac-day-1-austin-jacobus-ls-trm/"
     ],
     "aliases": [
+      "Austin Jacobus"
+    ],
+    "matchers": [
       "Austin Jacobus"
     ]
   },
@@ -421,6 +503,9 @@
       "https://www.starwarsccg.org/2022-mpc-barry-alperstein-ls-qui-communing/"
     ],
     "aliases": [
+      "Barry Alperstein"
+    ],
+    "matchers": [
       "Barry Alperstein",
       "BARRY ALPERSTEIN"
     ]
@@ -468,6 +553,9 @@
       "https://www.starwarsccg.org/2023-european-championship-bastian-winkelhaus-ls-communing-obi-wan/"
     ],
     "aliases": [
+      "Bastian Winkelhaus"
+    ],
+    "matchers": [
       "Bastian Winkelhaus",
       "BASTIAN WINKELHAUS"
     ]
@@ -482,6 +570,9 @@
     ],
     "aliases": [
       "Bastian Winklehaus"
+    ],
+    "matchers": [
+      "Bastian Winklehaus"
     ]
   },
   {
@@ -491,6 +582,9 @@
       "https://www.starwarsccg.org/2022-corellia-regionals-ben-buttersworth-ls-profit/"
     ],
     "aliases": [
+      "Ben Buttersworth"
+    ],
+    "matchers": [
       "Ben Buttersworth"
     ]
   },
@@ -502,6 +596,9 @@
     ],
     "aliases": [
       "Ben Butterworth"
+    ],
+    "matchers": [
+      "Ben Butterworth"
     ]
   },
   {
@@ -511,6 +608,9 @@
       "https://www.starwarsccg.org/2022-us-nationals-day-1-ben-herold-ls-tigih/"
     ],
     "aliases": [
+      "Ben Herold"
+    ],
+    "matchers": [
       "Ben Herold"
     ]
   },
@@ -524,6 +624,9 @@
     ],
     "aliases": [
       "Benji Chu"
+    ],
+    "matchers": [
+      "Benji Chu"
     ]
   },
   {
@@ -535,6 +638,9 @@
       "https://www.starwarsccg.org/2022-endor-regionals-benji-jones-ls-communing-obi-wan/"
     ],
     "aliases": [
+      "Benji Jones"
+    ],
+    "matchers": [
       "Benji Jones"
     ]
   },
@@ -601,6 +707,9 @@
       "https://www.starwarsccg.org/2023-yavin-4-regionals-bill-kafer-ls-whap/"
     ],
     "aliases": [
+      "Bill Kafer"
+    ],
+    "matchers": [
       "Bill Kafer",
       "BILL KAFER"
     ]
@@ -618,8 +727,11 @@
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-bill-pittman-ls-skywalker-saga-anakin/"
     ],
     "aliases": [
-      "BILL PITTMAN",
       "Bill Pittman"
+    ],
+    "matchers": [
+      "Bill Pittman",
+      "BILL PITTMAN"
     ]
   },
   {
@@ -631,6 +743,9 @@
       "https://www.starwarsccg.org/2022-toola-regionals-bjorn-palmqvist-ls-endor-cpv/"
     ],
     "aliases": [
+      "Bjorn Palmqvist"
+    ],
+    "matchers": [
       "Bjorn Palmqvist"
     ]
   },
@@ -647,6 +762,9 @@
       "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-blake-silkwood-ls-yavin-4-base-operations/"
     ],
     "aliases": [
+      "Blake Silkwood"
+    ],
+    "matchers": [
       "Blake Silkwood"
     ]
   },
@@ -665,8 +783,12 @@
       "https://www.starwarsccg.org/2021-us-nationals-bob-birrer-ls-ebo/"
     ],
     "aliases": [
-      "Bobby Birrer",
-      "Bob Birrer"
+      "Bob Birrer",
+      "Bobby Birrer"
+    ],
+    "matchers": [
+      "Bob Birrer",
+      "Bobby Birrer"
     ]
   },
   {
@@ -680,6 +802,9 @@
       "https://www.starwarsccg.org/2023-corellia-regionals-brad-eier-ls-no-idea/"
     ],
     "aliases": [
+      "Brad Eier"
+    ],
+    "matchers": [
       "Brad Eier"
     ]
   },
@@ -708,6 +833,9 @@
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-brad-kippel-ls-saga-anakin/"
     ],
     "aliases": [
+      "Brad Kippel"
+    ],
+    "matchers": [
       "Brad Kippel"
     ]
   },
@@ -740,6 +868,9 @@
       "https://www.starwarsccg.org/2022-world-championship-brad-reinhold-ls-yoda-communing/"
     ],
     "aliases": [
+      "Brad Reinhold"
+    ],
+    "matchers": [
       "Brad Reinhold",
       "BRAD REINHOLD"
     ]
@@ -751,6 +882,9 @@
       "https://www.starwarsccg.org/2023-bespin-regionals-braeden-grant-ls-clones/"
     ],
     "aliases": [
+      "Braeden Grant"
+    ],
+    "matchers": [
       "Braeden Grant"
     ]
   },
@@ -785,6 +919,9 @@
       "https://www.starwarsccg.org/2023-endor-grand-prix-brandon-baity-ls-whap/"
     ],
     "aliases": [
+      "Brandon Baity"
+    ],
+    "matchers": [
       "Brandon Baity",
       "BRANDON BAITY"
     ]
@@ -798,6 +935,9 @@
       "https://www.starwarsccg.org/2021-worlds-brandon-chong-ls-ebo/"
     ],
     "aliases": [
+      "Brandon Chong"
+    ],
+    "matchers": [
       "Brandon Chong",
       "BRANDON CHONG"
     ]
@@ -816,6 +956,9 @@
     ],
     "aliases": [
       "Brandon Nguyen"
+    ],
+    "matchers": [
+      "Brandon Nguyen"
     ]
   },
   {
@@ -827,6 +970,9 @@
       "https://www.starwarsccg.org/2021-us-nationals-brandon-romano-ls-hitco/"
     ],
     "aliases": [
+      "Brandon Romano"
+    ],
+    "matchers": [
       "Brandon Romano"
     ]
   },
@@ -846,6 +992,9 @@
     ],
     "aliases": [
       "Brett Bailey"
+    ],
+    "matchers": [
+      "Brett Bailey"
     ]
   },
   {
@@ -858,6 +1007,9 @@
     ],
     "aliases": [
       "Brett Carlson"
+    ],
+    "matchers": [
+      "Brett Carlson"
     ]
   },
   {
@@ -867,6 +1019,9 @@
       "https://www.starwarsccg.org/2023-worlds-brian-avery-ls-hidden-base/"
     ],
     "aliases": [
+      "Brian Avery"
+    ],
+    "matchers": [
       "Brian Avery"
     ]
   },
@@ -939,6 +1094,9 @@
       "https://www.starwarsccg.org/2023-worlds-day-2-brian-fred-ls-communing-yoda/"
     ],
     "aliases": [
+      "Brian Fred"
+    ],
+    "matchers": [
       "Brian Fred",
       "BRIAN FRED"
     ]
@@ -951,6 +1109,9 @@
     ],
     "aliases": [
       "Brian Herold"
+    ],
+    "matchers": [
+      "Brian Herold"
     ]
   },
   {
@@ -960,6 +1121,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-brian-terwiliger-ls-legend/"
     ],
     "aliases": [
+      "Brian Terwiliger"
+    ],
+    "matchers": [
       "Brian Terwiliger"
     ]
   },
@@ -973,6 +1137,9 @@
     ],
     "aliases": [
       "Brian West"
+    ],
+    "matchers": [
+      "Brian West"
     ]
   },
   {
@@ -982,6 +1149,9 @@
       "https://www.starwarsccg.org/2020-mpc-day-1-bryan-gravener-ls-mbo/"
     ],
     "aliases": [
+      "Bryan Gravener"
+    ],
+    "matchers": [
       "Bryan Gravener"
     ]
   },
@@ -1018,6 +1188,9 @@
       "https://www.starwarsccg.org/2023-worlds-day-2-bryan-mischke-ls-communing-obi-wan/"
     ],
     "aliases": [
+      "Bryan Mischke"
+    ],
+    "matchers": [
       "Bryan Mischke"
     ]
   },
@@ -1060,6 +1233,9 @@
       "https://www.starwarsccg.org/2019-endor-grand-prix-day-1-cal-aldred-trm/"
     ],
     "aliases": [
+      "Cal Aldred"
+    ],
+    "matchers": [
       "Cal Aldred",
       "CAL ALDRED"
     ]
@@ -1071,6 +1247,12 @@
       "https://www.starwarsccg.org/2019-endor-grand-prix-day-1-camden-yanaga-ls-senate/"
     ],
     "aliases": [
+      "Camden Yanaga",
+      "Camden Yanaga"
+    ],
+    "matchers": [
+      "Camden Yanaga",
+      "Camden Yanaga",
       "Camden Yanaga"
     ]
   },
@@ -1101,6 +1283,9 @@
       "https://www.starwarsccg.org/2023-yavin-4-regionals-casey-anis-ls-endor-anakins-funeral-pyre/"
     ],
     "aliases": [
+      "Casey Anis"
+    ],
+    "matchers": [
       "Casey Anis",
       "CASEY ANIS"
     ]
@@ -1123,6 +1308,9 @@
     ],
     "aliases": [
       "Casey Johnson"
+    ],
+    "matchers": [
+      "Casey Johnson"
     ]
   },
   {
@@ -1139,6 +1327,9 @@
     ],
     "aliases": [
       "Casper Jorgensen"
+    ],
+    "matchers": [
+      "Casper Jorgensen"
     ]
   },
   {
@@ -1148,6 +1339,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-casper-jorgensen-ls-no-idea/"
     ],
     "aliases": [
+      "Casper Jørgensen"
+    ],
+    "matchers": [
       "Casper Jørgensen"
     ]
   },
@@ -1174,6 +1368,9 @@
       "https://www.starwarsccg.org/2023-ryloth-regionals-cedrik-vanderhaegen-ls-zero-hour/"
     ],
     "aliases": [
+      "Cedrik Vanderhaegen"
+    ],
+    "matchers": [
       "Cedrik Vanderhaegen",
       "Cedrik Vanderhawgen",
       "Cedric Vanderhaegen"
@@ -1196,6 +1393,9 @@
       "https://www.starwarsccg.org/2023-worlds-chad-lawrence-ls-tigh/"
     ],
     "aliases": [
+      "Chad Lawrence"
+    ],
+    "matchers": [
       "Chad Lawrence"
     ]
   },
@@ -1252,6 +1452,9 @@
       "https://www.starwarsccg.org/2023-worlds-charlie-arlandson-ls-zero-hour/"
     ],
     "aliases": [
+      "Charlie Arlandson"
+    ],
+    "matchers": [
       "Charlie Arlandson",
       "CHARLIE ARLANDSON"
     ]
@@ -1268,6 +1471,9 @@
     ],
     "aliases": [
       "Charlie Herren"
+    ],
+    "matchers": [
+      "Charlie Herren"
     ]
   },
   {
@@ -1279,6 +1485,9 @@
       "https://www.starwarsccg.org/2019-nac-day-1-chris-angulo-ls-legend/"
     ],
     "aliases": [
+      "Chris Angulo"
+    ],
+    "matchers": [
       "Chris Angulo"
     ]
   },
@@ -1315,6 +1524,9 @@
       "https://www.starwarsccg.org/2023-worlds-chris-gogolen-ls-communing-yoda/"
     ],
     "aliases": [
+      "Chris Gogolen"
+    ],
+    "matchers": [
       "Chris Gogolen",
       "CHRIS GOGOLEN",
       "Chris Goglen"
@@ -1327,6 +1539,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-chris-hull-ls-hyperdrive-v/"
     ],
     "aliases": [
+      "Chris Hull"
+    ],
+    "matchers": [
       "Chris Hull"
     ]
   },
@@ -1370,6 +1585,9 @@
     ],
     "aliases": [
       "Chris Kelly"
+    ],
+    "matchers": [
+      "Chris Kelly"
     ]
   },
   {
@@ -1397,6 +1615,9 @@
       "https://www.starwarsccg.org/2020-tmw-chris-menzel-ls-ls-senate/"
     ],
     "aliases": [
+      "Chris Menzel"
+    ],
+    "matchers": [
       "Chris Menzel",
       "CHRIS MENZEL"
     ]
@@ -1408,6 +1629,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-chris-peterson-ls-hitco/"
     ],
     "aliases": [
+      "Chris Peterson"
+    ],
+    "matchers": [
       "Chris Peterson"
     ]
   },
@@ -1421,6 +1645,9 @@
     ],
     "aliases": [
       "Chris Schoenthal"
+    ],
+    "matchers": [
+      "Chris Schoenthal"
     ]
   },
   {
@@ -1432,8 +1659,11 @@
       "https://www.starwarsccg.org/2022-mpc-chris-terwilliger-ls-whap/"
     ],
     "aliases": [
-      "Chris Terwiliger",
       "Chris Terwilliger"
+    ],
+    "matchers": [
+      "Chris Terwilliger",
+      "Chris Terwiliger"
     ]
   },
   {
@@ -1455,6 +1685,9 @@
       "https://www.starwarsccg.org/2023-worlds-chris-westergard-ls-obi-wan-communing/"
     ],
     "aliases": [
+      "Chris Westergard"
+    ],
+    "matchers": [
       "Chris Westergard",
       "CHRIS WESTERGARD"
     ]
@@ -1518,6 +1751,9 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-chris-wirfs-ls-senate/"
     ],
     "aliases": [
+      "Chris Wirfs"
+    ],
+    "matchers": [
       "Chris Wirfs",
       "CHRIS WIRFS"
     ]
@@ -1534,6 +1770,9 @@
     ],
     "aliases": [
       "Christian Knudsen"
+    ],
+    "matchers": [
+      "Christian Knudsen"
     ]
   },
   {
@@ -1543,6 +1782,9 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-christopher-hull-ls-wys/"
     ],
     "aliases": [
+      "Christopher Hull"
+    ],
+    "matchers": [
       "Christopher Hull"
     ]
   },
@@ -1566,6 +1808,11 @@
     ],
     "aliases": [
       "Clayton Atkin",
+      "Clay Atkin"
+    ],
+    "matchers": [
+      "Clayton Atkin",
+      "Clay Atkin",
       "CLAY ATKIN"
     ]
   },
@@ -1614,6 +1861,9 @@
       "https://www.starwarsccg.org/2023-worlds-conor-britain-ls-communing-yoda/"
     ],
     "aliases": [
+      "Conor Britain"
+    ],
+    "matchers": [
       "Conor Britain",
       "CONOR BRITAIN",
       "Connor Britain"
@@ -1636,6 +1886,9 @@
       "https://www.starwarsccg.org/2023-worlds-corey-lauer-ls-qmc/"
     ],
     "aliases": [
+      "Cory Lauer"
+    ],
+    "matchers": [
       "Cory Lauer",
       "Corey Lauer"
     ]
@@ -1649,6 +1902,9 @@
       "https://www.starwarsccg.org/2023-us-nationals-dan-drentlaw-ls-zero-hour/"
     ],
     "aliases": [
+      "Dan Drentlaw"
+    ],
+    "matchers": [
       "Dan Drentlaw"
     ]
   },
@@ -1680,6 +1936,9 @@
     ],
     "aliases": [
       "Dan Tartaglione"
+    ],
+    "matchers": [
+      "Dan Tartaglione"
     ]
   },
   {
@@ -1701,6 +1960,9 @@
     ],
     "aliases": [
       "Daniel Amor"
+    ],
+    "matchers": [
+      "Daniel Amor"
     ]
   },
   {
@@ -1719,6 +1981,9 @@
     ],
     "aliases": [
       "Danny Lamar"
+    ],
+    "matchers": [
+      "Danny Lamar"
     ]
   },
   {
@@ -1731,6 +1996,9 @@
     ],
     "aliases": [
       "Darren Malins"
+    ],
+    "matchers": [
+      "Darren Malins"
     ]
   },
   {
@@ -1741,6 +2009,9 @@
     ],
     "aliases": [
       "Dave Dredge"
+    ],
+    "matchers": [
+      "Dave Dredge"
     ]
   },
   {
@@ -1750,6 +2021,9 @@
       "https://www.starwarsccg.org/2022-corellia-regionals-david-center-ls-rescue-the-princess-v/"
     ],
     "aliases": [
+      "David Center"
+    ],
+    "matchers": [
       "David Center"
     ]
   },
@@ -1763,6 +2037,9 @@
     ],
     "aliases": [
       "David Destefanis"
+    ],
+    "matchers": [
+      "David Destefanis"
     ]
   },
   {
@@ -1772,6 +2049,9 @@
       "https://www.starwarsccg.org/2020-mpc-day-1-david-dredge-ls-no-idea/"
     ],
     "aliases": [
+      "David Dredge"
+    ],
+    "matchers": [
       "David Dredge"
     ]
   },
@@ -1806,6 +2086,9 @@
       "https://www.starwarsccg.org/2023-yavin-4-regionals-david-woods-ls-mwyhl/"
     ],
     "aliases": [
+      "David Woods"
+    ],
+    "matchers": [
       "David Woods",
       "DAVID WOODS"
     ]
@@ -1839,6 +2122,9 @@
       "https://www.starwarsccg.org/2023-us-nationals-dennis-reinhardt-ls-obi-wan-communing/"
     ],
     "aliases": [
+      "Dennis Reinhardt"
+    ],
+    "matchers": [
       "Dennis Reinhardt",
       "DENNIS REINHARDT"
     ]
@@ -1850,6 +2136,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-dennis-schwarz-ls-trm/"
     ],
     "aliases": [
+      "Dennis Schwarz"
+    ],
+    "matchers": [
       "Dennis Schwarz"
     ]
   },
@@ -1869,6 +2158,9 @@
     ],
     "aliases": [
       "Derek Jackson"
+    ],
+    "matchers": [
+      "Derek Jackson"
     ]
   },
   {
@@ -1878,6 +2170,9 @@
       "https://www.starwarsccg.org/2023-bespin-regionals-dion-erbes-ls-funeral-pyre/"
     ],
     "aliases": [
+      "Dion Erbes"
+    ],
+    "matchers": [
       "Dion Erbes"
     ]
   },
@@ -1923,6 +2218,9 @@
     ],
     "aliases": [
       "Drew Lichtenstein"
+    ],
+    "matchers": [
+      "Drew Lichtenstein"
     ]
   },
   {
@@ -1950,6 +2248,9 @@
     ],
     "aliases": [
       "Edward Chien"
+    ],
+    "matchers": [
+      "Edward Chien"
     ]
   },
   {
@@ -1959,6 +2260,9 @@
       "https://www.starwarsccg.org/2020-egp-day-1-elspeth-jellison-ls-hidden-base-mains/"
     ],
     "aliases": [
+      "Elspeth Jellison"
+    ],
+    "matchers": [
       "Elspeth Jellison"
     ]
   },
@@ -1999,6 +2303,9 @@
     ],
     "aliases": [
       "Emil Wallin"
+    ],
+    "matchers": [
+      "Emil Wallin"
     ]
   },
   {
@@ -2008,6 +2315,9 @@
       "https://www.starwarsccg.org/2023-naboo-regionals-enno-haede-ls-echo-base-operations/"
     ],
     "aliases": [
+      "Enno Haede"
+    ],
+    "matchers": [
       "Enno Haede"
     ]
   },
@@ -2023,6 +2333,9 @@
     ],
     "aliases": [
       "Eric Garchow"
+    ],
+    "matchers": [
+      "Eric Garchow"
     ]
   },
   {
@@ -2032,6 +2345,9 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-eric-hawbaker-ls-diplo/"
     ],
     "aliases": [
+      "Eric Hawbaker"
+    ],
+    "matchers": [
       "Eric Hawbaker"
     ]
   },
@@ -2055,6 +2371,9 @@
     ],
     "aliases": [
       "Eric Hunter"
+    ],
+    "matchers": [
+      "Eric Hunter"
     ]
   },
   {
@@ -2064,6 +2383,9 @@
       "https://www.starwarsccg.org/2022-us-nationals-day-1-eric-nelson-ls-qui-gon-communing/"
     ],
     "aliases": [
+      "Eric Nelson"
+    ],
+    "matchers": [
       "Eric Nelson"
     ]
   },
@@ -2103,6 +2425,9 @@
     ],
     "aliases": [
       "Eric Spijksma"
+    ],
+    "matchers": [
+      "Eric Spijksma"
     ]
   },
   {
@@ -2118,6 +2443,9 @@
       "https://www.starwarsccg.org/2023-corellia-regionals-erich-hawbaker-ls-y4o/"
     ],
     "aliases": [
+      "Erich Hawbaker"
+    ],
+    "matchers": [
       "Erich Hawbaker",
       "ERICH HAWBAKER"
     ]
@@ -2137,8 +2465,12 @@
       "https://www.starwarsccg.org/2023-european-championship-fernando-castanon-ls-skywalker-saga-anakin/"
     ],
     "aliases": [
-      "Fernando Castanon",
-      "Fernando Castañón"
+      "Fernando Castañón",
+      "Fernando Castanon"
+    ],
+    "matchers": [
+      "Fernando Castañón",
+      "Fernando Castanon"
     ]
   },
   {
@@ -2155,6 +2487,9 @@
     ],
     "aliases": [
       "Floris de Vries"
+    ],
+    "matchers": [
+      "Floris de Vries"
     ]
   },
   {
@@ -2164,6 +2499,10 @@
       "https://www.starwarsccg.org/2021-worlds-forrest-sobieszcyk-ls-tigih/"
     ],
     "aliases": [
+      "Forrest Sobieszcyk"
+    ],
+    "matchers": [
+      "Forrest Sobieszcyk",
       "FORREST SOBIESZCYK"
     ]
   },
@@ -2176,6 +2515,9 @@
       "https://www.starwarsccg.org/2019-nac-day-1-gabriel-angulo-ls-whap/"
     ],
     "aliases": [
+      "Gabriel Angulo"
+    ],
+    "matchers": [
       "Gabriel Angulo"
     ]
   },
@@ -2204,6 +2546,9 @@
       "https://www.starwarsccg.org/2023-worlds-garrett-larson-ls-hitco/"
     ],
     "aliases": [
+      "Garrett Larson"
+    ],
+    "matchers": [
       "Garrett Larson",
       "GARRETT LARSON"
     ]
@@ -2232,6 +2577,9 @@
     ],
     "aliases": [
       "Gavin Ortlund"
+    ],
+    "matchers": [
+      "Gavin Ortlund"
     ]
   },
   {
@@ -2244,6 +2592,9 @@
     ],
     "aliases": [
       "Gibson Yim"
+    ],
+    "matchers": [
+      "Gibson Yim"
     ]
   },
   {
@@ -2255,6 +2606,9 @@
       "https://www.starwarsccg.org/2022-endor-grand-prix-gosse-zeilstra-ds-cct/"
     ],
     "aliases": [
+      "Gosse Zeilstra"
+    ],
+    "matchers": [
       "Gosse Zeilstra"
     ]
   },
@@ -2277,6 +2631,9 @@
       "https://www.starwarsccg.org/2023-ryloth-regionals-grady-hutchins-ls-yoda-communing/"
     ],
     "aliases": [
+      "Grady Hutchins"
+    ],
+    "matchers": [
       "Grady Hutchins",
       "Grady  Hutchins"
     ]
@@ -2288,6 +2645,9 @@
       "https://www.starwarsccg.org/2019-nac-day-1-greg-nirshberg-ls-diplo/"
     ],
     "aliases": [
+      "Greg Nirshberg"
+    ],
+    "matchers": [
       "Greg Nirshberg"
     ]
   },
@@ -2312,6 +2672,8 @@
       "https://www.starwarsccg.org/2020-tmw-elite-8-greg-shaw-ls-trm/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-ds-court/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-ds-isb/",
+      "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-confrontation-ds-isb/",
+      "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-confrontation-ls-legend/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-four-ds-isb/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-four-ls-legend/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-ls-no-idea-1/",
@@ -2366,18 +2728,11 @@
       "https://www.starwarsccg.org/2023-worlds-greg-shaw-ls-skywalker-saga-anakin/"
     ],
     "aliases": [
+      "Greg Shaw"
+    ],
+    "matchers": [
       "Greg Shaw",
       "GREG SHAW"
-    ]
-  },
-  {
-    "name": "Greg Shaw Final Confrontation",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-confrontation-ds-isb/",
-      "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-confrontation-ls-legend/"
-    ],
-    "aliases": [
-      "Greg Shaw Final Confrontation"
     ]
   },
   {
@@ -2387,6 +2742,9 @@
       "https://www.starwarsccg.org/2022-coruscant-regionals-greg-zinn-ls-mwyhl/"
     ],
     "aliases": [
+      "Greg Zinn"
+    ],
+    "matchers": [
       "Greg Zinn"
     ]
   },
@@ -2398,6 +2756,9 @@
     ],
     "aliases": [
       "Gunnar Brandén"
+    ],
+    "matchers": [
+      "Gunnar Brandén"
     ]
   },
   {
@@ -2407,6 +2768,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-gyorgy-pora-ls-ebo/"
     ],
     "aliases": [
+      "György Póra"
+    ],
+    "matchers": [
       "György Póra"
     ]
   },
@@ -2461,6 +2825,9 @@
       "https://www.starwarsccg.org/2023-worlds-hayes-hunter-ls-obi-wan-communing/"
     ],
     "aliases": [
+      "Hayes Hunter"
+    ],
+    "matchers": [
       "Hayes Hunter",
       "HAYES HUNTER"
     ]
@@ -2475,6 +2842,9 @@
     ],
     "aliases": [
       "Horst Draudt"
+    ],
+    "matchers": [
+      "Horst Draudt"
     ]
   },
   {
@@ -2484,6 +2854,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-hugh-kopsen-ls-hitco/"
     ],
     "aliases": [
+      "Hugh Kopsen"
+    ],
+    "matchers": [
       "Hugh Kopsen"
     ]
   },
@@ -2496,6 +2869,9 @@
       "https://www.starwarsccg.org/2020-mpc-day-1-issac-story-ls-no-idea/"
     ],
     "aliases": [
+      "Isaac Story"
+    ],
+    "matchers": [
       "Isaac Story",
       "Issac Story"
     ]
@@ -2509,6 +2885,9 @@
       "https://www.starwarsccg.org/2022-us-nationals-day-1-jack-eriksen-schultz-ls-no-idea/"
     ],
     "aliases": [
+      "Jack Eriksen-Schultz"
+    ],
+    "matchers": [
       "Jack Eriksen-Schultz"
     ]
   },
@@ -2545,6 +2924,9 @@
       "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-jacy-smith-ls-skywalker-saga-anakin/"
     ],
     "aliases": [
+      "Jacy Smith"
+    ],
+    "matchers": [
       "Jacy Smith",
       "JACY SMITH"
     ]
@@ -2558,6 +2940,9 @@
       "https://www.starwarsccg.org/2023-worlds-jake-nelson-ls-senate/"
     ],
     "aliases": [
+      "Jake Nelson"
+    ],
+    "matchers": [
       "Jake Nelson"
     ]
   },
@@ -2573,6 +2958,9 @@
     ],
     "aliases": [
       "James Martin"
+    ],
+    "matchers": [
+      "James Martin"
     ]
   },
   {
@@ -2586,6 +2974,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-jan-berueda-ls-whap/"
     ],
     "aliases": [
+      "Jan Berueda"
+    ],
+    "matchers": [
       "Jan Berueda"
     ]
   },
@@ -2606,6 +2997,9 @@
       "https://www.starwarsccg.org/2023-worlds-jan-westergard-ls-luke-saga/"
     ],
     "aliases": [
+      "Jan Westergard"
+    ],
+    "matchers": [
       "Jan Westergard"
     ]
   },
@@ -2640,6 +3034,9 @@
       "https://www.starwarsccg.org/2023-worlds-jarad-konsker-ls-anakin-saga/"
     ],
     "aliases": [
+      "Jarad Konsker"
+    ],
+    "matchers": [
       "Jarad Konsker",
       "JARAD KONSKER"
     ]
@@ -2651,6 +3048,9 @@
       "https://www.starwarsccg.org/2022-kashyyyk-regionals-jared-greenwald-ls-zero-hour/"
     ],
     "aliases": [
+      "Jared Greenwald"
+    ],
+    "matchers": [
       "Jared Greenwald"
     ]
   },
@@ -2695,6 +3095,9 @@
       "https://www.starwarsccg.org/2023-worlds-jared-napolitano-ls-whap/"
     ],
     "aliases": [
+      "Jared Napolitano"
+    ],
+    "matchers": [
       "Jared Napolitano",
       "JARED NAPOLITANO"
     ]
@@ -2712,6 +3115,9 @@
       "https://www.starwarsccg.org/2022-mpc-jason-riendeau-ls-oa/"
     ],
     "aliases": [
+      "Jason Riendeau"
+    ],
+    "matchers": [
       "Jason Riendeau",
       "Jason Reindeau"
     ]
@@ -2722,6 +3128,12 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-jay-chutino-ds-hunt-down/"
     ],
     "aliases": [
+      "Jay Chutino",
+      "Jay Chutino"
+    ],
+    "matchers": [
+      "Jay Chutino",
+      "Jay Chutino",
       "Jay Chutino"
     ]
   },
@@ -2731,6 +3143,12 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-jay-chutino-day-1-ls-hitco/"
     ],
     "aliases": [
+      "Jay Chutino Day 1",
+      "Jay Chutino Day 1"
+    ],
+    "matchers": [
+      "Jay Chutino Day 1",
+      "Jay Chutino Day 1",
       "Jay Chutino Day 1"
     ]
   },
@@ -2770,8 +3188,12 @@
       "https://www.starwarsccg.org/2022-endor-grand-prix-jeff-lavigne-ls-qui-communing/"
     ],
     "aliases": [
-      "Jeffrey Lavigne",
       "Jeff Lavigne",
+      "Jeffrey Lavigne"
+    ],
+    "matchers": [
+      "Jeff Lavigne",
+      "Jeffrey Lavigne",
       "JEFFREY LAVIGNE"
     ]
   },
@@ -2791,6 +3213,10 @@
     ],
     "aliases": [
       "Jeffrey Johns",
+      "Jeff Johns"
+    ],
+    "matchers": [
+      "Jeffrey Johns",
       "Jeff Johns",
       "JEFFREY JOHNS"
     ]
@@ -2803,6 +3229,9 @@
     ],
     "aliases": [
       "Jeffrey Scales"
+    ],
+    "matchers": [
+      "Jeffrey Scales"
     ]
   },
   {
@@ -2814,6 +3243,9 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-jeremie-jensen-ls-tigih/"
     ],
     "aliases": [
+      "Jeramie Jensen"
+    ],
+    "matchers": [
       "Jeramie Jensen",
       "Jeremie Jensen"
     ]
@@ -2844,6 +3276,9 @@
     ],
     "aliases": [
       "Jeremy DiPaolo"
+    ],
+    "matchers": [
+      "Jeremy DiPaolo"
     ]
   },
   {
@@ -2859,6 +3294,9 @@
       "https://www.starwarsccg.org/2023-ralltiir-regionals-jeroen-wauters-ls-hitco/"
     ],
     "aliases": [
+      "Jeroen Wauters"
+    ],
+    "matchers": [
       "Jeroen Wauters"
     ]
   },
@@ -2876,6 +3314,9 @@
     ],
     "aliases": [
       "Jerry Heine"
+    ],
+    "matchers": [
+      "Jerry Heine"
     ]
   },
   {
@@ -2885,6 +3326,9 @@
       "https://www.starwarsccg.org/2019-nac-day-1-jerry-hsaio-ls-hitco/"
     ],
     "aliases": [
+      "Jerry Hsaio"
+    ],
+    "matchers": [
       "Jerry Hsaio"
     ]
   },
@@ -2898,6 +3342,9 @@
     ],
     "aliases": [
       "Jim Boyle"
+    ],
+    "matchers": [
+      "Jim Boyle"
     ]
   },
   {
@@ -2907,6 +3354,9 @@
       "https://www.starwarsccg.org/2019-nac-day-1-jim-li-ls-trm/"
     ],
     "aliases": [
+      "Jim Li"
+    ],
+    "matchers": [
       "Jim Li"
     ]
   },
@@ -2918,6 +3368,9 @@
     ],
     "aliases": [
       "Jimmy Faelens"
+    ],
+    "matchers": [
+      "Jimmy Faelens"
     ]
   },
   {
@@ -2927,6 +3380,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-joe-gianetti-ls-legend/"
     ],
     "aliases": [
+      "Joe Gianetti"
+    ],
+    "matchers": [
       "Joe Gianetti"
     ]
   },
@@ -2938,6 +3394,9 @@
     ],
     "aliases": [
       "Joe Horbey"
+    ],
+    "matchers": [
+      "Joe Horbey"
     ]
   },
   {
@@ -2947,6 +3406,9 @@
       "https://www.starwarsccg.org/2022-dagobah-regionals-joe-laporta-ls-wys/"
     ],
     "aliases": [
+      "Joe LaPorta"
+    ],
+    "matchers": [
       "Joe LaPorta"
     ]
   },
@@ -3053,6 +3515,9 @@
       "https://www.starwarsccg.org/2020-tmw-joe-olson-final-four-ls-chief-chirpas-hut-mains/"
     ],
     "aliases": [
+      "Joe Olson"
+    ],
+    "matchers": [
       "Joe Olson",
       "JOE OLSON"
     ]
@@ -3073,6 +3538,9 @@
     ],
     "aliases": [
       "Joe Phillips"
+    ],
+    "matchers": [
+      "Joe Phillips"
     ]
   },
   {
@@ -3082,6 +3550,9 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-joe-pinto-ls-no-idea/"
     ],
     "aliases": [
+      "Joe Pinto"
+    ],
+    "matchers": [
       "Joe Pinto"
     ]
   },
@@ -3095,6 +3566,9 @@
     ],
     "aliases": [
       "Joel Cooper"
+    ],
+    "matchers": [
+      "Joel Cooper"
     ]
   },
   {
@@ -3107,6 +3581,9 @@
     ],
     "aliases": [
       "Joel Pittman"
+    ],
+    "matchers": [
+      "Joel Pittman"
     ]
   },
   {
@@ -3116,6 +3593,9 @@
       "https://www.starwarsccg.org/2023-us-nationals-john-carr-ls-hidden-base/"
     ],
     "aliases": [
+      "John Carr"
+    ],
+    "matchers": [
       "John Carr"
     ]
   },
@@ -3139,6 +3619,9 @@
     ],
     "aliases": [
       "John Moorley"
+    ],
+    "matchers": [
+      "John Moorley"
     ]
   },
   {
@@ -3159,6 +3642,9 @@
     ],
     "aliases": [
       "John Veasey"
+    ],
+    "matchers": [
+      "John Veasey"
     ]
   },
   {
@@ -3168,6 +3654,9 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-john-werner-ls-hitco/"
     ],
     "aliases": [
+      "John Werner"
+    ],
+    "matchers": [
       "John Werner"
     ]
   },
@@ -3180,6 +3669,9 @@
       "https://www.starwarsccg.org/2023-toola-regionals-jon-benkert-holtet-ls-zero-hour/"
     ],
     "aliases": [
+      "Jon Benkert Holtet"
+    ],
+    "matchers": [
       "Jon Benkert Holtet"
     ]
   },
@@ -3196,6 +3688,9 @@
       "https://www.starwarsccg.org/2022-toola-regionals-jon-holtet-ls-skywalker-saga/"
     ],
     "aliases": [
+      "Jon Holtet"
+    ],
+    "matchers": [
       "Jon Holtet"
     ]
   },
@@ -3222,6 +3717,9 @@
       "https://www.starwarsccg.org/2023-yavin-4-regionals-jon-mcfarland-ls-zero-hour/"
     ],
     "aliases": [
+      "Jon McFarland"
+    ],
+    "matchers": [
       "Jon McFarland",
       "JON MCFARLAND"
     ]
@@ -3230,94 +3728,66 @@
     "name": "Jonas Hagen Nørregaard",
     "decklistUrls": [
       "https://www.starwarsccg.org/2022-european-championship-jonas-hagen-ls-yoda-communing/",
+      "https://www.starwarsccg.org/2022-european-championship-top-8-jonas-hagen-ds-walkers/",
+      "https://www.starwarsccg.org/2022-european-championship-top-8-jonas-hagen-ls-yoda-communing/",
+      "https://www.starwarsccg.org/2022-european-championships-jonas-hagen-ds-walkers/"
+    ],
+    "aliases": [
+      "Jonas Hagen Nørregaard",
+      "Jonas Hagen"
+    ],
+    "matchers": [
+      "Jonas Hagen Nørregaard",
+      "Jonas Hagen",
+      "JONAS HAGEN"
+    ]
+  },
+  {
+    "name": "Jonas Hagen Nørregaard Noerregaard",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2023-toola-regionals-jonas-hagen-noerregaard-ds-thrawn/",
+      "https://www.starwarsccg.org/2023-toola-regionals-jonas-hagen-noerregaard-ls-whap/"
+    ],
+    "aliases": [
+      "Jonas Hagen Nørregaard Noerregaard",
+      "Jonas Hagen Noerregaard"
+    ],
+    "matchers": [
+      "Jonas Hagen Nørregaard Noerregaard",
+      "Jonas Hagen Noerregaard"
+    ]
+  },
+  {
+    "name": "Jonas Hagen Nørregaard Norregaard",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2022-toola-regionals-jonas-hagen-norregaard-ds-aobs/",
+      "https://www.starwarsccg.org/2022-toola-regionals-jonas-hagen-norregaard-ls-yoda-communing/"
+    ],
+    "aliases": [
+      "Jonas Hagen Nørregaard Norregaard",
+      "Jonas Hagen Norregaard"
+    ],
+    "matchers": [
+      "Jonas Hagen Nørregaard Norregaard",
+      "Jonas Hagen Norregaard"
+    ]
+  },
+  {
+    "name": "Jonas Hagen Nørregaard Nørregaard",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2019-worlds-day-2-jonas-hagen-norregaard-ds-aobs/",
+      "https://www.starwarsccg.org/2019-worlds-day-2-jonas-hagen-norregaard-ls-diplo/",
       "https://www.starwarsccg.org/2023-european-championship-jonas-hagen-norregaard-ds-walkers/",
       "https://www.starwarsccg.org/2023-european-championship-jonas-hagen-norregaard-ls-whap/",
       "https://www.starwarsccg.org/2023-european-championship-top-8-jonas-hagen-norregaard-ds-sc/",
       "https://www.starwarsccg.org/2023-european-championship-top-8-jonas-hagen-norregaard-ls-whap/"
     ],
     "aliases": [
-      "Jonas Hagen",
+      "Jonas Hagen Nørregaard Nørregaard",
       "Jonas Hagen Nørregaard"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2022-european-championship-top-8-jonas-hagen-ds-walkers/"
     ],
-    "aliases": [
-      "JONAS HAGEN"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2022-european-championship-top-8-jonas-hagen-ls-yoda-communing/"
-    ],
-    "aliases": [
-      "Jonas Hagen"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2022-european-championships-jonas-hagen-ds-walkers/"
-    ],
-    "aliases": [
-      "Jonas Hagen"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Noerregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2023-toola-regionals-jonas-hagen-noerregaard-ds-thrawn/"
-    ],
-    "aliases": [
-      "Jonas Hagen Noerregaard"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Noerregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2023-toola-regionals-jonas-hagen-noerregaard-ls-whap/"
-    ],
-    "aliases": [
-      "Jonas Hagen Noerregaard"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Norregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2022-toola-regionals-jonas-hagen-norregaard-ds-aobs/"
-    ],
-    "aliases": [
-      "Jonas Hagen Norregaard"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Norregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2022-toola-regionals-jonas-hagen-norregaard-ls-yoda-communing/"
-    ],
-    "aliases": [
-      "Jonas Hagen Norregaard"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Nørregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2019-worlds-day-2-jonas-hagen-norregaard-ds-aobs/"
-    ],
-    "aliases": [
-      "Jonas Hagen Nørregaard"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Nørregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2019-worlds-day-2-jonas-hagen-norregaard-ls-diplo/"
-    ],
-    "aliases": [
+    "matchers": [
+      "Jonas Hagen Nørregaard Nørregaard",
       "Jonas Hagen Nørregaard"
     ]
   },
@@ -3333,6 +3803,9 @@
     ],
     "aliases": [
       "Jonas Jakubowski"
+    ],
+    "matchers": [
+      "Jonas Jakubowski"
     ]
   },
   {
@@ -3342,6 +3815,9 @@
       "https://www.starwarsccg.org/2023-toola-regionals-jonas-lenskjaer-ls-whap/"
     ],
     "aliases": [
+      "Jonas Lenskjær"
+    ],
+    "matchers": [
       "Jonas Lenskjær"
     ]
   },
@@ -3353,6 +3829,9 @@
     ],
     "aliases": [
       "Jonathan Cassidy"
+    ],
+    "matchers": [
+      "Jonathan Cassidy"
     ]
   },
   {
@@ -3362,6 +3841,9 @@
       "https://www.starwarsccg.org/2022-yavin-4-regionals-jonathan-ciferno-ls-qui-gon-communing/"
     ],
     "aliases": [
+      "Jonathan Ciferno"
+    ],
+    "matchers": [
       "Jonathan Ciferno"
     ]
   },
@@ -3378,8 +3860,11 @@
       "https://www.starwarsccg.org/2023-dagobah-regionals-jonathan-murray-ls-communing-qui-gon/"
     ],
     "aliases": [
-      "Jonathon Murray",
       "Jonathan Murray"
+    ],
+    "matchers": [
+      "Jonathan Murray",
+      "Jonathon Murray"
     ]
   },
   {
@@ -3398,6 +3883,9 @@
     ],
     "aliases": [
       "Jonny Chu"
+    ],
+    "matchers": [
+      "Jonny Chu"
     ]
   },
   {
@@ -3410,6 +3898,9 @@
     ],
     "aliases": [
       "Jordan Gosiaco"
+    ],
+    "matchers": [
+      "Jordan Gosiaco"
     ]
   },
   {
@@ -3419,6 +3910,9 @@
       "https://www.starwarsccg.org/2023-bespin-regionals-josh-grace-ls-skywalker-saga-luke/"
     ],
     "aliases": [
+      "Josh Grace"
+    ],
+    "matchers": [
       "Josh Grace"
     ]
   },
@@ -3431,6 +3925,9 @@
       "https://www.starwarsccg.org/2021-worlds-josh-mack-ls-wys/"
     ],
     "aliases": [
+      "Josh Mack"
+    ],
+    "matchers": [
       "Josh Mack",
       "JOSH MACK"
     ]
@@ -3443,6 +3940,9 @@
     ],
     "aliases": [
       "Jules Kroehl"
+    ],
+    "matchers": [
+      "Jules Kroehl"
     ]
   },
   {
@@ -3453,6 +3953,9 @@
     ],
     "aliases": [
       "Julian Berg"
+    ],
+    "matchers": [
+      "Julian Berg"
     ]
   },
   {
@@ -3462,6 +3965,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-julian-cochard-ls-whap/"
     ],
     "aliases": [
+      "Julian Cochard"
+    ],
+    "matchers": [
       "Julian Cochard"
     ]
   },
@@ -3476,8 +3982,12 @@
       "https://www.starwarsccg.org/2023-european-championship-julian-smolarek-ls-tatooine-cpv/"
     ],
     "aliases": [
-      "Julian-Andres Smolarek",
-      "Julian Smolarek"
+      "Julian Smolarek",
+      "Julian-Andres Smolarek"
+    ],
+    "matchers": [
+      "Julian Smolarek",
+      "Julian-Andres Smolarek"
     ]
   },
   {
@@ -3511,6 +4021,9 @@
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-justin-branch-ls-echo-base-operations/"
     ],
     "aliases": [
+      "Justin Branch"
+    ],
+    "matchers": [
       "Justin Branch",
       "JUSTIN BRANCH"
     ]
@@ -3538,6 +4051,9 @@
       "https://www.starwarsccg.org/2021-worlds-justin-carulli-ls-qui-communing/"
     ],
     "aliases": [
+      "Justin Carulli"
+    ],
+    "matchers": [
       "Justin Carulli",
       "JUSTIN CARULLI"
     ]
@@ -3603,6 +4119,9 @@
       "https://www.starwarsccg.org/2023-worlds-justin-desai-ls-communing-yoda/"
     ],
     "aliases": [
+      "Justin Desai"
+    ],
+    "matchers": [
       "Justin Desai",
       "JUSTIN DESAI"
     ]
@@ -3652,6 +4171,9 @@
       "https://www.starwarsccg.org/2023-tatooine-regionals-justin-miyashiro-ls-communing-obi-wan/"
     ],
     "aliases": [
+      "Justin Miyashiro"
+    ],
+    "matchers": [
       "Justin Miyashiro",
       "JUSTIN MIYASHIRO"
     ]
@@ -3677,6 +4199,9 @@
     ],
     "aliases": [
       "Karl Koenig"
+    ],
+    "matchers": [
+      "Karl Koenig"
     ]
   },
   {
@@ -3686,6 +4211,9 @@
       "https://www.starwarsccg.org/2021-us-nationals-keegan-heilman-ls-qmc/"
     ],
     "aliases": [
+      "Keegan Heilman"
+    ],
+    "matchers": [
       "Keegan Heilman"
     ]
   },
@@ -3700,6 +4228,9 @@
       "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-keith-brown-ls-old-allies/"
     ],
     "aliases": [
+      "Keith Brown"
+    ],
+    "matchers": [
       "Keith Brown"
     ]
   },
@@ -3740,6 +4271,9 @@
       "https://www.starwarsccg.org/2021-nal-hutta-regional-kendall-halman-ls-trm/"
     ],
     "aliases": [
+      "Kendall Halman"
+    ],
+    "matchers": [
       "Kendall Halman",
       "KENDALL HALMAN",
       "Kendal Halman"
@@ -3755,6 +4289,9 @@
     ],
     "aliases": [
       "Kent Larsen"
+    ],
+    "matchers": [
+      "Kent Larsen"
     ]
   },
   {
@@ -3764,6 +4301,9 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-kevin-babb-ls-ebo/"
     ],
     "aliases": [
+      "Kevin Babb"
+    ],
+    "matchers": [
       "Kevin Babb"
     ]
   },
@@ -3791,6 +4331,9 @@
     ],
     "aliases": [
       "Kevin Jaap"
+    ],
+    "matchers": [
+      "Kevin Jaap"
     ]
   },
   {
@@ -3802,6 +4345,9 @@
       "https://www.starwarsccg.org/2021-us-nationals-kevin-shannon-ls-old-allies/"
     ],
     "aliases": [
+      "Kevin Shannon"
+    ],
+    "matchers": [
       "Kevin Shannon"
     ]
   },
@@ -3836,6 +4382,9 @@
       "https://www.starwarsccg.org/2023-ryloth-regionals-koen-meijssen-ls-yavin-4-operations/"
     ],
     "aliases": [
+      "Koen Meijssen"
+    ],
+    "matchers": [
       "Koen Meijssen",
       "KOEN MEIJSSEN"
     ]
@@ -3848,6 +4397,9 @@
     ],
     "aliases": [
       "Kristian Lund"
+    ],
+    "matchers": [
+      "Kristian Lund"
     ]
   },
   {
@@ -3857,6 +4409,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-kristoffer-basse-hedlund-ls-whap/"
     ],
     "aliases": [
+      "Kristoffer Basse Hedlund"
+    ],
+    "matchers": [
       "Kristoffer Basse Hedlund"
     ]
   },
@@ -3887,6 +4442,9 @@
       "https://www.starwarsccg.org/2023-endor-grand-prix-kyle-kallin-ls-qmc/"
     ],
     "aliases": [
+      "Kyle Kallin"
+    ],
+    "matchers": [
       "Kyle Kallin"
     ]
   },
@@ -3936,6 +4494,9 @@
     ],
     "aliases": [
       "Kyle Krueger"
+    ],
+    "matchers": [
+      "Kyle Krueger"
     ]
   },
   {
@@ -3950,6 +4511,9 @@
     ],
     "aliases": [
       "Kyle McLean"
+    ],
+    "matchers": [
+      "Kyle McLean"
     ]
   },
   {
@@ -3962,6 +4526,9 @@
     ],
     "aliases": [
       "L. Pater"
+    ],
+    "matchers": [
+      "L. Pater"
     ]
   },
   {
@@ -3972,6 +4539,9 @@
     ],
     "aliases": [
       "Larry Nava"
+    ],
+    "matchers": [
+      "Larry Nava"
     ]
   },
   {
@@ -3981,6 +4551,9 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-lawrence-rich-craft-ls-legend/"
     ],
     "aliases": [
+      "Lawrence (Rich) Craft"
+    ],
+    "matchers": [
       "Lawrence (Rich) Craft"
     ]
   },
@@ -4005,6 +4578,9 @@
       "https://www.starwarsccg.org/2023-worlds-lee-edwards-ls-obi-wan-communing/"
     ],
     "aliases": [
+      "Lee Edwards"
+    ],
+    "matchers": [
       "Lee Edwards",
       "LEE EDWARDS"
     ]
@@ -4032,6 +4608,9 @@
       "https://www.starwarsccg.org/2022-mpc-lenny-rubin-ls-diplo/"
     ],
     "aliases": [
+      "Lenny Rubin"
+    ],
+    "matchers": [
       "Lenny Rubin",
       "LENNY RUBIN"
     ]
@@ -4061,6 +4640,9 @@
       "https://www.starwarsccg.org/2023-worlds-logan-pietig-ls-hitco/"
     ],
     "aliases": [
+      "Logan Pietig"
+    ],
+    "matchers": [
       "Logan Pietig",
       "LOGAN PIETIG"
     ]
@@ -4072,6 +4654,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-lukasz-saczek-ls-no-idea/"
     ],
     "aliases": [
+      "Lukasz Saczek"
+    ],
+    "matchers": [
       "Lukasz Saczek"
     ]
   },
@@ -4087,6 +4672,9 @@
     ],
     "aliases": [
       "Marc Nickels"
+    ],
+    "matchers": [
+      "Marc Nickels"
     ]
   },
   {
@@ -4101,6 +4689,9 @@
     ],
     "aliases": [
       "Mark Billings"
+    ],
+    "matchers": [
+      "Mark Billings"
     ]
   },
   {
@@ -4110,6 +4701,9 @@
       "https://www.starwarsccg.org/2023-endor-regionals-mark-sebring-ls-whap/"
     ],
     "aliases": [
+      "Mark Sebring"
+    ],
+    "matchers": [
       "Mark Sebring"
     ]
   },
@@ -4130,6 +4724,9 @@
       "https://www.starwarsccg.org/2023-worlds-mark-walseth-ls-senate/"
     ],
     "aliases": [
+      "Mark Walseth"
+    ],
+    "matchers": [
       "Mark Walseth",
       "MARK WALSETH"
     ]
@@ -4153,6 +4750,9 @@
       "https://www.starwarsccg.org/2023-european-championships-martin-den-boef-ls-obi-wan-communing/"
     ],
     "aliases": [
+      "Martin den Boef"
+    ],
+    "matchers": [
       "Martin den Boef",
       "Martin den Boef DS",
       "Martin Den Boef",
@@ -4173,6 +4773,9 @@
     ],
     "aliases": [
       "Marvin Tegeler"
+    ],
+    "matchers": [
+      "Marvin Tegeler"
     ]
   },
   {
@@ -4182,6 +4785,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-mason-gilligan-ls-hitco/"
     ],
     "aliases": [
+      "Mason Gilligan"
+    ],
+    "matchers": [
       "Mason Gilligan"
     ]
   },
@@ -4203,6 +4809,11 @@
     ],
     "aliases": [
       "Matt Carulli",
+      "Matthew Carulli"
+    ],
+    "matchers": [
+      "Matt Carulli",
+      "Matthew Carulli",
       "MATTHEW CARULLI"
     ]
   },
@@ -4244,6 +4855,10 @@
     ],
     "aliases": [
       "Matt Lutz",
+      "Matthew Lutz"
+    ],
+    "matchers": [
+      "Matt Lutz",
       "Matthew Lutz",
       "MATT LUTZ"
     ]
@@ -4281,6 +4896,9 @@
       "https://www.starwarsccg.org/2023-worlds-matt-scott-ls-diplo/"
     ],
     "aliases": [
+      "Matt Scott"
+    ],
+    "matchers": [
       "Matt Scott",
       "MATT SCOTT"
     ]
@@ -4292,6 +4910,12 @@
       "https://www.starwarsccg.org/2020-egp-day-1-matt-smith-ds2-throne-room-atmd/"
     ],
     "aliases": [
+      "Matt Smith",
+      "Matt Smith"
+    ],
+    "matchers": [
+      "Matt Smith",
+      "Matt Smith",
       "Matt Smith"
     ]
   },
@@ -4316,6 +4940,10 @@
     "aliases": [
       "Matt Sokol",
       "Matthew Sokol"
+    ],
+    "matchers": [
+      "Matt Sokol",
+      "Matthew Sokol"
     ]
   },
   {
@@ -4331,6 +4959,9 @@
       "https://www.starwarsccg.org/2022-alderaan-regionals-matt-sperling-ls-yoda-communing/"
     ],
     "aliases": [
+      "Matt Sperling"
+    ],
+    "matchers": [
       "Matt Sperling"
     ]
   },
@@ -4355,6 +4986,9 @@
       "https://www.starwarsccg.org/2023-worlds-matt-thornton-ls-communing-yoda/"
     ],
     "aliases": [
+      "Matt Thornton"
+    ],
+    "matchers": [
       "Matt Thornton"
     ]
   },
@@ -4393,6 +5027,9 @@
       "https://www.starwarsccg.org/2023-worlds-matt-wadden-ls-mwyhl/"
     ],
     "aliases": [
+      "Matt Wadden"
+    ],
+    "matchers": [
       "Matt Wadden",
       "MATT WADDEN"
     ]
@@ -4406,6 +5043,8 @@
       "https://www.starwarsccg.org/2020-tmw-elite-8-matthew-harrison-trainor-ls-legend/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-ds-cct/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-ds-court/",
+      "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-confrontation-ds-isb/",
+      "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-confrontation-ls-trm/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-four-ds-isb/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-four-ls-qmc/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-ls-qmc/",
@@ -4434,18 +5073,11 @@
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-matthew-harrison-trainor-ls-quiet-mining-colony/"
     ],
     "aliases": [
+      "Matthew Harrison-Trainor"
+    ],
+    "matchers": [
       "Matthew Harrison-Trainor",
       "MATTHEW HARRISON-TRAINOR"
-    ]
-  },
-  {
-    "name": "Matthew Harrison-Trainor Final Confrontation",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-confrontation-ds-isb/",
-      "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-confrontation-ls-trm/"
-    ],
-    "aliases": [
-      "Matthew Harrison-Trainor Final Confrontation"
     ]
   },
   {
@@ -4455,6 +5087,9 @@
       "https://www.starwarsccg.org/2022-corellia-regionals-matthew-ulmes-ls-whap/"
     ],
     "aliases": [
+      "Matthew Ulmes"
+    ],
+    "matchers": [
       "Matthew Ulmes"
     ]
   },
@@ -4466,6 +5101,9 @@
     ],
     "aliases": [
       "Matthijs van Leeuwen"
+    ],
+    "matchers": [
+      "Matthijs van Leeuwen"
     ]
   },
   {
@@ -4475,6 +5113,9 @@
       "https://www.starwarsccg.org/2019-nac-day-1-max-dewitt-ls-whap/"
     ],
     "aliases": [
+      "Max DeWitt"
+    ],
+    "matchers": [
       "Max DeWitt"
     ]
   },
@@ -4487,6 +5128,9 @@
       "https://www.starwarsccg.org/2022-us-nationals-day-1-max-freeman-ls-family-anakin/"
     ],
     "aliases": [
+      "Max Freeman"
+    ],
+    "matchers": [
       "Max Freeman"
     ]
   },
@@ -4501,6 +5145,9 @@
       "https://www.starwarsccg.org/2019-endor-grand-prix-day-1-michael-erisman-tatooine-cr-v/"
     ],
     "aliases": [
+      "Michael Erisman"
+    ],
+    "matchers": [
       "Michael Erisman",
       "Michael Erisman DS"
     ]
@@ -4512,6 +5159,9 @@
       "https://www.starwarsccg.org/2021-us-nationals-michael-field-ls-no-idea/"
     ],
     "aliases": [
+      "Michael Field"
+    ],
+    "matchers": [
       "Michael Field"
     ]
   },
@@ -4534,6 +5184,10 @@
     "aliases": [
       "Michael Pistone",
       "Mike Pistone"
+    ],
+    "matchers": [
+      "Michael Pistone",
+      "Mike Pistone"
     ]
   },
   {
@@ -4543,6 +5197,9 @@
       "https://www.starwarsccg.org/2019-nac-day-1-michael-richards-ls-no-idea/"
     ],
     "aliases": [
+      "Michael Richards"
+    ],
+    "matchers": [
       "Michael Richards"
     ]
   },
@@ -4579,9 +5236,13 @@
       "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-mike-turner-ls-no-idea/"
     ],
     "aliases": [
+      "Michael Turner",
+      "Mike Turner"
+    ],
+    "matchers": [
+      "Michael Turner",
       "Mike Turner",
-      "MIKE TURNER",
-      "Michael Turner"
+      "MIKE TURNER"
     ]
   },
   {
@@ -4598,6 +5259,9 @@
     ],
     "aliases": [
       "Miguel Tarin Vegas"
+    ],
+    "matchers": [
+      "Miguel Tarin Vegas"
     ]
   },
   {
@@ -4607,6 +5271,11 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-miguel-tarin-ls-legend/"
     ],
     "aliases": [
+      "Miguel Tarrin Vegas",
+      "Miguel Tarin"
+    ],
+    "matchers": [
+      "Miguel Tarrin Vegas",
       "Miguel Tarin"
     ]
   },
@@ -4623,6 +5292,10 @@
       "https://www.starwarsccg.org/2023-worlds-mike-damboise-ls-whap/"
     ],
     "aliases": [
+      "Mike d'Amboise"
+    ],
+    "matchers": [
+      "Mike d'Amboise",
       "Mike d’Amboise"
     ]
   },
@@ -4633,6 +5306,9 @@
       "https://www.starwarsccg.org/2022-kashyyyk-regionals-mike-gemme-ls-oa/"
     ],
     "aliases": [
+      "Mike Gemme"
+    ],
+    "matchers": [
       "Mike Gemme"
     ]
   },
@@ -4721,6 +5397,9 @@
     ],
     "aliases": [
       "Mike Kessling"
+    ],
+    "matchers": [
+      "Mike Kessling"
     ]
   },
   {
@@ -4737,6 +5416,9 @@
     ],
     "aliases": [
       "Mike Klarenbeek"
+    ],
+    "matchers": [
+      "Mike Klarenbeek"
     ]
   },
   {
@@ -4748,6 +5430,9 @@
       "https://www.starwarsccg.org/2023-worlds-mike-thomas-ls-whap/"
     ],
     "aliases": [
+      "Mike Thomas"
+    ],
+    "matchers": [
       "Mike Thomas"
     ]
   },
@@ -4775,6 +5460,9 @@
     ],
     "aliases": [
       "Ming Huo"
+    ],
+    "matchers": [
+      "Ming Huo"
     ]
   },
   {
@@ -4787,6 +5475,9 @@
     ],
     "aliases": [
       "Mitch Nieland"
+    ],
+    "matchers": [
+      "Mitch Nieland"
     ]
   },
   {
@@ -4798,6 +5489,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-moritz-karge-ls-trm/"
     ],
     "aliases": [
+      "Moritz Karge"
+    ],
+    "matchers": [
       "Moritz Karge"
     ]
   },
@@ -4817,6 +5511,9 @@
     ],
     "aliases": [
       "Nate Davis"
+    ],
+    "matchers": [
+      "Nate Davis"
     ]
   },
   {
@@ -4831,6 +5528,9 @@
     ],
     "aliases": [
       "Nate Louderback"
+    ],
+    "matchers": [
+      "Nate Louderback"
     ]
   },
   {
@@ -4840,6 +5540,9 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-nathan-angulo-ls-old-allies/"
     ],
     "aliases": [
+      "Nathan Angulo"
+    ],
+    "matchers": [
       "Nathan Angulo"
     ]
   },
@@ -4851,6 +5554,9 @@
     ],
     "aliases": [
       "Nathan Russell"
+    ],
+    "matchers": [
+      "Nathan Russell"
     ]
   },
   {
@@ -4860,6 +5566,9 @@
       "https://www.starwarsccg.org/2020-mpc-day-1-nathan-trothing-ls-hitco/"
     ],
     "aliases": [
+      "Nathan Trothing"
+    ],
+    "matchers": [
       "Nathan Trothing"
     ]
   },
@@ -4873,6 +5582,9 @@
     ],
     "aliases": [
       "Nelson Cazon"
+    ],
+    "matchers": [
+      "Nelson Cazon"
     ]
   },
   {
@@ -4884,6 +5596,10 @@
       "https://www.starwarsccg.org/2022-yavin-4-regionals-nick-abbondanzo-ls-qmc/"
     ],
     "aliases": [
+      "Nicholas Abbondanzo",
+      "Nick Abbondanzo"
+    ],
+    "matchers": [
       "Nicholas Abbondanzo",
       "Nicholas Abbonzando",
       "Nick Abbondanzo"
@@ -4897,6 +5613,9 @@
     ],
     "aliases": [
       "Nick Culpepper"
+    ],
+    "matchers": [
+      "Nick Culpepper"
     ]
   },
   {
@@ -4908,6 +5627,9 @@
       "https://www.starwarsccg.org/2021-nal-hutta-regional-nick-gorski-ls-endor-chief-chirpas-hut-ltww/"
     ],
     "aliases": [
+      "Nick Gorski"
+    ],
+    "matchers": [
       "Nick Gorski"
     ]
   },
@@ -4923,6 +5645,9 @@
     ],
     "aliases": [
       "Nick Reisch"
+    ],
+    "matchers": [
+      "Nick Reisch"
     ]
   },
   {
@@ -4933,6 +5658,9 @@
     ],
     "aliases": [
       "Nico Kreidl"
+    ],
+    "matchers": [
+      "Nico Kreidl"
     ]
   },
   {
@@ -4942,6 +5670,9 @@
       "https://www.starwarsccg.org/2023-european-championship-par-b-ls-hunt-communing-obi-wan/"
     ],
     "aliases": [
+      "Pär B"
+    ],
+    "matchers": [
       "Pär B"
     ]
   },
@@ -4975,6 +5706,10 @@
     ],
     "aliases": [
       "Pat Johnson",
+      "Patrick Johnson"
+    ],
+    "matchers": [
+      "Pat Johnson",
       "Patrick Johnson",
       "PAT JOHNSON"
     ]
@@ -4990,6 +5725,9 @@
       "https://www.starwarsccg.org/2023-ralltiir-regionals-patrik-csapi-ls-aitc/"
     ],
     "aliases": [
+      "Patrik Csapi"
+    ],
+    "matchers": [
       "Patrik Csapi"
     ]
   },
@@ -5019,6 +5757,9 @@
     ],
     "aliases": [
       "Paul Coggins"
+    ],
+    "matchers": [
+      "Paul Coggins"
     ]
   },
   {
@@ -5037,6 +5778,9 @@
     ],
     "aliases": [
       "Paul McPherson"
+    ],
+    "matchers": [
+      "Paul McPherson"
     ]
   },
   {
@@ -5054,6 +5798,9 @@
       "https://www.starwarsccg.org/2022-ocs-top-16-paul-myers-ls-yavin-4-base-operations/"
     ],
     "aliases": [
+      "Paul Myers"
+    ],
+    "matchers": [
       "Paul Myers",
       "PAUL MYERS"
     ]
@@ -5066,6 +5813,9 @@
     ],
     "aliases": [
       "Paul Todd Feldman"
+    ],
+    "matchers": [
+      "Paul Todd Feldman"
     ]
   },
   {
@@ -5075,6 +5825,9 @@
       "https://www.starwarsccg.org/2022-bespin-regionals-payton-reanier-ls-old-allies/"
     ],
     "aliases": [
+      "Payton Reanier"
+    ],
+    "matchers": [
       "Payton Reanier"
     ]
   },
@@ -5092,6 +5845,9 @@
     ],
     "aliases": [
       "Peter Jacobson"
+    ],
+    "matchers": [
+      "Peter Jacobson"
     ]
   },
   {
@@ -5102,6 +5858,9 @@
     ],
     "aliases": [
       "Peter Rowlands"
+    ],
+    "matchers": [
+      "Peter Rowlands"
     ]
   },
   {
@@ -5111,6 +5870,9 @@
       "https://www.starwarsccg.org/2022-european-championship-peter-soetens-ls-qmc/"
     ],
     "aliases": [
+      "Peter Soetens"
+    ],
+    "matchers": [
       "Peter Soetens"
     ]
   },
@@ -5147,6 +5909,9 @@
       "https://www.starwarsccg.org/2023-worlds-phil-aasen-ls-obi-wan-communing/"
     ],
     "aliases": [
+      "Phil Aasen"
+    ],
+    "matchers": [
       "Phil Aasen",
       "PHIL AASEN"
     ]
@@ -5158,6 +5923,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-phil-pipitone-ls-wys/"
     ],
     "aliases": [
+      "Phil Pipitone"
+    ],
+    "matchers": [
       "Phil Pipitone"
     ]
   },
@@ -5171,6 +5939,9 @@
     ],
     "aliases": [
       "Phillip Gladney"
+    ],
+    "matchers": [
+      "Phillip Gladney"
     ]
   },
   {
@@ -5180,6 +5951,9 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-pierre-dubreuil-ls-hyperdrive-v/"
     ],
     "aliases": [
+      "Pierre Dubreuil"
+    ],
+    "matchers": [
       "Pierre Dubreuil"
     ]
   },
@@ -5191,6 +5965,9 @@
     ],
     "aliases": [
       "Piotr Jarnot"
+    ],
+    "matchers": [
+      "Piotr Jarnot"
     ]
   },
   {
@@ -5200,6 +5977,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-piotr-ptak-ls-legend/"
     ],
     "aliases": [
+      "Piotr Ptak"
+    ],
+    "matchers": [
       "Piotr Ptak"
     ]
   },
@@ -5247,9 +6027,14 @@
       "https://www.starwarsccg.org/2023-ryloth-quirin-furgut-ls-obi-communing/"
     ],
     "aliases": [
+      "Quirin Fürgut",
+      "Quirin Furgut",
+      "Quirin Fürgut"
+    ],
+    "matchers": [
+      "Quirin Fürgut",
       "Quirin Furgut",
       "Quirin Fürgut",
-      "Quirin Fürgut",
       "QUIRIN FÜRGUT",
       "Quirin FÜRGUT"
     ]
@@ -5262,6 +6047,9 @@
     ],
     "aliases": [
       "Ralf W."
+    ],
+    "matchers": [
+      "Ralf W."
     ]
   },
   {
@@ -5271,6 +6059,9 @@
       "https://www.starwarsccg.org/2023-tatooine-regionals-randall-scott-ls-qmc/"
     ],
     "aliases": [
+      "Randall Scott"
+    ],
+    "matchers": [
       "Randall Scott"
     ]
   },
@@ -5283,6 +6074,9 @@
       "https://www.starwarsccg.org/2022-european-championship-rasmus-juul-ls-steady-steady/"
     ],
     "aliases": [
+      "Rasmus Juul"
+    ],
+    "matchers": [
       "Rasmus Juul"
     ]
   },
@@ -5300,6 +6094,9 @@
     ],
     "aliases": [
       "Reid Smith"
+    ],
+    "matchers": [
+      "Reid Smith"
     ]
   },
   {
@@ -5309,6 +6106,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-rhett-engelking-ls-tigih/"
     ],
     "aliases": [
+      "Rhett Engelking"
+    ],
+    "matchers": [
       "Rhett Engelking"
     ]
   },
@@ -5328,6 +6128,9 @@
     ],
     "aliases": [
       "Rikard Eriksen"
+    ],
+    "matchers": [
+      "Rikard Eriksen"
     ]
   },
   {
@@ -5343,6 +6146,9 @@
       "https://www.starwarsccg.org/2020-mpc-day-1-robbie-hendon-ls-senate/"
     ],
     "aliases": [
+      "Robbie Hendon"
+    ],
+    "matchers": [
       "Robbie Hendon",
       "ROBBIE HENDON"
     ]
@@ -5357,6 +6163,9 @@
     ],
     "aliases": [
       "Robert Smolarek"
+    ],
+    "matchers": [
+      "Robert Smolarek"
     ]
   },
   {
@@ -5366,6 +6175,12 @@
       "https://www.starwarsccg.org/2022-bothawui-regional-roby-boysen-ls-takodana-cpv/"
     ],
     "aliases": [
+      "Roby Boysen",
+      "Roby Boysen"
+    ],
+    "matchers": [
+      "Roby Boysen",
+      "Roby Boysen",
       "Roby Boysen"
     ]
   },
@@ -5376,6 +6191,9 @@
       "https://www.starwarsccg.org/2023-scarif-regionals-rudy-rojas-ls-no-idea/"
     ],
     "aliases": [
+      "Rudy Rojas"
+    ],
+    "matchers": [
       "Rudy Rojas"
     ]
   },
@@ -5420,6 +6238,9 @@
       "https://www.starwarsccg.org/2022-alderaan-regionals-ryan-jellison-ds-sith-dooku/"
     ],
     "aliases": [
+      "Ryan Jellison"
+    ],
+    "matchers": [
       "Ryan Jellison",
       "RYAN JELLISON"
     ]
@@ -5431,6 +6252,9 @@
       "https://www.starwarsccg.org/2023-bespin-regionals-ryan-ritter-ls-zero-hour/"
     ],
     "aliases": [
+      "Ryan Ritter"
+    ],
+    "matchers": [
       "Ryan Ritter"
     ]
   },
@@ -5477,6 +6301,9 @@
       "https://www.starwarsccg.org/2020-tmw-ryan-sersen-ds-dagobah-cave-ssav/"
     ],
     "aliases": [
+      "Ryan Sersen"
+    ],
+    "matchers": [
       "Ryan Sersen",
       "RYAN SERSEN"
     ]
@@ -5490,6 +6317,9 @@
       "https://www.starwarsccg.org/2023-worlds-sam-olson-ls-hitco/"
     ],
     "aliases": [
+      "Sam Olson"
+    ],
+    "matchers": [
       "Sam Olson"
     ]
   },
@@ -5540,6 +6370,9 @@
       "https://www.starwarsccg.org/2023-worlds-sam-tashima-ls-qmc/"
     ],
     "aliases": [
+      "Sam Tashima"
+    ],
+    "matchers": [
       "Sam Tashima",
       "SAM TASHIMA"
     ]
@@ -5551,6 +6384,9 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-samuel-stearns-ls-hitco/"
     ],
     "aliases": [
+      "Samuel Stearns"
+    ],
+    "matchers": [
       "Samuel Stearns"
     ]
   },
@@ -5583,6 +6419,9 @@
       "https://www.starwarsccg.org/2023-worlds-scott-lingrell-ls-mwyhl/"
     ],
     "aliases": [
+      "Scott Lingrell"
+    ],
+    "matchers": [
       "Scott Lingrell",
       "SCOTT LINGRELL"
     ]
@@ -5594,6 +6433,9 @@
       "https://www.starwarsccg.org/2021-yavin-4-regionals-sean-luhks-ls-old-allies/"
     ],
     "aliases": [
+      "Sean Luhks"
+    ],
+    "matchers": [
       "Sean Luhks"
     ]
   },
@@ -5615,6 +6457,9 @@
     ],
     "aliases": [
       "Sean Mackin"
+    ],
+    "matchers": [
+      "Sean Mackin"
     ]
   },
   {
@@ -5629,6 +6474,9 @@
     ],
     "aliases": [
       "Sean Miller"
+    ],
+    "matchers": [
+      "Sean Miller"
     ]
   },
   {
@@ -5638,6 +6486,9 @@
       "https://www.starwarsccg.org/2020-mpc-day-1-seth-acree-ls-yavin-4-base-ops/"
     ],
     "aliases": [
+      "Seth Acree"
+    ],
+    "matchers": [
       "Seth Acree"
     ]
   },
@@ -5653,6 +6504,9 @@
     ],
     "aliases": [
       "Shawn Dickson"
+    ],
+    "matchers": [
+      "Shawn Dickson"
     ]
   },
   {
@@ -5665,6 +6519,9 @@
     ],
     "aliases": [
       "Spencer Gosiaco"
+    ],
+    "matchers": [
+      "Spencer Gosiaco"
     ]
   },
   {
@@ -5674,6 +6531,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-stefan-boersma-ls-qmc/"
     ],
     "aliases": [
+      "Stefan Boersma"
+    ],
+    "matchers": [
       "Stefan Boersma"
     ]
   },
@@ -5700,9 +6560,13 @@
       "https://www.starwarsccg.org/2023-ryloth-regionals-stephan-de-vos-ls-qmc/"
     ],
     "aliases": [
+      "Stephan de Vos",
+      "Stephan DeVos"
+    ],
+    "matchers": [
+      "Stephan de Vos",
       "Stephan De Vos",
       "Stephan DeVos",
-      "Stephan de Vos",
       "STEPHAN DE VOS"
     ]
   },
@@ -5714,6 +6578,9 @@
     ],
     "aliases": [
       "Stephan Fox"
+    ],
+    "matchers": [
+      "Stephan Fox"
     ]
   },
   {
@@ -5723,6 +6590,12 @@
       "https://www.starwarsccg.org/2022-us-nationals-day-1-stephen-fulner-ls-combat/"
     ],
     "aliases": [
+      "Stephen Fulner",
+      "Stephen Fulner"
+    ],
+    "matchers": [
+      "Stephen Fulner",
+      "Stephen Fulner",
       "Stephen Fulner"
     ]
   },
@@ -5737,6 +6610,9 @@
       "https://www.starwarsccg.org/2020-tmw-stephen-morgan-ls-trm-2/"
     ],
     "aliases": [
+      "Stephen Morgan"
+    ],
+    "matchers": [
       "Stephen Morgan"
     ]
   },
@@ -5761,6 +6637,10 @@
       "https://www.starwarsccg.org/2023-nal-hutta-regionals-steve-squirlock-ls-skywalker-saga-luke/"
     ],
     "aliases": [
+      "Stephen Squirlock",
+      "Steve Squirlock"
+    ],
+    "matchers": [
       "Stephen Squirlock",
       "Steve Squirlock"
     ]
@@ -5796,6 +6676,10 @@
     "aliases": [
       "Steve Baroni",
       "Stephen Baroni"
+    ],
+    "matchers": [
+      "Steve Baroni",
+      "Stephen Baroni"
     ]
   },
   {
@@ -5814,6 +6698,9 @@
     ],
     "aliases": [
       "Steve Brentson"
+    ],
+    "matchers": [
+      "Steve Brentson"
     ]
   },
   {
@@ -5829,6 +6716,11 @@
       "https://www.starwarsccg.org/2023-worlds-stephen-cellucci-ls-communing-obi-wan/"
     ],
     "aliases": [
+      "Steve Cellucci",
+      "Stephen Cellucci"
+    ],
+    "matchers": [
+      "Steve Cellucci",
       "Stephen Cellucci"
     ]
   },
@@ -5861,6 +6753,9 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-steve-harpster-ls-senate/"
     ],
     "aliases": [
+      "Steve Harpster"
+    ],
+    "matchers": [
       "Steve Harpster",
       "STEVE HARPSTER"
     ]
@@ -5879,6 +6774,10 @@
     ],
     "aliases": [
       "Steven Yaeger",
+      "Steve Yaeger"
+    ],
+    "matchers": [
+      "Steven Yaeger",
       "STEVEN YAEGER",
       "Steve Yaeger"
     ]
@@ -5892,6 +6791,10 @@
       "https://www.starwarsccg.org/2023-bespin-regionals-stew-yoo-ls-communing-yoda/"
     ],
     "aliases": [
+      "Stewart Yoo",
+      "Stew Yoo"
+    ],
+    "matchers": [
       "Stewart Yoo",
       "Stew Yoo"
     ]
@@ -5909,9 +6812,13 @@
       "https://www.starwarsccg.org/2023-ralltiir-regionals-tamas-papp-ls-aitc/"
     ],
     "aliases": [
+      "Tamás Papp",
+      "Tamas Papp"
+    ],
+    "matchers": [
+      "Tamás Papp",
       "Tamas Papp",
-      "Tamás Papp",
-      "Tamás Papp"
+      "Tamás Papp"
     ]
   },
   {
@@ -5921,6 +6828,9 @@
       "https://www.starwarsccg.org/2023-endor-grand-prix-taylor-gosiaco-ls-naboo-cpv/"
     ],
     "aliases": [
+      "Taylor Gosiaco"
+    ],
+    "matchers": [
       "Taylor Gosiaco"
     ]
   },
@@ -5933,6 +6843,9 @@
       "https://www.starwarsccg.org/2022-us-nationals-day-1-thang-le-ls-yoda-communing/"
     ],
     "aliases": [
+      "Thang Le"
+    ],
+    "matchers": [
       "Thang Le"
     ]
   },
@@ -5958,17 +6871,26 @@
     ],
     "aliases": [
       "Thomas Santosuosso",
+      "Tommy Santosuosso"
+    ],
+    "matchers": [
+      "Thomas Santosuosso",
       "Tommy Santosusso",
       "Tommy Santosuosso"
     ]
   },
   {
-    "name": "Thomas Santosuosso.",
+    "name": "Thomas Santosuosso Jr.",
     "decklistUrls": [
       "https://www.starwarsccg.org/2022-kashyyyk-regionals-tommy-santosuosso-jr-ds-sycfa/",
       "https://www.starwarsccg.org/2022-kashyyyk-regionals-tommy-santosuosso-jr-ls-qmc/"
     ],
     "aliases": [
+      "Thomas Santosuosso Jr.",
+      "Tommy Santosuosso Jr."
+    ],
+    "matchers": [
+      "Thomas Santosuosso Jr.",
       "Tommy Santosuosso Jr."
     ]
   },
@@ -5983,6 +6905,9 @@
       "https://www.starwarsccg.org/2022-yavin-4-regionals-tim-simon-ls-yoda-communing/"
     ],
     "aliases": [
+      "Tim Simon"
+    ],
+    "matchers": [
       "Tim Simon"
     ]
   },
@@ -6014,6 +6939,9 @@
     ],
     "aliases": [
       "Timo Dusel"
+    ],
+    "matchers": [
+      "Timo Dusel"
     ]
   },
   {
@@ -6040,6 +6968,9 @@
     ],
     "aliases": [
       "Tom Damen"
+    ],
+    "matchers": [
+      "Tom Damen"
     ]
   },
   {
@@ -6062,6 +6993,9 @@
       "https://www.starwarsccg.org/2023-yavin-4-regionals-tom-haid-ls-communing-qui-gon/"
     ],
     "aliases": [
+      "Tom Haid"
+    ],
+    "matchers": [
       "Tom Haid",
       "TOM HAID"
     ]
@@ -6084,6 +7018,9 @@
     ],
     "aliases": [
       "Tom Kelly"
+    ],
+    "matchers": [
+      "Tom Kelly"
     ]
   },
   {
@@ -6098,6 +7035,9 @@
     ],
     "aliases": [
       "Tom Marlin"
+    ],
+    "matchers": [
+      "Tom Marlin"
     ]
   },
   {
@@ -6107,6 +7047,9 @@
       "https://www.starwarsccg.org/2022-corellia-regionals-tom-pylinski-ls-profit/"
     ],
     "aliases": [
+      "Tom Pylinski"
+    ],
+    "matchers": [
       "Tom Pylinski"
     ]
   },
@@ -6127,8 +7070,11 @@
       "https://www.starwarsccg.org/2023-worlds-tom-sarachan-ls-anakin-saga/"
     ],
     "aliases": [
-      "Tom Sarachan DS",
       "Tom Sarachan"
+    ],
+    "matchers": [
+      "Tom Sarachan",
+      "Tom Sarachan DS"
     ]
   },
   {
@@ -6145,6 +7091,9 @@
     ],
     "aliases": [
       "Tom Strother"
+    ],
+    "matchers": [
+      "Tom Strother"
     ]
   },
   {
@@ -6155,6 +7104,9 @@
     ],
     "aliases": [
       "Tony Petersson"
+    ],
+    "matchers": [
+      "Tony Petersson"
     ]
   },
   {
@@ -6164,6 +7116,9 @@
       "https://www.starwarsccg.org/2022-dagobah-regionals-travis-cooper-ls-zero-hour/"
     ],
     "aliases": [
+      "Travis Cooper"
+    ],
+    "matchers": [
       "Travis Cooper"
     ]
   },
@@ -6183,6 +7138,9 @@
     ],
     "aliases": [
       "Travis Morris"
+    ],
+    "matchers": [
+      "Travis Morris"
     ]
   },
   {
@@ -6192,6 +7150,9 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-travis-thompson-ls-trm/"
     ],
     "aliases": [
+      "Travis Thompson"
+    ],
+    "matchers": [
       "Travis Thompson"
     ]
   },
@@ -6203,6 +7164,9 @@
     ],
     "aliases": [
       "Trevin Kaja"
+    ],
+    "matchers": [
+      "Trevin Kaja"
     ]
   },
   {
@@ -6213,6 +7177,9 @@
     ],
     "aliases": [
       "Trevor Partridge"
+    ],
+    "matchers": [
+      "Trevor Partridge"
     ]
   },
   {
@@ -6222,6 +7189,9 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-ulli-reuter-ls-legend/"
     ],
     "aliases": [
+      "Ulli Reuter"
+    ],
+    "matchers": [
       "Ulli Reuter"
     ]
   },
@@ -6251,6 +7221,9 @@
     ],
     "aliases": [
       "Vikram Bali"
+    ],
+    "matchers": [
+      "Vikram Bali"
     ]
   },
   {
@@ -6271,6 +7244,10 @@
     ],
     "aliases": [
       "Vinny Rossi",
+      "Vincent Rossi"
+    ],
+    "matchers": [
+      "Vinny Rossi",
       "VINNY ROSSI",
       "Vincent Rossi",
       "VINCENT ROSSI"
@@ -6283,6 +7260,9 @@
       "https://www.starwarsccg.org/2019-ec-day-2-vjeko-keskic-ls-oa/"
     ],
     "aliases": [
+      "Vjeko Keskic"
+    ],
+    "matchers": [
       "Vjeko Keskic"
     ]
   },
@@ -6310,6 +7290,9 @@
     ],
     "aliases": [
       "Wayne Cullen"
+    ],
+    "matchers": [
+      "Wayne Cullen"
     ]
   },
   {
@@ -6319,6 +7302,9 @@
       "https://www.starwarsccg.org/2022-naboo-regionals-wayne-poppleton-ls-qui-gon-communing/"
     ],
     "aliases": [
+      "Wayne Poppleton"
+    ],
+    "matchers": [
       "Wayne Poppleton"
     ]
   },
@@ -6337,6 +7323,10 @@
     "aliases": [
       "Will Scinocca",
       "William Scinocca"
+    ],
+    "matchers": [
+      "Will Scinocca",
+      "William Scinocca"
     ]
   },
   {
@@ -6349,6 +7339,9 @@
     ],
     "aliases": [
       "Will Tarbox"
+    ],
+    "matchers": [
+      "Will Tarbox"
     ]
   },
   {
@@ -6358,6 +7351,9 @@
       "https://www.starwarsccg.org/2022-bothawui-regional-will-vraspir-ls-old-allies/"
     ],
     "aliases": [
+      "Will Vraspir"
+    ],
+    "matchers": [
       "Will Vraspir"
     ]
   },
@@ -6370,6 +7366,9 @@
       "https://www.starwarsccg.org/2023-worlds-william-bacheler-ls-legend/"
     ],
     "aliases": [
+      "William Bacheler"
+    ],
+    "matchers": [
       "William Bacheler"
     ]
   },
@@ -6384,6 +7383,9 @@
       "https://www.starwarsccg.org/2022-mpc-winston-plunkett-ls-ltwwv-tatooine-slave-quarters/"
     ],
     "aliases": [
+      "Winston Plunkett"
+    ],
+    "matchers": [
       "Winston Plunkett",
       "WINSTON PLUNKETT"
     ]
@@ -6399,6 +7401,9 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-zack-stenerson-ls-whap/"
     ],
     "aliases": [
+      "Zach Stenerson"
+    ],
+    "matchers": [
       "Zach Stenerson",
       "Zack Stenerson"
     ]
@@ -6420,6 +7425,9 @@
       "https://www.starwarsccg.org/2022-ocs-top-16-ziemowit-skwara-ls-skywalker-saga-anakin/"
     ],
     "aliases": [
+      "Ziemowit Skwara"
+    ],
+    "matchers": [
       "Ziemowit Skwara"
     ]
   }

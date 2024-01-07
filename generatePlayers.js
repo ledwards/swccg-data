@@ -43,6 +43,7 @@ const ROUND_NAMES = [
   "Round 2",
   "Final Four",
   "Sweet 16",
+  "Final Confrontation",
 ];
 
 const titleCase = (title) =>
@@ -101,23 +102,26 @@ const main = async () => {
     const matches = matchableTitle.match(playerRE);
 
     if (matches) {
-      const rawPlayerName = getPlayerNameFromMatches(matches);
-      const playerName = cleanPlayerName(rawPlayerName);
+      const rawName = getPlayerNameFromMatches(matches);
+      const cleanName = cleanPlayerName(rawName);
+      const playerName = normalizePlayerName(cleanName);
 
-      const existingPlayer = players.find(
-        (p) => cleanPlayerName(p.name) == playerName,
-      );
+      const existingPlayer = players.find((p) => p.name == playerName);
 
       if (!existingPlayer) {
         players.push({
           name: playerName,
           decklistUrls: [decklistUrl],
-          aliases: [rawPlayerName],
+          aliases: [playerName, cleanName],
+          matchers: [playerName, cleanName, rawName],
         });
       } else {
         existingPlayer.decklistUrls.push(decklistUrl);
         existingPlayer.aliases = [
-          ...new Set(existingPlayer.aliases.concat([rawPlayerName])),
+          ...new Set(existingPlayer.aliases.concat([cleanName])),
+        ];
+        existingPlayer.matchers = [
+          ...new Set(existingPlayer.matchers.concat([cleanName, rawName])),
         ];
       }
 
@@ -150,7 +154,7 @@ const main = async () => {
     const matchedPlayer = players.find(
       (player) =>
         matchableTitle.includes(player.name) ||
-        player.aliases.some((alias) => matchableTitle.includes(alias)),
+        player.matchers.some((alias) => matchableTitle.includes(alias)),
     );
     if (matchedPlayer) {
       matchedPlayer.decklistUrls.push(decklistUrl);
@@ -170,7 +174,49 @@ const main = async () => {
   );
 };
 
+const normalizePlayerName = (playerName) => {
+  // for names that are valid, but aliases/nicknames
+
+  playerName = playerName
+    .replace("Andy Davies", "Andrew Davies")
+    .replace("Bobby Birrer", "Bob Birrer")
+    .replace("Clay Atkin", "Clayton Atkin")
+    .replace("Fernando Castanon", "Fernando Castañón")
+    .replace("Jeffrey Lavigne", "Jeff Lavigne")
+    .replace("Jeff Johns", "Jeffrey Johns")
+    .replace("Jonas Hagen", "Jonas Hagen Nørregaard")
+    .replace("Jonas Hagen Noerregaard", "Jonas Hagen Nørregaard")
+    .replace("Jonas Hagen Norregaard", "Jonas Hagen Nørregaard")
+    .replace("Julian-Andres Smolarek", "Julian Smolarek")
+    .replace("Matthew Carulli", "Matt Carulli")
+    .replace("Matthew Lutz", "Matt Lutz")
+    .replace("Matthew Sokol", "Matt Sokol")
+    .replace(/Miguel Tarin$/, "Miguel Tarrin Vegas")
+    .replace("Mike Pistone", "Michael Pistone")
+    .replace("Mike Turner", "Michael Turner")
+    .replace("Nick Abbondanzo", "Nicholas Abbondanzo")
+    .replace("Patrick Johnson", "Pat Johnson")
+    .replace("Quirin Furgut", "Quirin Fürgut")
+    .replace("Quirin Fürgut", "Quirin Fürgut") // yes, really
+    .replace("Stephan DeVos", "Stephan de Vos")
+    .replace("Stephen Baroni", "Steve Baroni")
+    .replace("Stephen Cellucci", "Steve Cellucci")
+    .replace("Steve Squirlock", "Stephen Squirlock")
+    .replace("Steve Yaeger", "Steven Yaeger")
+    .replace("Stew Yoo", "Stewart Yoo")
+    .replace("Tamas Papp", "Tamás Papp")
+    .replace("Tamás Papp", "Tamás Papp") // yes, really
+    .replace("Tommy Santosuosso", "Thomas Santosuosso")
+    .replace("Tommy Santosuosso Jr", "Thomas Santosuosso")
+    .replace("Vincent Rossi", "Vinny Rossi")
+    .replace("William Scinocca", "Will Scinocca");
+
+  return playerName;
+};
+
 const cleanPlayerName = (playerName) => {
+  // for names that need to be fixed for typos, case, etc.
+
   if (playerName.toUpperCase() == playerName) {
     playerName = titleCase(playerName); // only do this if the player name is all-caps
   }
@@ -183,57 +229,25 @@ const cleanPlayerName = (playerName) => {
     .trim();
 
   playerName = playerName
-    .replace("Andy Davies", "Andrew Davies")
-    .replace("Bobby Birrer", "Bob Birrer")
     .replace("Cedric Vanderhaegen", "Cedrik Vanderhaegen")
     .replace("Cedrik Vanderhawgen", "Cedrik Vanderhaegen")
     .replace("Chris Goglen", "Chris Gogolen")
     .replace("Chris Terwiliger", "Chris Terwilliger")
-    .replace("Clay Atkin", "Clayton Atkin")
     .replace("Connor Britain", "Conor Britain")
     .replace("Corey Lauer", "Cory Lauer")
-    .replace("Fernando Castanon", "Fernando Castañón")
     .replace("Issac Story", "Isaac Story")
     .replace("Jason Reindeau", "Jason Riendeau")
-    .replace("Jeffrey Lavigne", "Jeff Lavigne")
-    .replace("Jeff Johns", "Jeffrey Johns")
     .replace("Jeremie Jensen", "Jeramie Jensen")
     .replace("Jon Mcfarland", "Jon McFarland")
-    .replace("Jonas Hagen", "Jonas Hagen Nørregaard")
-    .replace("Jonas Hagen Noerregaard", "Jonas Hagen Nørregaard")
-    .replace("Jonas Hagen Norregaard", "Jonas Hagen Nørregaard")
     .replace("Jonathon Murray", "Jonathan Murray")
-    .replace("Julian-Andres Smolarek", "Julian Smolarek")
     .replace("Kendal Halman", "Kendall Halman")
     .replace("Martin Den Boef", "Martin den Boef")
-    .replace("Matthew Carulli", "Matt Carulli")
-    .replace("Matthew Lutz", "Matt Lutz")
-    .replace("Matthew Sokol", "Matt Sokol")
     .replace("Matthew Harrison-trainor", "Matthew Harrison-Trainor")
-    .replace(/Miguel Tarin$/, "Miguel Tarrin Vegas")
-    .replace("Mike Pistone", "Michael Pistone")
-    .replace("Mike Turner", "Michael Turner")
-    .replace("Nick Abbondanzo", "Nicholas Abbondanzo")
     .replace("Nicholas Abbonzando", "Nicholas Abbondanzo")
-    .replace("Patrick Johnson", "Pat Johnson")
-    .replace("Quirin Furgut", "Quirin Fürgut")
-    .replace("Quirin Fürgut", "Quirin Fürgut") // yes, really
     .replace("Quirin FÜRGUT", "Quirin Fürgut")
     .replace("Stephan De Vos", "Stephan de Vos")
-    .replace("Stephan DeVos", "Stephan de Vos")
-    .replace("Stephen Baroni", "Steve Baroni")
-    .replace("Stephen Cellucci", "Steve Cellucci")
-    .replace("Steve Squirlock", "Stephen Squirlock")
-    .replace("Steve Yaeger", "Steven Yaeger")
-    .replace("Stew Yoo", "Stewart Yoo")
-    .replace("Tamas Papp", "Tamás Papp")
-    .replace("Tamás Papp", "Tamás Papp")
-    .replace("Tommy Santosuosso Jr", "Thomas Santosuosso")
-    .replace("Tommy Santosuosso", "Thomas Santosuosso")
     .replace("Tommy Santosusso", "Thomas Santosuosso")
     .replace("Thomas Santosusso.", "Thomas Santosuosso")
-    .replace("Vincent Rossi", "Vinny Rossi")
-    .replace("William Scinocca", "Will Scinocca")
     .replace("Zack Stenerson", "Zach Stenerson");
 
   return playerName;
@@ -275,11 +289,11 @@ const fixSpecificDecklistTitles = (title, side) => {
   }
 
   const sideAbbr = side === "Dark" ? "DS" : "LS";
-  const allArchetypeNamesAndAliases = allArchetypes
-    .map((a) => [...a.aliases, a.name, a.shortName])
+  const allArchetypeNamesAndMatchers = allArchetypes
+    .map((a) => [...a.matchers, a.name, a.shortName])
     .flat();
 
-  const archetypeClause = `${allArchetypeNamesAndAliases
+  const archetypeClause = `${allArchetypeNamesAndMatchers
     .join("|")
     .replaceAll("(", "\\(")
     .replaceAll(")", "\\)")
@@ -319,7 +333,7 @@ const playerRegex = (archetype) => {
   const tournamentClause = `${TOURNAMENT_SIGNIFIERS.join(" | ")}`;
 
   const archetypeClause = archetype
-    ? `${[...archetype.aliases, archetype.name, archetype.shortName]
+    ? `${archetype.matchers
         .join("|")
         .replaceAll("(", "\\(")
         .replaceAll(")", "\\)")
