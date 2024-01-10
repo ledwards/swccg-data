@@ -2,56 +2,8 @@ const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
 
-const TOURNAMENT_SIGNIFIERS = [
-  "Playoffs",
-  "Series",
-  "Prix",
-  "Championship",
-  "Worlds",
-  "Regionals",
-  "States",
-  "Cup",
-  "Open",
-  "Invitational",
-  "Nationals",
-  "Continentals",
-  "MPC",
-  "GEMPC7",
-  "GEMPC",
-  "Event",
-  "League",
-  "PC20",
-  "Tournament",
-  "OCS",
-  "Mini-Worlds",
-];
-
-const ROUND_NAMES = [
-  "Day 1",
-  "Day 2",
-  "Day 3",
-  "Top 4",
-  "Top 8",
-  "Top 16",
-  "Elite 8",
-  "Quarterfinals",
-  "Semifinals", // TODO: Disambiguate from "Semi-Finals"
-  "Semi-Finals",
-  "Finals",
-  "Tiebreaker",
-  "Round 1",
-  "Round 2",
-  "Final Four",
-  "Sweet 16",
-  "Final Confrontation",
-];
-
-const titleCase = (title) =>
-  title
-    .toLowerCase()
-    .replace(/[^\s]+/g, (word) =>
-      word.replace(/^./, (first) => first.toUpperCase()),
-    );
+const { tournamentSignifiers, roundNames } = require("./lib/constants");
+const { titleCase } = require("./lib/utils");
 
 const DECKLIST_TXT_DIR = "./output/decklists/txt";
 const SAVED_PLAYERS_PATH = "./public/players.json";
@@ -254,7 +206,7 @@ const cleanPlayerName = (playerName) => {
 };
 
 const matchableDecklistTitle = (title) => {
-  const roundMatcher = new RegExp(`(${ROUND_NAMES.join("|")})`, "i");
+  const roundMatcher = new RegExp(`(${roundNames.join("|")})`, "i");
 
   // TODO: is this redundant? Try to merge these functions
   let fixedTitle = title
@@ -330,7 +282,7 @@ const fixSpecificDecklistTitles = (title, side) => {
 };
 
 const playerRegex = (archetype) => {
-  const tournamentClause = `${TOURNAMENT_SIGNIFIERS.join(" | ")}`;
+  const tournamentClause = `${tournamentSignifiers.join(" | ")}`;
 
   const archetypeClause = archetype
     ? `${archetype.matchers
@@ -341,7 +293,7 @@ const playerRegex = (archetype) => {
         .replaceAll("?", "\\?")}`
     : ".+";
 
-  const roundClause = `${ROUND_NAMES.join("|")}`;
+  const roundClause = `${roundNames.join("|")}`;
 
   const tournamentRE = new RegExp(
     `(\\d{0,4})\\s?(.+(${tournamentClause}))\\s?(${roundClause})?\\s?(.+)(${roundClause})?\\s(DS|LS)\\s?(${archetypeClause})`,

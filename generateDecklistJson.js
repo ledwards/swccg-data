@@ -2,34 +2,9 @@ const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
 
-// TODO: BUGS
-// ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2019-outrider-cup-round-1-emil-wallin-ds-watto/
-// ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2022-mpc-top-8-mike-kessling-ds-map/
-// ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-yavin-4-base-operations/
-
 const ONLY_RUN_MATCHER = null;
 
-const ROUND_NAMES = [
-  "Day 1",
-  "Day 2",
-  "Day 3",
-  "Top 4",
-  "Top 8",
-  "Top 16",
-  "Elite 8",
-  "Quarterfinals",
-  "Semifinals", // TODO: Disambiguate from "Semi-Finals"
-  "Semi-Finals",
-  "Finals",
-  "Tiebreaker",
-  "Round 1",
-  "Round 2",
-];
-
-const titleCase = (title) =>
-  title.replace(/[^\s]+/g, (word) =>
-    word.replace(/^./, (first) => first.toUpperCase()),
-  );
+const { roundNames } = require("./lib/constants");
 
 const DECKLIST_TXT_DIR = "./output/decklists/txt";
 const DECKLIST_HTML_DIR = "./output/decklists/html";
@@ -184,7 +159,7 @@ const main = async () => {
         console.log("ERROR: Could not find player for decklist", decklist.url);
       }
 
-      const roundRE = new RegExp(`(${ROUND_NAMES.join("|")})`);
+      const roundRE = new RegExp(`(${roundNames.join("|")})`);
       const matches = decklist.title.match(roundRE);
       if (matches) {
         decklist.round = matches[1];

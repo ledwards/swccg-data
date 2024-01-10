@@ -677,8 +677,6 @@
       "https://www.starwarsccg.org/2021-worlds-bill-kafer-ls-chief-chirpas-hut-ltww/",
       "https://www.starwarsccg.org/2021-yavin-4-regionals-bill-kafer-ds-shadow-collective/",
       "https://www.starwarsccg.org/2021-yavin-4-regionals-bill-kafer-ls-ltww-mains/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-bill-kafer-ds-sc/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-bill-kafer-ls-no-idea/",
       "https://www.starwarsccg.org/2022-coruscant-regionals-bill-kafer-ds-hunt-down-v/",
       "https://www.starwarsccg.org/2022-coruscant-regionals-bill-kafer-ls-family-anakin/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-bill-kafer-ds-sc/",
@@ -704,7 +702,9 @@
       "https://www.starwarsccg.org/2023-worlds-bill-kafer-ds-shadow-collective/",
       "https://www.starwarsccg.org/2023-worlds-bill-kafer-ls-communing-yoda/",
       "https://www.starwarsccg.org/2023-yavin-4-regionals-bill-kafer-ds-shadow-collective/",
-      "https://www.starwarsccg.org/2023-yavin-4-regionals-bill-kafer-ls-whap/"
+      "https://www.starwarsccg.org/2023-yavin-4-regionals-bill-kafer-ls-whap/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-bill-kafer-ds-sc/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-bill-kafer-ls-no-idea/"
     ],
     "aliases": [
       "Bill Kafer"
@@ -2674,8 +2674,6 @@
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-ds-isb/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-confrontation-ds-isb/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-confrontation-ls-legend/",
-      "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-four-ds-isb/",
-      "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-four-ls-legend/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-ls-no-idea-1/",
       "https://www.starwarsccg.org/2020-tmw-greg-shaw-ls-no-idea-2/",
       "https://www.starwarsccg.org/2020-tmw-sweet-16-greg-shaw-ds-court/",
@@ -2733,6 +2731,19 @@
     "matchers": [
       "Greg Shaw",
       "GREG SHAW"
+    ]
+  },
+  {
+    "name": "Greg Shaw Final Four",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-four-ds-isb/",
+      "https://www.starwarsccg.org/2020-tmw-greg-shaw-final-four-ls-legend/"
+    ],
+    "aliases": [
+      "Greg Shaw Final Four"
+    ],
+    "matchers": [
+      "Greg Shaw Final Four"
     ]
   },
   {
@@ -3163,8 +3174,6 @@
       "https://www.starwarsccg.org/2021-us-nationals-jeff-lavigne-ls-diplo/",
       "https://www.starwarsccg.org/2021-worlds-jeffrey-lavigne-ds-bhbm/",
       "https://www.starwarsccg.org/2021-worlds-jeffrey-lavigne-ls-diplo/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-jeff-lavigne-ds-aobs/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-jeff-lavigne-ls-qui-communing/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-day-2-jeff-lavigne-ds-aobs/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-day-2-jeff-lavigne-ls-qui-communing/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-jeff-lavigne-ds-aobs/",
@@ -3185,6 +3194,8 @@
       "https://www.starwarsccg.org/2023-us-nationals-jeff-lavigne-ls-obi-wan-communing/",
       "https://www.starwarsccg.org/2023-worlds-jeff-lavigne-ds-desert-landing-site-ssav/",
       "https://www.starwarsccg.org/2023-worlds-jeff-lavigne-ls-skywalker-saga-anakin/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-jeff-lavigne-ds-aobs/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-jeff-lavigne-ls-qui-communing/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-jeff-lavigne-ls-qui-communing/"
     ],
     "aliases": [
@@ -3439,7 +3450,6 @@
       "https://www.starwarsccg.org/2020-tmw-elite-8-joe-olson-ds-isb/",
       "https://www.starwarsccg.org/2020-tmw-elite-8-joe-olson-ls-trm/",
       "https://www.starwarsccg.org/2020-tmw-joe-olson-ds-isb/",
-      "https://www.starwarsccg.org/2020-tmw-joe-olson-final-four-ds-isb/",
       "https://www.starwarsccg.org/2020-tmw-joe-olson-ls-legend/",
       "https://www.starwarsccg.org/2020-tmw-sweet-16-joe-olson-ds-isb/",
       "https://www.starwarsccg.org/2020-tmw-sweet-16-joe-olson-ls-trm/",
@@ -3467,8 +3477,6 @@
       "https://www.starwarsccg.org/2021-worlds-day-2-top-8-joe-olson-ls-qui-communing/",
       "https://www.starwarsccg.org/2021-worlds-joe-olson-ds-tdigwatt/",
       "https://www.starwarsccg.org/2021-worlds-joe-olson-ls-qui-communing/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-joe-olson-ds-ropsv/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-joe-olson-ls-profit/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-day-2-joe-olson-ds-ropsv/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-day-2-joe-olson-ls-pyre/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-joe-olson-ds-sc/",
@@ -3512,7 +3520,9 @@
       "https://www.starwarsccg.org/2023-worlds-joe-olson-ds-tatooine-desert-landing-site-ssav/",
       "https://www.starwarsccg.org/2023-worlds-joe-olson-ls-obi-wan-communing/",
       "https://www.starwarsccg.org/2019-endor-grand-prix-day-2-joe-olson-combat/",
-      "https://www.starwarsccg.org/2020-tmw-joe-olson-final-four-ls-chief-chirpas-hut-mains/"
+      "https://www.starwarsccg.org/2020-tmw-joe-olson-final-four-ls-chief-chirpas-hut-mains/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-joe-olson-ds-ropsv/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-joe-olson-ls-profit/"
     ],
     "aliases": [
       "Joe Olson"
@@ -3520,6 +3530,21 @@
     "matchers": [
       "Joe Olson",
       "JOE OLSON"
+    ]
+  },
+  {
+    "name": "Joe Olson Final Four",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2020-tmw-joe-olson-final-four-ds-isb/"
+    ],
+    "aliases": [
+      "Joe Olson Final Four",
+      "Joe Olson Final Four"
+    ],
+    "matchers": [
+      "Joe Olson Final Four",
+      "Joe Olson Final Four",
+      "Joe Olson Final Four"
     ]
   },
   {
@@ -4003,8 +4028,6 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-justin-branch-ls-oa/",
       "https://www.starwarsccg.org/2021-outrider-cup-eur-justin-branch-ds-isb/",
       "https://www.starwarsccg.org/2021-outrider-cup-eur-justin-branch-ls-hitco/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-justin-branch-ds-tdigwatt/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-justin-branch-ls-hitco/",
       "https://www.starwarsccg.org/2022-european-championship-justin-branch-ds-sc/",
       "https://www.starwarsccg.org/2022-european-championship-justin-branch-ls-oa/",
       "https://www.starwarsccg.org/2022-european-championship-top-8-justin-branch-ds-sc/",
@@ -4018,7 +4041,9 @@
       "https://www.starwarsccg.org/2023-naboo-regionals-justin-branch-ds-shadow-collective/",
       "https://www.starwarsccg.org/2023-naboo-regionals-justin-branch-ls-old-allies/",
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-justin-branch-ds-isb-operations/",
-      "https://www.starwarsccg.org/2023-ocs-playoff-top-16-justin-branch-ls-echo-base-operations/"
+      "https://www.starwarsccg.org/2023-ocs-playoff-top-16-justin-branch-ls-echo-base-operations/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-justin-branch-ds-tdigwatt/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-justin-branch-ls-hitco/"
     ],
     "aliases": [
       "Justin Branch"
@@ -5045,8 +5070,6 @@
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-ds-court/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-confrontation-ds-isb/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-confrontation-ls-trm/",
-      "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-four-ds-isb/",
-      "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-four-ls-qmc/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-ls-qmc/",
       "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-ls-trm/",
       "https://www.starwarsccg.org/2020-tmw-sweet-16-matthew-harrison-trainor-ds-hunt-down/",
@@ -5061,8 +5084,6 @@
       "https://www.starwarsccg.org/2021-outrider-cup-usa-matthew-harrison-trainor-ls-oa/",
       "https://www.starwarsccg.org/2021-worlds-matthew-harrison-trainor-ds-map/",
       "https://www.starwarsccg.org/2021-worlds-matthew-harrison-trainor-ls-qui-communing/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-matthew-harrison-trainor-ds-ropsv/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-matthew-harrison-trainor-ls-oa/",
       "https://www.starwarsccg.org/2022-ocs-top-16-matthew-harrison-trainor-ds-mauls-chambers-ssa-v/",
       "https://www.starwarsccg.org/2022-ocs-top-16-matthew-harrison-trainor-ls-communing-yoda/",
       "https://www.starwarsccg.org/2022-world-championship-matthew-harrison-trainor-ds-rops-v/",
@@ -5070,7 +5091,9 @@
       "https://www.starwarsccg.org/2022-world-championship-top-8-matthew-harrison-trainor-ds-ropsv/",
       "https://www.starwarsccg.org/2022-world-championship-top-8-matthew-harrison-trainor-ls-no-idea/",
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-matthew-harrison-trainor-ds-hunt-down/",
-      "https://www.starwarsccg.org/2023-ocs-playoff-top-16-matthew-harrison-trainor-ls-quiet-mining-colony/"
+      "https://www.starwarsccg.org/2023-ocs-playoff-top-16-matthew-harrison-trainor-ls-quiet-mining-colony/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-matthew-harrison-trainor-ds-ropsv/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-matthew-harrison-trainor-ls-oa/"
     ],
     "aliases": [
       "Matthew Harrison-Trainor"
@@ -5078,6 +5101,19 @@
     "matchers": [
       "Matthew Harrison-Trainor",
       "MATTHEW HARRISON-TRAINOR"
+    ]
+  },
+  {
+    "name": "Matthew Harrison-Trainor Final Four",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-four-ds-isb/",
+      "https://www.starwarsccg.org/2020-tmw-matthew-harrison-trainor-final-four-ls-qmc/"
+    ],
+    "aliases": [
+      "Matthew Harrison-Trainor Final Four"
+    ],
+    "matchers": [
+      "Matthew Harrison-Trainor Final Four"
     ]
   },
   {
@@ -5250,8 +5286,6 @@
     "decklistUrls": [
       "https://www.starwarsccg.org/2021-outrider-cup-eur-miguel-tarin-vegas-ds-map/",
       "https://www.starwarsccg.org/2021-outrider-cup-eur-miguel-tarin-vegas-ls-ltwwv-mains/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-miguel-tarin-vegas-ds-map/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-miguel-tarin-vegas-ls-legend/",
       "https://www.starwarsccg.org/2022-european-championship-miguel-tarin-vegas-ds-sc/",
       "https://www.starwarsccg.org/2022-european-championship-miguel-tarin-vegas-ls-yoda-communing/",
       "https://www.starwarsccg.org/2023-european-championship-miguel-tarin-vegas-ds-desert-landing-site-ssav/",
@@ -5268,7 +5302,9 @@
     "name": "Miguel Tarrin Vegas",
     "decklistUrls": [
       "https://www.starwarsccg.org/2020-worlds-day-1-miguel-tarin-ds-hunt-down-v/",
-      "https://www.starwarsccg.org/2020-worlds-day-1-miguel-tarin-ls-legend/"
+      "https://www.starwarsccg.org/2020-worlds-day-1-miguel-tarin-ls-legend/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-miguel-tarin-vegas-ds-map/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-miguel-tarin-vegas-ls-legend/"
     ],
     "aliases": [
       "Miguel Tarrin Vegas",
@@ -5329,8 +5365,6 @@
       "https://www.starwarsccg.org/2020-tmw-elite-8-mike-kessling-ls-no-idea/",
       "https://www.starwarsccg.org/2020-tmw-mike-kessling-ds-court/",
       "https://www.starwarsccg.org/2020-tmw-mike-kessling-ds-isb/",
-      "https://www.starwarsccg.org/2020-tmw-mike-kessling-final-four-ds-court/",
-      "https://www.starwarsccg.org/2020-tmw-mike-kessling-final-four-ls-trm/",
       "https://www.starwarsccg.org/2020-tmw-mike-kessling-ls-no-idea/",
       "https://www.starwarsccg.org/2020-tmw-mike-kessling-ls-trm/",
       "https://www.starwarsccg.org/2020-tmw-sweet-16-mike-kessling-ds-isb/",
@@ -5343,8 +5377,6 @@
       "https://www.starwarsccg.org/2021-us-nationals-day-2-mike-kessling-ls-old-allies/",
       "https://www.starwarsccg.org/2021-us-nationals-mike-kessling-ds-isb/",
       "https://www.starwarsccg.org/2021-us-nationals-mike-kessling-ls-old-allies/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-mike-kessling-ds-sc/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-mike-kessling-ls-oa/",
       "https://www.starwarsccg.org/2022-dagobah-regionals-mike-kessling-ds-ropsv/",
       "https://www.starwarsccg.org/2022-dagobah-regionals-mike-kessling-ls-communing-yoda/",
       "https://www.starwarsccg.org/2022-endor-grand-prix-mike-kessling-ds-sc/",
@@ -5393,13 +5425,28 @@
       "https://www.starwarsccg.org/2023-us-nationals-mike-kessling-ds-bhbm/",
       "https://www.starwarsccg.org/2023-us-nationals-mike-kessling-ls-old-allies/",
       "https://www.starwarsccg.org/2023-worlds-mike-kessling-ds-shadow-collective/",
-      "https://www.starwarsccg.org/2023-worlds-mike-kessling-ls-communing-yoda/"
+      "https://www.starwarsccg.org/2023-worlds-mike-kessling-ls-communing-yoda/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-mike-kessling-ds-sc/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-mike-kessling-ls-oa/"
     ],
     "aliases": [
       "Mike Kessling"
     ],
     "matchers": [
       "Mike Kessling"
+    ]
+  },
+  {
+    "name": "Mike Kessling Final Four",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2020-tmw-mike-kessling-final-four-ds-court/",
+      "https://www.starwarsccg.org/2020-tmw-mike-kessling-final-four-ls-trm/"
+    ],
+    "aliases": [
+      "Mike Kessling Final Four"
+    ],
+    "matchers": [
+      "Mike Kessling Final Four"
     ]
   },
   {
@@ -6922,20 +6969,21 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-timo-dusel-ls-diplo/",
       "https://www.starwarsccg.org/2021-outrider-cup-eur-timo-dusel-ds-tto/",
       "https://www.starwarsccg.org/2021-outrider-cup-eur-timo-dusel-ls-oa/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-timo-dusel-ds-ropsv/",
-      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-timo-dusel-ls-oa/",
       "https://www.starwarsccg.org/2022-european-championship-timo-dusel-ds-ropsv/",
       "https://www.starwarsccg.org/2022-european-championship-timo-dusel-ls-zero-hour/",
       "https://www.starwarsccg.org/2023-ocs-playoff-finals-timo-dusel-ds-thrawn/",
       "https://www.starwarsccg.org/2023-ocs-playoff-finals-timo-dusel-ls-yavin-4-base-operations/",
       "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ds-thrawn/",
+      "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-communing-yoda/",
       "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-yavin-4-base-operations/",
       "https://www.starwarsccg.org/2023-ocs-playoff-semi-finals-timo-dusel-ds-agents-of-black-sun/",
       "https://www.starwarsccg.org/2023-ocs-playoff-semi-finals-timo-dusel-ls-yavin-4-base-operations/",
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-timo-dusel-ds-thrawn/",
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-timo-dusel-ls-echo-base-operations/",
       "https://www.starwarsccg.org/2023-ralltiir-regionals-timo-dusel-ds-thrawn/",
-      "https://www.starwarsccg.org/2023-ralltiir-regionals-timo-dusel-ls-skywalker-saga-anakin/"
+      "https://www.starwarsccg.org/2023-ralltiir-regionals-timo-dusel-ls-skywalker-saga-anakin/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-timo-dusel-ds-ropsv/",
+      "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-timo-dusel-ls-oa/"
     ],
     "aliases": [
       "Timo Dusel"

@@ -5,34 +5,8 @@ const path = require("path");
 const DECKLISTS_URL = "https://www.starwarsccg.org/tournaments/#decklists";
 const REQUEST_DELAY = 500;
 
-const titleCase = (title) =>
-  title
-    ? title.toLowerCase().replace(/\b[a-z]/g, (s) => s.toUpperCase())
-    : null;
-
-const TOURNAMENT_SIGNIFIERS = [
-  "Playoffs",
-  "Series",
-  "Prix",
-  "Championship",
-  "Worlds",
-  "Regionals",
-  "States",
-  "Cup",
-  "Open",
-  "Invitational",
-  "Nationals",
-  "Continentals",
-  "MPC",
-  "GEMPC7",
-  "GEMPC",
-  "Event",
-  "League",
-  "PC20",
-  "Tournament",
-  "OCS",
-  "Mini-Worlds",
-];
+const { tournamentSignifiers } = require("./lib/constants");
+const { titleCase } = require("./lib/utils");
 
 const main = async () => {
   let tournaments = [];
@@ -152,10 +126,12 @@ const main = async () => {
               "2017 Endor Grand Prix",
             );
 
-            const tournamentSignifiers = `(${TOURNAMENT_SIGNIFIERS.join("|")})`;
+            const tournamentSignifiersExpression = `(${tournamentSignifiers.join(
+              "|",
+            )})`;
             const tournamentRE = new RegExp(
               // to make this tell between player and archetype either need to put DS/LS back in, or assume player is always 2 wordsm or pull from list of players or archetypes
-              `(\\d{0,4})\\s?(.*${tournamentSignifiers}).*`,
+              `(\\d{0,4})\\s?(.*${tournamentSignifiersExpression}).*`,
               "i",
             );
 

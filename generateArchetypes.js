@@ -2,46 +2,11 @@ const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
 
+const { tournamentSignifiers, roundNames } = require("./lib/constants");
+
 const ONLY_RUN_MATCHER = null;
 
 const DECKLIST_TXT_DIR = "./output/decklists/txt";
-
-// TODO: Extract this
-const TOURNAMENT_SIGNIFIERS = [
-  "Playoffs",
-  "Series",
-  "Prix",
-  "Championship",
-  "Worlds",
-  "Regionals",
-  "States",
-  "Cup",
-  "Open",
-  "Invitational",
-  "Nationals",
-  "Continentals",
-  "MPC",
-  "Event",
-  "League",
-  "PC20",
-  "Tournament",
-  "GEMPC7",
-  "OCS",
-];
-
-const ROUND_NAMES = [
-  "Day 1",
-  "Day 2",
-  "Day 3",
-  "Top 4",
-  "Top 8",
-  "Top 16",
-  "Elite 8",
-  "Quarterfinals",
-  "Semifinals",
-  "Semi-Finals",
-  "Finals",
-];
 
 const EXCLUDED_STARTING_INTERRUPTS = [
   "Prepared Defenses",
@@ -1065,9 +1030,9 @@ const cardTitleFromLine = (line) => {
 };
 
 const rawArchetypeNameFromDecklistTitle = (title) => {
-  const tournamentDelimiter = `(${TOURNAMENT_SIGNIFIERS.concat(
-    ROUND_NAMES,
-  ).join("|")})`;
+  const tournamentDelimiter = `(${tournamentSignifiers
+    .concat(roundNames)
+    .join("|")})`;
   const tournamentRE = new RegExp(
     `\\d{0,4}\\s?.+${tournamentDelimiter}\\s?.+\\s(DS|LS)\\s(.+)`,
     "i",
