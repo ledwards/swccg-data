@@ -70,11 +70,36 @@ const main = async () => {
 
     xml += "</deck>\n";
 
-    const gempFilename = `[${(
-      decklist.tournament || "no event name found"
-    ).toUpperCase()}] ${decklist.archetype.shortName} (${
-      decklist.player.name
-    })`;
+    const MAX_FILENAME_LENGTH = 40;
+    const tournamentShortName = decklist.tournamentShortName || "Unknown";
+    const shortRound = shortRoundName(decklist.roundName);
+    const tournamentName =
+      decklist.tournamentShortName || decklist.tournament || "Unknown";
+    const lettersUsedBeforePlayerName =
+      tournamentName.length +
+      decklist.archetype.shortName.length +
+      (shortRound || "").length +
+      8;
+    let playerShortName = cleanPlayerName(decklist.player.name);
+    if (lettersUsedBeforePlayerName + playerShortName.length > 40) {
+      const nameLimit = MAX_FILENAME_LENGTH - lettersUsedBeforePlayerName - 6;
+      const firstName = decklist.player.name.split(" ")[0];
+      const lastName = decklist.player.name.split(" ").slice(-1);
+      const nickname = playerNickname(decklist.player.name);
+
+      playerShortName =
+        [
+          nickname,
+          `${firstName[0]} ${lastName}`,
+          `${firstName[0]}${lastName}`,
+          lastName,
+        ].find((el) => el && el.length <= nameLimit) ||
+        `${firstName[0]} ${lastName.slice(0, nameLimit - 3)}`;
+    }
+
+    const gempFilename = `[${tournamentShortName.toUpperCase()}${
+      shortRound ? " " + shortRound : ""
+    }] ${decklist.archetype.shortName} (${playerShortName})`;
 
     fs.writeFileSync(
       path.resolve(
@@ -86,6 +111,28 @@ const main = async () => {
     );
   });
 };
+
+const shortRoundName = (roundName) =>
+  !roundName
+    ? null
+    : roundName
+        .replace("Day ", "D")
+        .replace("Round ", "R")
+        .replace("Finals", "F")
+        .replace("Semifinals", "SF")
+        .replace("Semi-Finals", "SF")
+        .replace("Quarterfinals", "QF")
+        .replace("Top ", "T")
+        .replace("Sweet ", "S");
+
+const cleanPlayerName = (name) =>
+  name
+    .replace("A.J.", "AJ")
+    .replace(/.* \(/, "") // for e.g. Lawrence (Rich) Craft
+    .replace(/\) .*/, "");
+
+const playerNickname = (name) =>
+  name.replace("Matthew Harrison-Trainor", "MHT").replace("");
 
 const titleForGemp = (title) =>
   title ? title.replaceAll(/[•<>]/g, "").replace(/ \/.*/g, "").trim() : null;

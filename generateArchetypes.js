@@ -1207,7 +1207,8 @@ const mapLongNameToShortName = (archetype) => {
     .replace("Tatooine: Slave Quarters", "Slave Quarters")
     .replace("Slave Quarters (V)", "Slave Quarters")
     .replace("Tatooine: Skywalker Hut", "Skywalker Hut")
-    .replace("According To My Design", "ATMD");
+    .replace("According To My Design", "ATMD")
+    .replace("Yavin 4: Massassi Throne Room", "TRM");
 
   return map[archetype] || archetype;
 };

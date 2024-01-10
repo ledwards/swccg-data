@@ -67,6 +67,7 @@
       "https://www.starwarsccg.org/2023-ocs-playoff-top-16-bill-pittman-ls-skywalker-saga-anakin/"
     ],
     "name": "2023 OCS Playoffs",
+    "shortName": "2023 OCS",
     "event": "OCS Playoffs"
   },
   {
@@ -165,6 +166,7 @@
       "https://www.starwarsccg.org/2023-endor-grand-prix-matt-thornton-ls-legend/"
     ],
     "name": "2023 Endor Grand Prix",
+    "shortName": "2023 EGP",
     "event": "Endor Grand Prix"
   },
   {
@@ -249,6 +251,7 @@
       "https://www.starwarsccg.org/2023-european-championships-martin-den-boef-ls-obi-wan-communing/"
     ],
     "name": "2023 European Championship",
+    "shortName": "2023 Euros",
     "event": "European Championship"
   },
   {
@@ -413,6 +416,7 @@
       "https://www.starwarsccg.org/2023-worlds-brian-avery-ls-hidden-base/"
     ],
     "name": "2023 Worlds",
+    "shortName": "2023 Worlds",
     "event": "Worlds"
   },
   {
@@ -451,6 +455,7 @@
       "https://www.starwarsccg.org/2023-gempc7-greg-shaw-ls-obi-wan-communing/"
     ],
     "name": "2023 GEMPC",
+    "shortName": "2023 GEMPC",
     "event": "GEMPC"
   },
   {
@@ -536,8 +541,9 @@
       "https://www.starwarsccg.org/2023-us-nationals-travis-morris-ds-bhbm/",
       "https://www.starwarsccg.org/2023-us-nationals-travis-morris-ls-no-idea/"
     ],
-    "name": "2023 U.s. Nationals",
-    "event": "U.s. Nationals"
+    "name": "2023 U.S. Nationals",
+    "shortName": "2023 USNats",
+    "event": "U.S. Nationals"
   },
   {
     "url": "https://www.starwarsccg.org/2023-03-2023-regional-championship-events/",
@@ -835,6 +841,7 @@
       "https://www.starwarsccg.org/2023-ralltiir-regionals-kevin-jaap-ls-ebo/"
     ],
     "name": "2023 Dagobah Regionals",
+    "shortName": "2023 Dagobah",
     "event": "Dagobah Regionals"
   },
   {
@@ -929,6 +936,7 @@
       "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-thomas-santosuosso-qmc/"
     ],
     "name": "2023 San Diego Super Open",
+    "shortName": "2023 San Diego SO",
     "event": "San Diego Super Open"
   },
   {
@@ -954,7 +962,8 @@
       "https://www.starwarsccg.org/champions-league-quarterfinals-joe-olson-ls-qmc/",
       "https://www.starwarsccg.org/champions-league-quarterfinals-chris-wirfs-ds-cct/"
     ],
-    "name": " Champions League",
+    "name": "Champions League",
+    "shortName": "CL",
     "event": "Champions League"
   },
   {
@@ -1025,6 +1034,7 @@
       "https://www.starwarsccg.org/2022-ocs-top-16-paul-myers-ls-yavin-4-base-operations/"
     ],
     "name": "2022 OCS Playoffs",
+    "shortName": "2022 OCS",
     "event": "OCS Playoffs"
   },
   {
@@ -1153,6 +1163,7 @@
       "https://www.starwarsccg.org/2022-world-championship-cal-aldred-ls-yoda-communing/"
     ],
     "name": "2022 World Championship",
+    "shortName": "2022 Worlds",
     "event": "World Championship"
   },
   {
@@ -1253,6 +1264,7 @@
       "https://www.starwarsccg.org/2022-european-championship-kent-larsen-ls-qui-gon-communing/"
     ],
     "name": "2022 European Championship",
+    "shortName": "2022 Euros",
     "event": "European Championship"
   },
   {
@@ -1537,6 +1549,7 @@
       "https://www.starwarsccg.org/2022-corellia-regionals-aaron-groth-ls-communing-yoda/"
     ],
     "name": "2022 Toola Regionals",
+    "shortName": "2022 Toola",
     "event": "Toola Regionals"
   },
   {
@@ -1626,8 +1639,9 @@
       "https://www.starwarsccg.org/2022-us-nationals-day-1-ben-herold-ds-invasion/",
       "https://www.starwarsccg.org/2022-us-nationals-day-1-ben-herold-ls-tigih/"
     ],
-    "name": "2022 U.s. Nationals",
-    "event": "U.s. Nationals"
+    "name": "2022 U.S. Nationals",
+    "shortName": "2022 USNats",
+    "event": "U.S. Nationals"
   },
   {
     "url": "https://www.starwarsccg.org/2022-04-pc20-tournament/",
@@ -1686,7 +1700,8 @@
       "https://www.starwarsccg.org/pc20-truman-brody-boyd-ds-verge/",
       "https://www.starwarsccg.org/pc20-truman-brody-boyd-ls-whap/"
     ],
-    "name": " PC 20th Anniversary Tournament",
+    "name": "PC 20th Anniversary Tournament",
+    "shortName": "PC20",
     "event": "PC 20th Anniversary Tournament"
   },
   {
@@ -1785,6 +1800,7 @@
       "https://www.starwarsccg.org/2022-endor-grand-prix-phil-aasen-ls-pyre/"
     ],
     "name": "2022 Endor Grand Prix",
+    "shortName": "2022 EGP",
     "event": "Endor Grand Prix"
   },
   {
@@ -1811,6 +1827,7 @@
       "https://www.starwarsccg.org/2022-6th-annual-gempc-top-8-miguel-tarin-vegas-ls-legend/"
     ],
     "name": "2022 6th Annual GEMPC",
+    "shortName": "GEMPC",
     "event": "6th Annual GEMPC"
   },
   {
@@ -1849,6 +1866,7 @@
       "https://www.starwarsccg.org/2021-outrider-cup-tiebreaker-joe-olson-ls-ltwwv-dwell/"
     ],
     "name": "2021 Outrider Cup",
+    "shortName": "2021 Outrider",
     "event": "Outrider Cup"
   },
   {
@@ -1932,6 +1950,7 @@
       "https://www.starwarsccg.org/2022-mpc-lenny-rubin-ls-diplo/"
     ],
     "name": "2022 Match Play Championship",
+    "shortName": "2022 MPC",
     "event": "Match Play Championship"
   },
   {
@@ -2078,6 +2097,7 @@
       "https://www.starwarsccg.org/2021-worlds-jeffrey-johns-ls-yoda-communing/"
     ],
     "name": "2021 Worlds",
+    "shortName": "2021 Worlds",
     "event": "Worlds"
   },
   {
@@ -2197,8 +2217,9 @@
       "https://www.starwarsccg.org/2021-us-nationals-brad-reinhold-ds-hunt-down-v/",
       "https://www.starwarsccg.org/2021-us-nationals-brad-reinhold-ls-ltww-mains/"
     ],
-    "name": "2021 U.s. Nationals",
-    "event": "U.s. Nationals"
+    "name": "2021 U.S. Nationals",
+    "shortName": "2021 USNats",
+    "event": "U.S. Nationals"
   },
   {
     "url": "https://www.starwarsccg.org/2021-match-play-championship/",
@@ -2319,6 +2340,7 @@
       "https://www.starwarsccg.org/2021-match-play-championship-day-1-david-woods-ls-profit/"
     ],
     "name": "2021 Match Play Championship",
+    "shortName": "2021 MPC",
     "event": "Match Play Championship"
   },
   {
@@ -2463,6 +2485,7 @@
       "https://www.starwarsccg.org/2021-nal-hutta-regional-brian-west-ls-yoda-communing/"
     ],
     "name": "2021 Bespin Regionals",
+    "shortName": "2021 Bespin",
     "event": "Bespin Regionals"
   },
   {
@@ -2749,6 +2772,7 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-hayes-hunter-ls-no-idea/"
     ],
     "name": "2020 Worlds",
+    "shortName": "2020 Worlds",
     "event": "Worlds"
   },
   {
@@ -3064,6 +3088,7 @@
       "https://www.starwarsccg.org/2020-tmw-sweet-16-eric-spijksma-ls-oa/"
     ],
     "name": "2020 Texas Mini Worlds",
+    "shortName": "2020 TMW",
     "event": "Texas Mini Worlds"
   },
   {
@@ -3210,6 +3235,7 @@
       "https://www.starwarsccg.org/2020-mpc-day-1-steven-yaeger-ls-trm/"
     ],
     "name": "2020 Match Play Championship",
+    "shortName": "2020 MPC",
     "event": "Match Play Championship"
   },
   {
@@ -3316,6 +3342,7 @@
       "https://www.starwarsccg.org/2020-egp-day-1-matt-smith-ls-no-idea/"
     ],
     "name": "2020 Endor Grand Prix",
+    "shortName": "2020 EGP",
     "event": "Endor Grand Prix"
   },
   {
@@ -3480,6 +3507,7 @@
       "https://www.starwarsccg.org/2019-worlds-day-2-stefan-boersma-ls-qmc/"
     ],
     "name": "2019 Worlds",
+    "shortName": "2019 Worlds",
     "event": "Worlds"
   },
   {
@@ -3539,6 +3567,7 @@
       "https://www.starwarsccg.org/2019-outrider-cup-round-2-chris-wirfs-ls-oa/"
     ],
     "name": "2019 Outrider Cup",
+    "shortName": "2019 Outrider",
     "event": "Outrider Cup"
   },
   {
@@ -3686,6 +3715,7 @@
       "https://www.starwarsccg.org/2019-nac-day-1-austin-jacobus-ls-trm/"
     ],
     "name": "2019 North American Continentals",
+    "shortName": "2019 NAC",
     "event": "North American Continentals"
   },
   {
@@ -3798,6 +3828,7 @@
       "https://www.starwarsccg.org/2019-mpc-day-1-chris-wirfs-ls-senate/"
     ],
     "name": "2019 Match Play Championship",
+    "shortName": "2019 MPC",
     "event": "Match Play Championship"
   },
   {
@@ -3870,6 +3901,7 @@
       "https://www.starwarsccg.org/2019-ec-day-2-mike-klarenbeek-ds-hunt-down/"
     ],
     "name": "2019 European Championship",
+    "shortName": "2019 Euros",
     "event": "European Championship"
   },
   {
@@ -3952,6 +3984,7 @@
       "https://www.starwarsccg.org/2019-endor-grand-prix-day-1-michael-erisman-tatooine-cp-v/"
     ],
     "name": "2019 Endor Grand Prix",
+    "shortName": "2019 EGP",
     "event": "Endor Grand Prix"
   },
   {
@@ -3988,6 +4021,7 @@
       "https://www.starwarsccg.org/2018-worlds-jeremy-gardner-no-idea/"
     ],
     "name": "2018 Worlds",
+    "shortName": "2018 Worlds",
     "event": "Worlds"
   },
   {
@@ -4061,8 +4095,9 @@
       "https://www.starwarsccg.org/2018-us-nationals-day-1-vince-hutchins-isb/",
       "https://www.starwarsccg.org/2018-us-nationals-day-1-vince-hutchins-profit/"
     ],
-    "name": "2018 U.s. Nationals",
-    "event": "U.s. Nationals"
+    "name": "2018 U.S. Nationals",
+    "shortName": "2018 USNats",
+    "event": "U.S. Nationals"
   },
   {
     "url": "https://www.starwarsccg.org/2018-match-play-championships/",
@@ -4180,6 +4215,7 @@
       "https://www.starwarsccg.org/2018-mpc-day-1-chris-wirfs-tigih/"
     ],
     "name": "2018 Match Play Championship",
+    "shortName": "2018 MPC",
     "event": "Match Play Championship"
   },
   {
@@ -4241,7 +4277,8 @@
       "https://www.starwarsccg.org/euro-mpc-2018-jimmy-falleans-invasion/",
       "https://www.starwarsccg.org/euro-mpc-2018-jimmy-falleans-mwyhl/"
     ],
-    "name": " Euromatch Play Championship",
+    "name": "Euromatch Play Championship",
+    "shortName": "EuroMPC",
     "event": "Euromatch Play Championship"
   },
   {
@@ -4290,6 +4327,7 @@
       "https://www.starwarsccg.org/2018-euros-pete-the-welsh-ls-mains/"
     ],
     "name": "2018 European Championship",
+    "shortName": "2018 Euros",
     "event": "European Championship"
   },
   {
@@ -4320,6 +4358,7 @@
       "https://www.starwarsccg.org/2018-egp-adam-kwart-tatooine-cpv/"
     ],
     "name": "2018 Endor Grand Prix",
+    "shortName": "2018 EGP",
     "event": "Endor Grand Prix"
   },
   {
@@ -4464,6 +4503,7 @@
       "https://www.starwarsccg.org/2017-worlds-day-2-jeremy-dipaolo-diplo/"
     ],
     "name": "2017 Worlds",
+    "shortName": "2017 Worlds",
     "event": "Worlds"
   },
   {
@@ -4552,8 +4592,9 @@
       "https://www.starwarsccg.org/2017-us-nationals-vinny-rossi-day-1-ds/",
       "https://www.starwarsccg.org/2017-us-nationals-vinny-rossi-day-1-ls/"
     ],
-    "name": "2017 U.s. Nationals",
-    "event": "U.s. Nationals"
+    "name": "2017 U.S. Nationals",
+    "shortName": "2017 USNats",
+    "event": "U.S. Nationals"
   },
   {
     "url": "https://www.starwarsccg.org/2017-texas-mini-worlds/",
@@ -4613,6 +4654,7 @@
       "https://www.starwarsccg.org/2017-tmw-day-1-brian-speight-wys/"
     ],
     "name": "2017 Texas Mini Worlds",
+    "shortName": "2017 TMW",
     "event": "Texas Mini Worlds"
   },
   {
@@ -4759,6 +4801,7 @@
       "https://www.starwarsccg.org/2017-mpc-chris-wirfs-day-1-ls/"
     ],
     "name": "2017 Match Play Championship",
+    "shortName": "2017 MPC",
     "event": "Match Play Championship"
   },
   {
@@ -4872,6 +4915,7 @@
       "https://www.starwarsccg.org/2017-ec-day-2-martin-sommer-jakku-cpv/"
     ],
     "name": "2017 European Championship",
+    "shortName": "2017 Euros",
     "event": "European Championship"
   },
   {
@@ -4952,6 +4996,7 @@
       "https://www.starwarsccg.org/2017-endor-day-1-travis-egan-ls/"
     ],
     "name": "2017 Endor Grand Prix",
+    "shortName": "2017 EGP",
     "event": "Endor Grand Prix"
   },
   {
@@ -5098,6 +5143,7 @@
       "https://www.starwarsccg.org/2016-worlds-day-2-mike-kessling-ls/"
     ],
     "name": "2016 Worlds",
+    "shortName": "2016 Worlds",
     "event": "Worlds"
   },
   {
@@ -5152,8 +5198,9 @@
       "https://www.starwarsccg.org/2016-texas-mini-worlds-robbie-hendon-day-1-ds/",
       "https://www.starwarsccg.org/2016-texas-mini-worlds-robbie-hendon-day-1-ls/"
     ],
-    "name": "2016 Texas Mini-worlds",
-    "event": "Texas Mini-worlds"
+    "name": "2016 Texas Mini-Worlds",
+    "shortName": "2016 TMW",
+    "event": "Texas Mini-Worlds"
   },
   {
     "url": "https://www.starwarsccg.org/2016-match-play-championship/",
@@ -5283,6 +5330,7 @@
       "https://www.starwarsccg.org/2016-mpc-day-1-tim-heffner-ls-whap/"
     ],
     "name": "2016 Match Play Championship",
+    "shortName": "2016 MPC",
     "event": "Match Play Championship"
   },
   {
@@ -5381,6 +5429,7 @@
       "https://www.starwarsccg.org/2016-european-championships-pete-rowlands-day-2-ls/"
     ],
     "name": "2016 European Championship",
+    "shortName": "2016 Euros",
     "event": "European Championship"
   },
   {
@@ -5479,6 +5528,7 @@
       "https://www.starwarsccg.org/2016-endor-grand-prix-jerry-heine-day-1-ls/"
     ],
     "name": "2016 Endor Grand Prix",
+    "shortName": "2016 EGP",
     "event": "Endor Grand Prix"
   },
   {
@@ -5625,6 +5675,7 @@
       "https://www.starwarsccg.org/2015-worlds-day-2-steve-miller-ls-combat/"
     ],
     "name": "2015 Worlds",
+    "shortName": "2015 Worlds",
     "event": "Worlds"
   },
   {
@@ -5685,6 +5736,7 @@
       "https://www.starwarsccg.org/2015-texas-mini-worlds-olaf-schroeder-day-1-qmc/"
     ],
     "name": "2015 Texas Mini Worlds",
+    "shortName": "2015 TMW",
     "event": "Texas Mini Worlds"
   },
   {
@@ -5763,6 +5815,7 @@
       "https://www.starwarsccg.org/2015-san-diego-grand-prix-34th-place-ls-brandon-romano-profit/"
     ],
     "name": "2015 San Diego Grand Prix",
+    "shortName": "2015 San Diego Grand Prix",
     "event": "San Diego Grand Prix"
   },
   {
@@ -5870,6 +5923,7 @@
       "https://www.starwarsccg.org/2015-mpc-tom-schwarz-ls-h1wr-gungans/"
     ],
     "name": "2015 Match Play Championship",
+    "shortName": "2015 MPC",
     "event": "Match Play Championship"
   },
   {
@@ -5958,6 +6012,7 @@
       "https://www.starwarsccg.org/2015-european-championship-day-2-31st-place-ls-eric-spijksma-qmc/"
     ],
     "name": "2015 European Championship",
+    "shortName": "2015 Euros",
     "event": "European Championship"
   },
   {
@@ -6018,6 +6073,7 @@
       "https://www.starwarsccg.org/2014-philadelphia-premiere-event-wayne-cullen-ls-profit/"
     ],
     "name": "2014 Philadelphia Premiere Event",
+    "shortName": "2014 Philadelphia Premiere Event",
     "event": "Philadelphia Premiere Event"
   }
 ]

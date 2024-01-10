@@ -136,7 +136,7 @@ const normalizePlayerName = (playerName) => {
     .replace("Fernando Castanon", "Fernando Castañón")
     .replace("Jeffrey Lavigne", "Jeff Lavigne")
     .replace("Jeff Johns", "Jeffrey Johns")
-    .replace("Jonas Hagen", "Jonas Hagen Nørregaard")
+    .replace(/^Jonas Hagen$/, "Jonas Hagen Nørregaard")
     .replace("Jonas Hagen Noerregaard", "Jonas Hagen Nørregaard")
     .replace("Jonas Hagen Norregaard", "Jonas Hagen Nørregaard")
     .replace("Julian-Andres Smolarek", "Julian Smolarek")

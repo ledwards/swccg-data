@@ -126,6 +126,8 @@ const main = async () => {
               "2017 Endor Grand Prix",
             );
 
+            decklistFullTitle = decklistFullTitle.replace("6th Annual ", "");
+
             const tournamentSignifiersExpression = `(${tournamentSignifiers.join(
               "|",
             )})`;
@@ -144,12 +146,17 @@ const main = async () => {
                 .replace("Ocs", "OCS")
                 .replace("Mpc", "MPC")
                 .replace("Gempc", "GEMPC")
-                .replace("Pc", "PC");
+                .replace("Pc", "PC")
+                .replace("U.s.", "U.S.")
+                .replace("Mini-worlds", "Mini-Worlds");
+
+              const name = [year || "", event].join(" ").trim();
 
               return {
                 url: tournament.url,
-                name: [year || "", event].join(" "),
-                event: event,
+                name: name,
+                shortName: shortName(name),
+                event: event.trim(),
                 year,
               };
             } else {
@@ -159,6 +166,7 @@ const main = async () => {
               return {
                 url: tournament.url,
                 name: null,
+                shortName: null,
                 event: null,
                 year: null,
                 date: null,
@@ -169,6 +177,7 @@ const main = async () => {
             return {
               url: tournament.url,
               name: null,
+              shortName: null,
               event: null,
               year: null,
               date: null,
@@ -198,6 +207,26 @@ const main = async () => {
     path.resolve(__dirname, "public", "tournaments.json"),
     JSON.stringify(tournaments, null, 2),
   );
+};
+
+const shortName = (name) => {
+  return name
+    .replace("OCS Playoffs", "OCS")
+    .replace("Endor Grand Prix", "EGP")
+    .replace("European Championship", "Euros")
+    .replace("U.S. Nationals", "USNats")
+    .replace(" Regionals", "")
+    .replace("Super Open", "SO")
+    .replace("North American Continentals", "NAC")
+    .replace("World Championship", "Worlds")
+    .replace("PC 20th Anniversary Tournament", "PC20")
+    .replace(/\dth Annual /, "")
+    .replace("Outrider Cup", "Outrider")
+    .replace("Texas Mini Worlds", "TMW")
+    .replace("Texas Mini-Worlds", "TMW")
+    .replace("Match Play Championship", "MPC")
+    .replace("Euromatch Play Championship", "EuroMPC")
+    .replace("Champions League", "CL");
 };
 
 main();

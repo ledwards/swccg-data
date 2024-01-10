@@ -3752,68 +3752,33 @@
   {
     "name": "Jonas Hagen Nørregaard",
     "decklistUrls": [
+      "https://www.starwarsccg.org/2019-worlds-day-2-jonas-hagen-norregaard-ds-aobs/",
+      "https://www.starwarsccg.org/2019-worlds-day-2-jonas-hagen-norregaard-ls-diplo/",
       "https://www.starwarsccg.org/2022-european-championship-jonas-hagen-ls-yoda-communing/",
       "https://www.starwarsccg.org/2022-european-championship-top-8-jonas-hagen-ds-walkers/",
       "https://www.starwarsccg.org/2022-european-championship-top-8-jonas-hagen-ls-yoda-communing/",
-      "https://www.starwarsccg.org/2022-european-championships-jonas-hagen-ds-walkers/"
-    ],
-    "aliases": [
-      "Jonas Hagen Nørregaard",
-      "Jonas Hagen"
-    ],
-    "matchers": [
-      "Jonas Hagen Nørregaard",
-      "Jonas Hagen",
-      "JONAS HAGEN"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Noerregaard",
-    "decklistUrls": [
+      "https://www.starwarsccg.org/2022-european-championships-jonas-hagen-ds-walkers/",
+      "https://www.starwarsccg.org/2022-toola-regionals-jonas-hagen-norregaard-ds-aobs/",
+      "https://www.starwarsccg.org/2022-toola-regionals-jonas-hagen-norregaard-ls-yoda-communing/",
+      "https://www.starwarsccg.org/2023-european-championship-jonas-hagen-norregaard-ds-walkers/",
+      "https://www.starwarsccg.org/2023-european-championship-jonas-hagen-norregaard-ls-whap/",
+      "https://www.starwarsccg.org/2023-european-championship-top-8-jonas-hagen-norregaard-ds-sc/",
+      "https://www.starwarsccg.org/2023-european-championship-top-8-jonas-hagen-norregaard-ls-whap/",
       "https://www.starwarsccg.org/2023-toola-regionals-jonas-hagen-noerregaard-ds-thrawn/",
       "https://www.starwarsccg.org/2023-toola-regionals-jonas-hagen-noerregaard-ls-whap/"
     ],
     "aliases": [
-      "Jonas Hagen Nørregaard Noerregaard",
+      "Jonas Hagen Nørregaard",
+      "Jonas Hagen",
+      "Jonas Hagen Norregaard",
       "Jonas Hagen Noerregaard"
     ],
     "matchers": [
-      "Jonas Hagen Nørregaard Noerregaard",
+      "Jonas Hagen Nørregaard",
+      "Jonas Hagen",
+      "JONAS HAGEN",
+      "Jonas Hagen Norregaard",
       "Jonas Hagen Noerregaard"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Norregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2022-toola-regionals-jonas-hagen-norregaard-ds-aobs/",
-      "https://www.starwarsccg.org/2022-toola-regionals-jonas-hagen-norregaard-ls-yoda-communing/"
-    ],
-    "aliases": [
-      "Jonas Hagen Nørregaard Norregaard",
-      "Jonas Hagen Norregaard"
-    ],
-    "matchers": [
-      "Jonas Hagen Nørregaard Norregaard",
-      "Jonas Hagen Norregaard"
-    ]
-  },
-  {
-    "name": "Jonas Hagen Nørregaard Nørregaard",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2019-worlds-day-2-jonas-hagen-norregaard-ds-aobs/",
-      "https://www.starwarsccg.org/2019-worlds-day-2-jonas-hagen-norregaard-ls-diplo/",
-      "https://www.starwarsccg.org/2023-european-championship-jonas-hagen-norregaard-ds-walkers/",
-      "https://www.starwarsccg.org/2023-european-championship-jonas-hagen-norregaard-ls-whap/",
-      "https://www.starwarsccg.org/2023-european-championship-top-8-jonas-hagen-norregaard-ds-sc/",
-      "https://www.starwarsccg.org/2023-european-championship-top-8-jonas-hagen-norregaard-ls-whap/"
-    ],
-    "aliases": [
-      "Jonas Hagen Nørregaard Nørregaard",
-      "Jonas Hagen Nørregaard"
-    ],
-    "matchers": [
-      "Jonas Hagen Nørregaard Nørregaard",
-      "Jonas Hagen Nørregaard"
     ]
   },
   {

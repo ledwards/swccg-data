@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# rm ./output/decks/html/*.html ## Don't delete the html files
+rm ./output/decks/html/*.html ## Don't delete the html files
 rm ./output/decklists/txt/*.txt
 rm ./output/decklists/json/*.json
 rm ./output/decklists/gemp/*.gemp.txt

@@ -126,6 +126,7 @@ const main = async () => {
       const tournament = lookupTournament(decklist);
       if (tournament) {
         decklist.tournament = tournament.name;
+        decklist.tournamentShortName = tournament.shortName;
         decklist.event = tournament.event;
       } else {
         console.log(
@@ -251,6 +252,7 @@ const main = async () => {
         date: decklist.date,
         url: decklist.url,
         tournament: decklist.tournament,
+        tournamentShortName: decklist.tournamentShortName,
         event: decklist.event,
         round: decklist.round,
         format: decklist.format,
@@ -269,10 +271,9 @@ const main = async () => {
       };
 
       // TODO: A few cards are missing a few cards
-
-      if (decklist.count != 60) {
-        console.log(`(${decklist.count}) Decklist:`, decklist.url);
-      }
+      // if (decklist.count != 60) {
+      //   console.log(`(${decklist.count}) Decklist:`, decklist.url);
+      // }
 
       fs.writeFileSync(
         path.resolve(
