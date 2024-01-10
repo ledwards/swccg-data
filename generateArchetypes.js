@@ -2,25 +2,11 @@ const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
 
-// TODO: having "First Order ROps" be an alias for ROps is not ideal
-// Ditto Y4O Jedi Business
-// We probably want the current alias field to be "matchers"
-// Alias would be just the aliases from cards.json
-// Alias field put onto any decklist.archetype should be specific to that decklist
-//
-// ALTERNATIVELY
-// Maybe this is onyl a problem for a few archetypes that have modifiers like "First Order" or "Jedi Business"
-// If that's the case, make sure those are their own archetypes
-
-// TODO:
-// A few errors:
-// * https://www.starwarsccg.org/2023-alderaan-regionals-ryan-jellison-ls-aitc is Mandos
-// Look at the decklistUrls: [] entries - find out why
-
 const ONLY_RUN_MATCHER = null;
 
 const DECKLIST_TXT_DIR = "./output/decklists/txt";
 
+// TODO: Extract this
 const TOURNAMENT_SIGNIFIERS = [
   "Playoffs",
   "Series",
@@ -52,12 +38,11 @@ const ROUND_NAMES = [
   "Top 16",
   "Elite 8",
   "Quarterfinals",
-  "Semifinals", // TODO: Disambiguate from "Semi-Finals"
+  "Semifinals",
   "Semi-Finals",
   "Finals",
 ];
 
-// TODO: Convert to IDs?
 const EXCLUDED_STARTING_INTERRUPTS = [
   "Prepared Defenses",
   "Heading For The Medical Frigate",
@@ -128,7 +113,6 @@ const main = async () => {
     .filter((fn) => fn.endsWith(".txt"));
 
   allDecklists = filenames
-
     // DEBUG to test an individual decklist
     .filter((f) => !ONLY_RUN_MATCHER || f.match(ONLY_RUN_MATCHER))
 
@@ -208,8 +192,7 @@ const main = async () => {
 
 const seedArchetypes = () => {
   const archetypes = allDecklists.map((decklist) => {
-    const [archetypeName, _modifiers] =
-      determineArchetypeNameAndModifiers(decklist);
+    const archetypeName = determineArchetypeName(decklist);
     const shortName = mapLongNameToShortName(archetypeName);
     let aliases;
 
@@ -256,8 +239,7 @@ const seedDecklistArchetypesFromTitles = () => {
 
   allDecklists.forEach((decklist) => {
     const rawArchetypeName = rawArchetypeNameFromDecklistTitle(decklist.title);
-    const [archetypeName, _modifiers] =
-      determineArchetypeNameAndModifiers(decklist);
+    const archetypeName = determineArchetypeName(decklist);
     const foundArchetype =
       findArchetypeByNameOrAlias(rawArchetypeName) ||
       findArchetypeByNameOrAlias(archetypeName);
@@ -354,8 +336,6 @@ const determineStartingInterrupt = (decklist) => {
 };
 
 const determineStartingLocation = (decklist) => {
-  const side = determineSide(decklist);
-
   // always used as starting location
   const alwaysStartingLocation = decklist.cards.find((c) =>
     ALWAYS_STARTING_LOCATIONS.includes(cleanCardTitle(c.front.title)),
@@ -411,8 +391,12 @@ const determineStartingLocation = (decklist) => {
     );
   }
 
+  if (decklist.title.toLowerCase().match(/home one.*war room/i)) {
+    locationFromTitle = findCardInDecklist("Home One: War Room", decklist);
+  }
+
   if (
-    decklist.title.toLowerCase().match("CCH") ||
+    decklist.title.toLowerCase().match("cch") ||
     decklist.title.toLowerCase().match("chirpa")
   ) {
     locationFromTitle = findCardInDecklist(
@@ -425,10 +409,10 @@ const determineStartingLocation = (decklist) => {
     decklist.title.toLowerCase().match("dwell") ||
     decklist.title.toLowerCase().match("slave quarters")
   ) {
-    locationFromTitle = findCardInDecklist(
-      "Tatooine: Slave Quarters (V)",
-      decklist,
-    );
+    locationFromTitle =
+      findCardInDecklist("Tatooine: Slave Quarters (V)", decklist) ||
+      findCardInDecklist("Tatooine: Slave Quarters", decklist) ||
+      null;
   }
 
   if (decklist.title.toLowerCase().match("pyre")) {
@@ -526,12 +510,173 @@ const determineStartingLocation = (decklist) => {
       );
   }
 
+  let processOfEliminationStartingLocation;
+  // startingSectionLocations previously declared
+  const allLocations = decklist.cards.filter((c) => c.front.type == "Location");
+  let possibleProcessOfEliminationStartingLocations =
+    startingSectionLocations.length > 0
+      ? startingSectionLocations
+      : allLocations;
+
+  possibleProcessOfEliminationStartingLocations =
+    possibleProcessOfEliminationStartingLocations.filter(
+      (c) =>
+        c.front.lightSideIcons > 1 ||
+        c.front.darkSideIcons > 1 ||
+        c.front.title.includes("Hoth: Main Power Generators"),
+    );
+
+  if (
+    findCardInDecklist("Speak With The Jedi Council", decklist) ||
+    findCardInDecklist("Take A Seat, Young Skywalker", decklist)
+  ) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) =>
+          cleanCardTitle(l.front.title) != "Coruscant: Jedi Council Chamber",
+      );
+  }
+
+  if (findCardInDecklist("Wesa Gotta Grand Army", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) =>
+          cleanCardTitle(l.front.title) != "Naboo: Boss Nass' Chambers" &&
+          cleanCardTitle(l.front.title) != "Naboo: Battle Plains",
+      );
+  }
+
+  if (findCardInDecklist("Our Only Hope (V)", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) =>
+          !l.front.title.includes("Yoda's Hut") &&
+          !l.front.title.includes("Death Star II"),
+      );
+  }
+
+  if (findCardInDecklist("We Must Accelerate Our Plans", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) => cleanCardTitle(l.front.title) != "Blockade Flagship: Bridge",
+      );
+  }
+
+  if (findCardInDecklist("Sonic Bombardment", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) =>
+          cleanCardTitle(l.front.title) != "Cloud City: Security Tower (V)",
+      );
+  }
+
+  if (findCardInDecklist("Vader's Obsession (V)", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) => cleanCardTitle(l.front.title) != "Courscant: The Works",
+      );
+  }
+
+  if (findCardInDecklist("Jedi Business", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) =>
+          cleanCardTitle(l.front.title) != "Coruscant: Night Club" &&
+          cleanCardTitle(l.front.title) != "Malastare" &&
+          cleanCardTitle(l.front.title) != "Tatooine: Mos Espa",
+      );
+  }
+
+  if (findCardInDecklist("Now, This Is Podracing!", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) =>
+          cleanCardTitle(l.front.title) != "Coruscant: Night Club" &&
+          cleanCardTitle(l.front.title) != "Tatooine: Skywalker Hut",
+      );
+  }
+
+  if (findCardInDecklist("Kamino", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) => !l.front.title.includes("Kamino: "),
+      );
+  }
+
+  if (
+    findCardInDecklist("Dagobah", decklist) ||
+    findCardInDecklist("Dagobah (V)", decklist)
+  ) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) => !l.front.title.includes("Dagobah: "),
+      );
+  }
+
+  if (findCardInDecklist("A New Secret Base", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) =>
+          !(
+            l.front.subType == "System" &&
+            l.front.darkSideIcons > 1 &&
+            l.front.lightSideIcons > 1
+          ),
+      );
+  }
+
+  if (findCardInDecklist("Let The Wookiee Win (V)", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) => !l.front.title.includes("Kashyyyk"),
+      );
+  }
+
+  if (findCardInDecklist("I Must Be Allowed To Speak (V)", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter(
+        (l) => !l.front.title.includes("Farm"),
+      );
+  }
+
+  if (findCardInDecklist("Like My Father Before Me", decklist)) {
+    possibleProcessOfEliminationStartingLocations =
+      possibleProcessOfEliminationStartingLocations.filter((l) =>
+        l.front.title.includes("Endor"),
+      );
+  }
+
+  possibleProcessOfEliminationStartingLocations =
+    possibleProcessOfEliminationStartingLocations.filter(
+      (c) => !c.front.title.includes("Docking Bay"),
+    );
+
+  if (possibleProcessOfEliminationStartingLocations.length == 1) {
+    processOfEliminationStartingLocation =
+      possibleProcessOfEliminationStartingLocations[0];
+  } else {
+    let twixes = possibleProcessOfEliminationStartingLocations.filter(
+      (c) => c.front.darkSideIcons == 0 || c.front.lightSideIcons == 0,
+    );
+
+    if (
+      twixes.length > 1 &&
+      findCardInDecklist("Return Of A Jedi (V)", decklist)
+    ) {
+      twixes = twixes.filter((c) => !c.front.title.match("Obi-Wan's Hut"));
+    }
+    if (twixes.length == 1) {
+      processOfEliminationStartingLocation = twixes[0];
+    }
+  }
+
   const startingLocation =
     alwaysStartingLocation ||
     cpOrCRSystem ||
     contextBasedStartingLocation ||
     locationFromTitle ||
     possibleSystemNameFromTitle ||
+    processOfEliminationStartingLocation ||
     startingSectionFirstLocation;
 
   return startingLocation;
@@ -567,9 +712,8 @@ const determineRepSpecies = (decklist) => {
 };
 
 // TODO: Modifiers only useful for generating decklist.json, we need to extract this
-const determineArchetypeNameAndModifiers = (decklist) => {
+const determineArchetypeName = (decklist) => {
   const cardTitles = decklist.cards.map((c) => cleanCardTitle(c.front.title));
-  let modifiers = [];
   let canonicalName;
 
   const startingInterruptName = cleanCardTitle(
@@ -587,15 +731,7 @@ const determineArchetypeNameAndModifiers = (decklist) => {
     switch (objectiveName) {
       case "Carbon Chamber Testing":
         if (!cardTitles.includes("Boba Fett's Blaster Rifle (V)")) {
-          modifiers.push("No-Flip");
           canonicalName += " No-Flip";
-        }
-        break;
-
-      case "I Want That Map":
-        displayName = "Map";
-        if (cardTitles.includes("The First Order Was Just The Beginning")) {
-          modifiers.push("Zombies");
         }
         break;
 
@@ -604,26 +740,15 @@ const determineArchetypeNameAndModifiers = (decklist) => {
           cardTitles.includes("Commence Primary Ignition") ||
           cardTitles.includes("Commence Primary Ignition (V)")
         ) {
-          modifiers.push("Flip");
           canonicalName += " Flip";
         } else {
-          modifiers.push("No-Flip");
           canonicalName += " No-Flip";
-        }
-        break;
-
-      case "Watch Your Step":
-        if (cardTitles.includes("Kessel Run")) {
-          modifiers.push("Kessel Run");
-        } else if (cardTitles.includes("Kessel Run (V)")) {
-          modifiers.push("Kessel Run (V)");
         }
         break;
 
       case "Agents In The Court":
         const repSpecies = determineRepSpecies(decklist);
         if (repSpecies) {
-          modifiers.push(repSpecies + "s");
           canonicalName += " " + repSpecies + "s";
           if (
             decklist.cards.filter(
@@ -634,43 +759,21 @@ const determineArchetypeNameAndModifiers = (decklist) => {
                 c.front.uniqueness != "*",
             ).length == 0
           ) {
-            modifiers.push("No-Flip");
             canonicalName += " No-Flip";
           }
         }
         break;
 
       case "Hidden Base":
-        const systems = decklist.cards.filter((c) => c.subType == "System");
+        const systems = decklist.cards.filter(
+          (c) => c.front.subType == "System",
+        );
         const battlegroundSystems = systems.filter(
           (c) => c.front.darkSideIcons > 0 && c.front.lightSideIcons > 0,
         );
 
         if (battlegroundSystems.length < 5) {
-          modifiers.push("No-Flip");
           canonicalName += " No-Flip";
-        }
-
-        const THRESHOLD = 5;
-        const starshipTypes = ["X-Wing", "Mon Calamari Star Cruiser", "TIE"];
-        starshipTypes.forEach((type) => {
-          if (
-            decklist.cards.filter((c) =>
-              (c.front.extraText ? c.front.extraText.join(" ") : "").includes(
-                type,
-              ),
-            ).length >= THRESHOLD
-          ) {
-            modifiers.push(type + "s");
-          }
-        });
-
-        if (
-          decklist.cards.filter(
-            (c) => c.type == "Weapon" && c.subType == "Starship",
-          ).length >= THRESHOLD
-        ) {
-          modifiers.push("Starship Weapons");
         }
         break;
 
@@ -678,33 +781,15 @@ const determineArchetypeNameAndModifiers = (decklist) => {
         const jediTestCount = decklist.cards.filter((c) =>
           c.front.type.includes("Jedi Test"),
         ).length;
-        modifiers.push(`Test #${jediTestCount}`);
 
         if (jediTestCount < 5) {
-          modifiers.push("No-Flip");
           canonicalName += " No-Flip";
         }
         break;
 
       case "Yavin 4 Base Operations":
         if (cardTitles.includes("Jedi Business")) {
-          modifiers.push("Jedi Business");
           canonicalName += " Jedi Business";
-        }
-
-        if (cardTitles.includes("Launching The Assault")) {
-          modifiers.push("Home One");
-        }
-        break;
-
-      case "Ralltiir Operations (V)":
-        if (
-          decklist.cards.filter(
-            (c) =>
-              c.front.type == "Character" && c.front.subType == "First Order",
-          ).length >= 4
-        ) {
-          modifiers.push("First Order");
         }
         break;
     }
@@ -732,24 +817,25 @@ const determineArchetypeNameAndModifiers = (decklist) => {
       .replace(" (V)", "");
     canonicalName = `${system} ${decklist.side == "Dark" ? "CR(V)" : "CP(V)"}`;
   } else if (startingInterruptName == "Let The Wookiee Win (V)") {
-    let modifier, frontModifier;
+    let canonicalNameModifier, frontModifier;
     if (findCardInDecklist("Rendezvous Point", decklist)) {
-      modifier = "Space";
+      canonicalNameModifier = "Space";
     } else if (determineRepSpecies(decklist) == "Wookiee") {
-      modifier = "Wookiees";
+      canonicalNameModifier = "Wookiees";
     } else if (decklist.startingLocation) {
-      modifier = cleanCardTitle(decklist.startingLocation.front.title);
+      canonicalNameModifier = cleanCardTitle(
+        decklist.startingLocation.front.title,
+      );
       frontModifier = true;
     } else {
-      modifier = "Mains";
+      canonicalNameModifier = "Mains";
     }
-    modifiers.push(modifier);
     canonicalName = frontModifier
-      ? `${modifier} Let The Wookiee Win (V)`
-      : `Let The Wookiee Win (V) ${modifier}`;
+      ? `${canonicalNameModifier} Let The Wookiee Win (V)`
+      : `Let The Wookiee Win (V) ${canonicalNameModifier}`;
     canonicalName = frontModifier
-      ? `${modifier} LTWW(V)`
-      : `LTWW(V) ${modifier}`;
+      ? `${canonicalNameModifier} LTWW(V)`
+      : `LTWW(V) ${canonicalNameModifier}`;
   } else if (startingInterruptName == "Slip Sliding Away (V)") {
     const startingLocationPrefix = decklist.startingLocation
       ? startingLocationName.replace("(V)", "")
@@ -859,107 +945,7 @@ const determineArchetypeNameAndModifiers = (decklist) => {
     }
   }
 
-  // these cards create a modifier
-  if ((c = findCardInDecklist("Epic Duel", decklist))) {
-    modifiers.push("Dueling");
-  }
-
-  if ((c = findCardInDecklist("Trooper Assault", decklist))) {
-    modifiers.push("Troopers");
-  }
-
-  if ((c = findCardInDecklist("Speeder Bike", decklist))) {
-    modifiers.push("Speeder Bikes");
-  }
-
-  if ((c = findCardInDecklist("Destroyer Droid", decklist))) {
-    modifiers.push("Destroyer Droids");
-  }
-
-  if (
-    (c = findCardInDecklist("An Entire Legion Of My Best Troops", decklist))
-  ) {
-    modifiers.push("9's");
-  }
-
-  if (
-    (c = findCardInDecklist("They Must Never Again Leave This City", decklist))
-  ) {
-    modifiers.push("Free Executor");
-  }
-
-  if ((c = findCardInDecklist("Clouds", decklist))) {
-    modifiers.push("Clouds");
-  }
-
-  if ((c = findCardInDecklist("Armored Attack Tank", decklist))) {
-    modifiers.push("Tanks");
-  }
-
-  if (
-    (c =
-      decklist.cards.filter((c) =>
-        c.front.title.match("How Did We Get Into This Mess?"),
-      ).length >= 3)
-  ) {
-    modifiers.push("Mess");
-  }
-
-  if (
-    (c =
-      decklist.cards.filter(
-        (c) => c.front.title.match("Celebration") && c.front.type == "Effect",
-      ).length >= 2)
-  ) {
-    modifiers.push("Celebration");
-  }
-
-  if (
-    (c =
-      decklist.cards.filter(
-        (c) => c.front.title.match("Occupation") && c.front.type == "Effect",
-      ).length >= 2)
-  ) {
-    modifiers.push("Occupation");
-  }
-
-  // modifiers based on some threshold of cards
-  // TODO: count quantity per card
-  if (
-    decklist.cards.filter(
-      (c) => c.front.destiny == 7 || c.front.destiny == "0 or 7",
-    ).length > 4
-  ) {
-    modifiers.push("7's");
-  }
-
-  if (
-    decklist.cards.filter(
-      (c) =>
-        c.front.title.match("Docking Bay") &&
-        c.front.darkSideIcons > 0 &&
-        c.front.lightSideIcons > 0,
-    ).length > 1 // maybe 2?
-  ) {
-    modifiers.push("Docking Bays");
-  }
-
-  const CHEESE_CARDS = [
-    "Beggar",
-    "Revolution",
-    "Frozen Assets",
-    "Goo Nee Tay",
-    "Never Tell Me The Odds",
-  ];
-  if (
-    decklist.cards.filter((c) =>
-      CHEESE_CARDS.includes(cleanCardTitle(c.front.title)),
-    ).length > 1
-  ) {
-    modifiers.push("Shield Busting");
-  }
-
-  return [canonicalName || "none", modifiers];
+  return canonicalName || "none";
 };
 
 const findCardInDecklist = (cardTitle, decklist) => {
@@ -1250,6 +1236,12 @@ const mapLongNameToShortName = (archetype) => {
     .replace("Ajan Kloss: Training Course", "Ajan Kloss")
     .replace("Coruscant: The Works", "Coruscant")
     .replace("Invisible Hand: Bridge", "Invisible Hand")
+    .replace("Hoth: Main Power Generators (1st Marker)", "Hoth MPG")
+    .replace("Hoth MPG (V)", "Hoth MPG")
+    .replace("Home One: War Room", "Home One War Room")
+    .replace("Tatooine: Slave Quarters", "Slave Quarters")
+    .replace("Slave Quarters (V)", "Slave Quarters")
+    .replace("Tatooine: Skywalker Hut", "Skywalker Hut")
     .replace("According To My Design", "ATMD");
 
   return map[archetype] || archetype;

@@ -2765,15 +2765,13 @@
     ]
   },
   {
-    "name": "Hidden Base No-Flip",
+    "name": "Hidden Base",
     "side": "Light",
     "decklistUrls": [
       "https://www.starwarsccg.org/2019-endor-grand-prix-day-1-joe-phillips-hidden-base/",
       "https://www.starwarsccg.org/2019-endor-grand-prix-day-2-jonny-chu-hidden-base/",
       "https://www.starwarsccg.org/2019-mpc-day-1-gabriel-angulo-ls-hb-mon-cals/",
       "https://www.starwarsccg.org/2019-nac-day-1-thang-le-ls-hb/",
-      "https://www.starwarsccg.org/2020-egp-day-1-elspeth-jellison-ls-hidden-base-mains/",
-      "https://www.starwarsccg.org/2020-mpc-day-1-erich-hawbaker-ls-hidden-base-mains/",
       "https://www.starwarsccg.org/2020-mpc-day-1-grady-hutchins-ls-hidden-base-quads/",
       "https://www.starwarsccg.org/2020-tmw-chris-wirfs-ls-hidden-base/",
       "https://www.starwarsccg.org/2020-tmw-gavin-ortlund-ls-hidden-base/",
@@ -2798,22 +2796,18 @@
       "https://www.starwarsccg.org/2023-worlds-clayton-atkin-ls-hidden-base/",
       "https://www.starwarsccg.org/2023-worlds-day-2-jonny-chu-ls-hidden-base/"
     ],
-    "shortName": "HB No-Flip",
+    "shortName": "HB",
     "aliases": [
-      "Hidden Base No-Flip",
-      "HB No-Flip",
-      "HB/SWSTYF",
-      "HB"
+      "Hidden Base",
+      "HB",
+      "HB/SWSTYF"
     ],
     "matchers": [
-      "Hidden Base No-Flip",
-      "HB No-Flip",
-      "HB/SWSTYF",
+      "Hidden Base",
       "HB",
+      "HB/SWSTYF",
       "HB Mon Cals",
-      "Hidden Base Mains",
-      "Hidden Base Quads",
-      "Hidden Base"
+      "Hidden Base Quads"
     ]
   },
   {
@@ -3567,6 +3561,28 @@
     ]
   },
   {
+    "name": "Hidden Base No-Flip",
+    "side": "Light",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2020-egp-day-1-elspeth-jellison-ls-hidden-base-mains/",
+      "https://www.starwarsccg.org/2020-mpc-day-1-erich-hawbaker-ls-hidden-base-mains/"
+    ],
+    "shortName": "HB No-Flip",
+    "aliases": [
+      "Hidden Base No-Flip",
+      "HB No-Flip",
+      "HB/SWSTYF",
+      "HB"
+    ],
+    "matchers": [
+      "Hidden Base No-Flip",
+      "HB No-Flip",
+      "HB/SWSTYF",
+      "HB",
+      "Hidden Base Mains"
+    ]
+  },
+  {
     "name": "Endor CP(V)",
     "side": "Light",
     "decklistUrls": [
@@ -4246,7 +4262,7 @@
     ]
   },
   {
-    "name": "LTWW(V) Mains",
+    "name": "Endor: Chief Chirpa's Hut LTWW(V)",
     "side": "Light",
     "decklistUrls": [
       "https://www.starwarsccg.org/2021-bespin-regional-logan-pietig-ls-ltww-mains/",
@@ -4254,9 +4270,7 @@
       "https://www.starwarsccg.org/2021-dagobah-regionals-bill-kafer-ls-ltww-cch/",
       "https://www.starwarsccg.org/2021-endor-regionals-brandon-baity-ls-ltww-mains/",
       "https://www.starwarsccg.org/2021-endor-regionals-steve-harpster-ls-ltww-mains/",
-      "https://www.starwarsccg.org/2021-outrider-cup-eur-miguel-tarin-vegas-ls-ltwwv-mains/",
-      "https://www.starwarsccg.org/2021-outrider-cup-tiebreaker-joe-olson-ls-ltwwv-dwell/",
-      "https://www.starwarsccg.org/2021-outrider-cup-usa-hayes-hunter-vegas-ls-ltwwv-mains/",
+      "https://www.starwarsccg.org/2021-nal-hutta-regional-nick-gorski-ls-endor-chief-chirpas-hut-ltww/",
       "https://www.starwarsccg.org/2021-us-nationals-bill-kafer-ls-ltww-mains/",
       "https://www.starwarsccg.org/2021-us-nationals-brad-reinhold-ls-ltww-mains/",
       "https://www.starwarsccg.org/2021-us-nationals-cal-aldred-ls-ltww-mains/",
@@ -4267,40 +4281,29 @@
       "https://www.starwarsccg.org/2021-us-nationals-paul-coggins-ls-ltww-mains/",
       "https://www.starwarsccg.org/2021-us-nationals-ryan-sersen-ls-ltww-mains/",
       "https://www.starwarsccg.org/2021-us-nationals-steve-harpster-ls-ltww-mains/",
-      "https://www.starwarsccg.org/2021-worlds-clay-atkin-ls-main-power-generators-ltww/",
+      "https://www.starwarsccg.org/2021-worlds-bill-kafer-ls-chief-chirpas-hut-ltww/",
+      "https://www.starwarsccg.org/2021-worlds-brandon-baity-ls-chief-chirpas-hut-ltww/",
+      "https://www.starwarsccg.org/2021-worlds-chris-menzel-ls-chief-chirpas-hut-ltww/",
+      "https://www.starwarsccg.org/2021-worlds-dennis-reinhardt-ls-chief-chirpas-hut-ltww/",
+      "https://www.starwarsccg.org/2021-worlds-logan-pietig-ls-chief-chirpas-hut-ltww/",
+      "https://www.starwarsccg.org/2021-worlds-sam-tashima-ls-chief-chirpas-hut-ltww/",
       "https://www.starwarsccg.org/2021-yavin-4-regionals-bill-kafer-ls-ltww-mains/",
-      "https://www.starwarsccg.org/2022-bothawui-regional-nate-louderback-ls-slave-quarters-ltwwv/",
-      "https://www.starwarsccg.org/2022-endor-grand-prix-clayton-atkin-ls-hoth-main-power-generators-ltww/",
-      "https://www.starwarsccg.org/2022-endor-grand-prix-justin-miyashiro-ls-tatooine-slave-quarters-ltwwv/",
-      "https://www.starwarsccg.org/2022-mpc-winston-plunkett-ls-ltwwv-tatooine-slave-quarters/",
-      "https://www.starwarsccg.org/2022-world-championship-joel-pittman-ls-ltww-v-mains/",
-      "https://www.starwarsccg.org/2022-world-championship-top-8-ryan-jellison-ls-home-onewar-room-ltwwv/",
-      "https://www.starwarsccg.org/2023-coruscant-regionals-scott-lingrell-ls-wattos-junkyard-ltwwv/",
-      "https://www.starwarsccg.org/2023-endor-regionals-aaron-frede-ls-home-one-war-room-ltwwv/",
-      "https://www.starwarsccg.org/2023-gempc7-tom-strother-ls-ltwwv-mains/",
-      "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-gavin-ortlund-ls-endor-ltwwv/",
-      "https://www.starwarsccg.org/2023-worlds-sean-miller-ls-tatooine-skywalker-hut-ltwwv/"
+      "https://www.starwarsccg.org/2022-mpc-jeffrey-johns-ls-ltwwv-endor-chief-chirpas-hut/",
+      "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-gavin-ortlund-ls-endor-ltwwv/"
     ],
-    "shortName": "LTWW(V) Mains",
+    "shortName": "Chirpa's Hut LTWW(V)",
     "aliases": [
-      "LTWW(V) Mains"
+      "Endor: Chief Chirpa's Hut LTWW(V)",
+      "Chirpa's Hut LTWW(V)"
     ],
     "matchers": [
-      "LTWW(V) Mains",
+      "Endor: Chief Chirpa's Hut LTWW(V)",
+      "Chirpa's Hut LTWW(V)",
       "LTWW CCH",
       "LTWW Mains",
-      "LTWWv MAINS",
-      "LTWWv Dwell",
-      "MAIN POWER GENERATORS LTWW",
-      "Hoth Main Power Generators LTWW",
-      "Tatooine: Slave Quarters LTWWv",
-      "LTWWv Tatooine: Slave Quarters",
-      "LTWW (v) Mains",
-      "Home One:War Room LTWWv",
-      "Watto’s Junkyard LTWWv",
-      "Home One: War Room LTWWv",
-      "Endor LTWWv",
-      "Tatooine: Skywalker Hut LTWWv"
+      "CHIEF CHIRPAS HUT LTWW",
+      "LTWWv Endor: Chief Chirpa’s Hut",
+      "Endor LTWWv"
     ]
   },
   {
@@ -4715,28 +4718,47 @@
     ]
   },
   {
-    "name": "Endor: Chief Chirpa's Hut LTWW(V)",
+    "name": "Tatooine: Slave Quarters LTWW(V)",
     "side": "Light",
     "decklistUrls": [
-      "https://www.starwarsccg.org/2021-nal-hutta-regional-nick-gorski-ls-endor-chief-chirpas-hut-ltww/",
-      "https://www.starwarsccg.org/2021-worlds-bill-kafer-ls-chief-chirpas-hut-ltww/",
-      "https://www.starwarsccg.org/2021-worlds-brandon-baity-ls-chief-chirpas-hut-ltww/",
-      "https://www.starwarsccg.org/2021-worlds-chris-menzel-ls-chief-chirpas-hut-ltww/",
-      "https://www.starwarsccg.org/2021-worlds-dennis-reinhardt-ls-chief-chirpas-hut-ltww/",
-      "https://www.starwarsccg.org/2021-worlds-logan-pietig-ls-chief-chirpas-hut-ltww/",
-      "https://www.starwarsccg.org/2021-worlds-sam-tashima-ls-chief-chirpas-hut-ltww/",
-      "https://www.starwarsccg.org/2022-mpc-jeffrey-johns-ls-ltwwv-endor-chief-chirpas-hut/"
+      "https://www.starwarsccg.org/2021-outrider-cup-tiebreaker-joe-olson-ls-ltwwv-dwell/",
+      "https://www.starwarsccg.org/2022-bothawui-regional-nate-louderback-ls-slave-quarters-ltwwv/",
+      "https://www.starwarsccg.org/2022-endor-grand-prix-justin-miyashiro-ls-tatooine-slave-quarters-ltwwv/",
+      "https://www.starwarsccg.org/2022-endor-grand-prix-paul-coggins-ls-slave-quarters-ltwwv/",
+      "https://www.starwarsccg.org/2022-mpc-winston-plunkett-ls-ltwwv-tatooine-slave-quarters/",
+      "https://www.starwarsccg.org/2023-worlds-david-woods-ls-slave-quarters-ltwwv/"
     ],
-    "shortName": "Chirpa's Hut LTWW(V)",
+    "shortName": "Slave Quarters LTWW(V)",
     "aliases": [
-      "Endor: Chief Chirpa's Hut LTWW(V)",
-      "Chirpa's Hut LTWW(V)"
+      "Tatooine: Slave Quarters LTWW(V)",
+      "Slave Quarters LTWW(V)"
     ],
     "matchers": [
-      "Endor: Chief Chirpa's Hut LTWW(V)",
-      "Chirpa's Hut LTWW(V)",
-      "CHIEF CHIRPAS HUT LTWW",
-      "LTWWv Endor: Chief Chirpa’s Hut"
+      "Tatooine: Slave Quarters LTWW(V)",
+      "Slave Quarters LTWW(V)",
+      "LTWWv Dwell",
+      "Tatooine: Slave Quarters LTWWv",
+      "Slave Quarters LTWWv",
+      "LTWWv Tatooine: Slave Quarters"
+    ]
+  },
+  {
+    "name": "Endor: Anakin's Funeral Pyre LTWW(V)",
+    "side": "Light",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2022-mpc-vikram-bali-ls-ltwwv-endor-anakins-funeral-pyre/",
+      "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-dennis-reinhardt-ls-funeral-pyre-ltwwv/"
+    ],
+    "shortName": "Pyre LTWW(V)",
+    "aliases": [
+      "Endor: Anakin's Funeral Pyre LTWW(V)",
+      "Pyre LTWW(V)"
+    ],
+    "matchers": [
+      "Endor: Anakin's Funeral Pyre LTWW(V)",
+      "Pyre LTWW(V)",
+      "LTWWv Endor: Anakin’s Funeral Pyre",
+      "Funeral Pyre LTWWv"
     ]
   },
   {
@@ -4760,6 +4782,44 @@
       "MUSTAFAR CRV",
       "Mustafar CR(v)",
       "Mustafar CRV"
+    ]
+  },
+  {
+    "name": "Home One: War Room LTWW(V)",
+    "side": "Light",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2022-world-championship-top-8-ryan-jellison-ls-home-onewar-room-ltwwv/",
+      "https://www.starwarsccg.org/2023-endor-regionals-aaron-frede-ls-home-one-war-room-ltwwv/"
+    ],
+    "shortName": "Home One War Room LTWW(V)",
+    "aliases": [
+      "Home One: War Room LTWW(V)",
+      "Home One War Room LTWW(V)"
+    ],
+    "matchers": [
+      "Home One: War Room LTWW(V)",
+      "Home One War Room LTWW(V)",
+      "Home One:War Room LTWWv",
+      "Home One: War Room LTWWv"
+    ]
+  },
+  {
+    "name": "Hoth: Main Power Generators (1st Marker) (V) LTWW(V)",
+    "side": "Light",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2021-worlds-clay-atkin-ls-main-power-generators-ltww/",
+      "https://www.starwarsccg.org/2022-endor-grand-prix-clayton-atkin-ls-hoth-main-power-generators-ltww/"
+    ],
+    "shortName": "Hoth MPG LTWW(V)",
+    "aliases": [
+      "Hoth: Main Power Generators (1st Marker) (V) LTWW(V)",
+      "Hoth MPG LTWW(V)"
+    ],
+    "matchers": [
+      "Hoth: Main Power Generators (1st Marker) (V) LTWW(V)",
+      "Hoth MPG LTWW(V)",
+      "MAIN POWER GENERATORS LTWW",
+      "Hoth Main Power Generators LTWW"
     ]
   },
   {
@@ -5202,42 +5262,20 @@
     "name": "Tatooine: Slave Quarters (V) LTWW(V)",
     "side": "Light",
     "decklistUrls": [
-      "https://www.starwarsccg.org/2022-endor-grand-prix-paul-coggins-ls-slave-quarters-ltwwv/",
       "https://www.starwarsccg.org/2022-mpc-eric-hunter-ls-ltwwv-tatooine-slave-quarters-v/",
       "https://www.starwarsccg.org/2022-mpc-top-8-eric-hunter-ls-ltwwv-tatooine-slave-quarters-v/",
-      "https://www.starwarsccg.org/2023-tatooine-regionals-adam-bott-ls-slave-quarters-v/",
-      "https://www.starwarsccg.org/2023-worlds-david-woods-ls-slave-quarters-ltwwv/"
+      "https://www.starwarsccg.org/2023-tatooine-regionals-adam-bott-ls-slave-quarters-v/"
     ],
-    "shortName": "Slave Quarters (V) LTWW(V)",
+    "shortName": "Slave Quarters LTWW(V)",
     "aliases": [
       "Tatooine: Slave Quarters (V) LTWW(V)",
-      "Slave Quarters (V) LTWW(V)"
+      "Slave Quarters LTWW(V)"
     ],
     "matchers": [
       "Tatooine: Slave Quarters (V) LTWW(V)",
-      "Slave Quarters (V) LTWW(V)",
-      "Slave Quarters LTWWv",
+      "Slave Quarters LTWW(V)",
       "LTWWv Tatooine: Slave Quarters (V)",
       "Slave Quarters (V)"
-    ]
-  },
-  {
-    "name": "Endor: Anakin's Funeral Pyre LTWW(V)",
-    "side": "Light",
-    "decklistUrls": [
-      "https://www.starwarsccg.org/2022-mpc-vikram-bali-ls-ltwwv-endor-anakins-funeral-pyre/",
-      "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-dennis-reinhardt-ls-funeral-pyre-ltwwv/"
-    ],
-    "shortName": "Pyre LTWW(V)",
-    "aliases": [
-      "Endor: Anakin's Funeral Pyre LTWW(V)",
-      "Pyre LTWW(V)"
-    ],
-    "matchers": [
-      "Endor: Anakin's Funeral Pyre LTWW(V)",
-      "Pyre LTWW(V)",
-      "LTWWv Endor: Anakin’s Funeral Pyre",
-      "Funeral Pyre LTWWv"
     ]
   },
   {
@@ -5388,6 +5426,28 @@
     ]
   },
   {
+    "name": "LTWW(V) Mains",
+    "side": "Light",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2021-outrider-cup-eur-miguel-tarin-vegas-ls-ltwwv-mains/",
+      "https://www.starwarsccg.org/2021-outrider-cup-usa-hayes-hunter-vegas-ls-ltwwv-mains/",
+      "https://www.starwarsccg.org/2022-world-championship-joel-pittman-ls-ltww-v-mains/",
+      "https://www.starwarsccg.org/2023-coruscant-regionals-scott-lingrell-ls-wattos-junkyard-ltwwv/",
+      "https://www.starwarsccg.org/2023-gempc7-tom-strother-ls-ltwwv-mains/"
+    ],
+    "shortName": "LTWW(V) Mains",
+    "aliases": [
+      "LTWW(V) Mains",
+      "LTWW(V) Mains"
+    ],
+    "matchers": [
+      "LTWW(V) Mains",
+      "LTWWv MAINS",
+      "LTWW (v) Mains",
+      "Watto’s Junkyard LTWWv"
+    ]
+  },
+  {
     "name": "The Empire Knows We're Here",
     "side": "Light",
     "decklistUrls": [
@@ -5411,6 +5471,23 @@
       "Speeders",
       "Fridge",
       "TEKWH"
+    ]
+  },
+  {
+    "name": "Tatooine: Skywalker Hut LTWW(V)",
+    "side": "Light",
+    "decklistUrls": [
+      "https://www.starwarsccg.org/2023-worlds-sean-miller-ls-tatooine-skywalker-hut-ltwwv/"
+    ],
+    "shortName": "Skywalker Hut LTWW(V)",
+    "aliases": [
+      "Tatooine: Skywalker Hut LTWW(V)",
+      "Skywalker Hut LTWW(V)"
+    ],
+    "matchers": [
+      "Tatooine: Skywalker Hut LTWW(V)",
+      "Skywalker Hut LTWW(V)",
+      "Tatooine: Skywalker Hut LTWWv"
     ]
   }
 ]
