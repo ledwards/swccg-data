@@ -2587,7 +2587,7 @@
     ]
   },
   {
-    "name": "Hoth Walkers",
+    "name": "Walkers",
     "side": "Dark",
     "decklistUrls": [
       "https://www.starwarsccg.org/2019-endor-grand-prix-day-1-jacy-smith-hoth-crv/",
@@ -2646,21 +2646,19 @@
       "https://www.starwarsccg.org/2023-worlds-joe-horbey-ds-walkers/",
       "https://www.starwarsccg.org/2023-worlds-justin-desai-ds-walkers/"
     ],
-    "shortName": "Hoth Walkers",
+    "shortName": "Walkers",
     "aliases": [
-      "Hoth Walkers",
+      "Walkers",
       "ISBO/ESA",
       "ISBO",
       "TSWBDIM/ITHETB",
-      "Walkers",
       "TSWBDIM"
     ],
     "matchers": [
-      "Hoth Walkers",
+      "Walkers",
       "ISBO/ESA",
       "ISBO",
       "TSWBDIM/ITHETB",
-      "Walkers",
       "TSWBDIM",
       "Hoth CR(V)",
       "5th Marker (V) SSA(V)",
@@ -2670,6 +2668,7 @@
       "Hoth Ice Plains SSAv",
       "Ice Plains SSAv",
       "Hoth: Ice Plains (5th Marker) (V) SSAv",
+      "Hoth Walkers",
       "Hoth SSA (V)",
       "Walkers SSAv",
       "SSA(V) Walkers"
@@ -3482,12 +3481,14 @@
       "https://www.starwarsccg.org/2020-worlds-day-1-kendall-halman-ls-trm-12-card/",
       "https://www.starwarsccg.org/2021-nal-hutta-regional-kendall-halman-ls-trm/"
     ],
-    "shortName": "Yavin 4: Massassi Throne Room 12-Card",
+    "shortName": "TRM 12-Card",
     "aliases": [
-      "Yavin 4: Massassi Throne Room 12-Card"
+      "Yavin 4: Massassi Throne Room 12-Card",
+      "TRM 12-Card"
     ],
     "matchers": [
       "Yavin 4: Massassi Throne Room 12-Card",
+      "TRM 12-Card",
       "TRM 12 card"
     ]
   },
@@ -4160,22 +4161,22 @@
       "https://www.starwarsccg.org/2023-us-nationals-day-2-conor-britain-ls-rtpv/",
       "https://www.starwarsccg.org/2023-worlds-andrew-moss-ls-rtpv/"
     ],
-    "shortName": "Rescue The Princess (V)",
+    "shortName": "RTP (V)",
     "aliases": [
       "Rescue The Princess (V)",
+      "RTP (V)",
       "RTP/SIAEMV",
       "RTPV",
       "Rescue V",
-      "RTP (V)",
       "RTPV (V)",
       "Rescue V (V)"
     ],
     "matchers": [
       "Rescue The Princess (V)",
+      "RTP (V)",
       "RTP/SIAEMV",
       "RTPV",
       "Rescue V",
-      "RTP (V)",
       "RTPV (V)",
       "Rescue V (V)",
       "– Rescue the Princess (V)",

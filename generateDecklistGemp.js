@@ -72,7 +72,7 @@ const main = async () => {
 
     const MAX_FILENAME_LENGTH = 40;
     const tournamentShortName = decklist.tournamentShortName || "Unknown";
-    const shortRound = shortRoundName(decklist.roundName);
+    const shortRound = shortRoundName(decklist.round);
     const tournamentName =
       decklist.tournamentShortName || decklist.tournament || "Unknown";
     const lettersUsedBeforePlayerName =
@@ -83,9 +83,9 @@ const main = async () => {
     let playerShortName = cleanPlayerName(decklist.player.name);
     if (lettersUsedBeforePlayerName + playerShortName.length > 40) {
       const nameLimit = MAX_FILENAME_LENGTH - lettersUsedBeforePlayerName - 6;
-      const firstName = decklist.player.name.split(" ")[0];
-      const lastName = decklist.player.name.split(" ").slice(-1);
-      const nickname = playerNickname(decklist.player.name);
+      const firstName = playerShortName.split(" ")[0];
+      const lastName = playerShortName.split(" ").slice(-1);
+      const nickname = playerNickname(playerShortName);
 
       playerShortName =
         [
@@ -94,11 +94,11 @@ const main = async () => {
           `${firstName[0]}${lastName}`,
           lastName,
         ].find((el) => el && el.length <= nameLimit) ||
-        `${firstName[0]} ${lastName.slice(0, nameLimit - 3)}`;
+        `${firstName[0]} ${lastName.slice(0, nameLimit - 3)}`.trim();
     }
 
     const gempFilename = `[${tournamentShortName.toUpperCase()}${
-      shortRound ? " " + shortRound : ""
+      shortRound ? "-" + shortRound : ""
     }] ${decklist.archetype.shortName} (${playerShortName})`;
 
     fs.writeFileSync(
@@ -118,10 +118,10 @@ const shortRoundName = (roundName) =>
     : roundName
         .replace("Day ", "D")
         .replace("Round ", "R")
-        .replace("Finals", "F")
         .replace("Semifinals", "SF")
         .replace("Semi-Finals", "SF")
         .replace("Quarterfinals", "QF")
+        .replace("Finals", "F")
         .replace("Top ", "T")
         .replace("Sweet ", "S");
 

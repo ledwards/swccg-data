@@ -823,7 +823,7 @@ const determineArchetypeName = (decklist) => {
   }
 
   if ((c = findCardInDecklist("Walker Garrison", decklist))) {
-    canonicalName = "Hoth Walkers";
+    canonicalName = "Walkers";
   }
 
   if ((c = findCardInDecklist("That Thing's Operational", decklist))) {
@@ -1139,7 +1139,7 @@ const mapLongNameToShortName = (archetype) => {
     "Ralltiir Operations (V)": "ROps(V)",
     "Ralltiir Operations": "ROps",
     "Rebel Strike Team": "RST",
-    "Rescue The Princess: (V)": "RTP (V)",
+    "Rescue The Princess (V)": "RTP (V)",
     "Rescue The Princess": "RTP",
     "Set Your Course For Alderaan": "SYCFA",
     "Set Your Course For Alderaan Flip": "SYCFA Flip",

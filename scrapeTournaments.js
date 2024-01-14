@@ -38,6 +38,7 @@ const main = async () => {
             throw new Error(`Error fetching ${url}`);
           }
 
+          // TODO: Remove? We can do this later
           const dateNode =
             tournamentPageDoc.querySelector(".fl-post-info-date");
           const date = dateNode ? dateNode.textContent : "";
@@ -83,9 +84,44 @@ const main = async () => {
     }
   });
 
+  // break out regionals by regions
+  const regionalSeasons = tournaments.filter((t) => t.url.includes("regional"));
+
+  regionalSeasons.forEach((regionalSeason) => {
+    let regionalsByRegion = {};
+    regionalSeason.decklistUrls.forEach((decklistUrl) => {
+      const regionMatches = decklistUrl.match(/[\d\-]+-([a-z].+)-regional/);
+      if (regionMatches) {
+        const region = titleCase(regionMatches[1].replace("-", " "));
+        if (!regionalsByRegion[region]) {
+          regionalsByRegion[region] = [decklistUrl];
+        } else {
+          regionalsByRegion[region].push(decklistUrl);
+        }
+      }
+    });
+
+    // erase old all-regional entries
+    tournaments = tournaments.filter((t) => t.url !== regionalSeason.url);
+
+    for (let [region, urls] of Object.entries(regionalsByRegion)) {
+      tournaments.push({
+        url: regionalSeason.url,
+        slug: regionalSeason.slug,
+        // date: null,
+        year: regionalSeason.year,
+        decklistUrls: urls,
+        // event: `${region} Regionals`,
+        // name: `${regionalSeason.year} ${region} Regionals`,
+        // shortName: `${regionalSeason.year} ${region}`,
+      });
+    }
+  });
+
   console.log(
     `(Step 3) Fetching: first deck of each tournament to get tournament metadata`,
   );
+
   const tournamentsFirstDecklistPromises = tournaments.map((tournament, i) =>
     new Promise((resolve) => setTimeout(resolve, REQUEST_DELAY * i)).then(() =>
       fetch(tournament.decklistUrls[0])
@@ -95,6 +131,13 @@ const main = async () => {
           let decklistFullTitle = decklistPageDoc
             .querySelector("h1")
             .textContent.trim();
+
+          let date, year;
+          const dateNode = decklistPageDoc.querySelector(".fl-post-info-date");
+          if (dateNode) {
+            date = dateNode ? dateNode.textContent : "";
+            year = date.split(", ")[1];
+          }
 
           if (decklistFullTitle) {
             // normalize data
@@ -138,6 +181,7 @@ const main = async () => {
             );
 
             const matches = decklistFullTitle.match(tournamentRE);
+
             if (matches) {
               let [_, year, event, _player, _side, _archetype] = matches;
 
@@ -151,14 +195,11 @@ const main = async () => {
                 .replace("Mini-worlds", "Mini-Worlds");
 
               const name = [year || "", event].join(" ").trim();
-
-              return {
-                url: tournament.url,
-                name: name,
-                shortName: shortName(name),
-                event: event.trim(),
-                year,
-              };
+              tournament.date = date;
+              tournament.year = year;
+              tournament.name = name;
+              tournament.shortName = shortName(name);
+              tournament.event = event.trim();
             } else {
               console.log(
                 `ERROR: Could not parse metadata for ${decklistFullTitle} from ${tournament.url}`,
@@ -190,18 +231,9 @@ const main = async () => {
     ),
   );
 
-  await Promise.all(tournamentsFirstDecklistPromises)
-    .then((tournamentsMetadata) => {
-      tournaments = tournaments.map((t) => {
-        return {
-          ...t,
-          ...(tournamentsMetadata.find((tm) => tm.url === t.url) || {}),
-        };
-      });
-    })
-    .catch((err) => {
-      console.log(`ERROR: ${err}`);
-    });
+  await Promise.all(tournamentsFirstDecklistPromises).catch((err) => {
+    console.log(`ERROR: ${err}`);
+  });
 
   fs.writeFileSync(
     path.resolve(__dirname, "public", "tournaments.json"),
@@ -216,7 +248,7 @@ const shortName = (name) => {
     .replace("European Championship", "Euros")
     .replace("U.S. Nationals", "USNats")
     .replace(" Regionals", "")
-    .replace("Super Open", "SO")
+    .replace("San Diego Super Open", "SDSO")
     .replace("North American Continentals", "NAC")
     .replace("World Championship", "Worlds")
     .replace("PC 20th Anniversary Tournament", "PC20")
