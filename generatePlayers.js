@@ -17,12 +17,14 @@ const main = async () => {
 
   console.log(`(Step 1) Loading archetypes`);
 
-  allArchetypes = await JSON.parse(
+  const archetypesData = await JSON.parse(
     fs.readFileSync(
       path.resolve(__dirname, "public", "archetypes.json"),
       "utf8",
     ),
   );
+
+  allArchetypes = archetypesData.archetypes;
 
   allArchetypes.forEach((archetype) => {
     archetype.decklistUrls.forEach((url) => {
@@ -122,7 +124,7 @@ const main = async () => {
   const sortedPlayers = players.sort((a, b) => a.name.localeCompare(b.name));
   fs.writeFileSync(
     path.resolve(__dirname, SAVED_PLAYERS_PATH),
-    JSON.stringify(sortedPlayers, null, 2),
+    JSON.stringify({ players: sortedPlayers }, null, 2),
   );
 };
 

@@ -66,12 +66,14 @@ const main = async () => {
     });
   });
 
-  allArchetypes = await JSON.parse(
+  const archetypesData = await JSON.parse(
     fs.readFileSync(
       path.resolve(__dirname, "public", "archetypes.json"),
       "utf8",
     ),
   );
+
+  allArchetypes = archetypesData.archetypes;
 
   allArchetypes.forEach((archetype) => {
     archetype.decklistUrls.forEach((url) => {
@@ -79,9 +81,11 @@ const main = async () => {
     });
   });
 
-  allPlayers = await JSON.parse(
+  const playersData = await JSON.parse(
     fs.readFileSync(path.resolve(__dirname, "public", "players.json"), "utf8"),
   );
+
+  allPlayers = playersData.players;
 
   allPlayers.forEach((player) => {
     player.decklistUrls.forEach((url) => {
@@ -289,7 +293,7 @@ const main = async () => {
 
   fs.writeFileSync(
     path.resolve(__dirname, "public", "decklists.json"),
-    JSON.stringify(decklists, null, 2),
+    JSON.stringify({ decklists: decklists }, null, 2),
   );
 
   console.log(`Parsed ${decklists.length} decklists.`);

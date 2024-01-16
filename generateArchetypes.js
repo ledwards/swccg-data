@@ -131,7 +131,7 @@ const main = async () => {
 
   fs.writeFileSync(
     path.resolve(__dirname, "public", "archetypes.json"),
-    JSON.stringify(allArchetypes, null, 2),
+    JSON.stringify({ archetypes: allArchetypes }, null, 2),
   );
 
   console.log(`Analyzed archetypes from ${filenames.length} decklists.`);
