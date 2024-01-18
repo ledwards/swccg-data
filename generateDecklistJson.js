@@ -129,9 +129,11 @@ const main = async () => {
 
       const tournament = lookupTournament(decklist);
       if (tournament) {
-        decklist.tournament = tournament.name;
-        decklist.tournamentShortName = tournament.shortName;
-        decklist.event = tournament.event;
+        decklist.tournament = {
+          name: tournament.name,
+          shortName: tournament.shortName,
+          eventName: tournament.event,
+        };
       } else {
         console.log(
           "ERROR: Could not find tournament for decklist",
@@ -143,8 +145,12 @@ const main = async () => {
       if (archetype) {
         decklist.archetype = {
           name: archetype.name,
+          imageUrl: archetype.imageUrl,
           shortName: archetype.shortName,
           aliases: archetype.aliases,
+          objective: archetype.objective,
+          startingLocation: archetype.startingLocation,
+          startingInterrupt: archetype.startingInterrupt,
         };
         decklist.side = archetype.side;
       } else {
@@ -255,11 +261,13 @@ const main = async () => {
         title: decklist.title,
         date: decklist.date,
         url: decklist.url,
-        tournament: decklist.tournament,
-        tournamentShortName: decklist.tournamentShortName,
-        event: decklist.event,
-        round: decklist.round,
-        format: decklist.format,
+        tournament: {
+          name: decklist.tournament,
+          shortName: decklist.tournamentShortName,
+          eventName: decklist.event,
+          round: decklist.round,
+          format: decklist.format,
+        },
         archetype: decklist.archetype,
         player: decklist.player,
         side: decklist.side,

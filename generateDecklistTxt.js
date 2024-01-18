@@ -280,7 +280,7 @@ const normalizeCardTitle = (cardTitle) =>
       .replaceAll(/…/g, "...")
       .replaceAll(/(\w)\//g, "$1 /") // let Objective /'s breathe
       .replaceAll(/\/(\w)/g, "/ $1")
-      .replace(" (AI)", "")
+      .replace(/\(.*AI.*\)/, "")
       .replace(/\//, " / ")
       .replaceAll(/[ ]{2,}/g, " ")
       .trim(),

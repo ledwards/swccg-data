@@ -165,7 +165,16 @@
         "ROPS (v)",
         "ROPS(v) 7’s",
         "ROps (V) Nines"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/ralltiiroperations.gif",
+      "objective": {
+        "id": "7_300v",
+        "title": "Ralltiir Operations (V)"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "Old Allies",
@@ -318,7 +327,16 @@
         "OA",
         "OA/WNYH",
         "Old ALlies"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual4-Light/large/oldallies.gif",
+      "objective": {
+        "id": "204_32",
+        "title": "Old Allies"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "I Want That Map",
@@ -497,7 +515,16 @@
         "IWTM",
         "MAP",
         "I Want that Map"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual8-Dark/large/iwantthatmap.gif",
+      "objective": {
+        "id": "208_57",
+        "title": "I Want That Map"
+      },
+      "startingInterrupt": {
+        "id": "208_46",
+        "title": "You Know What I've Come For"
+      }
     },
     {
       "name": "Bring Him Before Me",
@@ -628,7 +655,16 @@
         "Bring Him Before Me",
         "BHBM",
         "BHBM/TYFP"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/DeathStarII-Dark/large/bringhimbeforeme.gif",
+      "objective": {
+        "id": "9_151",
+        "title": "Bring Him Before Me"
+      },
+      "startingInterrupt": {
+        "id": "208_46",
+        "title": "You Know What I've Come For"
+      }
     },
     {
       "name": "Plead My Case To The Senate",
@@ -659,7 +695,16 @@
         "LS Senate",
         "PMCTTS/SAC",
         "PMCTTS"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Light/large/pleadmycasetothesenate.gif",
+      "objective": {
+        "id": "12_88",
+        "title": "Plead My Case To The Senate"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Imperial Entanglements",
@@ -716,7 +761,16 @@
         "Imperial Entanglements",
         "IE",
         "IE/NOTSUTT"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual1-Dark/large/imperialentanglements.gif",
+      "objective": {
+        "id": "201_39",
+        "title": "Imperial Entanglements"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "Court Of The Vile Gangster",
@@ -827,7 +881,16 @@
         "COTVG (V)",
         "COTVG",
         "Court FO"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/courtofthevilegangster.gif",
+      "objective": {
+        "id": "110_6",
+        "title": "Court Of The Vile Gangster"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "Echo Base Operations",
@@ -903,7 +966,16 @@
       "matchers": [
         "Echo Base Operations",
         "EBO"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Hoth-Dark/large/hoth.gif",
+      "startingLocation": {
+        "id": "3_143",
+        "title": "Hoth"
+      },
+      "startingInterrupt": {
+        "id": "200_50",
+        "title": "Careful Planning (V)"
+      }
     },
     {
       "name": "Hunt Down And Destroy The Jedi",
@@ -1042,7 +1114,16 @@
         "HD",
         "– Hunt Down",
         "Hunt Down and Destroy the Jedi"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/huntdownanddestroythejedi.gif",
+      "objective": {
+        "id": "7_297",
+        "title": "Hunt Down And Destroy The Jedi"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "Yavin 4: Massassi Throne Room",
@@ -1190,7 +1271,16 @@
         "Yavin 4: Massassi Throne Room",
         "TRM",
         "Throne Room Mains"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Light/large/yavin4massassithroneroom.gif",
+      "startingLocation": {
+        "id": "1_138",
+        "title": "Yavin 4: Massassi Throne Room"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Carbon Chamber Testing No-Flip",
@@ -1322,7 +1412,16 @@
         "CCT/MFD",
         "CCT",
         "CCT IG"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/carbonchambertesting.gif",
+      "objective": {
+        "id": "7_296",
+        "title": "Carbon Chamber Testing"
+      },
+      "startingInterrupt": {
+        "id": "200_125",
+        "title": "Surface Defense (V)"
+      }
     },
     {
       "name": "Rebel Strike Team",
@@ -1344,7 +1443,16 @@
         "Rebel Strike Team",
         "RST",
         "RST/GD"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Endor-Light/large/rebelstriketeam.gif",
+      "objective": {
+        "id": "8_78",
+        "title": "Rebel Strike Team"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Endor Operations",
@@ -1402,7 +1510,16 @@
         "EOPS",
         "EO",
         "EOps"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Endor-Dark/large/endoroperations.gif",
+      "objective": {
+        "id": "8_167",
+        "title": "Endor Operations"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "We Have A Plan",
@@ -1466,7 +1583,16 @@
         "We Have A Plan",
         "WHAP",
         "WHAP/TWBLAC"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/TheedPalace-Light/large/wehaveaplan.gif",
+      "objective": {
+        "id": "14_52",
+        "title": "We Have A Plan"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Coruscant CR(V)",
@@ -1490,7 +1616,16 @@
         "Coruscant CR(V) Tanks",
         "Coruscant CRv",
         "Coruscant CRV"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Dark/large/coruscant.gif",
+      "startingLocation": {
+        "id": "12_165",
+        "title": "Coruscant"
+      },
+      "startingInterrupt": {
+        "id": "200_117",
+        "title": "Combat Readiness (V)"
+      }
     },
     {
       "name": "Let Them Make The First Move",
@@ -1532,7 +1667,16 @@
         "Lightsaber Combat",
         "LTMTFM",
         "Dark Combat"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/letthemmakethefirstmove.gif",
+      "objective": {
+        "id": "13_73",
+        "title": "Let Them Make The First Move"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "Diplomatic Mission To Alderaan",
@@ -1660,7 +1804,16 @@
         "DMTA",
         "DIPLO",
         "Diplomatic Mission to Alderaan"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual3-Light/large/diplomaticmissiontoalderaan.gif",
+      "objective": {
+        "id": "203_19",
+        "title": "Diplomatic Mission To Alderaan"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "My Lord, Is That Legal?",
@@ -1703,7 +1856,16 @@
         "MLITL/IWMIL",
         "MLITL",
         "Dark Senate"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Dark/large/mylordisthatlegal.gif",
+      "objective": {
+        "id": "12_179",
+        "title": "My Lord, Is That Legal?"
+      },
+      "startingInterrupt": {
+        "id": "200_125",
+        "title": "Surface Defense (V)"
+      }
     },
     {
       "name": "He Is The Chosen One",
@@ -1837,7 +1999,16 @@
         "He Is The Chosen One",
         "HITCO",
         "HITCO/HWBB"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual8-Light/large/heisthechosenone.gif",
+      "objective": {
+        "id": "208_25",
+        "title": "He Is The Chosen One"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "No Money, No Parts, No Deal!",
@@ -1885,7 +2056,16 @@
         "Watto",
         "NMNPND/YAS",
         "NMNPND"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Dark/large/nomoneynopartsnodeal.gif",
+      "objective": {
+        "id": "12_180",
+        "title": "No Money, No Parts, No Deal!"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "Tatooine CP(V)",
@@ -1911,7 +2091,16 @@
         "Tatooine CP(V)",
         "Tatooine CPv",
         "Tatooine CP(v)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Dark/large/tatooine.gif",
+      "startingLocation": {
+        "id": "12_175",
+        "title": "Tatooine"
+      },
+      "startingInterrupt": {
+        "id": "200_50",
+        "title": "Careful Planning (V)"
+      }
     },
     {
       "name": "That Thing's Operational",
@@ -1974,7 +2163,16 @@
         "Endor Ops",
         "EO",
         "That Thing’s Operational"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Endor-Dark/large/endoroperations.gif",
+      "objective": {
+        "id": "8_167",
+        "title": "Endor Operations"
+      },
+      "startingInterrupt": {
+        "id": "9_138",
+        "title": "Operational As Planned"
+      }
     },
     {
       "name": "ISB Operations",
@@ -2114,7 +2312,16 @@
         "ISB",
         "ISBO/ESA",
         "ISBO"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/isboperations.gif",
+      "objective": {
+        "id": "7_299",
+        "title": "ISB Operations"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "Hoth CP(V)",
@@ -2137,7 +2344,16 @@
         "Hoth CPv",
         "Hoth Mains",
         "Hoth Clones"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Hoth-Dark/large/hoth.gif",
+      "startingLocation": {
+        "id": "3_143",
+        "title": "Hoth"
+      },
+      "startingInterrupt": {
+        "id": "200_50",
+        "title": "Careful Planning (V)"
+      }
     },
     {
       "name": "Watch Your Step",
@@ -2227,7 +2443,16 @@
         "Watch Your Step",
         "WYS",
         "WYS/TPCBALR"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsII-Light/large/watchyourstep.gif",
+      "objective": {
+        "id": "10_26",
+        "title": "Watch Your Step"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "There Is Good In Him",
@@ -2277,7 +2502,16 @@
         "There Is Good In Him",
         "TIGIH",
         "TIGIH/ICSH"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/DeathStarII-Light/large/thereisgoodinhim.gif",
+      "objective": {
+        "id": "9_61",
+        "title": "There Is Good In Him"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "This Deal Is Getting Worse All The Time",
@@ -2326,7 +2560,16 @@
         "This Deal Is Getting Worse All The Time",
         "TDIGWATT",
         "TDIGWATT/PIDAIAF"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/EnhancedCloudCity-Dark/large/thisdealisgettingworseallthetime.gif",
+      "objective": {
+        "id": "109_12",
+        "title": "This Deal Is Getting Worse All The Time"
+      },
+      "startingInterrupt": {
+        "id": "208_46",
+        "title": "You Know What I've Come For"
+      }
     },
     {
       "name": "Naboo Gungans",
@@ -2358,7 +2601,16 @@
         "Steady, Steady!",
         "Steady Steady!",
         "Naboo CPv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Light/large/yavin4massassithroneroom.gif",
+      "startingLocation": {
+        "id": "1_138",
+        "title": "Yavin 4: Massassi Throne Room"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Agents Of Black Sun",
@@ -2493,7 +2745,16 @@
         "AOBS/VOTDP",
         "AOBS (V)",
         "Agents of Black Sun"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsII-Dark/large/agentsofblacksun.gif",
+      "objective": {
+        "id": "10_29",
+        "title": "Agents Of Black Sun"
+      },
+      "startingInterrupt": {
+        "id": "11_87",
+        "title": "Start Your Engines!"
+      }
     },
     {
       "name": "Yavin 4 Base Operations",
@@ -2585,7 +2846,16 @@
         "Yavin 4 Base Ops",
         "Y4OPS",
         "Yavin 4 Operations"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual8-Light/large/yavin4baseoperations.gif",
+      "objective": {
+        "id": "208_26",
+        "title": "Yavin 4 Base Operations"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Walkers",
@@ -2673,7 +2943,16 @@
         "Hoth SSA (V)",
         "Walkers SSAv",
         "SSA(V) Walkers"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Hoth-Dark/large/hoth.gif",
+      "startingLocation": {
+        "id": "3_143",
+        "title": "Hoth"
+      },
+      "startingInterrupt": {
+        "id": "200_117",
+        "title": "Combat Readiness (V)"
+      }
     },
     {
       "name": "You Can Either Profit By This...",
@@ -2740,7 +3019,16 @@
         "YCEPBT/OBD",
         "YCEPBT",
         "PROFIT"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/youcaneitherprofitbythis.gif",
+      "objective": {
+        "id": "110_4",
+        "title": "You Can Either Profit By This..."
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "The Hyperdrive Generator's Gone",
@@ -2762,7 +3050,16 @@
         "THGG/WNANO",
         "THGG",
         "The Hyperdrive Generator’s Gone"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Light/large/thehyperdrivegeneratorsgone.gif",
+      "objective": {
+        "id": "12_89",
+        "title": "The Hyperdrive Generator's Gone"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Hidden Base",
@@ -2808,7 +3105,16 @@
         "HB/SWSTYF",
         "HB Mon Cals",
         "Hidden Base Quads"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Light/large/hiddenbase.gif",
+      "objective": {
+        "id": "7_136",
+        "title": "Hidden Base"
+      },
+      "startingInterrupt": {
+        "id": "6_77",
+        "title": "The Signal"
+      }
     },
     {
       "name": "Set Your Course For Alderaan No-Flip",
@@ -2890,7 +3196,16 @@
         "SYCFA",
         "SYFCA",
         "SYCFA Bombers"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/ThirdAnthology-Dark/large/setyourcourseforalderaan.gif",
+      "objective": {
+        "id": "111_6",
+        "title": "Set Your Course For Alderaan"
+      },
+      "startingInterrupt": {
+        "id": "208_44",
+        "title": "Operational As Planned (V)"
+      }
     },
     {
       "name": "Tatooine CR(V)",
@@ -2906,7 +3221,16 @@
       "matchers": [
         "Tatooine CR(V)",
         "Tatooine CRv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Dark/large/tatooine.gif",
+      "startingLocation": {
+        "id": "12_175",
+        "title": "Tatooine"
+      },
+      "startingInterrupt": {
+        "id": "200_117",
+        "title": "Combat Readiness (V)"
+      }
     },
     {
       "name": "Quiet Mining Colony",
@@ -3016,7 +3340,16 @@
         "Quiet Mining Colony",
         "QMC",
         "QMC/IO"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/EnhancedCloudCity-Light/large/quietminingcolony.gif",
+      "objective": {
+        "id": "109_4",
+        "title": "Quiet Mining Colony"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Invasion",
@@ -3070,7 +3403,16 @@
         "I/IIC",
         "I",
         "INVASION"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/TheedPalace-Dark/large/invasion.gif",
+      "objective": {
+        "id": "14_113",
+        "title": "Invasion"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "The Hyperdrive Generator's Gone (V)",
@@ -3103,7 +3445,16 @@
         "THGGV (V)",
         "Hyperdrive V",
         "Hyperdrive v"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual10-Light/large/thehyperdrivegeneratorsgone.gif",
+      "objective": {
+        "id": "210_25",
+        "title": "The Hyperdrive Generator's Gone (V)"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "They Have No Idea We're Coming",
@@ -3272,7 +3623,16 @@
         "THNIWC/UWWOTCAS",
         "THNIWC",
         "NO IDEA"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual9-Light/large/theyhavenoideawerecoming.gif",
+      "objective": {
+        "id": "209_29",
+        "title": "They Have No Idea We're Coming"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "A Stunning Move",
@@ -3326,7 +3686,16 @@
         "ASM",
         "ASM/AVH",
         "ASM (V)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual11-Dark/large/astunningmove.gif",
+      "objective": {
+        "id": "211_26",
+        "title": "A Stunning Move"
+      },
+      "startingInterrupt": {
+        "id": "9_139",
+        "title": "Prepared Defenses"
+      }
     },
     {
       "name": "The Galaxy May Need A Legend",
@@ -3473,7 +3842,12 @@
         "TGMNAL/WNLS",
         "TGMNAL",
         "LEGEND"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual11-Light/large/thegalaxymayneedalegend.gif",
+      "objective": {
+        "id": "211_36",
+        "title": "The Galaxy May Need A Legend"
+      }
     },
     {
       "name": "Yavin 4: Massassi Throne Room 12-Card",
@@ -3491,7 +3865,16 @@
         "Yavin 4: Massassi Throne Room 12-Card",
         "TRM 12-Card",
         "TRM 12 card"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Light/large/yavin4massassithroneroom.gif",
+      "startingLocation": {
+        "id": "1_138",
+        "title": "Yavin 4: Massassi Throne Room"
+      },
+      "startingInterrupt": {
+        "id": "200_51",
+        "title": "Don't Tread On Me (V)"
+      }
     },
     {
       "name": "We'll Handle This",
@@ -3521,7 +3904,16 @@
         "Lightsaber Combat",
         "WHT",
         "Combat 7’s"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/wellhandlethis.gif",
+      "objective": {
+        "id": "13_46",
+        "title": "We'll Handle This"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Set Your Course For Alderaan Flip",
@@ -3542,7 +3934,12 @@
         "SYCFA/TUPITU",
         "SYCFA",
         "Set Your Course For Alderaan"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/ThirdAnthology-Dark/large/setyourcourseforalderaan.gif",
+      "objective": {
+        "id": "111_6",
+        "title": "Set Your Course For Alderaan"
+      }
     },
     {
       "name": "Coruscant: Jedi Council Chamber",
@@ -3560,7 +3957,12 @@
         "Coruscant: Jedi Council Chamber",
         "JCC",
         "JCC Mains"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Light/large/coruscantjedicouncilchamber.gif",
+      "startingLocation": {
+        "id": "12_76",
+        "title": "Coruscant: Jedi Council Chamber"
+      }
     },
     {
       "name": "Hidden Base No-Flip",
@@ -3582,7 +3984,16 @@
         "HB/SWSTYF",
         "HB",
         "Hidden Base Mains"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Light/large/hiddenbase.gif",
+      "objective": {
+        "id": "7_136",
+        "title": "Hidden Base"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Endor CP(V)",
@@ -3598,7 +4009,16 @@
       "matchers": [
         "Endor CP(V)",
         "Endor CPv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual4-Light/large/endor.gif",
+      "startingLocation": {
+        "id": "204_24",
+        "title": "Endor (V)"
+      },
+      "startingInterrupt": {
+        "id": "200_50",
+        "title": "Careful Planning (V)"
+      }
     },
     {
       "name": "Death Star II: Throne Room According To My Design",
@@ -3614,7 +4034,16 @@
       "matchers": [
         "Death Star II: Throne Room According To My Design",
         "DSII Throne Room ATMD"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/DeathStarII-Dark/large/deathstariithroneroom.gif",
+      "startingLocation": {
+        "id": "9_147",
+        "title": "Death Star II: Throne Room"
+      },
+      "startingInterrupt": {
+        "id": "201_34",
+        "title": "According To My Design"
+      }
     },
     {
       "name": "Massassi Base Operations",
@@ -3635,7 +4064,16 @@
         "MBO",
         "MBO/OIAM",
         "MOPS"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/ThirdAnthology-Light/large/massassibaseoperations.gif",
+      "objective": {
+        "id": "111_4",
+        "title": "Massassi Base Operations"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Carbon Chamber Testing",
@@ -3679,7 +4117,16 @@
         "CCT/MFD",
         "CCT Musicians",
         "CCT Flip"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/carbonchambertesting.gif",
+      "objective": {
+        "id": "7_296",
+        "title": "Carbon Chamber Testing"
+      },
+      "startingInterrupt": {
+        "id": "109_7",
+        "title": "Any Methods Necessary"
+      }
     },
     {
       "name": "Invisible Hand: Bridge Slip Sliding Away (V)",
@@ -3696,7 +4143,16 @@
         "Invisible Hand: Bridge Slip Sliding Away (V)",
         "Invisible Hand SSA(V)",
         "Invisible Hand SSA (V)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual11-Dark/large/invisiblehandbridge.gif",
+      "startingLocation": {
+        "id": "211_20",
+        "title": "Invisible Hand: Bridge"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "Dagobah: Cave Slip Sliding Away (V)",
@@ -3715,7 +4171,16 @@
         "Dagobah: Cave Slip Sliding Away (V)",
         "Dagobah Cave SSA(V)",
         "Dagobah Cave SSA (V)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Dagobah-Dark/large/dagobahcave.gif",
+      "startingLocation": {
+        "id": "4_158",
+        "title": "Dagobah: Cave"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "Bespin CR(V)",
@@ -3736,7 +4201,16 @@
       ],
       "matchers": [
         "Bespin CR(V)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/CloudCity-Dark/large/bespin.gif",
+      "startingLocation": {
+        "id": "5_164",
+        "title": "Bespin"
+      },
+      "startingInterrupt": {
+        "id": "200_117",
+        "title": "Combat Readiness (V)"
+      }
     },
     {
       "name": "Mind What You Have Learned No-Flip",
@@ -3766,7 +4240,16 @@
         "MWYHL/SYIC",
         "Jedi Testing",
         "MWYHL"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Light/large/mindwhatyouhavelearned.gif",
+      "objective": {
+        "id": "7_138",
+        "title": "Mind What You Have Learned"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Tatooine: Desert Landing Site Slip Sliding Away (V)",
@@ -3824,7 +4307,16 @@
         "DLS-SSAv",
         "SSA(V) Nines",
         "Desert Landing Site SSA(V)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Tatooine-Dark/large/tatooinedesertlandingsite.gif",
+      "startingLocation": {
+        "id": "11_92",
+        "title": "Tatooine: Desert Landing Site"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "Endor: Chief Chirpa's Hut",
@@ -3840,7 +4332,16 @@
       "matchers": [
         "Endor: Chief Chirpa's Hut",
         "Chirpa's Hut"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Endor-Light/large/endorchiefchirpashut.gif",
+      "startingLocation": {
+        "id": "8_71",
+        "title": "Endor: Chief Chirpa's Hut"
+      },
+      "startingInterrupt": {
+        "id": "9_51",
+        "title": "Heading For The Medical Frigate"
+      }
     },
     {
       "name": "Death Star 12-Card",
@@ -3855,7 +4356,16 @@
       ],
       "matchers": [
         "Death Star 12-Card"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/ANewHope-Dark/large/deathstar.gif",
+      "startingLocation": {
+        "id": "2_143",
+        "title": "Death Star"
+      },
+      "startingInterrupt": {
+        "id": "200_125",
+        "title": "Surface Defense (V)"
+      }
     },
     {
       "name": "Shadow Collective",
@@ -3984,7 +4494,16 @@
         "Shadow Collective",
         "SC",
         "SC/YKWIAT"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual13-Dark/large/shadowcollective.gif",
+      "objective": {
+        "id": "213_32",
+        "title": "Shadow Collective"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "Dathomir: Maul's Chambers Slip Sliding Away (V)",
@@ -4026,7 +4545,16 @@
         "Maul’s Chambers SSA (V)",
         "Mauls Chambers SSAv",
         "Dathomir: Maul’s Chambers SSAv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual13-Dark/large/dathomirmaulschambers.gif",
+      "startingLocation": {
+        "id": "213_23",
+        "title": "Dathomir: Maul's Chambers"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "Hunt Down And Destroy The Jedi (V)",
@@ -4124,7 +4652,16 @@
         "Hunt Down (v)",
         "HD(V)",
         "Hunt Down v"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual13-Dark/large/huntdownanddestroythejedi.gif",
+      "objective": {
+        "id": "213_31",
+        "title": "Hunt Down And Destroy The Jedi (V)"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "TIEs",
@@ -4142,7 +4679,16 @@
         "TIEs",
         "SYCFA/TUPITU",
         "SYCFA"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual10-Dark/large/mustafar.gif",
+      "startingLocation": {
+        "id": "210_39",
+        "title": "Mustafar"
+      },
+      "startingInterrupt": {
+        "id": "200_117",
+        "title": "Combat Readiness (V)"
+      }
     },
     {
       "name": "Rescue The Princess (V)",
@@ -4186,7 +4732,12 @@
         "RTPv",
         "Rescue the Princess(v)",
         "RTP(V)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual15-Light/large/rescuetheprincess.gif",
+      "objective": {
+        "id": "215_17",
+        "title": "Rescue The Princess (V)"
+      }
     },
     {
       "name": "Communing (Qui-Gon)",
@@ -4261,7 +4812,16 @@
         "QUI COMMUNING",
         "Qui-Gon Communing",
         "Qui Gon Communing"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/masterquigonjinnanoldfriend.gif",
+      "startingLocation": {
+        "id": "216_25",
+        "title": "Coruscant: Jedi Temple Meditation Room"
+      },
+      "startingInterrupt": {
+        "id": "216_39",
+        "title": "I Am Part Of The Living Force"
+      }
     },
     {
       "name": "Endor: Chief Chirpa's Hut LTWW(V)",
@@ -4306,7 +4866,16 @@
         "CHIEF CHIRPAS HUT LTWW",
         "LTWWv Endor: Chief Chirpa’s Hut",
         "Endor LTWWv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Endor-Light/large/endorchiefchirpashut.gif",
+      "startingLocation": {
+        "id": "8_71",
+        "title": "Endor: Chief Chirpa's Hut"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     },
     {
       "name": "LTWW(V) Space",
@@ -4329,7 +4898,16 @@
         "RENDEZVOUS POINT LTWW",
         "LTWWv Rendezvous Point",
         "Rendezvous Point LTWWv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Light/large/rendezvouspoint.gif",
+      "startingLocation": {
+        "id": "7_123",
+        "title": "Rendezvous Point"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     },
     {
       "name": "Communing (Yoda)",
@@ -4489,7 +5067,16 @@
         "YODA COMMUNING",
         "Yoda Communing",
         "Communing – Yoda"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/masteryoda.gif",
+      "startingLocation": {
+        "id": "216_26",
+        "title": "Dagobah: Yoda's Hut (V)"
+      },
+      "startingInterrupt": {
+        "id": "216_39",
+        "title": "I Am Part Of The Living Force"
+      }
     },
     {
       "name": "On The Verge Of Greatness",
@@ -4526,7 +5113,12 @@
         "Verge of Greatness",
         "On The Verge of Greatness",
         "On the Verge of Greatness"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Dark/large/onthevergeofgreatness.gif",
+      "objective": {
+        "id": "216_11",
+        "title": "On The Verge Of Greatness"
+      }
     },
     {
       "name": "Communing (Obi-Wan)",
@@ -4617,7 +5209,16 @@
         "Communing Obi-Wan",
         "Obi-Wan Communing",
         "Obi Wan Communing"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/masterkenobi.gif",
+      "startingLocation": {
+        "id": "216_43",
+        "title": "Tatooine: Obi-Wan's Hut (V)"
+      },
+      "startingInterrupt": {
+        "id": "216_39",
+        "title": "I Am Part Of The Living Force"
+      }
     },
     {
       "name": "My Kind Of Scum",
@@ -4637,7 +5238,12 @@
         "MKOS",
         "MKOS/FAI",
         "My Kind of Scum"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/mykindofscum.gif",
+      "objective": {
+        "id": "112_15",
+        "title": "My Kind Of Scum"
+      }
     },
     {
       "name": "Agents In The Court",
@@ -4668,7 +5274,12 @@
         "AiTC",
         "Agents in the Court",
         "AiTC Gungans"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Light/large/agentsinthecourt.gif",
+      "objective": {
+        "id": "112_1",
+        "title": "Agents In The Court"
+      }
     },
     {
       "name": "Jakku CP(V)",
@@ -4684,7 +5295,16 @@
       "matchers": [
         "Jakku CP(V)",
         "Jakku CPv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual4-Dark/large/jakku.gif",
+      "startingLocation": {
+        "id": "204_51",
+        "title": "Jakku"
+      },
+      "startingInterrupt": {
+        "id": "200_50",
+        "title": "Careful Planning (V)"
+      }
     },
     {
       "name": "Ralltiir Operations",
@@ -4718,7 +5338,16 @@
         "RO/ITHOTE",
         "ROPS",
         "RO"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/ralltiiroperations.gif",
+      "objective": {
+        "id": "7_300v",
+        "title": "Ralltiir Operations (V)"
+      },
+      "startingInterrupt": {
+        "id": "200_125",
+        "title": "Surface Defense (V)"
+      }
     },
     {
       "name": "Tatooine: Slave Quarters LTWW(V)",
@@ -4743,7 +5372,16 @@
         "Tatooine: Slave Quarters LTWWv",
         "Slave Quarters LTWWv",
         "LTWWv Tatooine: Slave Quarters"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Tatooine-Light/large/tatooineslavequarters.gif",
+      "startingLocation": {
+        "id": "11_46",
+        "title": "Tatooine: Slave Quarters"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     },
     {
       "name": "Endor: Anakin's Funeral Pyre LTWW(V)",
@@ -4762,7 +5400,16 @@
         "Pyre LTWW(V)",
         "LTWWv Endor: Anakin’s Funeral Pyre",
         "Funeral Pyre LTWWv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Light/large/endoranakinsfuneralpyre.gif",
+      "startingLocation": {
+        "id": "217_34",
+        "title": "Endor: Anakin's Funeral Pyre"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     },
     {
       "name": "Mustafar CR(V)",
@@ -4785,7 +5432,16 @@
         "MUSTAFAR CRV",
         "Mustafar CR(v)",
         "Mustafar CRV"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual10-Dark/large/mustafar.gif",
+      "startingLocation": {
+        "id": "210_39",
+        "title": "Mustafar"
+      },
+      "startingInterrupt": {
+        "id": "200_117",
+        "title": "Combat Readiness (V)"
+      }
     },
     {
       "name": "Home One: War Room LTWW(V)",
@@ -4804,7 +5460,16 @@
         "Home One War Room LTWW(V)",
         "Home One:War Room LTWWv",
         "Home One: War Room LTWWv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/DeathStarII-Light/large/homeonewarroom.gif",
+      "startingLocation": {
+        "id": "9_58",
+        "title": "Home One: War Room"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     },
     {
       "name": "Hoth: Main Power Generators (1st Marker) (V) LTWW(V)",
@@ -4823,7 +5488,16 @@
         "Hoth MPG LTWW(V)",
         "MAIN POWER GENERATORS LTWW",
         "Hoth Main Power Generators LTWW"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual10-Light/large/hothmainpowergenerators.gif",
+      "startingLocation": {
+        "id": "210_15",
+        "title": "Hoth: Main Power Generators (1st Marker) (V)"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     },
     {
       "name": "Emperor's Orders",
@@ -4841,7 +5515,16 @@
         "Emperor's Orders",
         "Emperor’s Orders / Exe: Ctrl Station (V) SSA",
         "Emperor’s Orders"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual13-Dark/large/executorcontrolstation.gif",
+      "startingLocation": {
+        "id": "213_24",
+        "title": "Executor: Control Station (V)"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "Death Star II: Throne Room Slip Sliding Away (V)",
@@ -4866,7 +5549,16 @@
         "DSII:THRONE ROOM SSaV",
         "Death Star II: Throne Room SSAv",
         "Death Star 2 Throne Room SSAv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/DeathStarII-Dark/large/deathstariithroneroom.gif",
+      "startingLocation": {
+        "id": "9_147",
+        "title": "Death Star II: Throne Room"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "Asteroid Sanctuary",
@@ -4908,7 +5600,16 @@
         "Saga Rey",
         "Skywalker Saga – Rey",
         "Skywalker Saga Rey"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Light/large/ajanklosstrainingcourse.gif",
+      "startingLocation": {
+        "id": "217_27",
+        "title": "Ajan Kloss: Training Course"
+      },
+      "startingInterrupt": {
+        "id": "217_51",
+        "title": "The Rise Of Skywalker"
+      }
     },
     {
       "name": "Revenge Of The Sith (Dooku)",
@@ -4951,7 +5652,16 @@
         "Dooku ROTS",
         "Dooku Revenge",
         "ROTS – Dooku"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual11-Dark/large/invisiblehandbridge.gif",
+      "startingLocation": {
+        "id": "211_20",
+        "title": "Invisible Hand: Bridge"
+      },
+      "startingInterrupt": {
+        "id": "217_21",
+        "title": "Rise Of The Sith"
+      }
     },
     {
       "name": "Skywalker Saga (Anakin)",
@@ -5034,7 +5744,16 @@
         "Saga Anakin",
         "Sywalker Saga Anakin",
         "Luke Saga"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Light/large/tatooineslavequarters.gif",
+      "startingLocation": {
+        "id": "217_48",
+        "title": "Tatooine: Slave Quarters (V)"
+      },
+      "startingInterrupt": {
+        "id": "217_51",
+        "title": "The Rise Of Skywalker"
+      }
     },
     {
       "name": "Revenge Of The Sith (Vader)",
@@ -5064,7 +5783,12 @@
         "ROTS Vader",
         "Revenge of the Sith Vader",
         "ROTS – Vader"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Dark/large/riseofthesith.gif",
+      "startingInterrupt": {
+        "id": "217_21",
+        "title": "Rise Of The Sith"
+      }
     },
     {
       "name": "Takodana CP(V)",
@@ -5079,7 +5803,16 @@
       ],
       "matchers": [
         "Takodana CP(V)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual11-Light/large/takodana.gif",
+      "startingLocation": {
+        "id": "211_37",
+        "title": "Takodana"
+      },
+      "startingInterrupt": {
+        "id": "200_50",
+        "title": "Careful Planning (V)"
+      }
     },
     {
       "name": "Revenge Of The Sith (Maul)",
@@ -5119,7 +5852,16 @@
         "Maul Revenge of the Sith",
         "Maul ROTS",
         "RotS Maul"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Tatooine-Dark/large/tatooinedesertlandingsite.gif",
+      "startingLocation": {
+        "id": "11_92",
+        "title": "Tatooine: Desert Landing Site"
+      },
+      "startingInterrupt": {
+        "id": "217_21",
+        "title": "Rise Of The Sith"
+      }
     },
     {
       "name": "Mind What You Have Learned",
@@ -5203,7 +5945,12 @@
         "Zero Hour",
         "ZH/LOL",
         "ZH"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual19-Light/large/zerohour.gif",
+      "objective": {
+        "id": "219_48",
+        "title": "Zero Hour"
+      }
     },
     {
       "name": "Yavin 4 Base Operations Jedi Business",
@@ -5259,7 +6006,12 @@
         "Funeral Pyre",
         "Endor: Anakin’s Funeral Pyre",
         "Endor Funeral Pyre"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Light/large/endoranakinsfuneralpyre.gif",
+      "startingLocation": {
+        "id": "217_34",
+        "title": "Endor: Anakin's Funeral Pyre"
+      }
     },
     {
       "name": "Tatooine: Slave Quarters (V) LTWW(V)",
@@ -5279,7 +6031,16 @@
         "Slave Quarters LTWW(V)",
         "LTWWv Tatooine: Slave Quarters (V)",
         "Slave Quarters (V)"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Light/large/tatooineslavequarters.gif",
+      "startingLocation": {
+        "id": "217_48",
+        "title": "Tatooine: Slave Quarters (V)"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     },
     {
       "name": "Agents In The Court Mandalorians No-Flip",
@@ -5352,7 +6113,12 @@
         "Thrawn",
         "AGTCP/TRIOR",
         "AGTCP"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual19-Dark/large/agreattacticiancreatesplans.gif",
+      "objective": {
+        "id": "219_1",
+        "title": "A Great Tactician Creates Plans"
+      }
     },
     {
       "name": "Coruscant: The Works Slip Sliding Away (V)",
@@ -5369,7 +6135,16 @@
         "Coruscant: The Works Slip Sliding Away (V)",
         "Coruscant SSA(V)",
         "Coruscant SSA(v) Blasters"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Dark/large/coruscanttheworks.gif",
+      "startingLocation": {
+        "id": "216_4",
+        "title": "Coruscant: The Works"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
     },
     {
       "name": "Revenge Of The Sith",
@@ -5384,7 +6159,12 @@
       "matchers": [
         "Revenge Of The Sith",
         "ROTS"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Dark/large/riseofthesith.gif",
+      "startingInterrupt": {
+        "id": "217_21",
+        "title": "Rise Of The Sith"
+      }
     },
     {
       "name": "Ajan Kloss: Training Course LTWW(V)",
@@ -5426,7 +6206,12 @@
         "HFTDG/HAC",
         "HFTDG",
         "Hunt for the Droid General"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual21-Light/large/huntforthedroidgeneral.gif",
+      "objective": {
+        "id": "221_67",
+        "title": "Hunt For The Droid General"
+      }
     },
     {
       "name": "LTWW(V) Mains",
@@ -5448,7 +6233,16 @@
         "LTWWv MAINS",
         "LTWW (v) Mains",
         "Watto’s Junkyard LTWWv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Endor-Light/large/endorchiefchirpashut.gif",
+      "startingLocation": {
+        "id": "8_71",
+        "title": "Endor: Chief Chirpa's Hut"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     },
     {
       "name": "The Empire Knows We're Here",
@@ -5474,7 +6268,16 @@
         "Speeders",
         "Fridge",
         "TEKWH"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual22-Light/large/theempireknowswerehere.gif",
+      "objective": {
+        "id": "222_27",
+        "title": "The Empire Knows We're Here"
+      },
+      "startingInterrupt": {
+        "id": "222_24",
+        "title": "Lone Rogue (V)"
+      }
     },
     {
       "name": "Tatooine: Skywalker Hut LTWW(V)",
@@ -5491,7 +6294,16 @@
         "Tatooine: Skywalker Hut LTWW(V)",
         "Skywalker Hut LTWW(V)",
         "Tatooine: Skywalker Hut LTWWv"
-      ]
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Light/large/tatooineskywalkerhut.gif",
+      "startingLocation": {
+        "id": "217_47",
+        "title": "Tatooine: Skywalker Hut"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
+      }
     }
   ]
 }

@@ -108,7 +108,6 @@ const main = async () => {
       );
       decklist.startingInterrupt = determineStartingInterrupt(decklist);
       decklist.startingLocation = determineStartingLocation(decklist);
-
       decklist.side = determineSide(decklist);
 
       return decklist;
@@ -127,6 +126,8 @@ const main = async () => {
     `> ${decklistTitleArchetypes.length} archetypes created from titles.`,
   );
 
+  setArchetypeImageUrls();
+  setArchetypeObjectivesAndSISLs();
   manualPostProcessing();
 
   fs.writeFileSync(
@@ -147,12 +148,6 @@ const main = async () => {
     "Unique URLs assigned to archetypes:",
     [...new Set(allArchetypes.map((a) => a.decklistUrls).flat())].length,
   );
-
-  // allArchetypes
-  //   .sort((a, b) => (a.decklistUrls.length < b.decklistUrls.length ? 1 : -1))
-  //   .forEach((a) =>
-  //     console.log(a.name, "=>", a.shortName, ":", a.decklistUrls.length),
-  //   );
 };
 
 const seedArchetypes = () => {
@@ -227,6 +222,35 @@ const seedDecklistArchetypesFromTitles = () => {
   return [createdArchetypes, updatedArchetypes];
 };
 
+const setArchetypeObjectivesAndSISLs = () => {
+  allArchetypes.forEach((archetype) => {
+    const firstDecklist = allDecklists.find(
+      (d) => d.url == archetype.decklistUrls[0],
+    );
+
+    if (firstDecklist && firstDecklist.objective) {
+      archetype.objective = compressCardForJSON(firstDecklist.objective);
+    } else if (firstDecklist && firstDecklist.startingLocation) {
+      archetype.startingLocation = compressCardForJSON(
+        firstDecklist.startingLocation,
+      );
+    }
+
+    if (firstDecklist && firstDecklist.startingInterrupt) {
+      archetype.startingInterrupt = compressCardForJSON(
+        firstDecklist.startingInterrupt,
+      );
+    }
+  });
+};
+
+const compressCardForJSON = (card) => {
+  return {
+    id: card.gempId,
+    title: cleanCardTitle(card.front.title),
+  };
+};
+
 const manualPostProcessing = () => {
   const amd = allArchetypes.find(
     (a) => a.name == "Death Star II: Throne Room According To My Design",
@@ -235,6 +259,56 @@ const manualPostProcessing = () => {
     amd.side = "Dark";
   }
 };
+
+const setArchetypeImageUrls = () => {
+  allArchetypes.forEach((archetype) => {
+    const firstDecklist = allDecklists.find(
+      (d) => d.url == archetype.decklistUrls[0],
+    );
+    if (firstDecklist) {
+      archetype.imageUrl = determineImageUrl(firstDecklist);
+    }
+  });
+};
+
+const determineImageUrl = (decklist) => {
+  // these cards are necessary and sufficient to define a decklist's imageUrl
+  const definingCardNames = [
+    "Echo Base Operations",
+    "Asteroid Sanctuary",
+    "Revenge of the Sith",
+    "That Thing's Operational",
+    "Emperor's Orders",
+    "Commence Primary Ignition",
+    "Commence Primary Ignition (V)",
+    "The Force Is Strong In My Family", // Use SL instead, SL is always defining?
+  ];
+
+  definingCardNames.forEach((cardName) => {
+    const definingCard = findCardInDecklist(cardName, decklist);
+    if (definingCard) {
+      return definingCard.front.imageUrl;
+    }
+  });
+
+  if (decklist.objective) {
+    return decklist.objective.front.imageUrl;
+  } else if (findCardInDecklist("Communing", decklist)) {
+    const communer =
+      findCardInDecklist("Master Yoda", decklist) ||
+      findCardInDecklist("Master Qui-Gon Jinn, An Old Friend", decklist) ||
+      findCardInDecklist("Master Kenobi", decklist);
+    return communer.front.imageUrl;
+  } else if (decklist.startingLocation) {
+    return decklist.startingLocation.front.imageUrl;
+  } else if (decklist.startingInterrupt) {
+    return decklist.startingInterrupt.front.imageUrl;
+  }
+};
+
+// const markStartingCards = () => {
+//   return;
+// }
 
 const determineStartingSectionCards = (lines, decklist) => {
   const startingSectionHeaderIndex = lines.indexOf("STARTING");
@@ -301,6 +375,8 @@ const determineStartingInterrupt = (decklist) => {
 };
 
 const determineStartingLocation = (decklist) => {
+  // TODO: should this return null if there is an objective?
+  //
   // always used as starting location
   const alwaysStartingLocation = decklist.cards.find((c) =>
     ALWAYS_STARTING_LOCATIONS.includes(cleanCardTitle(c.front.title)),
@@ -473,6 +549,11 @@ const determineStartingLocation = (decklist) => {
         possibleSystemNameFromTitleMatch[2] + " (V)",
         decklist,
       );
+    possibleSystemNameFromTitle =
+      possibleSystemNameFromTitle &&
+      possibleSystemNameFromTitle.front.subType == "System"
+        ? possibleSystemNameFromTitle
+        : null;
   }
 
   let processOfEliminationStartingLocation;
