@@ -133,6 +133,7 @@ const main = async () => {
           name: tournament.name,
           shortName: tournament.shortName,
           eventName: tournament.event,
+          url: tournament.url,
         };
       } else {
         console.log(
@@ -251,9 +252,6 @@ const main = async () => {
         console.log(
           `ERROR: Couldn't find archetype or player for ${decklist.title}`,
         );
-        console.log(decklist.url);
-        console.log(decklist.archetype);
-        console.log(decklist.player);
       }
 
       decklist = {
@@ -262,9 +260,10 @@ const main = async () => {
         date: decklist.date,
         url: decklist.url,
         tournament: {
-          name: decklist.tournament,
-          shortName: decklist.tournamentShortName,
-          eventName: decklist.event,
+          name: decklist.tournament?.name,
+          shortName: decklist.tournament?.shortName,
+          eventName: decklist.tournament?.eventName,
+          url: decklist.tournament?.url,
           round: decklist.round,
           format: decklist.format,
         },
