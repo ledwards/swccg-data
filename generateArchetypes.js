@@ -284,6 +284,7 @@ const determineImageUrl = (decklist) => {
     "The Force Is Strong In My Family", // Use SL instead, SL is always defining?
   ];
 
+  // TODO: This doesn't work?
   definingCardNames.forEach((cardName) => {
     const definingCard = findCardInDecklist(cardName, decklist);
     if (definingCard) {

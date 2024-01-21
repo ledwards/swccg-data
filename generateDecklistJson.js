@@ -270,14 +270,16 @@ const main = async () => {
         archetype: decklist.archetype,
         player: decklist.player,
         side: decklist.side,
+        plaintext: decklist.plaintext,
         cards: decklist.cards.map((c) => {
           return {
             title: c.title,
             id: c.id,
             quantity: c.quantity,
+            imageUrl: c.cardData.front.imageUrl,
+            imageBackUrl: c.cardData.back?.imageUrl,
           };
         }),
-        plaintext: decklist.plaintext,
         count: decklist.cards.reduce((acc, c) => acc + c.quantity, 0),
       };
 
