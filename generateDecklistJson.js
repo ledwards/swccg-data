@@ -272,10 +272,13 @@ const main = async () => {
         side: decklist.side,
         plaintext: decklist.plaintext,
         cards: decklist.cards.map((c) => {
+          // TODO: should have starting boolean?
           return {
             title: c.title,
             id: c.id,
             quantity: c.quantity,
+            type: c.cardData.front.type,
+            subType: c.cardData.front.subType,
             imageUrl: c.cardData.front.imageUrl,
             imageBackUrl: c.cardData.back?.imageUrl,
           };
