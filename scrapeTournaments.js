@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const DECKLISTS_URL = "https://www.starwarsccg.org/tournaments/#decklists";
-const REQUEST_DELAY = 500;
+const REQUEST_DELAY = 5_000;
 
 const { tournamentSignifiers } = require("./lib/constants");
 const { titleCase } = require("./lib/utils");
@@ -12,7 +12,7 @@ const main = async () => {
   let tournaments = [];
 
   console.log(`(Step 1) Fetching: ${DECKLISTS_URL}`);
-  const tournamentPageUrls = await fetch(DECKLISTS_URL)
+  const tournamentPageUrls = await fetch(DECKLISTS_URL, { signal: AbortSignal.timeout(REQUEST_DELAY) })
     .then((res) => res.text())
     .then((html) => {
       const page = new jsdom.JSDOM(html).window.document;
@@ -160,6 +160,10 @@ const main = async () => {
               )
               .replace("NAC ", "North American Continentals ")
               .replace("Euros ", "European Championship ")
+              .replace("SSS ", "Supreme Southern Showdown ")
+
+              .replace("2024-01", "2024")
+
               .replace(/\d+(st|nd|rd|th) Place /i, "")
               .replace(" (-|–) ", " ");
 
@@ -258,7 +262,8 @@ const shortName = (name) => {
     .replace("Texas Mini-Worlds", "TMW")
     .replace("Match Play Championship", "MPC")
     .replace("Euromatch Play Championship", "EuroMPC")
-    .replace("Champions League", "CL");
+    .replace("Champions League", "CL")
+    .replace("Supreme Southern Showdown", "SSS");
 };
 
 main();

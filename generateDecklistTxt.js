@@ -8,6 +8,8 @@ const DECKLIST_URL_BASE = "https://www.starwarsccg.org";
 // Run this script with the max-old-space-size flag
 // e.g. `node --max-old-space-size=16384 generateDecklistTxt.js`
 // to avoid OOM errors
+// also seems to help to use a standalone terminal instead of an
+// embedded one
 
 let allCards;
 let cardTypes;
@@ -48,7 +50,7 @@ const main = async () => {
   console.log(`(Step 2) Converting html decklists to txt`);
   const decklists = filenames
     // DEBUG uncomment to test individual specific decklists
-    // .filter((fn) => fn.match(/2023-ralltiir-regionals-chris-menzel-ls-hitco/))
+    // .filter((fn) => fn.match(/2024-gempc-quarterfinals-brian-fred-ds-tatooine-cpv/))
     .map((filename) => {
       const decklistSlug = filename.replace(".html", "");
       const decklistUrl = `${DECKLIST_URL_BASE}/${decklistSlug}/`;
@@ -59,7 +61,12 @@ const main = async () => {
 
       let decklist;
       const decklistPageDoc = new jsdom.JSDOM(html).window.document;
-      const h1Text = decklistPageDoc.querySelector("h1").textContent.trim();
+      let h1Text = decklistPageDoc.querySelector("h1").textContent.trim();
+
+      // Specific deck title fixes, also helps with archetype detection
+      if (decklistSlug.match("ds-tatooine-cp")) {
+        h1Text = h1Text.replace("DS Tatooine CP", "DS Tatooine CR");
+      }
 
       const rawContentDivs = [
         ...decklistPageDoc.querySelectorAll(
@@ -153,6 +160,7 @@ const plaintextFromRawContent = (title, date, url, doc) => {
 
   body = normalizeHeaders(doc)
     // specific structural fixes which must come before html escaping and line counting
+    .replace("<p>CTER", "<p>CHARACTER")
     .replace("<p>VEH</p>", "")
     .replace(
       "2x Sorry About The Mess &amp; Blaster\nProficiency<br>",
@@ -306,7 +314,8 @@ const normalizeHeaders = (doc) =>
     .replace("EFFEECTS", "EFFECTS")
     .replace("EFFFECTS", "EFFECTS")
     .replace("EFFECTTS", "EFFECTS")
-    .replace("DEVICESL", "DEVICES");
+    .replace("DEVICESL", "DEVICES")
+  ;
 
 const removeHtmlTagsAndEscapes = (doc) =>
   doc

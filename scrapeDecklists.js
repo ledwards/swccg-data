@@ -2,7 +2,7 @@ const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
 
-const REQUEST_DELAY = 500;
+const REQUEST_DELAY = 1000;
 const YEAR = 2019;
 
 const slugFromUrl = (url) => url.split("/")[3].replaceAll(/\//g, "");
@@ -42,7 +42,7 @@ const main = async () => {
           setTimeout(
             () =>
               resolve(
-                fetch(decklistUrl)
+                fetch(decklistUrl, { signal: AbortSignal.timeout(REQUEST_DELAY) })
                   .then((res) => res.text())
                   .then((html) => {
                     let decklist;

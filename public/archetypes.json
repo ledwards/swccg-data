@@ -307,6 +307,7 @@
         "https://www.starwarsccg.org/2023-naboo-regionals-emil-wallin-ls-old-allies/",
         "https://www.starwarsccg.org/2023-naboo-regionals-justin-branch-ls-old-allies/",
         "https://www.starwarsccg.org/2023-naboo-regionals-kevin-jaap-ls-old-allies/",
+        "https://www.starwarsccg.org/2023-outrider-cup-emil-wallin-ls-old-allies/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-keith-brown-ls-old-allies/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-mike-kessling-ls-old-allies/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-keith-brown-ls-old-allies/",
@@ -314,7 +315,12 @@
         "https://www.starwarsccg.org/2023-toola-regionals-emil-wallin-ls-old-allies/",
         "https://www.starwarsccg.org/2023-us-nationals-day-2-greg-shaw-ls-old-allies/",
         "https://www.starwarsccg.org/2023-us-nationals-greg-shaw-ls-old-allies/",
-        "https://www.starwarsccg.org/2023-us-nationals-mike-kessling-ls-old-allies/"
+        "https://www.starwarsccg.org/2023-us-nationals-mike-kessling-ls-old-allies/",
+        "https://www.starwarsccg.org/2024-eclipse-major-steve-brentson-ls-old-allies/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-miguel-tarin-vegas-ls-old-allies/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-brian-fred-ls-old-allies/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-phil-aasen-ls-old-allies/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-emil-wallin-ls-old-allies/"
       ],
       "shortName": "OA",
       "aliases": [
@@ -493,13 +499,21 @@
         "https://www.starwarsccg.org/2023-european-championship-mike-klarenbeek-ds-map/",
         "https://www.starwarsccg.org/2023-naboo-regionals-jeroen-wauters-ds-i-want-that-map/",
         "https://www.starwarsccg.org/2023-ocs-playoff-semifinals-drew-lichtenstein-ds-i-want-that-map/",
+        "https://www.starwarsccg.org/2023-outrider-cup-koen-meijssen-ds-map/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-jeroen-wauters-ds-map/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-keith-brown-ds-map/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-mike-kessling-ds-i-want-that-map/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-keith-brown-ds-map/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-mike-kessling-ds-i-want-that-map/",
         "https://www.starwarsccg.org/2023-us-nationals-matt-lutz-ds-map/",
-        "https://www.starwarsccg.org/2023-worlds-william-bacheler-ds-map/"
+        "https://www.starwarsccg.org/2023-worlds-william-bacheler-ds-map/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-emil-wallin-ds-map/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-jeroen-wauters-ds-map/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-miguel-tarin-vegas-ds-map/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-brian-avery-ds-map/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-chris-westergard-ds-map/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-mike-klarenbeek-ds-map/",
+        "https://www.starwarsccg.org/2024-sss-robbie-hendon-ds-map/"
       ],
       "shortName": "Map",
       "aliases": [
@@ -643,7 +657,15 @@
         "https://www.starwarsccg.org/2023-worlds-kendall-halman-ds-bhbm/",
         "https://www.starwarsccg.org/2023-worlds-logan-pietig-ds-bhbm/",
         "https://www.starwarsccg.org/2023-worlds-sam-olson-ds-bhbm/",
-        "https://www.starwarsccg.org/2023-worlds-vinny-rossi-ds-bhbm/"
+        "https://www.starwarsccg.org/2023-worlds-vinny-rossi-ds-bhbm/",
+        "https://www.starwarsccg.org/2024-eclipse-major-apollo-chu-ds-bhbm/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-marc-nickels-ds-bhbm/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-peter-jacobson-ds-bhbm/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-chris-wirfs-ds-bhbm/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-isaak-sammartano-ds-bhbm/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-phil-aasen-ds-bring-him-before-me/",
+        "https://www.starwarsccg.org/2024-sss-brad-reinhold-ds-bhbm/",
+        "https://www.starwarsccg.org/2024-sss-jonathan-murray-ds-bhbm/"
       ],
       "shortName": "BHBM",
       "aliases": [
@@ -749,7 +771,13 @@
         "https://www.starwarsccg.org/2023-worlds-jon-mcfarland-ds-imperial-entanglements/",
         "https://www.starwarsccg.org/2023-worlds-vikram-bali-ds-imperial-entanglements/",
         "https://www.starwarsccg.org/2023-yavin-4-regionals-andrew-moss-ds-imperial-entanglements/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-jon-mcfarland-ds-imperial-entanglements/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-jon-mcfarland-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2024-eclipse-major-randall-scott-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-matthew-harrison-trainor-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-martin-den-boef-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2024-sss-david-woods-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2024-sss-john-mcfarland-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2024-toola-regionals-martin-den-boef-ds-imperial-entanglements/"
       ],
       "shortName": "IE",
       "aliases": [
@@ -865,7 +893,19 @@
         "https://www.starwarsccg.org/2023-european-championship-christian-knudsen-ds-court/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-bill-pittman-ds-court/",
         "https://www.starwarsccg.org/2023-worlds-scott-lingrell-ds-court/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-david-woods-ds-court/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-david-woods-ds-court/",
+        "https://www.starwarsccg.org/2024-eclipse-major-chris-kelly-ds-court/",
+        "https://www.starwarsccg.org/2024-eclipse-major-kendall-halman-ds-court/",
+        "https://www.starwarsccg.org/2024-eclipse-major-mark-billings-ds-court/",
+        "https://www.starwarsccg.org/2024-eclipse-major-matt-thornton-ds-court/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-chris-kelly-ds-court/",
+        "https://www.starwarsccg.org/2024-european-championship-eric-spijksma-ds-court/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-cedrik-vanderhaegen-ds-cotvg-mains/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-cedrik-vanderhaegen-ds-court/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-eric-spijksma-ds-court/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-pat-johnson-ds-court/",
+        "https://www.starwarsccg.org/2024-sss-scott-lingrell-ds-court/",
+        "https://www.starwarsccg.org/2024-sss-top-8-scott-lingrell-court/"
       ],
       "shortName": "Court",
       "aliases": [
@@ -880,7 +920,8 @@
         "COTVG/ISEWYD",
         "COTVG (V)",
         "COTVG",
-        "Court FO"
+        "Court FO",
+        "COTVG Mains"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/courtofthevilegangster.gif",
       "objective": {
@@ -956,7 +997,13 @@
         "https://www.starwarsccg.org/2023-naboo-regionals-l-pater-ls-echo-base-operations/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-justin-branch-ls-echo-base-operations/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-timo-dusel-ls-echo-base-operations/",
-        "https://www.starwarsccg.org/2023-ralltiir-regionals-kevin-jaap-ls-ebo/"
+        "https://www.starwarsccg.org/2023-ralltiir-regionals-kevin-jaap-ls-ebo/",
+        "https://www.starwarsccg.org/2024-eclipse-major-tommy-santosuosso-ls-ebo/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-thomas-santosuosso-ls-ebo/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-adam-bott-ls-ebo/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-thomas-santosuosso-ls-ebo/",
+        "https://www.starwarsccg.org/2024-sss-casey-anis-ls-ebo/",
+        "https://www.starwarsccg.org/2024-sss-thomas-santosuosso-ls-echo-base-operations/"
       ],
       "shortName": "EBO",
       "aliases": [
@@ -1087,6 +1134,7 @@
         "https://www.starwarsccg.org/2023-nal-hutta-regionals-brian-fred-ds-hunt-down/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-matthew-harrison-trainor-ds-hunt-down/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-mike-pistone-ds-hunt-down/",
+        "https://www.starwarsccg.org/2023-outrider-cup-cedrik-vanderhaegen-ds-hunt-down/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-floris-de-vries-ds-hunt-down/",
         "https://www.starwarsccg.org/2023-scarif-regionals-brett-bailey-ds-hunt-down/",
         "https://www.starwarsccg.org/2023-scarif-regionals-matt-thornton-ds-hunt-down/",
@@ -1096,7 +1144,21 @@
         "https://www.starwarsccg.org/2023-worlds-day-2-casey-anis-ds-hunt-down/",
         "https://www.starwarsccg.org/2023-worlds-matt-thornton-ds-hunt-down/",
         "https://www.starwarsccg.org/2023-worlds-sean-miller-ds-hunt-down/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-casey-anis-ds-hunt-down/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-casey-anis-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-eclipse-major-casey-anis-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-casey-anis-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-jeff-lavigne-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-eclipse-major-travis-morris-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-european-championship-par-birgander-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-joe-olson-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-casey-anis-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-logan-pietig-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-randy-scott-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-tom-sarachan-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-cedrik-vanderhaegen-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-sss-casey-anis-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-sss-stephen-sesnick-ds-hunt-down/",
+        "https://www.starwarsccg.org/2024-toola-regionals-emil-wallin-ds-hunt-down/"
       ],
       "shortName": "Hunt Down",
       "aliases": [
@@ -1388,6 +1450,7 @@
         "https://www.starwarsccg.org/2023-endor-grand-prix-day-2-chris-wirfs-ds-cct/",
         "https://www.starwarsccg.org/2023-endor-grand-prix-day-2-ryan-sersen-ds-cct/",
         "https://www.starwarsccg.org/2023-endor-regionals-aaron-frede-ds-cct/",
+        "https://www.starwarsccg.org/2023-outrider-cup-greg-shaw-ds-cct/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-chris-wirfs-ds-cct/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-jacy-smith-ds-cct/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-mike-turner-ds-cct/",
@@ -1397,7 +1460,10 @@
         "https://www.starwarsccg.org/2023-tatooine-regionals-randall-scott-ds-cct/",
         "https://www.starwarsccg.org/2023-us-nationals-aj-hatoum-ds-cct/",
         "https://www.starwarsccg.org/2023-us-nationals-cory-lauer-ds-cct/",
-        "https://www.starwarsccg.org/2023-worlds-chris-wirfs-ds-cct/"
+        "https://www.starwarsccg.org/2023-worlds-chris-wirfs-ds-cct/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-nathan-russell-ds-cct/",
+        "https://www.starwarsccg.org/2024-gempc-semi-finals-matthew-harrison-trainor-ds-cct/",
+        "https://www.starwarsccg.org/2024-sss-ryan-sersen-ds-cct/"
       ],
       "shortName": "CCT No-Flip",
       "aliases": [
@@ -1490,10 +1556,14 @@
         "https://www.starwarsccg.org/2023-european-championship-tommy-santosusso-ds-endor-operations/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-jeff-lavigne-ds-endor-operations/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-joe-olson-ds-endor-operations/",
+        "https://www.starwarsccg.org/2023-outrider-cup-quirin-furgut-ds-endor-operations/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-stephan-de-vos-ds-eops/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-ryan-jellison-ds-endor-ops/",
         "https://www.starwarsccg.org/2023-scarif-regionals-cal-aldred-ds-endor-operations/",
-        "https://www.starwarsccg.org/2023-worlds-day-2-jonny-chu-ds-endor-operations/"
+        "https://www.starwarsccg.org/2023-worlds-day-2-jonny-chu-ds-endor-operations/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-matt-sokol-ds-endor-operations/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-mike-damboise-ds-endor-operations/",
+        "https://www.starwarsccg.org/2024-sss-cal-aldred-ds-endor-operations/"
       ],
       "shortName": "Endor Ops",
       "aliases": [
@@ -1562,6 +1632,7 @@
         "https://www.starwarsccg.org/2023-european-championship-top-8-jonas-hagen-norregaard-ls-whap/",
         "https://www.starwarsccg.org/2023-european-championships-stephan-de-vos-ls-whap/",
         "https://www.starwarsccg.org/2023-naboo-regionals-angelo-consoli-ls-whap/",
+        "https://www.starwarsccg.org/2023-outrider-cup-cedrik-vanderhaegen-ls-whap/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-stephan-de-vos-ls-whap/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-ryan-jellison-ls-whap/",
         "https://www.starwarsccg.org/2023-toola-regionals-jonas-hagen-noerregaard-ls-whap/",
@@ -1571,7 +1642,23 @@
         "https://www.starwarsccg.org/2023-worlds-jared-napolitano-ls-whap/",
         "https://www.starwarsccg.org/2023-worlds-mike-damboise-ls-whap/",
         "https://www.starwarsccg.org/2023-worlds-mike-thomas-ls-whap/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-bill-kafer-ls-whap/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-bill-kafer-ls-whap/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-garrett-larson-ls-whap/",
+        "https://www.starwarsccg.org/2024-eclipse-major-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2024-eclipse-major-mike-kessling-ls-whap/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-fernando-castanon-ls-whap/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-cedrik-vanderhaegen-ls-whap/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-l-pater-ls-whap/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jared-napolitano-ls-whap/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-matt-sokol-ls-whap/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-mike-damboise-ls-whap/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-mike-pistone-ls-whap/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-wayne-cullen-ls-whap/",
+        "https://www.starwarsccg.org/2024-sss-robbie-hendon-ls-whap/",
+        "https://www.starwarsccg.org/2024-sss-top-8-dennis-reinhardt-ls-whap/",
+        "https://www.starwarsccg.org/2024-sss-top-8-robbie-hendon-ls-whap/"
       ],
       "shortName": "WHAP",
       "aliases": [
@@ -1644,7 +1731,9 @@
         "https://www.starwarsccg.org/2022-mpc-winston-plunkett-ds-let-them-make-the-first-move/",
         "https://www.starwarsccg.org/2022-us-nationals-day-1-stephen-fulner-ds-combat/",
         "https://www.starwarsccg.org/2023-bespin-regionals-josh-grace-ds-combat/",
-        "https://www.starwarsccg.org/2023-dagobah-regionals-jonathan-murray-ds-combat/"
+        "https://www.starwarsccg.org/2023-dagobah-regionals-jonathan-murray-ds-combat/",
+        "https://www.starwarsccg.org/2024-eclipse-major-garrett-larson-ds-combat/",
+        "https://www.starwarsccg.org/2024-sss-dennis-reinhardt-ds-combat/"
       ],
       "shortName": "DS Combat",
       "aliases": [
@@ -1776,6 +1865,7 @@
         "https://www.starwarsccg.org/2023-european-championship-angelo-consoli-ls-diplomatic-mission-to-alderaan/",
         "https://www.starwarsccg.org/2023-european-championship-jonas-jakubowski-ls-diplomatic-mission-to-alderaan/",
         "https://www.starwarsccg.org/2023-european-championship-top-8-angelo-consoli-ls-diplomatic-mission-to-alderaan/",
+        "https://www.starwarsccg.org/2023-outrider-cup-brian-fred-ls-diplo/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-angelo-consoli-ls-diplo/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-angelo-consoli-ls-diplo/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-floris-de-vries-ls-diplo/",
@@ -1788,7 +1878,18 @@
         "https://www.starwarsccg.org/2023-us-nationals-day-2-joe-olson-ls-diplo/",
         "https://www.starwarsccg.org/2023-worlds-brian-fred-ls-diplo/",
         "https://www.starwarsccg.org/2023-worlds-matt-scott-ls-diplo/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-andrew-moss-ls-diplo/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-andrew-moss-ls-diplo/",
+        "https://www.starwarsccg.org/2024-european-championship-patrik-csapi-ls-diplo/",
+        "https://www.starwarsccg.org/2024-european-championships-angelo-consoli-ls-diplo/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-angelo-consoli-ls-diplo/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-angelo-consoli-ls-diplo/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-patrik-csapi-ls-diplo/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-amar-banger-ls-diplo/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-andrew-bolletino-ls-diplo/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-angelo-consoli-ls-diplo/",
+        "https://www.starwarsccg.org/2024-sss-joel-pittman-ls-diplo/",
+        "https://www.starwarsccg.org/2024-toola-regionals-angelo-consoli-ls-diplo/",
+        "https://www.starwarsccg.org/2024-toola-regionals-patrik-csapi-ls-diplo/"
       ],
       "shortName": "Diplo",
       "aliases": [
@@ -1980,6 +2081,8 @@
         "https://www.starwarsccg.org/2023-nal-hutta-regionals-matt-scott-ls-hitco/",
         "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-justin-desai-ls-hitco/",
         "https://www.starwarsccg.org/2023-ocs-playoff-semifinals-drew-lichtenstein-ls-he-is-the-chosen-one/",
+        "https://www.starwarsccg.org/2023-outrider-cup-justin-desai-ls-hitco/",
+        "https://www.starwarsccg.org/2023-outrider-cup-quirin-furgut-ls-hitco/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-chris-menzel-ls-hitco/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-jeroen-wauters-ls-hitco/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-cal-aldred-ls-hitco/",
@@ -1987,7 +2090,50 @@
         "https://www.starwarsccg.org/2023-worlds-aj-hatoum-ls-hitco/",
         "https://www.starwarsccg.org/2023-worlds-garrett-larson-ls-hitco/",
         "https://www.starwarsccg.org/2023-worlds-logan-pietig-ls-hitco/",
-        "https://www.starwarsccg.org/2023-worlds-sam-olson-ls-hitco/"
+        "https://www.starwarsccg.org/2023-worlds-sam-olson-ls-hitco/",
+        "https://www.starwarsccg.org/2024-bespin-regional-brandon-nguyen-ls-hitco/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-carson-stockman-ls-hitco/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-dennis-reinhardt-ls-hitco/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-larry-nava-ds-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-aaron-groth-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-casey-anis-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-chris-kelly-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-dennis-reinhardt-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-garrett-larson-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-greg-shaw-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-phil-aasen-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-casey-anis-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-chris-kelly-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-justin-carulli-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-travis-morris-ls-hitco/",
+        "https://www.starwarsccg.org/2024-eclipse-major-trevor-partridge-ls-hitco/",
+        "https://www.starwarsccg.org/2024-european-championship-casper-jorgensen-ls-hitco/",
+        "https://www.starwarsccg.org/2024-european-championship-emil-wallin-ls-hitco/",
+        "https://www.starwarsccg.org/2024-european-championship-martin-den-boef-ls-hitco/",
+        "https://www.starwarsccg.org/2024-gempc-finals-mike-kessling-ls-hitco/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-logan-pietig-ls-hitco/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-matthew-harrison-trainor-ls-hitco/",
+        "https://www.starwarsccg.org/2024-gempc-semi-finals-logan-pietig-ls-hitco/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-emil-wallin-ls-hitco/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-emil-wallin-ls-hitco/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-marc-nickels-ls-hitco/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-martin-den-boef-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-blake-silkwood-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-casey-anis-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-chris-wirfs-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jeff-lavigne-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-joe-olson-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-matt-wadden-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-pat-johnson-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-phil-aasen-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-sam-olson-ls-hitco/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-chris-gogolen-ls-he-is-the-chosen-one/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-joe-olson-ls-he-is-the-chosen-one/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-quirin-furgut-ls-hitco/",
+        "https://www.starwarsccg.org/2024-sss-chris-kelly-ls-hitco/",
+        "https://www.starwarsccg.org/2024-sss-dennis-reinhardt-ls-hitco/",
+        "https://www.starwarsccg.org/2024-sss-mike-kessling-ls-hitco/",
+        "https://www.starwarsccg.org/2024-toola-regionals-martin-den-boef-ls-hitco/"
       ],
       "shortName": "HITCO",
       "aliases": [
@@ -2042,7 +2188,12 @@
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-gavin-ortlund-ds-watto/",
         "https://www.starwarsccg.org/2023-tatooine-regionals-adam-bott-ds-watto/",
         "https://www.starwarsccg.org/2023-worlds-john-veasey-ds-watto/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-john-veasey-ds-watto/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-john-veasey-ds-watto/",
+        "https://www.starwarsccg.org/2024-eclipse-major-benji-chu-ds-watto/",
+        "https://www.starwarsccg.org/2024-eclipse-major-john-veasey-ds-watto/",
+        "https://www.starwarsccg.org/2024-european-championship-bjorn-palmqvist-ds-watto/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jonny-chu-ds-watto/",
+        "https://www.starwarsccg.org/2024-toola-regionals-bjorn-palmqvist-ds-watto/"
       ],
       "shortName": "Watto",
       "aliases": [
@@ -2081,7 +2232,8 @@
         "https://www.starwarsccg.org/2022-ocs-top-16-steve-baroni-ls-tatooine-cpv/",
         "https://www.starwarsccg.org/2022-tatooine-regionals-adam-bott-ls-tatooine-cpv/",
         "https://www.starwarsccg.org/2023-european-championship-julian-smolarek-ls-tatooine-cpv/",
-        "https://www.starwarsccg.org/2023-european-championship-peter-jacobson-ls-tatooine-cpv/"
+        "https://www.starwarsccg.org/2023-european-championship-peter-jacobson-ls-tatooine-cpv/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-peter-jacobson-ls-tatooine-cpv/"
       ],
       "shortName": "Tatooine CP(V)",
       "aliases": [
@@ -2136,6 +2288,7 @@
         "https://www.starwarsccg.org/2022-world-championship-garrett-larson-ds-that-things-operational/",
         "https://www.starwarsccg.org/2023-bespin-regionals-brandon-nguyen-ds-tto/",
         "https://www.starwarsccg.org/2023-endor-grand-prix-thomas-santosuosso-ds-tto/",
+        "https://www.starwarsccg.org/2023-outrider-cup-brian-fred-ds-tto/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-patrik-csapi-ds-tto/",
         "https://www.starwarsccg.org/2023-tatooine-regionals-thomas-santosuosso-ds-tto/",
         "https://www.starwarsccg.org/2023-us-nationals-bill-kafer-ds-tto/",
@@ -2144,7 +2297,11 @@
         "https://www.starwarsccg.org/2023-worlds-matthew-sokol-ds-tto/",
         "https://www.starwarsccg.org/2023-worlds-mike-damboise-ds-tto/",
         "https://www.starwarsccg.org/2023-worlds-thomas-santosuosso-ds-tto/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-tommy-santosuosso-ds-tto/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-tommy-santosuosso-ds-tto/",
+        "https://www.starwarsccg.org/2024-eclipse-major-tommy-santosuosso-ds-tto/",
+        "https://www.starwarsccg.org/2024-european-championship-patrik-csapi-ds-tto/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-thomas-santosuosso-ds-tto/",
+        "https://www.starwarsccg.org/2024-sss-brian-herold-ds-tto/"
       ],
       "shortName": "TTO",
       "aliases": [
@@ -2289,6 +2446,8 @@
         "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-mike-kessling-ds-isb/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-chris-wirfs-ds-isb-operations/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-justin-branch-ds-isb-operations/",
+        "https://www.starwarsccg.org/2023-outrider-cup-justin-branch-ds-isb-operations/",
+        "https://www.starwarsccg.org/2023-outrider-cup-mike-kessling-ds-isb-operations/",
         "https://www.starwarsccg.org/2023-tatooine-regionals-mark-billings-ds-isb-operations/",
         "https://www.starwarsccg.org/2023-us-nationals-day-2-sam-tashima-ds-isb/",
         "https://www.starwarsccg.org/2023-worlds-brian-fred-ds-isb/",
@@ -2298,7 +2457,24 @@
         "https://www.starwarsccg.org/2023-worlds-drew-lichtenstein-ds-isb/",
         "https://www.starwarsccg.org/2023-worlds-greg-shaw-ds-isb/",
         "https://www.starwarsccg.org/2023-worlds-matt-scott-ds-isb/",
-        "https://www.starwarsccg.org/2023-worlds-ryan-jellison-ds-isb/"
+        "https://www.starwarsccg.org/2023-worlds-ryan-jellison-ds-isb/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-mark-walseth-ds-isb/",
+        "https://www.starwarsccg.org/2024-eclipse-major-charlie-arlandson-ds-isb-operations/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-mike-kessling-ds-isb-operations/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-charlie-arlandson-ds-isb/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-tamas-papp-ds-isb/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-blake-silkwood-ds-isb-operations/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-mark-walseth-ds-isb-operations/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-ryan-jellison-ds-isb/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-brian-fred-ds-isb-operations/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-sam-tashima-ds-isb-operations/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-tamas-papp-ds-isb/",
+        "https://www.starwarsccg.org/2024-sss-chris-kelly-ds-isb/",
+        "https://www.starwarsccg.org/2024-sss-jeremy-dipaolo-ds-isb/",
+        "https://www.starwarsccg.org/2024-sss-karl-koenig-ds-isb/",
+        "https://www.starwarsccg.org/2024-sss-mike-kessling-ds-isb-operations/",
+        "https://www.starwarsccg.org/2024-sss-steve-brentson-ds-isb/",
+        "https://www.starwarsccg.org/2024-sss-top-8-robbie-hendon-ds-isb/"
       ],
       "shortName": "ISB",
       "aliases": [
@@ -2431,7 +2607,18 @@
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-matt-thornton-ls-wys/",
         "https://www.starwarsccg.org/2023-us-nationals-matt-thornton-ls-wys/",
         "https://www.starwarsccg.org/2023-worlds-john-veasey-ls-wys/",
-        "https://www.starwarsccg.org/2023-worlds-ryan-jellison-ls-wys/"
+        "https://www.starwarsccg.org/2023-worlds-ryan-jellison-ls-wys/",
+        "https://www.starwarsccg.org/2024-eclipse-major-chris-wirfs-ls-wys/",
+        "https://www.starwarsccg.org/2024-eclipse-major-keith-brown-ls-wys/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-martin-den-boef-ls-wys/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-brian-fred-ls-wys/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-chris-gogolen-ls-wys/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-chris-westergard-ls-wys/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-matt-scott-ls-wys/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-randy-scott-ls-wys/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-steve-brentson-ls-wys/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-thomas-santosuosso-ls-wys/",
+        "https://www.starwarsccg.org/2024-sss-joe-laporta-ls-wys/"
       ],
       "shortName": "WYS",
       "aliases": [
@@ -2490,7 +2677,10 @@
         "https://www.starwarsccg.org/2023-nal-hutta-regionals-kendall-halman-ls-tigih/",
         "https://www.starwarsccg.org/2023-us-nationals-kendall-halman-ls-tigih/",
         "https://www.starwarsccg.org/2023-worlds-chad-lawrence-ls-tigh/",
-        "https://www.starwarsccg.org/2023-worlds-kendall-halman-ls-tigih/"
+        "https://www.starwarsccg.org/2023-worlds-kendall-halman-ls-tigih/",
+        "https://www.starwarsccg.org/2024-eclipse-major-kendall-halman-ls-tigih/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jonny-chu-ls-tigih/",
+        "https://www.starwarsccg.org/2024-toola-regionals-bjorn-palmqvist-ls-tigih/"
       ],
       "shortName": "TIGIH",
       "aliases": [
@@ -2718,6 +2908,8 @@
         "https://www.starwarsccg.org/2023-european-championships-stephan-de-vos-ds-aobs/",
         "https://www.starwarsccg.org/2023-naboo-regionals-emil-wallin-ds-aobs/",
         "https://www.starwarsccg.org/2023-ocs-playoff-semi-finals-timo-dusel-ds-agents-of-black-sun/",
+        "https://www.starwarsccg.org/2023-outrider-cup-emil-wallin-ds-aobs/",
+        "https://www.starwarsccg.org/2023-outrider-cup-joe-olson-ds-aobs/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-stephan-de-vos-ds-aobs/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-daniel-amor-ds-aobs/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-ryan-sersen-ds-aobs/",
@@ -2730,7 +2922,23 @@
         "https://www.starwarsccg.org/2023-worlds-garrett-larson-ds-aobs/",
         "https://www.starwarsccg.org/2023-worlds-jared-napolitano-ds-aobs/",
         "https://www.starwarsccg.org/2023-worlds-jonny-chu-ds-aobs/",
-        "https://www.starwarsccg.org/2023-worlds-michael-pistone-ds-aobs/"
+        "https://www.starwarsccg.org/2023-worlds-michael-pistone-ds-aobs/",
+        "https://www.starwarsccg.org/2024-eclipse-major-ben-butterworth-ds-aobs/",
+        "https://www.starwarsccg.org/2024-eclipse-major-dan-tartaglione-ds-aobs/",
+        "https://www.starwarsccg.org/2024-european-championship-emil-wallin-ds-aobs/",
+        "https://www.starwarsccg.org/2024-european-championship-quirin-furgut-ds-aobs/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-quirin-furgut-ds-aobs/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-matt-sokol-ds-agents-of-black-sun/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-emil-wallin-ds-aobs/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-jeroen-wauters-ds-aobs/",
+        "https://www.starwarsccg.org/2024-sss-barry-alperstein-ds-aobs/",
+        "https://www.starwarsccg.org/2024-sss-hayes-hunter-ds-aobs/",
+        "https://www.starwarsccg.org/2024-sss-jeff-lavigne-ds-aobs/",
+        "https://www.starwarsccg.org/2024-sss-joe-olson-ds-aobs/",
+        "https://www.starwarsccg.org/2024-sss-sam-tashima-ds-aobs/",
+        "https://www.starwarsccg.org/2024-sss-top-8-jeff-lavigne-ds-aobs/",
+        "https://www.starwarsccg.org/2024-sss-top-8-sam-tashima-ds-aobs/",
+        "https://www.starwarsccg.org/2024-toola-regionals-quirin-furgut-ds-aobs/"
       ],
       "shortName": "AOBS",
       "aliases": [
@@ -2814,6 +3022,7 @@
         "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2023-ocs-playoff-semi-finals-timo-dusel-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-gavin-ortlund-ls-yavin-4-base-operations/",
+        "https://www.starwarsccg.org/2023-outrider-cup-timo-dusel-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-koen-meijssen-ls-yavin-4-operations/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-blake-silkwood-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-ryan-sersen-ls-yavin-4-base-operations/",
@@ -2824,7 +3033,11 @@
         "https://www.starwarsccg.org/2023-worlds-anthony-howard-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2023-worlds-day-2-anthony-howard-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2023-yavin-4-regionals-karl-koenig-ls-yavin-4-operations/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-pat-john-ls-yavin-4-operations/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-pat-john-ls-yavin-4-operations/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-mark-walseth-ls-yavin-4-base-operations/",
+        "https://www.starwarsccg.org/2024-sss-aj-hatoum-ls-yavin-4-base-operations/",
+        "https://www.starwarsccg.org/2024-sss-bill-pittman-ls-yavin-4-base-operations/",
+        "https://www.starwarsccg.org/2024-sss-day-2-bill-kafer-ls-y4o/"
       ],
       "shortName": "Y4O",
       "aliases": [
@@ -2915,7 +3128,13 @@
         "https://www.starwarsccg.org/2023-worlds-david-woods-ds-walkers/",
         "https://www.starwarsccg.org/2023-worlds-jake-nelson-ds-walkers/",
         "https://www.starwarsccg.org/2023-worlds-joe-horbey-ds-walkers/",
-        "https://www.starwarsccg.org/2023-worlds-justin-desai-ds-walkers/"
+        "https://www.starwarsccg.org/2023-worlds-justin-desai-ds-walkers/",
+        "https://www.starwarsccg.org/2024-european-championship-casper-jorgensen-ds-walkers/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-eric-spijksma-ds-hoth-crv/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-chris-gogolen-ls-walkers/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jan-westergard-ds-hoth-crv/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-joe-pinto-ds-walkers/",
+        "https://www.starwarsccg.org/2024-sss-top-8-dennis-reinhardt-ds-walkers/"
       ],
       "shortName": "Walkers",
       "aliases": [
@@ -3004,7 +3223,10 @@
         "https://www.starwarsccg.org/2022-world-championship-jon-mcfarland-ls-profit/",
         "https://www.starwarsccg.org/2022-world-championship-jonathan-murray-ls-profit/",
         "https://www.starwarsccg.org/2023-us-nationals-joel-cooper-ls-profit/",
-        "https://www.starwarsccg.org/2023-worlds-travis-morris-ls-profit/"
+        "https://www.starwarsccg.org/2023-worlds-travis-morris-ls-profit/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-greg-shaw-ls-profit/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-sam-tashima-ls-profit/",
+        "https://www.starwarsccg.org/2024-sss-jonathan-murray-ls-profit/"
       ],
       "shortName": "Profit",
       "aliases": [
@@ -3091,7 +3313,10 @@
         "https://www.starwarsccg.org/2023-us-nationals-john-carr-ls-hidden-base/",
         "https://www.starwarsccg.org/2023-worlds-brian-avery-ls-hidden-base/",
         "https://www.starwarsccg.org/2023-worlds-clayton-atkin-ls-hidden-base/",
-        "https://www.starwarsccg.org/2023-worlds-day-2-jonny-chu-ls-hidden-base/"
+        "https://www.starwarsccg.org/2023-worlds-day-2-jonny-chu-ls-hidden-base/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-sam-tashima-ls-hidden-base/",
+        "https://www.starwarsccg.org/2024-european-championship-bjorn-palmqvist-ls-hidden-base/",
+        "https://www.starwarsccg.org/2024-sss-sam-tashima-ls-hidden-base/"
       ],
       "shortName": "HB",
       "aliases": [
@@ -3180,7 +3405,11 @@
         "https://www.starwarsccg.org/2023-us-nationals-william-scinocca-ds-sycfa/",
         "https://www.starwarsccg.org/2023-worlds-benji-chu-ds-sycfa/",
         "https://www.starwarsccg.org/2023-worlds-brian-avery-ds-sycfa/",
-        "https://www.starwarsccg.org/2023-worlds-day-2-anthony-howard-ds-sycfa/"
+        "https://www.starwarsccg.org/2023-worlds-day-2-anthony-howard-ds-sycfa/",
+        "https://www.starwarsccg.org/2024-eclipse-major-adam-bott-ds-sycfa/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-benji-chu-ds-sycfa/",
+        "https://www.starwarsccg.org/2024-sss-leif-lutz-ds-sycfa/",
+        "https://www.starwarsccg.org/2024-sss-travis-cooper-ds-sycfa/"
       ],
       "shortName": "SYCFA No-Flip",
       "aliases": [
@@ -3212,7 +3441,11 @@
       "side": "Dark",
       "decklistUrls": [
         "https://www.starwarsccg.org/2019-endor-grand-prix-day-1-michael-erisman-tatooine-cr-v/",
-        "https://www.starwarsccg.org/2022-endor-grand-prix-joe-phillips-ds-tatooine-crv/"
+        "https://www.starwarsccg.org/2022-endor-grand-prix-joe-phillips-ds-tatooine-crv/",
+        "https://www.starwarsccg.org/2024-bespin-regional-brandon-nguyen-ds-tatooine-crv/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-brian-fred-ds-tatooine-cpv/",
+        "https://www.starwarsccg.org/2024-sss-top-8-hayes-hunter-ds-tatooine-crv/",
+        "https://www.starwarsccg.org/2024-toola-regionals-jon-benkert-holtet-ds-tatooine-crv/"
       ],
       "shortName": "Tatooine CR(V)",
       "aliases": [
@@ -3313,6 +3546,7 @@
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-mike-pistone-ls-quiet-mining-colony/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-tom-strother-ls-quiet-mining-colony/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-joe-olson-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2023-outrider-cup-joe-olson-ls-qmc/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-stephan-de-vos-ls-qmc/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-anthony-howard-ls-qmc/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-cal-aldred-ls-qmc/",
@@ -3328,7 +3562,38 @@
         "https://www.starwarsccg.org/2023-us-nationals-tom-marlin-ls-qmc/",
         "https://www.starwarsccg.org/2023-worlds-corey-lauer-ls-qmc/",
         "https://www.starwarsccg.org/2023-worlds-sam-tashima-ls-qmc/",
-        "https://www.starwarsccg.org/2023-worlds-vikram-bali-ls-qmc/"
+        "https://www.starwarsccg.org/2023-worlds-vikram-bali-ls-qmc/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-cory-lauer-ls-qmc/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-sam-tashima-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-cal-aldred-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-hayes-hunter-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-jason-reindeau-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-jeff-lavigne-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-joe-olson-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-john-veasey-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-karl-koenig-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-sam-tashima-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-stephen-cellucci-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-hayes-hunter-ls-qmc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-stephen-cellucci-ls-qmc/",
+        "https://www.starwarsccg.org/2024-gempc-finals-matthew-harrison-trainor-ls-qmc/",
+        "https://www.starwarsccg.org/2024-gempc-semi-finals-matthew-harrison-trainor-ls-qmc/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-eric-spijksma-ls-qmc/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-tamas-papp-ls-qmc/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-tamas-papp-ls-qmc/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-cory-lauer-ls-qmc/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-eric-hunter-ls-qmc/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-isaak-sammartano-ls-qmc/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jan-westergard-ls-qmc/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-sam-tashima-ls-qmc/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-mike-klarenbeek-ls-qmc/",
+        "https://www.starwarsccg.org/2024-sss-bill-kafer-ls-qmc/",
+        "https://www.starwarsccg.org/2024-sss-cal-aldred-ls-qmc/",
+        "https://www.starwarsccg.org/2024-sss-matthew-harrison-trainor-ls-qmc/",
+        "https://www.starwarsccg.org/2024-sss-top-8-sam-tashima-ls-qmc/",
+        "https://www.starwarsccg.org/2024-toola-regionals-casper-jorgensen-ls-qmc/",
+        "https://www.starwarsccg.org/2024-toola-regionals-eric-spijksma-ls-qmc/",
+        "https://www.starwarsccg.org/2024-toola-regionals-tamas-papp-ls-qmc/"
       ],
       "shortName": "QMC",
       "aliases": [
@@ -3599,6 +3864,7 @@
         "https://www.starwarsccg.org/2023-endor-regionals-kyle-krueger-ls-no-idea/",
         "https://www.starwarsccg.org/2023-endor-regionals-ming-huo-ls-no-idea/",
         "https://www.starwarsccg.org/2023-gempc7-charlie-arlandson-ls-no-idea/",
+        "https://www.starwarsccg.org/2023-outrider-cup-greg-shaw-ls-no-idea/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-greg-shaw-ls-no-idea/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-mike-turner-ls-no-idea/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-greg-shaw-ls-no-idea/",
@@ -3608,7 +3874,23 @@
         "https://www.starwarsccg.org/2023-us-nationals-sam-tashima-ls-no-idea/",
         "https://www.starwarsccg.org/2023-us-nationals-travis-morris-ls-no-idea/",
         "https://www.starwarsccg.org/2023-worlds-kyle-krueger-ls-no-idea/",
-        "https://www.starwarsccg.org/2023-worlds-michael-pistone-ls-no-idea/"
+        "https://www.starwarsccg.org/2023-worlds-michael-pistone-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-eclipse-major-brad-eier-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-eclipse-major-mike-pistone-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-eclipse-major-mike-turner-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-eclipse-major-paul-coggins-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-jeff-lavigne-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-mike-kessling-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-greg-shaw-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-mike-kessling-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-nathan-russell-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-gempc-semi-finals-nathan-russell-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-sss-david-woods-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-sss-drew-lichtenstein-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-sss-greg-shaw-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-sss-jeremy-dipaolo-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-sss-top-8-matthew-harrison-trainor-ls-no-idea/",
+        "https://www.starwarsccg.org/2024-sss-travis-cooper-ls-no-idea/"
       ],
       "shortName": "No Idea",
       "aliases": [
@@ -3672,7 +3954,10 @@
         "https://www.starwarsccg.org/2022-toola-regionals-tamas-papp-ds-a-stunning-move/",
         "https://www.starwarsccg.org/2023-alderaan-regionals-gibson-yim-ds-a-stunning-move/",
         "https://www.starwarsccg.org/2023-worlds-pat-johnson-ds-asmv/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-pat-johnson-ds-a-stunning-move/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-pat-johnson-ds-a-stunning-move/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-adam-bott-ds-asm/",
+        "https://www.starwarsccg.org/2024-sss-brian-avery-ds-asm/",
+        "https://www.starwarsccg.org/2024-sss-joe-laporta-ds-asm/"
       ],
       "shortName": "ASM",
       "aliases": [
@@ -3827,7 +4112,10 @@
         "https://www.starwarsccg.org/2022-world-championship-top-8-justin-desai-ls-legend/",
         "https://www.starwarsccg.org/2023-endor-grand-prix-matt-thornton-ls-legend/",
         "https://www.starwarsccg.org/2023-endor-grand-prix-spencer-gosiaco-ls-legend/",
-        "https://www.starwarsccg.org/2023-worlds-william-bacheler-ls-legend/"
+        "https://www.starwarsccg.org/2023-worlds-william-bacheler-ls-legend/",
+        "https://www.starwarsccg.org/2024-eclipse-major-aaron-bott-ls-legend/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-kevin-jaap-ls-legend/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-jeroen-wauters-ls-legend/"
       ],
       "shortName": "Legend",
       "aliases": [
@@ -3919,7 +4207,8 @@
       "name": "Set Your Course For Alderaan Flip",
       "side": "Dark",
       "decklistUrls": [
-        "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-chris-wirfs-ds-set-your-course-for-alderaan/"
+        "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-chris-wirfs-ds-set-your-course-for-alderaan/",
+        "https://www.starwarsccg.org/2024-eclipse-major-aaron-bott-ds-sycfa/"
       ],
       "shortName": "SYCFA Flip",
       "aliases": [
@@ -4103,7 +4392,12 @@
         "https://www.starwarsccg.org/2021-endor-regionals-kyle-kallin-ds-cct-flip/",
         "https://www.starwarsccg.org/2021-yavin-4-regionals-jan-westergard-ds-cct-flip/",
         "https://www.starwarsccg.org/2021-yavin-4-regionals-lenny-rubin-ds-cct-flip/",
-        "https://www.starwarsccg.org/2021-yavin-4-regionals-tom-haid-ds-cct-flip/"
+        "https://www.starwarsccg.org/2021-yavin-4-regionals-tom-haid-ds-cct-flip/",
+        "https://www.starwarsccg.org/2024-eclipse-major-chris-wirfs-ds-cct/",
+        "https://www.starwarsccg.org/2024-eclipse-major-karl-koenig-ds-cct/",
+        "https://www.starwarsccg.org/2024-eclipse-major-mike-pistone-ds-cct/",
+        "https://www.starwarsccg.org/2024-eclipse-major-mike-turner-ds-cct/",
+        "https://www.starwarsccg.org/2024-eclipse-major-trevor-partridge-ds-cct/"
       ],
       "shortName": "CCT",
       "aliases": [
@@ -4193,7 +4487,8 @@
         "https://www.starwarsccg.org/2020-worlds-day-1-chris-hull-ds-bespin-crv/",
         "https://www.starwarsccg.org/2020-worlds-day-1-daniel-amor-ds-bespin-crv/",
         "https://www.starwarsccg.org/2020-worlds-day-1-eric-spijksma-ds-bespin-crv/",
-        "https://www.starwarsccg.org/2020-worlds-day-3-bastian-winkelhaus-ds-bespin-crv/"
+        "https://www.starwarsccg.org/2020-worlds-day-3-bastian-winkelhaus-ds-bespin-crv/",
+        "https://www.starwarsccg.org/2024-european-championship-jon-benkert-holtet-ds-bespin-crv/"
       ],
       "shortName": "Bespin CR(V)",
       "aliases": [
@@ -4224,7 +4519,15 @@
         "https://www.starwarsccg.org/2022-mpc-scott-lingrell-ls-mwyhl/",
         "https://www.starwarsccg.org/2023-worlds-matt-wadden-ls-mwyhl/",
         "https://www.starwarsccg.org/2023-worlds-scott-lingrell-ls-mwyhl/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-david-woods-ls-mwyhl/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-david-woods-ls-mwyhl/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-nick-swedal-ls-mwyhl/",
+        "https://www.starwarsccg.org/2024-eclipse-major-charlie-arlandson-ls-mwyhl/",
+        "https://www.starwarsccg.org/2024-eclipse-major-matt-thornton-ls-mwyhl/",
+        "https://www.starwarsccg.org/2024-eclipse-major-randall-scott-ls-mwyhl/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-nick-swedal-ls-mwyhl/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-cedrik-vanderhaegen-ls-mwyhl/",
+        "https://www.starwarsccg.org/2024-sss-brian-herold-ls-mwyhl/",
+        "https://www.starwarsccg.org/2024-sss-matt-lutz-ls-mwyhl/"
       ],
       "shortName": "MWYHL No-Flip",
       "aliases": [
@@ -4474,6 +4777,7 @@
         "https://www.starwarsccg.org/2023-ocs-playoff-semi-finals-sam-tashima-ds-shadow-collective/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-brad-kippel-ds-shadow-collective/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-sam-tashima-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2023-outrider-cup-hayes-hunter-ds-shadow-collective/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-grady-hutchins-ds-shadow-collective/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-grady-hutchins-ds-shadow-collective/",
         "https://www.starwarsccg.org/2023-us-nationals-joel-cooper-ds-shadow-collective/",
@@ -4482,7 +4786,28 @@
         "https://www.starwarsccg.org/2023-worlds-matt-lutz-ds-shadow-collective/",
         "https://www.starwarsccg.org/2023-worlds-mike-kessling-ds-shadow-collective/",
         "https://www.starwarsccg.org/2023-yavin-4-regionals-bill-kafer-ds-shadow-collective/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-karl-koenig-ds-shadow-collective/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-karl-koenig-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-aj-hatoum-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-dennis-reinhardt-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-eclipse-major-cal-aldred-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-eclipse-major-greg-shaw-ds-sc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-keith-brown-ds-sc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-mike-kessling-ds-sc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-phil-aasen-ds-sc/",
+        "https://www.starwarsccg.org/2024-eclipse-major-sam-tashima-ds-sc/",
+        "https://www.starwarsccg.org/2024-european-championship-koen-meijssen-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-gempc-finals-mike-kessling-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-mike-kessling-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-gempc-semi-finals-mike-kessling-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-john-moorley-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-tamas-papp-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-aj-hatoum-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-joe-olson-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-sss-bill-pittman-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-sss-drew-lichtenstein-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-sss-greg-shaw-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-toola-regionals-casper-jorgensen-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2024-toola-regionals-tamas-papp-ds-shadow-collective/"
       ],
       "shortName": "SC",
       "aliases": [
@@ -4626,7 +4951,10 @@
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-blake-silkwood-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-nate-davis-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2023-us-nationals-john-carr-ds-hunt-down-v/",
-        "https://www.starwarsccg.org/2023-us-nationals-karl-koenig-ds-hunt-down-v/"
+        "https://www.starwarsccg.org/2023-us-nationals-karl-koenig-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jared-napolitano-ds-hdv/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-koen-meijssen-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2024-sss-matt-lutz-ds-hunt-down-v/"
       ],
       "shortName": "Hunt Down (V)",
       "aliases": [
@@ -4651,7 +4979,8 @@
         "Hunt Down(v)",
         "Hunt Down (v)",
         "HD(V)",
-        "Hunt Down v"
+        "Hunt Down v",
+        "HDv"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Virtual13-Dark/large/huntdownanddestroythejedi.gif",
       "objective": {
@@ -4797,7 +5126,9 @@
         "https://www.starwarsccg.org/2023-naboo-regionals-andrew-davies-ls-qui-gon-communing/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-quirin-furgut-ls-communing-qui-gon/",
         "https://www.starwarsccg.org/2023-worlds-vinny-rossi-ls-communing-qui-gon/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-tom-haid-ls-communing-qui-gon/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-tom-haid-ls-communing-qui-gon/",
+        "https://www.starwarsccg.org/2024-eclipse-major-brian-fred-ls-qui-gon-communing/",
+        "https://www.starwarsccg.org/2024-eclipse-major-matt-scott-ls-qui-gon-communing/"
       ],
       "shortName": "Quimuning",
       "aliases": [
@@ -4851,7 +5182,9 @@
         "https://www.starwarsccg.org/2021-worlds-sam-tashima-ls-chief-chirpas-hut-ltww/",
         "https://www.starwarsccg.org/2021-yavin-4-regionals-bill-kafer-ls-ltww-mains/",
         "https://www.starwarsccg.org/2022-mpc-jeffrey-johns-ls-ltwwv-endor-chief-chirpas-hut/",
-        "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-gavin-ortlund-ls-endor-ltwwv/"
+        "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-gavin-ortlund-ls-endor-ltwwv/",
+        "https://www.starwarsccg.org/2024-sss-scott-lingrell-ls-chief-chirpas-hut-ltwwv/",
+        "https://www.starwarsccg.org/2024-sss-top-8-scott-lingrell-ls-chief-chirpas-hut-ltwwv/"
       ],
       "shortName": "Chirpa's Hut LTWW(V)",
       "aliases": [
@@ -4865,7 +5198,8 @@
         "LTWW Mains",
         "CHIEF CHIRPAS HUT LTWW",
         "LTWWv Endor: Chief Chirpa’s Hut",
-        "Endor LTWWv"
+        "Endor LTWWv",
+        "Chief Chirpa’s Hut LTWW(V)"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Endor-Light/large/endorchiefchirpashut.gif",
       "startingLocation": {
@@ -5038,6 +5372,7 @@
         "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-sam-tashima-ls-communing-yoda/",
         "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-communing-yoda/",
         "https://www.starwarsccg.org/2023-ocs-playoffs-top-16-mike-kessling-ls-yoda-communing/",
+        "https://www.starwarsccg.org/2023-outrider-cup-mike-kessling-ls-communing-yoda/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-grady-hutchins-ls-yoda-communing/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-matthijs-van-leeuwen-ls-yoda-communing/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-casey-anis-ls-communing-yoda/",
@@ -5053,7 +5388,15 @@
         "https://www.starwarsccg.org/2023-worlds-justin-desai-ls-communing-yoda/",
         "https://www.starwarsccg.org/2023-worlds-karl-koenig-ls-communing-yoda/",
         "https://www.starwarsccg.org/2023-worlds-matt-thornton-ls-communing-yoda/",
-        "https://www.starwarsccg.org/2023-worlds-mike-kessling-ls-communing-yoda/"
+        "https://www.starwarsccg.org/2023-worlds-mike-kessling-ls-communing-yoda/",
+        "https://www.starwarsccg.org/2024-european-championship-par-birgander-ls-communing-yoda/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-brian-fred-ls-communing-yoda/",
+        "https://www.starwarsccg.org/2024-gempc-semi-finals-mike-kessling-ls-yoda-communing/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-erich-hawbaker-ls-yoda-communing/",
+        "https://www.starwarsccg.org/2024-sss-brad-reinhold-ls-communing-yoda/",
+        "https://www.starwarsccg.org/2024-sss-brian-fred-ls-communing-yoda/",
+        "https://www.starwarsccg.org/2024-sss-ryan-sersen-ls-communing-yoda/",
+        "https://www.starwarsccg.org/2024-toola-regionals-emil-wallin-ls-yoda-communing/"
       ],
       "shortName": "Yodamuning",
       "aliases": [
@@ -5196,7 +5539,9 @@
         "https://www.starwarsccg.org/2023-worlds-stephen-cellucci-ls-communing-obi-wan/",
         "https://www.starwarsccg.org/2023-worlds-steve-brentson-ls-obi-wan-communing/",
         "https://www.starwarsccg.org/2023-worlds-thomas-santosuosso-ls-communing-obi-wan/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-tommy-santosuosso-ls-communing-obi-wan/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-tommy-santosuosso-ls-communing-obi-wan/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-mark-walseth-ls-obi-wan-communing/",
+        "https://www.starwarsccg.org/2024-sss-karl-koenig-ls-communing-obi-wan/"
       ],
       "shortName": "Obimuning",
       "aliases": [
@@ -5225,7 +5570,20 @@
       "side": "Dark",
       "decklistUrls": [
         "https://www.starwarsccg.org/2021-dagobah-regionals-phillip-gladney-ds-mkos/",
-        "https://www.starwarsccg.org/2023-scarif-regionals-rudy-rojas-ds-my-kind-of-scum/"
+        "https://www.starwarsccg.org/2023-scarif-regionals-rudy-rojas-ds-my-kind-of-scum/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-charlie-arlandson-ds-mkos/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-garrett-larson-ds-mkos/",
+        "https://www.starwarsccg.org/2024-eclipse-major-brian-fred-ds-mkos/",
+        "https://www.starwarsccg.org/2024-eclipse-major-justin-carulli-ds-mkos/",
+        "https://www.starwarsccg.org/2024-eclipse-major-matt-scott-ds-mkos/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-justin-carulli-ds-mkos/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-emil-wallin-ds-mkos/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-patrik-csapi-ds-mkos/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-brian-fred-ds-mkos/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-matt-scott-ds-mkos/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-steve-brentson-ds-mkos/",
+        "https://www.starwarsccg.org/2024-toola-regionals-koen-meijssen-ds-mkos/",
+        "https://www.starwarsccg.org/2024-toola-regionals-patrik-csapi-ds-mkos/"
       ],
       "shortName": "MKOS",
       "aliases": [
@@ -5237,7 +5595,8 @@
         "My Kind Of Scum",
         "MKOS",
         "MKOS/FAI",
-        "My Kind of Scum"
+        "My Kind of Scum",
+        "MKoS"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/JabbasPalaceSealedDeck-Dark/large/mykindofscum.gif",
       "objective": {
@@ -5259,7 +5618,8 @@
         "https://www.starwarsccg.org/2023-ralltiir-regionals-emil-wallin-aitc/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-patrik-csapi-ls-aitc/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-tamas-papp-ls-aitc/",
-        "https://www.starwarsccg.org/2023-tatooine-regionals-mark-billings-ls-agents-in-the-court/"
+        "https://www.starwarsccg.org/2023-tatooine-regionals-mark-billings-ls-agents-in-the-court/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-ryan-jellison-ls-aitc/"
       ],
       "shortName": "AITC",
       "aliases": [
@@ -5448,7 +5808,10 @@
       "side": "Light",
       "decklistUrls": [
         "https://www.starwarsccg.org/2022-world-championship-top-8-ryan-jellison-ls-home-onewar-room-ltwwv/",
-        "https://www.starwarsccg.org/2023-endor-regionals-aaron-frede-ls-home-one-war-room-ltwwv/"
+        "https://www.starwarsccg.org/2023-endor-regionals-aaron-frede-ls-home-one-war-room-ltwwv/",
+        "https://www.starwarsccg.org/2024-eclipse-major-ben-butterworth-ls-home-one-war-room-ltwwv/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-benji-chu-ls-home-one-war-room-ltwwv/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-brian-avery-ls-home-one-war-room-ltwwv/"
       ],
       "shortName": "Home One War Room LTWW(V)",
       "aliases": [
@@ -5570,6 +5933,7 @@
         "Y4BO/TTTFIS",
         "YBO",
         "YOPS",
+        "Y4O",
         "Y4BO"
       ],
       "matchers": [
@@ -5577,6 +5941,7 @@
         "Y4BO/TTTFIS",
         "YBO",
         "YOPS",
+        "Y4O",
         "Y4BO"
       ]
     },
@@ -5705,6 +6070,7 @@
         "https://www.starwarsccg.org/2023-nal-hutta-regionals-steve-squirlock-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-bill-pittman-ls-skywalker-saga-anakin/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-brad-kippel-ls-saga-anakin/",
+        "https://www.starwarsccg.org/2023-outrider-cup-justin-branch-ls-skywalker-saga-anakin/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-eric-spijksma-ls-sywalker-saga-anakin/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-koen-meijssen-ls-skywalker-saga-anakin/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-timo-dusel-ls-skywalker-saga-anakin/",
@@ -5725,7 +6091,34 @@
         "https://www.starwarsccg.org/2023-worlds-jarad-konsker-ls-anakin-saga/",
         "https://www.starwarsccg.org/2023-worlds-jeff-lavigne-ls-skywalker-saga-anakin/",
         "https://www.starwarsccg.org/2023-worlds-pat-johnson-ls-anakin-saga/",
-        "https://www.starwarsccg.org/2023-worlds-tom-sarachan-ls-anakin-saga/"
+        "https://www.starwarsccg.org/2023-worlds-tom-sarachan-ls-anakin-saga/",
+        "https://www.starwarsccg.org/2024-eclipse-major-barry-alperstein-ls-anakin-saga/",
+        "https://www.starwarsccg.org/2024-eclipse-major-steve-squirlock-ls-luke-saga/",
+        "https://www.starwarsccg.org/2024-european-championship-christian-knudsen-ls-saga-anakin/",
+        "https://www.starwarsccg.org/2024-european-championship-koen-meijssen-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-european-championship-quirin-furgut-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-kevin-jaap-ls-anakin-saga/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-john-moorley-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-quirin-furgut-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-brandon-nguyen-ls-anakin-saga/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-chris-kelly-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jarad-konsker-ls-anakin-saga/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-joe-horbey-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-logan-pietig-ls-luke-saga/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-tom-sarachan-ls-anakin-saga/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-matt-sokol-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-koen-meijssen-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-marvin-tegeler-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-timo-dusel-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-sss-barry-alperstein-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-sss-hayes-hunter-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-sss-jeff-lavigne-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-sss-joe-olson-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-sss-john-mcfarland-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-sss-steve-brentson-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-sss-top-8-hayes-hunter-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-sss-top-8-jeff-lavigne-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2024-toola-regionals-quirin-furgut-ls-skywalker-saga-anakin/"
       ],
       "shortName": "Anakin Saga",
       "aliases": [
@@ -5771,7 +6164,20 @@
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-drew-lichtenstein-ds-revenge-of-the-sith-vader/",
         "https://www.starwarsccg.org/2023-scarif-regionals-chris-schoenthal-ds-rots-vader/",
         "https://www.starwarsccg.org/2023-worlds-chris-kelly-ds-rots-vader/",
-        "https://www.starwarsccg.org/2023-worlds-jarad-konsker-ds-rots-vader/"
+        "https://www.starwarsccg.org/2023-worlds-jarad-konsker-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-eclipse-major-hayes-hunter-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-hayes-hunter-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-logan-pietig-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-gempc-semi-finals-logan-pietig-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-bill-kafer-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-chris-kelly-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-greg-shaw-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jarad-konsker-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-sam-olson-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-bill-kafer-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-greg-shaw-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-eric-spijksma-ds-rots-vader/",
+        "https://www.starwarsccg.org/2024-toola-regionals-eric-spijksma-ds-rots-vader/"
       ],
       "shortName": "ROTS Vader",
       "aliases": [
@@ -5829,6 +6235,7 @@
         "https://www.starwarsccg.org/2023-naboo-regionals-cedrik-vanderhawgen-ds-revenge-of-the-sith-maul/",
         "https://www.starwarsccg.org/2023-naboo-regionals-john-moorley-ds-revenge-of-the-sith-maul/",
         "https://www.starwarsccg.org/2023-nal-hutta-regionals-matt-scott-ds-rots-maul/",
+        "https://www.starwarsccg.org/2023-outrider-cup-justin-desai-ds-rots-maul/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-cedric-vanderhaegen-ds-maul-revenge-of-the-sith/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-eric-spijksma-ds-revenge-of-the-sith-maul/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-john-moorley-ds-revenge-of-the-sith-maul/",
@@ -5836,7 +6243,33 @@
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-1-dennis-reinhardt-ds-rots-maul/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-dennis-reinhardt-ds-rots-maul/",
         "https://www.starwarsccg.org/2023-tatooine-regionals-paul-coggins-ds-rots-maul/",
-        "https://www.starwarsccg.org/2023-toola-regionals-angelo-consoli-ds-rots-maul/"
+        "https://www.starwarsccg.org/2023-toola-regionals-angelo-consoli-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-sam-tashima-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-eclipse-major-barry-alperstein-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-eclipse-major-dennis-reinhardt-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-eclipse-major-steve-squirlock-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-sam-tashima-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-european-championship-christian-knudsen-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-european-championships-angelo-consoli-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-greg-shaw-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-angelo-consoli-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-kevin-jaap-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-angelo-consoli-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-kevin-jaap-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-amar-banger-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-brandon-nguyen-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-eric-hunter-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-jeff-lavigne-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-joe-horbey-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-joe-olson-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-mike-pistone-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-phil-aasen-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-sam-tashima-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-thomas-santosuosso-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-angelo-consoli-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-kevin-jaap-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-sss-joel-pittman-ds-rots-maul/",
+        "https://www.starwarsccg.org/2024-toola-regionals-angelo-consoli-ds-rots-maul/"
       ],
       "shortName": "ROTS Maul",
       "aliases": [
@@ -5913,6 +6346,7 @@
         "https://www.starwarsccg.org/2023-gempc7-semi-finals-tom-strother-ls-zero-hour/",
         "https://www.starwarsccg.org/2023-nal-hutta-regionals-brian-fred-ls-zero-hour/",
         "https://www.starwarsccg.org/2023-nal-hutta-regionals-travis-morris-ls-zero-hour/",
+        "https://www.starwarsccg.org/2023-outrider-cup-koen-meijssen-ls-zero-hour/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-grady-hutchins-ls-zero-hour/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-cedrik-vanderhaegen-ls-zero-hour/",
         "https://www.starwarsccg.org/2023-ryloth-regionals-eric-spijksma-ls-zero-hour/",
@@ -5933,7 +6367,22 @@
         "https://www.starwarsccg.org/2023-worlds-matthew-sokol-ls-zero-hour/",
         "https://www.starwarsccg.org/2023-worlds-steven-yaeger-ls-zero-hour/",
         "https://www.starwarsccg.org/2023-yavin-4-regionals-john-veasey-ls-zero-hour/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-jon-mcfarland-ls-zero-hour/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-jon-mcfarland-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-charlie-arlandson-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-eclipse-major-apollo-chu-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-eclipse-major-benji-chu-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-eclipse-major-dan-tartaglione-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-eclipse-major-justin-carulli-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-european-championship-eric-spijskma-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-european-championship-jon-benkert-holtet-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-charlie-arlandson-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-gempc-quarterfinals-joe-olson-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-bill-kafer-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-greg-shaw-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-joe-pinto-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-bill-kafer-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-sss-brian-avery-ls-zero-hour/",
+        "https://www.starwarsccg.org/2024-toola-regionals-jon-benkert-holtet-ls-zero-hour/"
       ],
       "shortName": "Zero Hour",
       "aliases": [
@@ -5963,6 +6412,7 @@
         "Y4BO/TTTFIS",
         "YBO",
         "YOPS",
+        "Y4O",
         "Y4BO"
       ],
       "matchers": [
@@ -5971,6 +6421,7 @@
         "Y4BO/TTTFIS",
         "YBO",
         "YOPS",
+        "Y4O",
         "Y4BO"
       ]
     },
@@ -5993,7 +6444,8 @@
         "https://www.starwarsccg.org/2023-us-nationals-logan-pietig-ls-pyre/",
         "https://www.starwarsccg.org/2023-worlds-casey-anis-ls-funeral-pyre/",
         "https://www.starwarsccg.org/2023-worlds-day-2-casey-anis-ls-funeral-pyre/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-casey-anis-ls-endor-anakins-funeral-pyre/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-casey-anis-ls-endor-anakins-funeral-pyre/",
+        "https://www.starwarsccg.org/2024-sss-leif-lutz-ls-funeral-pyre/"
       ],
       "shortName": "Pyre",
       "aliases": [
@@ -6019,7 +6471,8 @@
       "decklistUrls": [
         "https://www.starwarsccg.org/2022-mpc-eric-hunter-ls-ltwwv-tatooine-slave-quarters-v/",
         "https://www.starwarsccg.org/2022-mpc-top-8-eric-hunter-ls-ltwwv-tatooine-slave-quarters-v/",
-        "https://www.starwarsccg.org/2023-tatooine-regionals-adam-bott-ls-slave-quarters-v/"
+        "https://www.starwarsccg.org/2023-tatooine-regionals-adam-bott-ls-slave-quarters-v/",
+        "https://www.starwarsccg.org/2024-eclipse-major-adam-bott-ls-home-one-war-room-ltwwv/"
       ],
       "shortName": "Slave Quarters LTWW(V)",
       "aliases": [
@@ -6079,6 +6532,7 @@
         "https://www.starwarsccg.org/2023-ocs-playoff-finals-timo-dusel-ds-thrawn/",
         "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ds-thrawn/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-timo-dusel-ds-thrawn/",
+        "https://www.starwarsccg.org/2023-outrider-cup-timo-dusel-ds-thrawn/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-kevin-jaap-ds-thrawn/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-koen-meijssen-ds-thrawn/",
         "https://www.starwarsccg.org/2023-ralltiir-regionals-quirin-furgut-ds-thrawn/",
@@ -6099,7 +6553,44 @@
         "https://www.starwarsccg.org/2023-us-nationals-ming-huo-ds-thrawn/",
         "https://www.starwarsccg.org/2023-worlds-chris-westergard-ds-thrawn/",
         "https://www.starwarsccg.org/2023-worlds-corey-lauer-ds-thrawn/",
-        "https://www.starwarsccg.org/2023-yavin-4-regionals-tom-haid-ds-thrawn/"
+        "https://www.starwarsccg.org/2023-yavin-4-regionals-tom-haid-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-carson-stockman-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-cory-lauer-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-larry-nava-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-bespin-regionals-nick-swedal-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-aaron-groth-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-aj-hatoum-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-brad-eier-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-jason-reindeau-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-jeff-lavigne-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-joe-olson-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-paul-coggins-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-stephen-cellucci-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-steve-brentson-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-eclipse-major-top-8-stephen-cellucci-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-european-championship-martin-den-boef-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-gempc-finals-matthew-harrison-trainor-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-gempc-semi-finals-nathan-russell-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-fernando-castanon-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-martin-den-boef-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-thomas-santosuosso-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-l-pater-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-andrew-bolletino-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-cory-lauer-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-erich-hawbaker-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-matt-wadden-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-nick-swedal-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-wayne-cullen-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-marvin-tegeler-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-quirin-furgut-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-timo-dusel-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-sss-aj-hatoum-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-sss-bill-kafer-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-sss-brian-fred-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-sss-day-2-bill-kafer-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-sss-matthew-harrison-trainor-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-sss-thomas-santosuosso-ds-thrawn/",
+        "https://www.starwarsccg.org/2024-sss-top-8-matthew-harrison-trainor-ds-thrawn/"
       ],
       "shortName": "Thrawn",
       "aliases": [
@@ -6190,8 +6681,15 @@
         "https://www.starwarsccg.org/2023-endor-regionals-derek-jackson-ls-clones/",
         "https://www.starwarsccg.org/2023-european-championship-eric-spijksma-ls-clones/",
         "https://www.starwarsccg.org/2023-ocs-playoff-top-16-sam-tashima-ls-shadow-clones/",
+        "https://www.starwarsccg.org/2023-outrider-cup-hayes-hunter-ls-clones/",
         "https://www.starwarsccg.org/2023-tatooine-regionals-paul-coggins-ls-clones/",
-        "https://www.starwarsccg.org/2023-worlds-wayne-cullen-ls-hunt-for-the-droid-general/"
+        "https://www.starwarsccg.org/2023-worlds-wayne-cullen-ls-hunt-for-the-droid-general/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-cedrik-vanderhaegen-ls-clones/",
+        "https://www.starwarsccg.org/2024-naboo-regionals-eric-spijksma-ls-clones/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-eric-spijksma-ls-clones/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-kevin-jaap-ls-clones/",
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-tamas-papp-ls-clones/",
+        "https://www.starwarsccg.org/2024-toola-regionals-koen-meijssen-ls-clones/"
       ],
       "shortName": "Clones",
       "aliases": [
@@ -6250,7 +6748,10 @@
       "decklistUrls": [
         "https://www.starwarsccg.org/2023-dagobah-regionals-phillip-gladney-ls-speeders/",
         "https://www.starwarsccg.org/2023-endor-grand-prix-aaron-kahler-ls-speeders/",
-        "https://www.starwarsccg.org/2023-ocs-playoff-top-16-drew-lichtenstein-ls-speeders/"
+        "https://www.starwarsccg.org/2023-ocs-playoff-top-16-drew-lichtenstein-ls-speeders/",
+        "https://www.starwarsccg.org/2024-eclipse-major-mark-billings-ls-speeders/",
+        "https://www.starwarsccg.org/2024-ithor-regionals-jeroen-wauters-ls-speeders/",
+        "https://www.starwarsccg.org/2024-sss-stephen-sesnick-ls-hoth-speeders/"
       ],
       "shortName": "Hoth Speeders",
       "aliases": [
@@ -6303,6 +6804,33 @@
       "startingInterrupt": {
         "id": "215_16",
         "title": "Let The Wookiee Win (V)"
+      }
+    },
+    {
+      "name": "The Shield Will Be Down In Moments",
+      "side": "Dark",
+      "decklistUrls": [
+        "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-chris-gogolen-ds-the-shield-will-be-down-in-moments/"
+      ],
+      "shortName": "Walkers Objective",
+      "aliases": [
+        "The Shield Will Be Down In Moments",
+        "Walkers Objective",
+        "TSWBDIM/ITHETB",
+        "Walkers",
+        "TSWBDIM"
+      ],
+      "matchers": [
+        "The Shield Will Be Down In Moments",
+        "Walkers Objective",
+        "TSWBDIM/ITHETB",
+        "Walkers",
+        "TSWBDIM"
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual22-Dark/large/theshieldwillbedowninmoments.gif",
+      "objective": {
+        "id": "222_14",
+        "title": "The Shield Will Be Down In Moments"
       }
     }
   ]
