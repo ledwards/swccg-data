@@ -42,15 +42,25 @@ Scrapes the PC website for tournament data and generates the tournaments.json fi
 
 ## Data Pipeline
 |-> [TODO: downloadCardData.js] *right now every script just does this*
+
 | |-> generateCardFacts.js *saves `cardFacts.txt`*
+
 | |-> downloadCardImages.js
+
 |-> scrapeTournaments.js *saves tournaments.json*
+
 |  |-> scrapeDecklists.js *saves html files*
+
 |  |  |-> generateDecklistTxt.js *saves txt files, `decklists.txt` and `decklists.json`*
+
           *note: This requires --max-old-space-size=12000 or more*
+
 |  |  |  |-> generateArchetypes.js *creates `archetypes.json` helper*
+
 |  |  |  |-> generatePlayers.js *creates `players.json` helper*
+
 |  |  |  |-> generateDecklistJson.js *saves highly structured json*
+
 |  |  |  |  |-> generateDecklistGemp.js *saves gemp files*
 
 

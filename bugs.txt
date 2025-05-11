@@ -1,0 +1,12 @@
+* All CCTs are getting called non-flip bc Boba Fett's Blaster Rifle (V) has a trailing space
+* TTO, EBO not showing their correct archetype card images
+* sites/horizontal needs adjustment
+* click to expand isnt a thing
+* [2022 MPCww] - what is ww?
+* Throne Room Mains shows up as Yavin 4: Massassi Throne Room
+
+ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2019-outrider-cup-round-1-emil-wallin-ds-watto/
+ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2022-mpc-top-8-mike-kessling-ds-map/
+ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-yavin-4-base-operations/
+ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2023-ryloth-quirin-furgut-ds-ropsv/
+ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2023-ryloth-quirin-furgut-ls-obi-communing/
