@@ -1,8 +1,10 @@
 const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
+require('dotenv').config();
 
-const REQUEST_DELAY = 1000;
+const ANTIBOT_QUERY = process.env.ANTIBOT_QUERY;
+const REQUEST_DELAY = 2_000;
 const YEAR = 2019;
 
 const slugFromUrl = (url) => url.split("/")[3].replaceAll(/\//g, "");
@@ -31,7 +33,7 @@ const main = async () => {
         const plaintext = fs.readFileSync(htmlFilename, "utf8").toString();
         return new Promise((resolve) => {
           resolve({
-            url: decklistUrl,
+            url: decklistUrl + ANTIBOT_QUERY,
             filename: decklistSlug,
             plaintext: plaintext,
           });
@@ -42,8 +44,14 @@ const main = async () => {
           setTimeout(
             () =>
               resolve(
-                fetch(decklistUrl, { signal: AbortSignal.timeout(REQUEST_DELAY) })
-                  .then((res) => res.text())
+                fetch(decklistUrl + ANTIBOT_QUERY, { signal: AbortSignal.timeout(REQUEST_DELAY) })
+                  .then((res) => {
+                    if (res.status === 403) {
+                      console.log(`ERROR: 403 Forbidden for URL: ${decklistUrl + ANTIBOT_QUERY}`);
+                      return Promise.reject(new Error("403 Forbidden"));
+                    }
+                    return res.text();
+                  })
                   .then((html) => {
                     let decklist;
                     const decklistPageDoc = new jsdom.JSDOM(html).window
@@ -111,6 +119,17 @@ const main = async () => {
                     return decklist;
                   })
                   .catch((e) => {
+                    if (e.message === "403 Forbidden") {
+                      console.log(
+                        `ERROR (Step 2) 403 Forbidden response for decklist: ${decklistUrl}`,
+                      );
+                      return {
+                        url: decklistUrl,
+                        slug: decklistSlug,
+                        error: "403 Forbidden",
+                        plaintext: `403 Forbidden: ${decklistUrl}`,
+                      };
+                    }
                     console.log(
                       `ERROR (Step 2) Fetching decklist: ${decklistUrl}`,
                     );

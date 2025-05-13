@@ -1,4 +1,3 @@
-const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
 
@@ -88,10 +87,10 @@ const main = async () => {
         console.log(matches);
       }
     } else {
-      // console.log(`ERROR: No Matches for ${matchableTitle}`);
-      // console.log(decklistUrl);
-      // console.log(playerRE);
-      // console.log(matches);
+      console.log(`ERROR: No Matches for ${decklistTitle} / ${matchableTitle}`);
+      console.log(decklistUrl);
+      console.log(playerRE);
+      console.log(matches);
 
       // come back to these on a second pass
       noMatchTheFirstTime.push({

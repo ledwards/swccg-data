@@ -53,7 +53,7 @@ Scrapes the PC website for tournament data and generates the tournaments.json fi
 
 |  |  |-> generateDecklistTxt.js *saves txt files, `decklists.txt` and `decklists.json`*
 
-          *note: This requires --max-old-space-size=12000 or more*
+          *special flags required: node --expose-gc --max-old-space-size=8192 generateDecklistTxt.js*
 
 |  |  |  |-> generateArchetypes.js *creates `archetypes.json` helper*
 

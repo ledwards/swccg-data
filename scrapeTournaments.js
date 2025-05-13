@@ -1,8 +1,10 @@
 const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
+require('dotenv').config();
 
-const DECKLISTS_URL = "https://www.starwarsccg.org/tournaments/#decklists";
+const ANTIBOT_QUERY = process.env.ANTIBOT_QUERY;
+const DECKLISTS_URL = `https://www.starwarsccg.org/tournaments${ANTIBOT_QUERY}/#decklists`;
 const REQUEST_DELAY = 5_000;
 
 const { tournamentSignifiers } = require("./lib/constants");
@@ -13,7 +15,13 @@ const main = async () => {
 
   console.log(`(Step 1) Fetching: ${DECKLISTS_URL}`);
   const tournamentPageUrls = await fetch(DECKLISTS_URL, { signal: AbortSignal.timeout(REQUEST_DELAY) })
-    .then((res) => res.text())
+    .then((res) => {
+      if (res.status === 403) {
+        console.log(`ERROR: 403 Forbidden for URL: ${DECKLISTS_URL}`);
+        return Promise.reject(new Error("403 Forbidden"));
+      }
+      return res.text();
+    })
     .then((html) => {
       const page = new jsdom.JSDOM(html).window.document;
       const tournamentsDiv = page.querySelector(
@@ -29,8 +37,14 @@ const main = async () => {
   console.log(`(Step 2) Fetching: ${tournamentPageUrls.length} tournaments`);
   const fetchTournamentPagePromises = tournamentPageUrls.map((url, i) =>
     new Promise((resolve) => setTimeout(resolve, REQUEST_DELAY * i)).then(() =>
-      fetch(url)
-        .then((res) => res.text())
+      fetch(url + ANTIBOT_QUERY)
+        .then((res) => {
+          if (res.status === 403) {
+            console.log(`ERROR: 403 Forbidden for URL: ${url + ANTIBOT_QUERY}`);
+            return Promise.reject(new Error("403 Forbidden"));
+          }
+          return res.text();
+        })
         .then((html) => {
           const tournamentPageDoc = new jsdom.JSDOM(html).window.document;
 
@@ -71,7 +85,11 @@ const main = async () => {
           };
         })
         .catch((err) => {
-          console.log(err);
+          if (err.message === "403 Forbidden") {
+            console.log(`ERROR: 403 Forbidden response for tournament page: ${url}`);
+          } else {
+            console.log(err);
+          }
         }),
     ),
   );
@@ -124,8 +142,14 @@ const main = async () => {
 
   const tournamentsFirstDecklistPromises = tournaments.map((tournament, i) =>
     new Promise((resolve) => setTimeout(resolve, REQUEST_DELAY * i)).then(() =>
-      fetch(tournament.decklistUrls[0])
-        .then((res) => res.text())
+      fetch(tournament.decklistUrls[0] + ANTIBOT_QUERY)
+        .then((res) => {
+          if (res.status === 403) {
+            console.log(`ERROR: 403 Forbidden for URL: ${tournament.decklistUrls[0] + ANTIBOT_QUERY}`);
+            return Promise.reject(new Error("403 Forbidden"));
+          }
+          return res.text();
+        })
         .then((html) => {
           const decklistPageDoc = new jsdom.JSDOM(html).window.document;
           let decklistFullTitle = decklistPageDoc
@@ -230,7 +254,11 @@ const main = async () => {
           }
         })
         .catch((err) => {
-          console.log(`ERROR: ${err} with ${tournament.url}`);
+          if (err.message === "403 Forbidden") {
+            console.log(`ERROR: 403 Forbidden response for tournament metadata: ${tournament.decklistUrls[0]}`);
+          } else {
+            console.log(`ERROR: ${err} with ${tournament.url}`);
+          }
         }),
     ),
   );
@@ -249,6 +277,7 @@ const shortName = (name) => {
   return name
     .replace("OCS Playoffs", "OCS")
     .replace("Endor Grand Prix", "EGP")
+    .replace("Morristown Melee", "MM")
     .replace("European Championship", "Euros")
     .replace("U.S. Nationals", "USNats")
     .replace(" Regionals", "")

@@ -1,4 +1,3 @@
-const jsdom = require("jsdom");
 const fs = require("fs");
 const path = require("path");
 
@@ -647,6 +646,7 @@ const findCard = (cardTitle, side) => {
       (!side || side == c.side) &&
       cleanCardTitle(cardTitle) == cleanCardTitle(c.front.title),
   );
+
   return matchingCard;
 };
 

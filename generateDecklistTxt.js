@@ -1,4 +1,4 @@
-const jsdom = require("jsdom");
+// Using more lightweight HTML parsing to reduce memory usage
 const fs = require("fs");
 const path = require("path");
 
@@ -16,20 +16,37 @@ let cardTypes;
 let objectiveTitles;
 
 const main = async () => {
+  // Check if explicit garbage collection is available
+  if (!global.gc && process.execArgv.indexOf('--expose-gc') === -1) {
+    console.log('\nWARNING: For best memory usage, run with: node --expose-gc --max-old-space-size=8192 generateDecklistTxt.js\n');
+  }
   console.log(`(Step 1) Loading cards and html decklists`);
-  const darkCardData = await JSON.parse(
+  // Load card data sequentially to reduce peak memory usage
+  const darkCardData = JSON.parse(
     fs.readFileSync(
       path.resolve(__dirname, "output", "cards", "Dark.json"),
       "utf8",
     ),
   );
-  const lightCardData = await JSON.parse(
+
+  allCards = [...darkCardData.cards];
+
+  // Clear reference to free memory
+  const darkCards = darkCardData.cards;
+  darkCardData.cards = null;
+
+  const lightCardData = JSON.parse(
     fs.readFileSync(
       path.resolve(__dirname, "output", "cards", "Light.json"),
       "utf8",
     ),
   );
-  allCards = [...darkCardData.cards, ...lightCardData.cards];
+
+  // Append to existing array rather than creating a new one
+  allCards.push(...lightCardData.cards);
+
+  // Clear references to free memory
+  lightCardData.cards = null;
   cardTypes = [
     ...new Set(
       allCards.map((c) => c.front.type.replace(/Jedi Test.*/, "Jedi Test")),
@@ -47,110 +64,159 @@ const main = async () => {
     .readdirSync(DECKLIST_HTML_DIR)
     .filter((fn) => fn.endsWith(".html"));
 
-  console.log(`(Step 2) Converting html decklists to txt`);
-  const decklists = filenames
-    // DEBUG uncomment to test individual specific decklists
-    // .filter((fn) => fn.match(/2024-gempc-quarterfinals-brian-fred-ds-tatooine-cpv/))
-    .map((filename) => {
+  // Clean up the decklists.txt file before we start appending to it
+  const decklistsFilePath = path.resolve(__dirname, "public", "decklists.txt");
+  fs.writeFileSync(decklistsFilePath, "");
+
+  // Process files in smaller batches to reduce memory usage
+  const BATCH_SIZE = 10; // Reduced batch size to minimize memory usage
+  const totalFiles = filenames.length;
+  let processedCount = 0;
+
+  console.log(`(Step 2) Converting ${totalFiles} html decklists to txt in batches of ${BATCH_SIZE}`);
+
+  for (let i = 0; i < totalFiles; i += BATCH_SIZE) {
+    const batchFilenames = filenames.slice(i, i + BATCH_SIZE);
+    console.log(`Processing batch ${Math.floor(i/BATCH_SIZE) + 1}/${Math.ceil(totalFiles/BATCH_SIZE)} (${i}-${Math.min(i + BATCH_SIZE, totalFiles)})`);
+
+    // Process this batch
+    const batchDecklists = [];
+    for (const filename of batchFilenames) {
+      // Process individual file to minimize memory usage
       const decklistSlug = filename.replace(".html", "");
       const decklistUrl = `${DECKLIST_URL_BASE}/${decklistSlug}/`;
-      const html = fs.readFileSync(
-        path.resolve(__dirname, DECKLIST_HTML_DIR, filename),
-        "utf8",
-      );
 
-      let decklist;
-      const decklistPageDoc = new jsdom.JSDOM(html).window.document;
-      let h1Text = decklistPageDoc.querySelector("h1").textContent.trim();
+      try {
+        const html = fs.readFileSync(
+          path.resolve(__dirname, DECKLIST_HTML_DIR, filename),
+          "utf8",
+        );
 
-      // Specific deck title fixes, also helps with archetype detection
-      if (decklistSlug.match("ds-tatooine-cp")) {
-        h1Text = h1Text.replace("DS Tatooine CP", "DS Tatooine CR");
-      }
+        let decklist;
 
-      const rawContentDivs = [
-        ...decklistPageDoc.querySelectorAll(
-          ".fl-module-content.fl-node-content",
-        ),
-      ].filter(
-        // it's a deck, not some other content
-        (e) =>
-          (e.textContent &&
-            e.textContent.toLowerCase().includes("knowledge")) ||
-          e.textContent
-            .replaceAll(",", "")
-            .toLowerCase()
-            .includes("anger fear") ||
-          e.textContent.toLowerCase().includes("2x"),
-      );
+        // Use regex for basic HTML parsing instead of JSDOM to save memory
+        // Extract h1 title - using a more robust approach to handle nested tags
+        const h1Regex = /<h1[^>]*>([\s\S]*?)<\/h1>/i;
+        const h1Match = html.match(h1Regex);
+  
+        // Extract text content from h1, removing any HTML tags and decode entities
+        let h1Text = "";
+        if (h1Match) {
+          h1Text = h1Match[1].replace(/<[^>]*>/g, '');
+          h1Text = decodeHtmlEntities(h1Text).trim();
+        }
 
-      const rawContent = rawContentDivs[0];
+        // Specific deck title fixes, also helps with archetype detection
+        if (decklistSlug.match("ds-tatooine-cp")) {
+          h1Text = h1Text.replace("DS Tatooine CP", "DS Tatooine CR");
+        }
 
-      if (!rawContent) {
-        console.log(`ERROR (Step 2) Decklist not found in file: ${filename}`);
-        return {
+        // Extract date
+        const dateMatch = html.match(/<span class="fl-post-info-date">([^<]+)<\/span>/i);
+        const date = dateMatch ? dateMatch[1].trim() : null;
+
+        // Find deck content divs - need to match entire div including attributes and nested content
+        const contentPattern = /<div class="fl-module-content fl-node-content"[\s\S]*?>([\s\S]*?)<\/div>/gi;
+        let contentMatch;
+        let rawContentHTML = null;
+
+        while ((contentMatch = contentPattern.exec(html)) !== null) {
+          const content = contentMatch[0].toLowerCase();
+          if (content.includes("knowledge") ||
+              content.replace(/,/g, "").includes("anger fear") ||
+              content.includes("2x")) {
+            // Extract just the inner content portion
+            const innerContentMatch = /<div class="fl-module-content fl-node-content"[\s\S]*?>([\s\S]*?)<\/div>/i.exec(contentMatch[0]);
+            rawContentHTML = innerContentMatch ? innerContentMatch[1] : contentMatch[0];
+            break;
+          }
+        }
+
+        if (!rawContentHTML) {
+          console.log(`ERROR (Step 2) Decklist not found in file: ${filename}`);
+          continue;
+        }
+
+        // Decode HTML entities in the raw content before processing
+        const decodedRawContentHTML = decodeHtmlEntities(rawContentHTML);
+        
+        const plaintext = plaintextFromRawContent(
+          h1Text,
+          date,
+          decklistUrl,
+          decodedRawContentHTML,
+        );
+
+        decklist = {
           url: decklistUrl,
           slug: decklistSlug,
-          errors: ["FILE: Could not find decklist"],
+          plaintext,
         };
+
+        // Individual fixes
+        switch (decklistSlug) {
+          case "2022-us-nationals-day-1-kyle-krueger-ls-old-allies":
+            decklist.plaintext +=
+              "\nOBJECTIVES\n1x Old Allies / We Need Your Help\n\n";
+            break;
+        }
+
+        saveTxtFile(decklist);
+
+        // Add to batch for combining
+        if (decklist && decklist.plaintext) {
+          batchDecklists.push(decklist.plaintext);
+        }
+
+        processedCount++;
+      } catch (error) {
+        console.error(`Error processing ${filename}: ${error.message}`);
       }
 
-      const dateNode = decklistPageDoc.querySelector(".fl-post-info-date");
-      const date = dateNode ? dateNode.textContent.trim() : null;
+      // Clean up memory after each file
+      if (global.gc) {
+        global.gc();
+      }
+    }
 
-      // console.log("A", rawContent.innerHTML);
-      const plaintext = plaintextFromRawContent(
-        h1Text,
-        date,
-        decklistUrl,
-        rawContent.innerHTML,
+    // Append this batch to the combined file immediately
+    if (batchDecklists.length > 0) {
+      fs.appendFileSync(
+        decklistsFilePath,
+        batchDecklists.join("\n\n\n") + (i + BATCH_SIZE < totalFiles ? "\n\n\n" : "")
       );
-      // console.log("Z", plaintext);
-      // console.log(url);
+    }
 
-      decklist = {
-        url: decklistUrl,
-        slug: decklistSlug,
-        plaintext,
-      };
+    // Clear the batch array to free memory
+    batchDecklists.length = 0;
 
-      // Individual fixes
-      switch (decklistSlug) {
-        case "2022-us-nationals-day-1-kyle-krueger-ls-old-allies":
-          decklist.plaintext +=
-            "\nOBJECTIVES\n1x Old Allies / We Need Your Help\n\n";
-          break;
-      }
+    // Force garbage collection between batches if possible
+    if (global.gc) {
+      global.gc();
+    }
 
-      saveTxtFile(decklist);
+    // Add a small delay between batches to allow memory cleanup
+    await new Promise(resolve => setTimeout(resolve, 100));
+  }
 
-      return decklist;
-    });
-
-  console.log(`(Step 3) Creating txt for ${decklists.length} decklists.`);
-
-  fs.writeFileSync(
-    path.resolve(__dirname, "public", "decklists.txt"),
-    decklists
-      .filter((d) => d && d.plaintext)
-      .map((decklist) => decklist.plaintext)
-      .join("\n\n\n"),
-  );
-
-  console.log(`(Finished) Created ${decklists.length} txt decklists.`);
+  console.log(`(Finished) Created ${processedCount} txt decklists.`);
 };
 
 const saveTxtFile = (decklist) => {
-  fs.writeFileSync(
-    path.resolve(
-      __dirname,
-      "output",
-      "decklists",
-      "txt",
-      `${decklist.slug}.txt`,
-    ),
-    decklist.plaintext,
-  );
+  try {
+    fs.writeFileSync(
+      path.resolve(
+        __dirname,
+        "output",
+        "decklists",
+        "txt",
+        `${decklist.slug}.txt`,
+      ),
+      decklist.plaintext,
+    );
+  } catch (error) {
+    console.error(`Error writing file for ${decklist.slug}: ${error.message}`);
+  }
 };
 
 const plaintextFromRawContent = (title, date, url, doc) => {
@@ -232,12 +298,34 @@ const plaintextFromRawContent = (title, date, url, doc) => {
   // console.log("2", body);
 
   body = removeHtmlTagsAndEscapes(body)
-    // fix each line one at a time
-    .split("\n")
-    .map((line) => normalizeLine(line))
-    .join("\n")
-    .replaceAll(/\n\n/g, "\n")
-    .replaceAll(/\n{3,}/g, "\n\n");
+      // Process lines individually to avoid memory-intensive array operations
+      const lines = body.split("\n");
+      let result = [];
+  
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].trim()) {
+          // Make sure to decode any HTML entities that might have survived
+          const decodedLine = decodeHtmlEntities(lines[i]);
+          result.push(normalizeLine(decodedLine));
+        }
+
+      // Free up lines that are processed to save memory
+      lines[i] = null;
+
+      // Periodically clean up to save memory during large file processing
+      if (i > 0 && i % 100 === 0) {
+        if (global.gc) {
+          global.gc();
+        }
+      }
+    }
+
+    body = result.join('\n')
+                .replace(/\n\n/g, '\n')
+                .replace(/\n{3,}/g, '\n\n');
+
+    // Clear array to free memory
+    result.length = 0;
 
   // one deck is repeated twice on the same page
   if (url.match("2023-naboo-regionals-jeroen-wauters-ds-i-want-that-map")) {
@@ -277,6 +365,36 @@ const removeEuroStyleText = (line) =>
     .replace(/^\d?x?\s?\(.*\)$/, "")
     .replace(/^\d?x?\s?\[.*\]$/, "")
     .replaceAll("()", "");
+
+// Comprehensive HTML entity decoder for Node.js environment
+const decodeHtmlEntities = (html) => {
+  if (!html) return '';
+  
+  return html
+    // Named entities
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    // Common apostrophe entity that causes issues with card names
+    .replace(/&#8217;/g, "'")
+    // Explicitly handle ampersand entity
+    .replace(/&#038;/g, '&')
+    // Handle numeric decimal entities
+    .replace(/&#(\d+);/g, (match, dec) => String.fromCharCode(dec))
+    // Handle numeric hex entities
+    .replace(/&#x([0-9A-F]+);/gi, (match, hex) => String.fromCharCode(parseInt(hex, 16)))
+    // Replace en dash and em dash with space
+    .replace(/\s[\u2013\u2014]|\s&#8211;|\s&#8212;\s/g, ' ')
+    // Replace other special entities
+    .replace(/&apos;/g, "'")
+    .replace(/&mdash;/g, "—")
+    .replace(/&ndash;/g, "–")
+    .replace(/&lsquo;|&rsquo;/g, "'")
+    .replace(/&ldquo;|&rdquo;/g, '"');
+};
 
 const normalizeCardTitle = (cardTitle) =>
   fixSpecificLineLevelTyposAndDataEntryErrors(

@@ -9,7 +9,13 @@ const main = async () => {
   await fetch(
     "https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/Dark.json",
   )
-    .then((res) => res.json())
+    .then((res) => {
+      if (res.status === 403) {
+        console.log("ERROR: 403 Forbidden when fetching Dark.json");
+        return Promise.reject(new Error("403 Forbidden"));
+      }
+      return res.json();
+    })
     .then((json) => {
       fs.writeFileSync(
         path.resolve(__dirname, "output", "cards", "Dark.json"),
@@ -21,7 +27,13 @@ const main = async () => {
   await fetch(
     "https://raw.githubusercontent.com/swccgpc/swccg-card-json/main/Light.json",
   )
-    .then((res) => res.json())
+    .then((res) => {
+      if (res.status === 403) {
+        console.log("ERROR: 403 Forbidden when fetching Light.json");
+        return Promise.reject(new Error("403 Forbidden"));
+      }
+      return res.json();
+    })
     .then((json) => {
       fs.writeFileSync(
         path.resolve(__dirname, "output", "cards", "Light.json"),
@@ -58,6 +70,10 @@ const main = async () => {
         let filename = `${card.gempId}_${url.split("/").pop()}`;
         if (!fs.existsSync(`./output/images/${filename}`)) {
           https.get(url, async (res) => {
+            if (res.statusCode === 403) {
+              console.log(`ERROR: 403 Forbidden when fetching image: ${url}`);
+              return;
+            }
             const fileWriteStream = fs.createWriteStream(
               path.join(__dirname, "output", "images", filename),
               {
@@ -65,7 +81,9 @@ const main = async () => {
                 flags: "w",
               },
             );
-            pipeline(res, fileWriteStream);
+            pipeline(res, fileWriteStream).catch(err => {
+              console.log(`ERROR: Failed to download image ${url}: ${err.message}`);
+            });
           });
         }
       });
