@@ -257,6 +257,79 @@ const manualPostProcessing = () => {
   if (amd) {
     amd.side = "Dark";
   }
+
+  // Add common shorthand matchers that appear in titles but don't match archetype names
+  const nabooGungans = allArchetypes.find((a) => a.name == "Naboo Gungans");
+  if (nabooGungans && !nabooGungans.matchers.includes("TRM")) {
+    nabooGungans.matchers.push("TRM");
+  }
+  if (nabooGungans && !nabooGungans.matchers.includes("Light Senate Gungans")) {
+    nabooGungans.matchers.push("Light Senate Gungans");
+  }
+
+  const lightCombat = allArchetypes.find((a) => a.name == "We'll Handle This");
+  if (lightCombat && !lightCombat.matchers.includes("Combat")) {
+    lightCombat.matchers.push("Combat", "Light Combat");
+  }
+
+  const darkCombat = allArchetypes.find(
+    (a) => a.name == "Let Them Make The First Move",
+  );
+  if (darkCombat && !darkCombat.matchers.includes("Combat")) {
+    darkCombat.matchers.push("Combat", "Dark Combat");
+  }
+
+  // Add "Light Senate" and "Dark Senate" to Senate archetypes
+  const pleadSenate = allArchetypes.find(
+    (a) => a.name == "Plead My Case To The Senate",
+  );
+  if (pleadSenate && !pleadSenate.matchers.includes("Light Senate")) {
+    pleadSenate.matchers.push("Light Senate");
+  }
+
+  // Add common title variations for various archetypes
+  const addMatchersIfMissing = (archetypeName, ...newMatchers) => {
+    const archetype = allArchetypes.find((a) => a.name == archetypeName);
+    if (archetype) {
+      newMatchers.forEach((matcher) => {
+        if (!archetype.matchers.includes(matcher)) {
+          archetype.matchers.push(matcher);
+        }
+      });
+    }
+  };
+
+  // Add title variations that don't match the canonical names
+  addMatchersIfMissing("Ralltiir Operations (V)", "ROPS v", "ROPSv");
+  addMatchersIfMissing("Agents Of Black Sun", "AOBS Racing");
+  addMatchersIfMissing("Hunt Down And Destroy The Jedi", "Hunt Down Dueling");
+  addMatchersIfMissing("Walkers", "Hoth CRv", "CRv");
+  addMatchersIfMissing(
+    "Set Your Course For Alderaan No-Flip",
+    "SYCFA Tractor Beams",
+  );
+  addMatchersIfMissing("Tatooine CP(V)", "Tatooine CP (V)");
+  addMatchersIfMissing("Tatooine CR(V)", "Tatooine CR (V)");
+  addMatchersIfMissing("Yavin 4 Base Operations", "Y4Ops");
+  addMatchersIfMissing(
+    "Death Star II: Throne Room According To My Design",
+    "DS2: Throne Room ATMD",
+    "DSII Throne Room ATMD",
+  );
+  addMatchersIfMissing("Walkers", "5th Marker (V) SSA (V)");
+  addMatchersIfMissing("Dagobah: Cave Slip Sliding Away (V)", "Dagobah: Cave SSA(V)");
+  addMatchersIfMissing("Endor: Chief Chirpa's Hut", "Chief Chirpa's Hut Mains");
+  addMatchersIfMissing("Death Star 12-Card", "12 Card Death Star");
+  addMatchersIfMissing("The Hyperdrive Generator's Gone (V)", "Hyperdrive");
+  addMatchersIfMissing("You Can Either Profit By This...", "Hyper Profit");
+  addMatchersIfMissing("Yavin 4: Massassi Throne Room 12-Card", "TRM");
+  addMatchersIfMissing(
+    "Endor: Chief Chirpa's Hut LTWW(V)",
+    "Endor: Chief Chirpa's Hut LTWW",
+  );
+  addMatchersIfMissing("Revenge Of The Sith (Dooku)", "Sith  Dooku", "Sith Dooku");
+  addMatchersIfMissing("Takodana CP(V)", "Takodana CPv");
+  addMatchersIfMissing("Communing (Obi-Wan)", "Obi Communing");
 };
 
 const setArchetypeImageUrls = () => {

@@ -164,7 +164,8 @@
         "ROPS (v) 9's",
         "ROPS (v)",
         "ROPS(v) 7's",
-        "ROps (V) Nines"
+        "ROps (V) Nines",
+        "ROPS v"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/ralltiiroperations.gif",
       "objective": {
@@ -323,8 +324,23 @@
         "https://www.starwarsccg.org/2024-ralltiir-regionals-emil-wallin-ls-old-allies/",
         "https://www.starwarsccg.org/2024-world-championships-emil-wallin-ls-old-allies/",
         "https://www.starwarsccg.org/2024-yavin-4-regionals-barry-alperstein-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-nick-swedal-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-endor-regionals-joe-olson-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-european-championship-eric-spijksma-ds-old-allies/",
+        "https://www.starwarsccg.org/2025-european-championship-top-4-emil-wallin-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-gempc-brian-fred-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-gempc-eric-spijksma-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-gempc-justin-branch-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-gempc-matt-lutz-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-gempc-matt-scott-ls-old-allies/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-logan-pietig-ls-old-allies/",
-        "https://www.starwarsccg.org/2025-morristown-melee-matt-lutz-ls-old-allies/"
+        "https://www.starwarsccg.org/2025-morristown-melee-matt-lutz-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-kevin-jaap-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-matthew-harrison-trainor-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-sam-tashima-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-us-nationals-greg-shaw-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-world-championship-eric-spijksma-ls-old-allies/",
+        "https://www.starwarsccg.org/2025-world-championship-matthew-harrison-trainor-ls-old-allies/"
       ],
       "shortName": "OA",
       "aliases": [
@@ -520,8 +536,17 @@
         "https://www.starwarsccg.org/2024-ryloth-regionals-jeroen-wauters-ds-map/",
         "https://www.starwarsccg.org/2024-sss-robbie-hendon-ds-map/",
         "https://www.starwarsccg.org/2024-world-championships-robbie-hendon-ds-i-want-that-map/",
+        "https://www.starwarsccg.org/2025-european-championship-casper-jorgensen-ds-map/",
+        "https://www.starwarsccg.org/2025-gempc-brandon-baity-ds-map/",
+        "https://www.starwarsccg.org/2025-gempc-brian-fred-ds-map/",
+        "https://www.starwarsccg.org/2025-gempc-jonathan-grubb-ds-map/",
+        "https://www.starwarsccg.org/2025-gempc-matt-scott-ds-map/",
         "https://www.starwarsccg.org/2025-morristown-melee-chris-terwilliger-ds-map/",
-        "https://www.starwarsccg.org/2025-morristown-melee-matt-sokol-ds-map/"
+        "https://www.starwarsccg.org/2025-morristown-melee-matt-sokol-ds-map/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-kevin-jaap-ds-map/",
+        "https://www.starwarsccg.org/2025-us-nationals-bryan-mischke-ds-map/",
+        "https://www.starwarsccg.org/2025-us-nationals-keith-brown-ds-map/",
+        "https://www.starwarsccg.org/2025-world-championship-brandon-baity-ds-map/"
       ],
       "shortName": "Map",
       "aliases": [
@@ -680,7 +705,13 @@
         "https://www.starwarsccg.org/2024-world-championships-jacy-smith-ds-bhbm/",
         "https://www.starwarsccg.org/2024-world-championships-jeroen-wauters-ds-bhbm/",
         "https://www.starwarsccg.org/2024-world-championships-l-pater-ds-bhbm/",
-        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-brian-fred-ds-bhbm/"
+        "https://www.starwarsccg.org/2025-corellia-regionals-travis-morris-ds-bhbm/",
+        "https://www.starwarsccg.org/2025-gempc-chris-wirfs-ds-bring-him-before-me/",
+        "https://www.starwarsccg.org/2025-gempc-dennis-reinhardt-ds-bring-him-before-me/",
+        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-brian-fred-ds-bhbm/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-l-pater-ds-bhbm/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-marc-nickels-ds-bhbm/",
+        "https://www.starwarsccg.org/2025-world-championship-logan-pietig-ds-bhbm/"
       ],
       "shortName": "BHBM",
       "aliases": [
@@ -718,7 +749,11 @@
         "https://www.starwarsccg.org/2023-bespin-regionals-jake-nelson-ls-senate/",
         "https://www.starwarsccg.org/2023-bespin-regionals-mark-walseth-ls-senate/",
         "https://www.starwarsccg.org/2023-worlds-jake-nelson-ls-senate/",
-        "https://www.starwarsccg.org/2023-worlds-mark-walseth-ls-senate/"
+        "https://www.starwarsccg.org/2023-worlds-mark-walseth-ls-senate/",
+        "https://www.starwarsccg.org/2025-european-championship-chris-menzel-ls-senate/",
+        "https://www.starwarsccg.org/2025-us-nationals-brian-fred-ls-senate/",
+        "https://www.starwarsccg.org/2025-us-nationals-matt-scott-ls-senate/",
+        "https://www.starwarsccg.org/2025-world-championship-logan-pietig-ls-senate/"
       ],
       "shortName": "LS Senate",
       "aliases": [
@@ -731,7 +766,8 @@
         "Plead My Case To The Senate",
         "LS Senate",
         "PMCTTS/SAC",
-        "PMCTTS"
+        "PMCTTS",
+        "Light Senate"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Light/large/pleadmycasetothesenate.gif",
       "objective": {
@@ -801,7 +837,23 @@
         "https://www.starwarsccg.org/2024-world-championships-andrew-moss-ds-imperial-entanglements/",
         "https://www.starwarsccg.org/2024-world-championships-martin-den-boef-ds-imperial-entanglements/",
         "https://www.starwarsccg.org/2024-yavin-4-regionals-david-woods-ds-imperial-entanglements/",
-        "https://www.starwarsccg.org/2025-morristown-melee-andrew-moss-ds-imperial-entanglements/"
+        "https://www.starwarsccg.org/2025-bespin-regionals-jacoby-kramer-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-gempc-andrew-moss-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-gempc-david-woods-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-gempc-joe-horbey-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-gempc-ryan-jellison-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-gempc-ryan-sersen-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-matthew-harrison-trainor-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-ryan-jellison-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-morristown-melee-andrew-moss-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-kyle-krueger-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-kyle-krueger-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-us-nationals-andrew-moss-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-us-nationals-david-woods-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-us-nationals-jacoby-kramer-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-andrew-moss-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-world-championship-nick-swedal-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2025-world-championship-ryan-jellison-ds-imperial-entanglements/"
       ],
       "shortName": "IE",
       "aliases": [
@@ -936,10 +988,17 @@
         "https://www.starwarsccg.org/2024-tatooine-regionals-justin-miyashiro-ds-court/",
         "https://www.starwarsccg.org/2024-world-championships-pistone-ds-court/",
         "https://www.starwarsccg.org/2024-world-championships-scott-lingrell-ds-court/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-kendall-halman-ds-court/",
+        "https://www.starwarsccg.org/2025-european-championship-top-4-cedrik-vanderhaegen-ds-court/",
+        "https://www.starwarsccg.org/2025-gempc-chris-kelly-ds-court-of-the-vile-gangster/",
+        "https://www.starwarsccg.org/2025-gempc-kendall-halman-ds-court-of-the-vile-gangster/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-mark-billings-ds-court/",
         "https://www.starwarsccg.org/2025-morristown-melee-chris-kelly-ds-court/",
         "https://www.starwarsccg.org/2025-morristown-melee-jarad-konsker-ds-court/",
-        "https://www.starwarsccg.org/2025-morristown-melee-kendall-halman-ds-court/"
+        "https://www.starwarsccg.org/2025-morristown-melee-kendall-halman-ds-court/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-kendall-halman-ds-court/",
+        "https://www.starwarsccg.org/2025-us-nationals-kendall-halman-ds-cotvg/",
+        "https://www.starwarsccg.org/2025-world-championship-scott-lingrell-ds-court/"
       ],
       "shortName": "Court",
       "aliases": [
@@ -955,7 +1014,8 @@
         "COTVG (V)",
         "COTVG",
         "Court FO",
-        "COTVG Mains"
+        "COTVG Mains",
+        "Court of the Vile Gangster"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Dark/large/courtofthevilegangster.gif",
       "objective": {
@@ -1039,7 +1099,9 @@
         "https://www.starwarsccg.org/2024-naboo-regionals-thomas-santosuosso-ls-ebo/",
         "https://www.starwarsccg.org/2024-sss-casey-anis-ls-ebo/",
         "https://www.starwarsccg.org/2024-sss-thomas-santosuosso-ls-echo-base-operations/",
-        "https://www.starwarsccg.org/2024-world-championships-gyorgy-pora-ls-ebo/"
+        "https://www.starwarsccg.org/2024-world-championships-gyorgy-pora-ls-ebo/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-timo-dusel-ls-echo-base-operations/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-timo-dusel-ls-ebo/"
       ],
       "shortName": "EBO",
       "aliases": [
@@ -1208,10 +1270,31 @@
         "https://www.starwarsccg.org/2024-world-championships-marc-nickels-ds-hunt-down/",
         "https://www.starwarsccg.org/2024-world-championships-par-birgander-ds-hunt-down/",
         "https://www.starwarsccg.org/2024-world-championships-sean-mackin-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-carson-stockman-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-ellie-hoyt-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-logan-pietig-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-coruscant-regionals-casey-anis-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-endor-regionals-joe-olson-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-european-championship-chris-menzel-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-european-championship-martin-den-boef-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-european-championship-top-4-patrik-csapi-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-gempc-charles-hickey-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-gempc-gibson-yim-ds-hunt-down/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-logan-pietig-ds-hunt-down/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-steve-harpster-ds-hunt-down/",
         "https://www.starwarsccg.org/2025-morristown-melee-casey-anis-ds-hunt-down/",
-        "https://www.starwarsccg.org/2025-morristown-melee-matt-lutz-ds-hunt-down/"
+        "https://www.starwarsccg.org/2025-morristown-melee-matt-lutz-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-casey-anis-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-brian-fred-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-casey-anis-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-greg-shaw-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-us-nationals-chad-lawrence-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-us-nationals-jim-boyle-hunt-down/",
+        "https://www.starwarsccg.org/2025-us-nationals-travis-morris-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-world-championship-jordan-gosiaco-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-matthew-harrison-trainor-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-sam-tashima-ds-hunt-down/",
+        "https://www.starwarsccg.org/2025-world-championship-vikram-bali-ds-hunt-down/"
       ],
       "shortName": "Hunt Down",
       "aliases": [
@@ -1227,7 +1310,8 @@
         "HDADTJ",
         "Hunt Down Racing",
         "HD",
-        "Hunt Down and Destroy the Jedi"
+        "Hunt Down and Destroy the Jedi",
+        "Hunt Down Dueling"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/huntdownanddestroythejedi.gif",
       "objective": {
@@ -1380,8 +1464,27 @@
         "https://www.starwarsccg.org/2024-corellia-regionals-scott-lingrell-ls-throne-room-mains/",
         "https://www.starwarsccg.org/2024-ocs-playoff-quarterfinals-ryan-jellison-ls-trm/",
         "https://www.starwarsccg.org/2024-ocs-playoff-top-16-ryan-jellison-ls-trm/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-garrett-larson-ls-throne-room/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-ryan-sersen-ls-trm/",
+        "https://www.starwarsccg.org/2025-european-championship-jon-benkert-holtet-ls-trm/",
+        "https://www.starwarsccg.org/2025-gempc-charles-hickey-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-gempc-gibson-yim-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-gempc-joe-horbey-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-gempc-ryan-jellison-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-gempc-ryan-sersen-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-gempc-scott-lingrell-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-ryan-jellison-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-gempc-wayne-cullen-ls-throne-room-mains/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-scott-lingrell-ls-trm/",
-        "https://www.starwarsccg.org/2025-morristown-melee-joe-horbey-ls-trm/"
+        "https://www.starwarsccg.org/2025-morristown-melee-joe-horbey-ls-trm/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-conor-britain-ls-trm/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-randy-scott-ls-trm/",
+        "https://www.starwarsccg.org/2025-us-nationals-blake-silkwood-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-us-nationals-cal-aldred-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-us-nationals-hayes-hunter-ls-trm/",
+        "https://www.starwarsccg.org/2025-us-nationals-ryan-sersen-ls-throne-room-mains/",
+        "https://www.starwarsccg.org/2025-world-championship-randy-scott-ls-trm/",
+        "https://www.starwarsccg.org/2025-world-championship-ryan-jellison-ls-trm/"
       ],
       "shortName": "TRM",
       "aliases": [
@@ -1391,7 +1494,8 @@
       "matchers": [
         "Yavin 4: Massassi Throne Room",
         "TRM",
-        "Throne Room Mains"
+        "Throne Room Mains",
+        "Throne Room"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Light/large/yavin4massassithroneroom.gif",
       "startingLocation": {
@@ -1532,7 +1636,8 @@
         "https://www.starwarsccg.org/2024-ocs-playoff-top-16-matthew-harrison-trainor-ds-cct/",
         "https://www.starwarsccg.org/2024-ocs-playoff-top-16-sam-tashima-ds-cct/",
         "https://www.starwarsccg.org/2024-sss-ryan-sersen-ds-cct/",
-        "https://www.starwarsccg.org/2024-world-championships-floris-de-vries-ds-cct/"
+        "https://www.starwarsccg.org/2024-world-championships-floris-de-vries-ds-cct/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-ryan-sersen-ds-cct/"
       ],
       "shortName": "CCT No-Flip",
       "aliases": [
@@ -1566,7 +1671,11 @@
         "https://www.starwarsccg.org/2020-tmw-chris-menzel-ls-rst/",
         "https://www.starwarsccg.org/2020-tmw-sweet-16-stephen-baroni-ls-rst/",
         "https://www.starwarsccg.org/2021-endor-regional-jacy-smith-ls-rst/",
-        "https://www.starwarsccg.org/2021-us-nationals-adam-bott-ls-rst/"
+        "https://www.starwarsccg.org/2021-us-nationals-adam-bott-ls-rst/",
+        "https://www.starwarsccg.org/2025-european-championship-julian-smolarek-ls-rst/",
+        "https://www.starwarsccg.org/2025-gempc-timo-dusel-ls-rebel-strike-team/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-finals-greg-shaw-ls-rebel-strike-team/",
+        "https://www.starwarsccg.org/2025-us-nationals-garrett-larson-ls-rebel-strike-team/"
       ],
       "shortName": "RST",
       "aliases": [
@@ -1645,6 +1754,22 @@
         "https://www.starwarsccg.org/2024-world-championships-szegedi-gabor-ds-endor-operations/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-hayes-hunter-ds-endor-operations/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-joe-olson-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-chad-lawrence-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-european-championship-emil-wallin-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-european-championship-jonas-hagen-norregaard-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-european-championship-top-4-emil-wallin-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-eric-spijksma-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-greg-shaw-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-karl-koenig-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-matt-sokol-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-matthew-harrison-trainor-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-mike-kessling-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-robbie-hendon-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-sam-tashima-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-scott-lingrell-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-thomas-santosuosso-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-chris-wirfs-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-jeff-lavigne-ds-endor-operations/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-brad-reinhold-ds-endor-operations/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-cal-aldred-ds-eops/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-chris-wirfs-ds-eops/",
@@ -1660,7 +1785,31 @@
         "https://www.starwarsccg.org/2025-morristown-melee-karl-koenig-ls-endor-operations/",
         "https://www.starwarsccg.org/2025-morristown-melee-mike-damboise-ds-endor-operations/",
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-jeff-lavigne-ds-endor-operations/",
-        "https://www.starwarsccg.org/2025-morristown-melee-top-8-matt-sokol-ds-endor-operations/"
+        "https://www.starwarsccg.org/2025-morristown-melee-top-8-matt-sokol-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-chad-lawrence-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-karl-koenig-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-matthew-harrison-trainor-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-sam-tashima-ds-eops/",
+        "https://www.starwarsccg.org/2025-us-nationals-aj-hatoum-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-barry-alperstein-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-benji-chu-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-bill-kafer-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-cal-aldred-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-chris-wirfs-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-hayes-hunter-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-jeff-lavigne-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-joe-olson-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-karl-koenig-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-matthew-harrison-trainor-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-samuel-tashima-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-steve-harpster-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-hayes-hunter-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-matthew-harrison-trainor-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-world-championship-aj-hatoum-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-world-championship-bryan-mischke-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-world-championship-jack-douglass-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-world-championship-karl-koenig-ds-endor-operations/",
+        "https://www.starwarsccg.org/2025-world-championship-nate-davis-ds-endor-operations/"
       ],
       "shortName": "Endor Ops",
       "aliases": [
@@ -1775,13 +1924,37 @@
         "https://www.starwarsccg.org/2024-world-championships-robbie-hendon-ls-whap/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-jonas-hagen-norregaard-ls-whap/",
         "https://www.starwarsccg.org/2024-yavin-4-regionals-pat-johnson-ls-whap/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-karl-koenig-ls-whap/",
+        "https://www.starwarsccg.org/2025-coruscant-regionals-wayne-cullen-ls-whap/",
+        "https://www.starwarsccg.org/2025-european-championship-jonas-hagen-norregaard-ls-whap/",
+        "https://www.starwarsccg.org/2025-european-championship-top-4-cedrik-vanderhaegen-ls-whap/",
+        "https://www.starwarsccg.org/2025-gempc-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2025-gempc-jared-greenwald-ls-whap/",
+        "https://www.starwarsccg.org/2025-gempc-l-pater-ls-whap/",
+        "https://www.starwarsccg.org/2025-gempc-michael-morrison-ls-whap/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-mike-kessling-ls-whap/",
         "https://www.starwarsccg.org/2025-morristown-melee-aj-hatoum-ls-whap/",
         "https://www.starwarsccg.org/2025-morristown-melee-chris-terwilliger-ls-whap/",
         "https://www.starwarsccg.org/2025-morristown-melee-mike-damboise-ls-whap/",
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-aj-hatoum-whap/",
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-mike-kessling-ls-whap/",
-        "https://www.starwarsccg.org/2025-morristown-melee-wayne-cullen-ls-whap/"
+        "https://www.starwarsccg.org/2025-morristown-melee-wayne-cullen-ls-whap/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-karl-koenig-ls-whap/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-kyle-krueger-ls-whap/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-kyle-krueger-ls-whap/",
+        "https://www.starwarsccg.org/2025-us-nationals-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2025-us-nationals-anthony-howard-ls-whap/",
+        "https://www.starwarsccg.org/2025-us-nationals-robbie-hendon-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-anthony-howard-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-brian-fred-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-jordan-gosiaco-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-karl-koenig-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-matt-scott-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-mike-kessling-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-robert-hendon-ls-whap/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-brian-fred-ls-whap/"
       ],
       "shortName": "WHAP",
       "aliases": [
@@ -1817,6 +1990,8 @@
         "https://www.starwarsccg.org/2022-european-championship-Stephan-de-vos-ds-coruscant-crv/",
         "https://www.starwarsccg.org/2022-ocs-top-16-greg-shaw-ds-coruscant-crv/",
         "https://www.starwarsccg.org/2024-champions-league-quarterfinals-dennis-reinhardt-ds-coruscant-crv/",
+        "https://www.starwarsccg.org/2025-european-championship-jon-benkert-holtet-ds-coruscant-crv/",
+        "https://www.starwarsccg.org/2025-gempc-amar-banger-ds-coruscant-crv/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-amar-banger-ds-coruscant-crv/"
       ],
       "shortName": "Coruscant CR(V)",
@@ -1880,6 +2055,8 @@
         "Darksaber Combat",
         "Lightsaber Combat",
         "LTMTFM",
+        "Dark Combat",
+        "Combat",
         "Dark Combat"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/letthemmakethefirstmove.gif",
@@ -2023,9 +2200,21 @@
         "https://www.starwarsccg.org/2024-world-championships-jonas-jakubowski-ls-diplo/",
         "https://www.starwarsccg.org/2024-world-championships-patrick-csapi-ls-diplo/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-patrik-csapi-ls-diplo/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-brandon-nguyen-ls-diplo/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-ellie-hoyt-ls-diplo/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-jacoby-kramer-ls-diplo/",
+        "https://www.starwarsccg.org/2025-european-championship-patrik-csapi-ls-diplo/",
+        "https://www.starwarsccg.org/2025-european-championship-top-4-patrik-csapi-ls-diplo/",
+        "https://www.starwarsccg.org/2025-gempc-daniel-amor-ls-diplo/",
+        "https://www.starwarsccg.org/2025-gempc-erich-hawbaker-ls-diplo/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-aj-hatoum-ls-diplo/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-brad-reinhold-ls-diplo/",
-        "https://www.starwarsccg.org/2025-morristown-melee-andrew-moss-ls-diplo/"
+        "https://www.starwarsccg.org/2025-morristown-melee-andrew-moss-ls-diplo/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-patrik-csapi-ls-diplo/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-brad-kippel-ls-diplo/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-patrik-csapi-ls-diplo/",
+        "https://www.starwarsccg.org/2025-us-nationals-brandon-nguyen-ds-diplomatic-mission-to-alderaan/",
+        "https://www.starwarsccg.org/2025-us-nationals-jacoby-kramer-ls-diplomatic-mission-to-alderaan/"
       ],
       "shortName": "Diplo",
       "aliases": [
@@ -2080,7 +2269,15 @@
         "https://www.starwarsccg.org/2023-worlds-kyle-krueger-ds-senate/",
         "https://www.starwarsccg.org/2023-worlds-travis-morris-ds-senate/",
         "https://www.starwarsccg.org/2024-endor-regionals-kyle-krueger-ds-senate/",
-        "https://www.starwarsccg.org/2024-ocs-playoff-semifinals-chris-wirfs-ds-senate/"
+        "https://www.starwarsccg.org/2024-ocs-playoff-semifinals-chris-wirfs-ds-senate/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-brandon-nguyen-ds-senate/",
+        "https://www.starwarsccg.org/2025-endor-regionals-jacy-smith-ds-senate/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-mark-billings-ds-senate/",
+        "https://www.starwarsccg.org/2025-us-nationals-brandon-nguyen-ds-senate/",
+        "https://www.starwarsccg.org/2025-us-nationals-brian-fred-ds-senate/",
+        "https://www.starwarsccg.org/2025-us-nationals-matt-scott-ds-senate/",
+        "https://www.starwarsccg.org/2025-world-championship-jacy-smith-ds-senate/",
+        "https://www.starwarsccg.org/2025-world-championship-matthew-harrison-trainor-ds-senate/"
       ],
       "shortName": "DS Senate",
       "aliases": [
@@ -2307,9 +2504,25 @@
         "https://www.starwarsccg.org/2024-world-championships-tony-petersson-ls-hitco/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-joe-olson-ls-hitco/",
         "https://www.starwarsccg.org/2024-yavin-4-regionals-joe-horbey-ls-hitco/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-logan-pietig-ls-hitco/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-travis-morris-ls-hitco/",
+        "https://www.starwarsccg.org/2025-coruscant-regionals-casey-anis-ls-hitco/",
+        "https://www.starwarsccg.org/2025-european-championship-martin-den-boef-ls-hitco/",
+        "https://www.starwarsccg.org/2025-european-championship-marvin-tegeler-ls-hitco/",
+        "https://www.starwarsccg.org/2025-gempc-bill-kafer-ls-hitco/",
+        "https://www.starwarsccg.org/2025-gempc-chris-gogolen-ls-hitco/",
+        "https://www.starwarsccg.org/2025-gempc-chris-kelly-ls-hitco/",
+        "https://www.starwarsccg.org/2025-gempc-john-werner-ls-hitco/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-dennis-reinhardt-ls-hitco/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-geoff-bowman-ls-hitco/",
-        "https://www.starwarsccg.org/2025-morristown-melee-casey-anis-ls-hitco/"
+        "https://www.starwarsccg.org/2025-morristown-melee-casey-anis-ls-hitco/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-casey-anis-ls-hitco/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-casey-anis-ls-hitco/",
+        "https://www.starwarsccg.org/2025-us-nationals-chris-kelly-ls-hitco/",
+        "https://www.starwarsccg.org/2025-us-nationals-joe-horbey-ls-hitco/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-joe-horbey-ls-hitco/",
+        "https://www.starwarsccg.org/2025-world-championship-jack-douglass-ls-hitco/",
+        "https://www.starwarsccg.org/2025-world-championship-nathan-russell-ls-hitco/"
       ],
       "shortName": "HITCO",
       "aliases": [
@@ -2379,7 +2592,14 @@
         "https://www.starwarsccg.org/2024-toola-regionals-bjorn-palmqvist-ds-watto/",
         "https://www.starwarsccg.org/2024-world-championships-barry-alperstein-ds-watto/",
         "https://www.starwarsccg.org/2024-yavin-4-regionals-barry-alperstein-ds-watto/",
-        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-john-veasey-ds-watto/"
+        "https://www.starwarsccg.org/2025-bespin-regionals-abe-christensen-ds-watto/",
+        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-john-veasey-ds-watto/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-adam-bott-ds-watto/",
+        "https://www.starwarsccg.org/2025-us-nationals-apollo-chu-ds-watto/",
+        "https://www.starwarsccg.org/2025-us-nationals-john-veasey-ds-watto/",
+        "https://www.starwarsccg.org/2025-us-nationals-jonny-chu-ds-watto/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-benji-chu-ds-watto/",
+        "https://www.starwarsccg.org/2025-world-championship-barry-alperstein-ds-watto/"
       ],
       "shortName": "Watto",
       "aliases": [
@@ -2419,7 +2639,10 @@
         "https://www.starwarsccg.org/2022-tatooine-regionals-adam-bott-ls-tatooine-cpv/",
         "https://www.starwarsccg.org/2023-european-championship-julian-smolarek-ls-tatooine-cpv/",
         "https://www.starwarsccg.org/2023-european-championship-peter-jacobson-ls-tatooine-cpv/",
-        "https://www.starwarsccg.org/2024-naboo-regionals-peter-jacobson-ls-tatooine-cpv/"
+        "https://www.starwarsccg.org/2024-naboo-regionals-peter-jacobson-ls-tatooine-cpv/",
+        "https://www.starwarsccg.org/2025-gempc-peter-jacobson-ls-tatooine-cpv/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-peter-jacobson-ls-tatooine-cpv/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-adam-bott-ls-tatooine-cpv/"
       ],
       "shortName": "Tatooine CP(V)",
       "aliases": [
@@ -2428,7 +2651,8 @@
       "matchers": [
         "Tatooine CP(V)",
         "Tatooine CPv",
-        "Tatooine CP(v)"
+        "Tatooine CP(v)",
+        "Tatooine CP (V)"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Dark/large/tatooine.gif",
       "startingLocation": {
@@ -2488,7 +2712,10 @@
         "https://www.starwarsccg.org/2024-european-championship-patrik-csapi-ds-tto/",
         "https://www.starwarsccg.org/2024-naboo-regionals-thomas-santosuosso-ds-tto/",
         "https://www.starwarsccg.org/2024-sss-brian-herold-ds-tto/",
-        "https://www.starwarsccg.org/2024-world-championships-gyorgy-pora-ds-tto/"
+        "https://www.starwarsccg.org/2024-world-championships-gyorgy-pora-ds-tto/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-chris-gogolen-ds-tto/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-timo-dusel-ds-tto/",
+        "https://www.starwarsccg.org/2025-us-nationals-mark-walseth-that-things-operational/"
       ],
       "shortName": "TTO",
       "aliases": [
@@ -2672,11 +2899,21 @@
         "https://www.starwarsccg.org/2024-world-championships-eric-spijksma-ds-isb-operations/",
         "https://www.starwarsccg.org/2024-world-championships-kevin-jaap-ds-isb-operations/",
         "https://www.starwarsccg.org/2024-world-championships-koen-meijssen-ds-isb/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-charlie-arlandson-ds-isb/",
+        "https://www.starwarsccg.org/2025-gempc-brad-kippel-ds-isb-operations/",
+        "https://www.starwarsccg.org/2025-gempc-jarad-konsker-ds-isb-operations/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-brad-kippel-ds-isb-operations/",
+        "https://www.starwarsccg.org/2025-gempc-zach-behm-ds-isb-operations/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-blake-silkwood-ds-isb/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-brad-reinhold-ds-isb-operations/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-mike-kessling-ds-isb/",
         "https://www.starwarsccg.org/2025-morristown-melee-brian-fred-ds-isb/",
-        "https://www.starwarsccg.org/2025-morristown-melee-joe-horbey-ds-isb-operations/"
+        "https://www.starwarsccg.org/2025-morristown-melee-joe-horbey-ds-isb-operations/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-brad-kippel-ds-isb-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-blake-silkwood-ds-isb-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-charlie-arlandson-ds-isb-operations/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-joe-horbey-ds-isb-operations/",
+        "https://www.starwarsccg.org/2025-world-championship-justin-miyashiro-ds-isb-operations/"
       ],
       "shortName": "ISB",
       "aliases": [
@@ -2832,11 +3069,45 @@
         "https://www.starwarsccg.org/2024-world-championships-brian-fred-ls-wys/",
         "https://www.starwarsccg.org/2024-world-championships-cedrik-vanderhaegen-ls-wys/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-emil-wallin-ls-wys/",
+        "https://www.starwarsccg.org/2025-endor-regionals-kyle-kallin-ls-wys/",
+        "https://www.starwarsccg.org/2025-european-championship-cedrik-vanderhaegen-ls-wys/",
+        "https://www.starwarsccg.org/2025-european-championship-emil-wallin-ls-wys/",
+        "https://www.starwarsccg.org/2025-european-championship-justin-branch-ls-wys/",
+        "https://www.starwarsccg.org/2025-european-championship-koen-meijssen-ls-wys/",
+        "https://www.starwarsccg.org/2025-gempc-andrew-moss-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-gempc-jeff-lavigne-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-gempc-joe-olson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-gempc-logan-pietig-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-gempc-matt-sokol-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-gempc-ziemowit-skwara-ls-watch-your-step/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-joe-olson-ls-wys/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-kyle-krueger-ls-wys/",
         "https://www.starwarsccg.org/2025-morristown-melee-karl-koenig-ls-wys/",
         "https://www.starwarsccg.org/2025-morristown-melee-pat-johnson-ls-wys/",
-        "https://www.starwarsccg.org/2025-morristown-melee-top-8-jeff-lavigne-ls-watch-your-step/"
+        "https://www.starwarsccg.org/2025-morristown-melee-top-8-jeff-lavigne-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-joe-olson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-brian-fred-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-finals-pat-johnson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-brad-kippel-ls-wys/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-joe-olson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-matthew-harrison-trainor-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-jeff-lavigne-ls-wys/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-joe-olson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-pat-johnson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-us-nationals-jonny-chu-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-joe-olson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-kyle-kallin-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-kyle-krueger-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-matt-thornton-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-ming-huo-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-phil-aasen-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-ryan-french-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-samuel-tashima-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-hayes-hunter-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-joe-olson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-matthew-harrison-trainor-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-sam-tashima-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2025-world-championship-ziemowit-skwara-ls-watch-your-step/"
       ],
       "shortName": "WYS",
       "aliases": [
@@ -2902,7 +3173,11 @@
         "https://www.starwarsccg.org/2024-nal-hutta-regionals-steve-harpster-ls-there-is-good-in-him/",
         "https://www.starwarsccg.org/2024-north-american-continental-championship-jonny-chu-ls-tigih/",
         "https://www.starwarsccg.org/2024-toola-regionals-bjorn-palmqvist-ls-tigih/",
-        "https://www.starwarsccg.org/2025-morristown-melee-top-8-matt-sokol-ls-tigih/"
+        "https://www.starwarsccg.org/2025-gempc-brandon-baity-ls-there-is-good-in-him/",
+        "https://www.starwarsccg.org/2025-morristown-melee-top-8-matt-sokol-ls-tigih/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-wayne-poppleton-ls-tigih/",
+        "https://www.starwarsccg.org/2025-us-nationals-chad-lawrence-ls-tigih/",
+        "https://www.starwarsccg.org/2025-world-championship-brandon-baity-ls-tigih/"
       ],
       "shortName": "TIGIH",
       "aliases": [
@@ -3013,7 +3288,9 @@
         "Senate Gungans",
         "Steady, Steady!",
         "Steady Steady!",
-        "Naboo CPv"
+        "Naboo CPv",
+        "TRM",
+        "Light Senate Gungans"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Light/large/yavin4massassithroneroom.gif",
       "startingLocation": {
@@ -3167,7 +3444,11 @@
         "https://www.starwarsccg.org/2024-world-championships-jonas-jakubowski-ds-aobs/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-emil-wallin-ds-aobs/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-jonas-hagen-norregaard-ds-aobs/",
-        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-geoff-bowman-ds-aobs/"
+        "https://www.starwarsccg.org/2025-gempc-joe-olson-ds-agents-of-black-sun/",
+        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-geoff-bowman-ds-aobs/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-joe-olson-ds-agents-of-black-sun/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-quirin-furgut-ds-agents-of-black-sun/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-stephen-squirlock-ds-aobs/"
       ],
       "shortName": "AOBS",
       "aliases": [
@@ -3181,7 +3462,8 @@
         "AOBS",
         "AOBS/VOTDP",
         "AOBS (V)",
-        "Agents of Black Sun"
+        "Agents of Black Sun",
+        "AOBS Racing"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsII-Dark/large/agentsofblacksun.gif",
       "objective": {
@@ -3271,6 +3553,10 @@
         "https://www.starwarsccg.org/2024-sss-day-2-bill-kafer-ls-y4o/",
         "https://www.starwarsccg.org/2024-tatooine-regionals-matt-thornton-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2024-world-championships-chris-menzel-ls-yavin-4-base-operations/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-mark-walseth-ls-yavin-4-operations/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-sean-miller-ls-yavin-4-operations/",
+        "https://www.starwarsccg.org/2025-gempc-andy-talaga-ls-yavin-4-base-operations/",
+        "https://www.starwarsccg.org/2025-gempc-dan-tartaglione-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-anthony-howard-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-matt-thornton-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-randy-scott-ls-yavin-4-base-operations/",
@@ -3295,7 +3581,8 @@
         "Yavin 4 Ops",
         "Yavin 4 Base Ops",
         "Y4OPS",
-        "Yavin 4 Operations"
+        "Yavin 4 Operations",
+        "Y4Ops"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Virtual8-Light/large/yavin4baseoperations.gif",
       "objective": {
@@ -3372,6 +3659,18 @@
         "https://www.starwarsccg.org/2024-ocs-playoff-top-16-pat-johnson-ds-walkers/",
         "https://www.starwarsccg.org/2024-sss-top-8-dennis-reinhardt-ds-walkers/",
         "https://www.starwarsccg.org/2024-yavin-4-regionals-pat-johnson-ds-walkers/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-garrett-larson-ds-walkers/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-nick-swedal-ds-walkers/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-sam-tashima-ds-walkers/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-sean-miller-ds-walkers/",
+        "https://www.starwarsccg.org/2025-european-championship-julian-smolarek-ds-walkers/",
+        "https://www.starwarsccg.org/2025-european-championship-patrik-csapi-ds-walkers/",
+        "https://www.starwarsccg.org/2025-gempc-chris-gogolen-ds-walkers/",
+        "https://www.starwarsccg.org/2025-gempc-daniel-amor-ds-walkers/",
+        "https://www.starwarsccg.org/2025-gempc-justin-miyashiro-ds-walkers/",
+        "https://www.starwarsccg.org/2025-gempc-wayne-cullen-ds-walkers/",
+        "https://www.starwarsccg.org/2025-gempc-william-bacheler-ds-walkers/",
+        "https://www.starwarsccg.org/2025-gempc-ziemowit-skwara-ds-walkers/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-mike-kessling-ds-walkers/",
         "https://www.starwarsccg.org/2025-morristown-melee-bill-kafer-ds-walkers/",
         "https://www.starwarsccg.org/2025-morristown-melee-chris-gogolen-ds-walkers/",
@@ -3381,7 +3680,14 @@
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-bill-kafer-ds-walkers/",
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-chris-gogolen-ds-walkers/",
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-greg-shaw-ds-walkers/",
-        "https://www.starwarsccg.org/2025-morristown-melee-top-8-mike-kessling-ds-walkers/"
+        "https://www.starwarsccg.org/2025-morristown-melee-top-8-mike-kessling-ds-walkers/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-andrew-davies-ds-walkers/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-patrik-csapi-ds-walkers/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-patrik-csapi-ds-walkers/",
+        "https://www.starwarsccg.org/2025-us-nationals-nick-swedal-ds-walkers/",
+        "https://www.starwarsccg.org/2025-us-nationals-robbie-hendon-ds-walkers/",
+        "https://www.starwarsccg.org/2025-world-championship-ming-huo-ds-walkers/",
+        "https://www.starwarsccg.org/2025-world-championship-robert-hendon-ds-walkers/"
       ],
       "shortName": "Walkers",
       "aliases": [
@@ -3405,7 +3711,10 @@
         "Hoth Walkers",
         "Hoth SSA (V)",
         "Walkers SSAv",
-        "SSA(V) Walkers"
+        "SSA(V) Walkers",
+        "Hoth CRv",
+        "CRv",
+        "5th Marker (V) SSA (V)"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Hoth-Dark/large/hoth.gif",
       "startingLocation": {
@@ -3475,7 +3784,13 @@
         "https://www.starwarsccg.org/2024-north-american-continental-championship-top-8-sam-tashima-ls-profit/",
         "https://www.starwarsccg.org/2024-ocs-playoff-top-16-casey-anis-ls-profit/",
         "https://www.starwarsccg.org/2024-sss-jonathan-murray-ls-profit/",
-        "https://www.starwarsccg.org/2025-morristown-melee-barry-alperstein-ls-profit/"
+        "https://www.starwarsccg.org/2025-endor-regionals-justin-miyashiro-ls-profit/",
+        "https://www.starwarsccg.org/2025-gempc-garrett-larson-ls-profit/",
+        "https://www.starwarsccg.org/2025-morristown-melee-barry-alperstein-ls-profit/",
+        "https://www.starwarsccg.org/2025-us-nationals-barry-alperstein-ls-profit/",
+        "https://www.starwarsccg.org/2025-us-nationals-carson-stockman-ls-profit/",
+        "https://www.starwarsccg.org/2025-world-championship-barry-alperstein-ls-profit/",
+        "https://www.starwarsccg.org/2025-world-championship-vikram-bali-ls-profit/"
       ],
       "shortName": "Profit",
       "aliases": [
@@ -3489,7 +3804,8 @@
         "Profit",
         "YCEPBT/OBD",
         "YCEPBT",
-        "PROFIT"
+        "PROFIT",
+        "Hyper Profit"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/EnhancedJabbasPalace-Light/large/youcaneitherprofitbythis.gif",
       "objective": {
@@ -3506,7 +3822,8 @@
       "side": "Light",
       "decklistUrls": [
         "https://www.starwarsccg.org/2019-endor-grand-prix-day-1-jan-berueda-hyperdrive/",
-        "https://www.starwarsccg.org/2022-naboo-regionals-marc-nickels-ls-the-hyperdrive-generators-gone/"
+        "https://www.starwarsccg.org/2022-naboo-regionals-marc-nickels-ls-the-hyperdrive-generators-gone/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-scott-morgan-ls-hyperdrive/"
       ],
       "shortName": "Hyperdrive",
       "aliases": [
@@ -3565,7 +3882,11 @@
         "https://www.starwarsccg.org/2024-champions-league-semifinals-ryan-jellison-ls-hidden-base/",
         "https://www.starwarsccg.org/2024-eclipse-major-top-8-sam-tashima-ls-hidden-base/",
         "https://www.starwarsccg.org/2024-european-championship-bjorn-palmqvist-ls-hidden-base/",
-        "https://www.starwarsccg.org/2024-sss-sam-tashima-ls-hidden-base/"
+        "https://www.starwarsccg.org/2024-sss-sam-tashima-ls-hidden-base/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-sam-tashima-ls-hidden-base/",
+        "https://www.starwarsccg.org/2025-gempc-david-morrison-ls-hidden-base/",
+        "https://www.starwarsccg.org/2025-gempc-greg-shaw-ls-hidden-base/",
+        "https://www.starwarsccg.org/2025-world-championship-joe-phillips-ls-hidden-base/"
       ],
       "shortName": "HB",
       "aliases": [
@@ -3660,7 +3981,14 @@
         "https://www.starwarsccg.org/2024-north-american-continental-championship-benji-chu-ds-sycfa/",
         "https://www.starwarsccg.org/2024-sss-leif-lutz-ds-sycfa/",
         "https://www.starwarsccg.org/2024-sss-travis-cooper-ds-sycfa/",
-        "https://www.starwarsccg.org/2025-morristown-melee-scott-lingrell-ds-sycfa/"
+        "https://www.starwarsccg.org/2025-coruscant-regionals-scott-lingrell-ds-sycfa/",
+        "https://www.starwarsccg.org/2025-morristown-melee-scott-lingrell-ds-sycfa/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-randy-scott-ds-sycfa/",
+        "https://www.starwarsccg.org/2025-us-nationals-ellie-hoyt-ds-sycfa/",
+        "https://www.starwarsccg.org/2025-us-nationals-ryan-sersen-ds-sycfa/",
+        "https://www.starwarsccg.org/2025-world-championship-anthony-howard-ds-sycfa/",
+        "https://www.starwarsccg.org/2025-world-championship-matt-thornton-ds-sycfa/",
+        "https://www.starwarsccg.org/2025-world-championship-randy-scott-ds-sycfa/"
       ],
       "shortName": "SYCFA No-Flip",
       "aliases": [
@@ -3675,7 +4003,8 @@
         "SYCFA/TUPITU",
         "SYCFA",
         "SYFCA",
-        "SYCFA Bombers"
+        "SYCFA Bombers",
+        "SYCFA Tractor Beams"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/ThirdAnthology-Dark/large/setyourcourseforalderaan.gif",
       "objective": {
@@ -3697,7 +4026,8 @@
         "https://www.starwarsccg.org/2024-gempc-quarterfinals-brian-fred-ds-tatooine-cpv/",
         "https://www.starwarsccg.org/2024-sss-top-8-hayes-hunter-ds-tatooine-crv/",
         "https://www.starwarsccg.org/2024-toola-regionals-jon-benkert-holtet-ds-tatooine-crv/",
-        "https://www.starwarsccg.org/2024-world-championships-john-veasey-ds-tatooine-crv/"
+        "https://www.starwarsccg.org/2024-world-championships-john-veasey-ds-tatooine-crv/",
+        "https://www.starwarsccg.org/2025-world-championship-joe-phillips-ds-tatooine-crv-star-destroyers/"
       ],
       "shortName": "Tatooine CR(V)",
       "aliases": [
@@ -3705,7 +4035,9 @@
       ],
       "matchers": [
         "Tatooine CR(V)",
-        "Tatooine CRv"
+        "Tatooine CRv",
+        "Tatooine CR(V) Star Destroyers",
+        "Tatooine CR (V)"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Coruscant-Dark/large/tatooine.gif",
       "startingLocation": {
@@ -3863,6 +4195,20 @@
         "https://www.starwarsccg.org/2024-world-championships-john-veasey-ls-qmc/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-eric-hunter-ls-qmc/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-hayes-hunter-ls-qmc/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-cory-lauer-ls-qmc/",
+        "https://www.starwarsccg.org/2025-gempc-anthony-howard-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-dennis-reinhardt-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-john-veasey-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-jonathan-grubb-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-karl-koenig-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-kyle-krueger-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-mike-kessling-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-nathan-russell-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-patrick-johnson-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-sam-tashima-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-thomas-santosuosso-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-jeff-lavigne-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-gempc-zach-behm-ls-quiet-mining-colony/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-cal-aldred-ls-qmc/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-jeff-lavigne-ls-quiet-mining-colony/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-john-veasey-ls-quiet-mining-colony/",
@@ -3870,7 +4216,9 @@
         "https://www.starwarsccg.org/2025-morristown-melee-hayes-hunter-ls-qmc/",
         "https://www.starwarsccg.org/2025-morristown-melee-jeff-lavigne-ls-qmc/",
         "https://www.starwarsccg.org/2025-morristown-melee-mike-kessling-ls-qmc/",
-        "https://www.starwarsccg.org/2025-morristown-melee-top-8-hayes-hunter-ls-qmc/"
+        "https://www.starwarsccg.org/2025-morristown-melee-top-8-hayes-hunter-ls-qmc/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-hayes-hunter-ls-quiet-mining-colony/",
+        "https://www.starwarsccg.org/2025-us-nationals-john-veasey-ls-qmc/"
       ],
       "shortName": "QMC",
       "aliases": [
@@ -3934,9 +4282,12 @@
         "https://www.starwarsccg.org/2023-worlds-sam-tashima-ds-invasion/",
         "https://www.starwarsccg.org/2023-worlds-steve-brentson-ds-invasion/",
         "https://www.starwarsccg.org/2024-ocs-playoff-top-16-charlie-arlandson-ds-invasion/",
+        "https://www.starwarsccg.org/2025-gempc-michael-morrison-ds-invasion/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-sam-tashima-ds-invasion/",
         "https://www.starwarsccg.org/2025-morristown-melee-chris-westergard-ds-invasion/",
-        "https://www.starwarsccg.org/2025-morristown-melee-joe-pinto-ds-invasion/"
+        "https://www.starwarsccg.org/2025-morristown-melee-joe-pinto-ds-invasion/",
+        "https://www.starwarsccg.org/2025-us-nationals-chris-westergard-ds-invasion/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-brian-fred-ds-invasion/"
       ],
       "shortName": "Invasion",
       "aliases": [
@@ -3990,7 +4341,8 @@
         "THGG (V)",
         "THGGV (V)",
         "Hyperdrive V",
-        "Hyperdrive v"
+        "Hyperdrive v",
+        "Hyperdrive"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Virtual10-Light/large/thehyperdrivegeneratorsgone.gif",
       "objective": {
@@ -4180,6 +4532,11 @@
         "https://www.starwarsccg.org/2024-world-championships-brad-eier-ls-no-idea/",
         "https://www.starwarsccg.org/2024-world-championships-conor-britain-ls-no-idea/",
         "https://www.starwarsccg.org/2024-yavin-4-regionals-david-woods-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-european-championship-casper-jorgensen-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-gempc-brad-kippel-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-gempc-conor-britain-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-brad-kippel-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-gempc-william-bacheler-ls-no-idea/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-blake-silkwood-ls-no-idea/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-brian-fred-ls-no-idea/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-karl-koenig-ls-no-idea/",
@@ -4187,7 +4544,15 @@
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-sam-tashima-ls-no-idea/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-sam-tashima-ls-no-idea/",
         "https://www.starwarsccg.org/2025-morristown-melee-joe-pinto-ls-no-idea/",
-        "https://www.starwarsccg.org/2025-morristown-melee-kendall-halman-ls-no-idea/"
+        "https://www.starwarsccg.org/2025-morristown-melee-kendall-halman-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-paul-coggins-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-us-nationals-brad-eier-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-us-nationals-david-woods-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-us-nationals-matthew-harrison-trainor-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-us-nationals-samuel-tashima-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-matthew-harrison-trainor-no-idea/",
+        "https://www.starwarsccg.org/2025-world-championship-bill-kafer-ls-no-idea/",
+        "https://www.starwarsccg.org/2025-world-championship-paul-coggins-ls-no-idea/"
       ],
       "shortName": "No Idea",
       "aliases": [
@@ -4255,7 +4620,13 @@
         "https://www.starwarsccg.org/2024-champions-league-quarterfinals-ryan-jellison-ds-a-stunning-move/",
         "https://www.starwarsccg.org/2024-naboo-regionals-adam-bott-ds-asm/",
         "https://www.starwarsccg.org/2024-sss-brian-avery-ds-asm/",
-        "https://www.starwarsccg.org/2024-sss-joe-laporta-ds-asm/"
+        "https://www.starwarsccg.org/2024-sss-joe-laporta-ds-asm/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-brian-fred-ds-a-stunning-move/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-wayne-poppleton-ds-a-stunning-move/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-semi-finals-greg-shaw-ds-a-stunning-move/",
+        "https://www.starwarsccg.org/2025-world-championship-ryan-french-ds-a-stunning-move/",
+        "https://www.starwarsccg.org/2025-world-championship-spencer-gosiaco-ds-asm/",
+        "https://www.starwarsccg.org/2025-world-championship-taylor-gosiaco-ds-asm/"
       ],
       "shortName": "ASM",
       "aliases": [
@@ -4414,7 +4785,11 @@
         "https://www.starwarsccg.org/2024-eclipse-major-aaron-bott-ls-legend/",
         "https://www.starwarsccg.org/2024-endor-regionals-spencer-gosiaco-ls-legend/",
         "https://www.starwarsccg.org/2024-naboo-regionals-kevin-jaap-ls-legend/",
-        "https://www.starwarsccg.org/2024-ralltiir-regionals-jeroen-wauters-ls-legend/"
+        "https://www.starwarsccg.org/2024-ralltiir-regionals-jeroen-wauters-ls-legend/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-greg-shaw-ls-legend/",
+        "https://www.starwarsccg.org/2025-world-championship-daniel-amor-ls-legend/",
+        "https://www.starwarsccg.org/2025-world-championship-greg-shaw-ls-legend/",
+        "https://www.starwarsccg.org/2025-world-championship-spencer-gosiaco-ls-legend/"
       ],
       "shortName": "Legend",
       "aliases": [
@@ -4455,7 +4830,8 @@
       "matchers": [
         "Yavin 4: Massassi Throne Room 12-Card",
         "TRM 12-Card",
-        "TRM 12 card"
+        "TRM 12 card",
+        "TRM"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Premiere-Light/large/yavin4massassithroneroom.gif",
       "startingLocation": {
@@ -4494,7 +4870,9 @@
         "LSC",
         "Lightsaber Combat",
         "WHT",
-        "Combat 7's"
+        "Combat 7's",
+        "Combat",
+        "Light Combat"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsIII-Light/large/wellhandlethis.gif",
       "objective": {
@@ -4628,7 +5006,8 @@
       ],
       "matchers": [
         "Death Star II: Throne Room According To My Design",
-        "DSII Throne Room ATMD"
+        "DSII Throne Room ATMD",
+        "DS2: Throne Room ATMD"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/DeathStarII-Dark/large/deathstariithroneroom.gif",
       "startingLocation": {
@@ -4698,7 +5077,8 @@
         "https://www.starwarsccg.org/2021-endor-regionals-kyle-kallin-ds-cct-flip/",
         "https://www.starwarsccg.org/2021-yavin-4-regionals-jan-westergard-ds-cct-flip/",
         "https://www.starwarsccg.org/2021-yavin-4-regionals-lenny-rubin-ds-cct-flip/",
-        "https://www.starwarsccg.org/2021-yavin-4-regionals-tom-haid-ds-cct-flip/"
+        "https://www.starwarsccg.org/2021-yavin-4-regionals-tom-haid-ds-cct-flip/",
+        "https://www.starwarsccg.org/2025-gempc-john-werner-ds-carbon-chamber-testing/"
       ],
       "shortName": "CCT",
       "aliases": [
@@ -4765,7 +5145,8 @@
       "matchers": [
         "Dagobah: Cave Slip Sliding Away (V)",
         "Dagobah Cave SSA(V)",
-        "Dagobah Cave SSA (V)"
+        "Dagobah Cave SSA (V)",
+        "Dagobah: Cave SSA(V)"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Dagobah-Dark/large/dagobahcave.gif",
       "startingLocation": {
@@ -4830,6 +5211,7 @@
         "https://www.starwarsccg.org/2024-ralltiir-regionals-cedrik-vanderhaegen-ls-mwyhl/",
         "https://www.starwarsccg.org/2024-sss-brian-herold-ls-mwyhl/",
         "https://www.starwarsccg.org/2024-sss-matt-lutz-ls-mwyhl/",
+        "https://www.starwarsccg.org/2025-gempc-randy-scott-ls-mwyhl/",
         "https://www.starwarsccg.org/2025-morristown-melee-scott-lingrell-ls-mwyhl/"
       ],
       "shortName": "MWYHL No-Flip",
@@ -4939,7 +5321,8 @@
       ],
       "matchers": [
         "Endor: Chief Chirpa's Hut",
-        "Chirpa's Hut"
+        "Chirpa's Hut",
+        "Chief Chirpa's Hut Mains"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Endor-Light/large/endorchiefchirpashut.gif",
       "startingLocation": {
@@ -4963,7 +5346,8 @@
         "Death Star 12-Card"
       ],
       "matchers": [
-        "Death Star 12-Card"
+        "Death Star 12-Card",
+        "12 Card Death Star"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/ANewHope-Dark/large/deathstar.gif",
       "startingLocation": {
@@ -5117,10 +5501,31 @@
         "https://www.starwarsccg.org/2024-sss-greg-shaw-ds-shadow-collective/",
         "https://www.starwarsccg.org/2024-toola-regionals-casper-jorgensen-ds-shadow-collective/",
         "https://www.starwarsccg.org/2024-toola-regionals-tamas-papp-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-coruscant-regionals-wayne-cullen-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-european-championship-floris-de-vries-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-european-championship-koen-meijssen-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-gempc-jeff-lavigne-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-gempc-john-veasey-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-gempc-justin-branch-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-gempc-kyle-krueger-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-greg-shaw-ds-shadow-collective/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-jeff-lavigne-ds-shadow-collective/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-jeff-lavigne-ds-shadow-collective-2/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-joe-olson-ds-shadow-collective/",
-        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-sam-tashima-ds-shadow-collective/"
+        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-sam-tashima-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-tamas-papp-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-jarad-konsker-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-brad-kippel-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-conor-britain-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-jarad-konsker-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-us-nationals-brad-eier-ds-shadow-collection/",
+        "https://www.starwarsccg.org/2025-world-championship-brian-fred-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-world-championship-charlie-arlandson-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-world-championship-greg-shaw-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-world-championship-matt-scott-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-world-championship-mike-kessling-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-world-championship-samuel-tashima-ds-shadow-collective/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-greg-shaw-ds-shadow-collective/"
       ],
       "shortName": "SC",
       "aliases": [
@@ -5164,7 +5569,8 @@
         "https://www.starwarsccg.org/2022-world-championship-conor-britain-ds-mauls-chambers-ssav/",
         "https://www.starwarsccg.org/2022-world-championship-ryan-jellison-ds-mauls-chambers-ssav/",
         "https://www.starwarsccg.org/2022-world-championship-top-8-ryan-jellison-ds-dathomir-mauls-chambers-ssav/",
-        "https://www.starwarsccg.org/2022-yavin-4-regionals-david-woods-ds-mauls-chambers-ssav/"
+        "https://www.starwarsccg.org/2022-yavin-4-regionals-david-woods-ds-mauls-chambers-ssav/",
+        "https://www.starwarsccg.org/2025-gempc-logan-pietig-ds-dathomir-mauls-chambers-ssav/"
       ],
       "shortName": "Maul's Chambers SSA(V)",
       "aliases": [
@@ -5181,7 +5587,8 @@
         "MAULS CHAMBERS SSaV",
         "Maul's Chambers SSA (V)",
         "Mauls Chambers SSAv",
-        "Dathomir: Maul's Chambers SSAv"
+        "Dathomir: Maul's Chambers SSAv",
+        "Dathomir: Maul’s Chambers SSA(V)"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Virtual13-Dark/large/dathomirmaulschambers.gif",
       "startingLocation": {
@@ -5271,6 +5678,24 @@
         "https://www.starwarsccg.org/2024-ralltiir-regionals-koen-meijssen-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2024-scarif-regionals-anthony-howard-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2024-sss-matt-lutz-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-aj-hatoum-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-will-tarbox-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-coruscant-regionals-greg-shaw-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-european-championship-cedrik-vanderhaegen-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-aj-hatoum-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-andy-talaga-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-anthony-howard-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-bill-kafer-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-blake-silkwood-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-conor-britain-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-dan-tartaglione-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-garrett-larson-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-jack-douglass-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-jared-greenwald-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-matt-lutz-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-nathan-russell-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-nick-swedal-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-gempc-randy-scott-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-aj-hatoum-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-anthony-howard-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-chris-kelly-ds-hunt-down-v/",
@@ -5280,7 +5705,9 @@
         "https://www.starwarsccg.org/2025-morristown-melee-dan-tartaglione-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-hayes-hunter-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-jeff-lavigne-ds-hunt-down-v/",
-        "https://www.starwarsccg.org/2025-morristown-melee-top-8-hayes-hunter-ds-hunt-down-v/"
+        "https://www.starwarsccg.org/2025-morristown-melee-top-8-hayes-hunter-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-hayes-hunter-ds-hunt-down-v/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-finals-greg-shaw-ds-hunt-down-v/"
       ],
       "shortName": "Hunt Down (V)",
       "aliases": [
@@ -5365,13 +5792,33 @@
         "https://www.starwarsccg.org/2024-world-championships-john-moorley-ls-rtpv/",
         "https://www.starwarsccg.org/2024-world-championships-kevin-jaap-ls-rtpv/",
         "https://www.starwarsccg.org/2024-world-championships-marc-nickels-ls-rtpv/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-kendall-halman-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-gempc-blake-silkwood-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-gempc-david-woods-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-gempc-jarad-konsker-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-gempc-justin-miyashiro-ls-rescue-the-princess-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-bill-kafer-ls-rtpv/",
         "https://www.starwarsccg.org/2025-morristown-melee-blake-silkwood-ls-rtp-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-chris-kelly-ls-rtp-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-greg-shaw-ls-rtp-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-jarad-konsker-ls-rtp-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-bill-kafer-ls-rtp-v/",
-        "https://www.starwarsccg.org/2025-morristown-melee-top-8-greg-shaw-ls-rtp-v/"
+        "https://www.starwarsccg.org/2025-morristown-melee-top-8-greg-shaw-ls-rtp-v/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-marc-nickels-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-tamas-papp-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-kendall-halman-ls-rtpv/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-pat-johnson-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-semi-finals-pat-johnson-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-us-nationals-benji-chu-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-us-nationals-keith-brown-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-us-nationals-kendall-halman-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-hayes-hunter-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-world-championship-hayes-hunter-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-world-championship-jeff-lavigne-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-world-championship-joe-horbey-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-world-championship-nick-swedal-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-world-championship-pat-johnson-ls-rescue-the-princess-v/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-pat-johnson-ls-rescue-the-princess-v/"
       ],
       "shortName": "RTP (V)",
       "aliases": [
@@ -5537,7 +5984,8 @@
         "Endor LTWWv",
         "Chief Chirpa's Hut LTWW(V)",
         "Chief Chirpa’s Hut LTWW(V)",
-        "Chief Chirpa's Hut LTWWv"
+        "Chief Chirpa's Hut LTWWv",
+        "Endor: Chief Chirpa's Hut LTWW"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Endor-Light/large/endorchiefchirpashut.gif",
       "startingLocation": {
@@ -5880,7 +6328,10 @@
         "https://www.starwarsccg.org/2023-worlds-thomas-santosuosso-ls-communing-obi-wan/",
         "https://www.starwarsccg.org/2023-yavin-4-regionals-tommy-santosuosso-ls-communing-obi-wan/",
         "https://www.starwarsccg.org/2024-bespin-regionals-mark-walseth-ls-obi-wan-communing/",
-        "https://www.starwarsccg.org/2024-sss-karl-koenig-ls-communing-obi-wan/"
+        "https://www.starwarsccg.org/2024-sss-karl-koenig-ls-communing-obi-wan/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-charlie-arlandson-ls-communing-obi-wan/",
+        "https://www.starwarsccg.org/2025-us-nationals-abe-christensen-ls-obi-wan-communing/",
+        "https://www.starwarsccg.org/2025-us-nationals-charlie-arlandson-ls-communing-obi-wan/"
       ],
       "shortName": "Obimuning",
       "aliases": [
@@ -5892,7 +6343,8 @@
         "Obimuning",
         "Communing Obi-Wan",
         "Obi-Wan Communing",
-        "Obi Wan Communing"
+        "Obi Wan Communing",
+        "Obi Communing"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/masterkenobi.gif",
       "startingLocation": {
@@ -5939,7 +6391,8 @@
         "https://www.starwarsccg.org/2024-world-championships-jon-benkert-holtet-ds-mkos/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-eric-hunter-ds-mkos/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-patrik-csapi-ds-mkos/",
-        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-kyle-krueger-ds-mkos/"
+        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-kyle-krueger-ds-mkos/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-peter-jacobson-ds-my-kind-of-scum/"
       ],
       "shortName": "MKOS",
       "aliases": [
@@ -5979,7 +6432,8 @@
         "https://www.starwarsccg.org/2024-champions-league-quarterfinals-ryan-jellison-ls-agents-in-the-court/",
         "https://www.starwarsccg.org/2024-corellia-regionals-greg-shaw-ls-aitc/",
         "https://www.starwarsccg.org/2024-north-american-continental-championship-ryan-jellison-ls-aitc/",
-        "https://www.starwarsccg.org/2024-ocs-playoff-semifinals-ryan-jellison-ls-agents-in-the-court/"
+        "https://www.starwarsccg.org/2024-ocs-playoff-semifinals-ryan-jellison-ls-agents-in-the-court/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-ryan-jellison-ls-aitc/"
       ],
       "shortName": "AITC",
       "aliases": [
@@ -6179,7 +6633,8 @@
         "https://www.starwarsccg.org/2024-endor-regionals-tommy-santosuosso-ls-home-one-ltwwv/",
         "https://www.starwarsccg.org/2024-north-american-continental-championship-benji-chu-ls-home-one-war-room-ltwwv/",
         "https://www.starwarsccg.org/2024-north-american-continental-championship-brian-avery-ls-home-one-war-room-ltwwv/",
-        "https://www.starwarsccg.org/2024-world-championships-tommy-santosuosso-ls-home-one-war-room-ltwwv/"
+        "https://www.starwarsccg.org/2024-world-championships-tommy-santosuosso-ls-home-one-war-room-ltwwv/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-abe-christensen-ls-lwww-v/"
       ],
       "shortName": "Home One War Room LTWW(V)",
       "aliases": [
@@ -6191,7 +6646,8 @@
         "Home One War Room LTWW(V)",
         "Home One:War Room LTWWv",
         "Home One: War Room LTWWv",
-        "Home One LTWW(v)"
+        "Home One LTWW(v)",
+        "LWWW (V)"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/DeathStarII-Light/large/homeonewarroom.gif",
       "startingLocation": {
@@ -6322,8 +6778,16 @@
         "https://www.starwarsccg.org/2022-european-championship-christian-knudsen-ls-skywalker-saga-rey/",
         "https://www.starwarsccg.org/2023-european-championship-christian-knudsen-ls-skywalker-saga-rey/",
         "https://www.starwarsccg.org/2024-tatooine-regionals-randy-scott-ls-rey-saga/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-brian-fred-ls-skywalker-saga-rey/",
+        "https://www.starwarsccg.org/2025-gempc-nick-swedal-ls-skywalker-saga-rey/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-dennis-reinhardt-ls-skywalker-saga-rey/",
-        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-logan-pietig-ls-skywalker-saga-rey/"
+        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-logan-pietig-ls-skywalker-saga-rey/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-semi-finals-greg-shaw-ls-skywalker-saga-rey/",
+        "https://www.starwarsccg.org/2025-us-nationals-bill-kafer-ls-skywalker-saga-rey/",
+        "https://www.starwarsccg.org/2025-world-championship-apollo-chu-ls-skywalker-saga-rey/",
+        "https://www.starwarsccg.org/2025-world-championship-benji-chu-ls-skywalker-saga-rey/",
+        "https://www.starwarsccg.org/2025-world-championship-charlie-arlandson-ls-skywalker-saga-rey/",
+        "https://www.starwarsccg.org/2025-world-championship-taylor-gosiaco-ls-skywalker-saga-rey/"
       ],
       "shortName": "Rey Saga",
       "aliases": [
@@ -6372,7 +6836,10 @@
         "https://www.starwarsccg.org/2023-ryloth-regionals-angelo-consoli-ds-revenge-of-the-sith-dooku/",
         "https://www.starwarsccg.org/2023-san-diego-super-open-day-2-brian-fred-ds-rots-dooku/",
         "https://www.starwarsccg.org/2023-worlds-mark-walseth-ds-rots-dooku/",
-        "https://www.starwarsccg.org/2023-worlds-wayne-cullen-ds-rots-dooku/"
+        "https://www.starwarsccg.org/2023-worlds-wayne-cullen-ds-rots-dooku/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-mark-walseth-ds-rots-dooku/",
+        "https://www.starwarsccg.org/2025-european-championship-eric-spijksma-ds-rots-dooku/",
+        "https://www.starwarsccg.org/2025-world-championship-eric-spijksma-ds-rots-dooku/"
       ],
       "shortName": "ROTS Dooku",
       "aliases": [
@@ -6387,7 +6854,8 @@
         "Revenge of the Sith Dooku",
         "Dooku ROTS",
         "Dooku Revenge",
-        "ROTS  Dooku"
+        "ROTS  Dooku",
+        "Sith Dooku"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Virtual11-Dark/large/invisiblehandbridge.gif",
       "startingLocation": {
@@ -6502,6 +6970,20 @@
         "https://www.starwarsccg.org/2024-world-championships-eric-george-ls-luke-saga/",
         "https://www.starwarsccg.org/2024-world-championships-jacy-smith-ls-anakin-saga/",
         "https://www.starwarsccg.org/2024-world-championships-karl-koenig-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-carson-stockman-ls-saga-luke/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-brad-eier-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-chad-lawrence-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-coruscant-regionals-greg-zinn-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-endor-regionals-jacy-smith-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2025-european-championship-timo-dusel-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-european-championship-top-4-justin-branch-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2025-gempc-amar-banger-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2025-gempc-chris-wirfs-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-gempc-matthew-harrison-trainor-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-chris-gogolen-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-chris-wirfs-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-greg-shaw-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-matthew-harrison-trainor-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-amar-banger-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-chris-kelly-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-chris-wirfs-ls-skywalker-saga-luke/",
@@ -6512,7 +6994,34 @@
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-karl-koenig-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-mark-billings-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-steve-harpster-ls-skywalker-saga-luke/",
-        "https://www.starwarsccg.org/2025-morristown-melee-matt-sokol-ls-skywalker-saga-anakin/"
+        "https://www.starwarsccg.org/2025-morristown-melee-matt-sokol-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-l-pater-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-quirin-furgut-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-chad-lawrence-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-nal-hutta-regionals-stephen-squirlock-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-anthony-howard-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-greg-shaw-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-semi-finals-joe-olson-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-anthony-howard-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-justin-desai-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-apollo-chu-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-bryan-mischke-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-chris-wirf-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-jeff-lavigne-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-joe-olson-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-karl-koenig-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-phil-aasen-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-steve-harpster-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-benji-chu-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-us-nationals-travis-morris-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-world-championship-bryan-mischke-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-world-championship-chris-wirfs-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-world-championship-jacy-smith-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2025-world-championship-jarad-konsker-ls-skywalker-saga-anakin/",
+        "https://www.starwarsccg.org/2025-world-championship-jonny-chu-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-world-championship-mike-turner-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-world-championship-steve-harpster-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-greg-shaw-ls-skywalker-saga-luke/"
       ],
       "shortName": "Anakin Saga",
       "aliases": [
@@ -6530,7 +7039,8 @@
         "Skywalker Saga",
         "Saga Anakin",
         "Sywalker Saga Anakin",
-        "Luke Saga"
+        "Luke Saga",
+        "Saga Luke"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Virtual17-Light/large/tatooineslavequarters.gif",
       "startingLocation": {
@@ -6586,7 +7096,12 @@
         "https://www.starwarsccg.org/2024-world-championships-mike-kessling-ds-rots-vader/",
         "https://www.starwarsccg.org/2024-world-championships-tom-damen-ds-rots-vader/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-dan-tartaglione-ds-rots-vader/",
-        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-logan-pietig-ds-rots-vader/"
+        "https://www.starwarsccg.org/2025-bespin-regionals-scott-morgan-ds-rots-vader/",
+        "https://www.starwarsccg.org/2025-european-championship-marvin-tegeler-ds-rots-vader/",
+        "https://www.starwarsccg.org/2025-gempc-david-morrison-ds-rots-vader/",
+        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-logan-pietig-ds-rots-vader/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-ken-cross-ds-rots-vader/",
+        "https://www.starwarsccg.org/2025-world-championship-ken-cross-ds-rots-vader/"
       ],
       "shortName": "ROTS Vader",
       "aliases": [
@@ -6617,7 +7132,8 @@
         "Takodana CP(V)"
       ],
       "matchers": [
-        "Takodana CP(V)"
+        "Takodana CP(V)",
+        "Takodana CPv"
       ],
       "imageUrl": "https://res.starwarsccg.org/cards/Virtual11-Light/large/takodana.gif",
       "startingLocation": {
@@ -6703,7 +7219,9 @@
         "https://www.starwarsccg.org/2024-world-championships-lee-edwards-ds-rots-maul/",
         "https://www.starwarsccg.org/2024-world-championships-quirin-furgut-ds-rots-maul/",
         "https://www.starwarsccg.org/2024-world-championships-tommy-santosuosso-ds-rots-maul/",
-        "https://www.starwarsccg.org/2024-yavin-4-regionals-joe-horbey-ds-rots-maul/"
+        "https://www.starwarsccg.org/2024-yavin-4-regionals-joe-horbey-ds-rots-maul/",
+        "https://www.starwarsccg.org/2025-gempc-peter-jacobson-ds-rots-maul/",
+        "https://www.starwarsccg.org/2025-world-championship-paul-coggins-ds-rots-maul/"
       ],
       "shortName": "ROTS Maul",
       "aliases": [
@@ -6842,7 +7360,9 @@
         "https://www.starwarsccg.org/2024-world-championships-timo-dusel-ls-zero-hour/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-dan-tartaglione-ls-zero-hour/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-timo-dusel-ls-zero-hour/",
-        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-brad-reinhold-ls-zero-hour/"
+        "https://www.starwarsccg.org/2025-gempc-kendall-halman-ls-zero-hour/",
+        "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-brad-reinhold-ls-zero-hour/",
+        "https://www.starwarsccg.org/2025-us-nationals-jim-boyle-ls-zero-hour/"
       ],
       "shortName": "Zero Hour",
       "aliases": [
@@ -7058,6 +7578,13 @@
         "https://www.starwarsccg.org/2024-world-championships-aj-hatoum-ds-thrawn/",
         "https://www.starwarsccg.org/2024-world-championships-timo-dusel-ds-thrawn/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-timo-dusel-ds-thrawn/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-cory-lauer-ds-thrawn/",
+        "https://www.starwarsccg.org/2025-european-championship-timo-dusel-ds-thrawn/",
+        "https://www.starwarsccg.org/2025-gempc-erich-hawbaker-ds-thrawn/",
+        "https://www.starwarsccg.org/2025-gempc-l-pater-ds-thrawn/",
+        "https://www.starwarsccg.org/2025-gempc-patrick-johnson-ds-thrawn/",
+        "https://www.starwarsccg.org/2025-gempc-timo-dusel-ds-thrawn/",
+        "https://www.starwarsccg.org/2025-gempc-top-8-timo-dusel-ds-thrawn/",
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-aj-hatoum-ds-thrawn/",
         "https://www.starwarsccg.org/2025-morristown-melee-wayne-cullen-ds-thrawn/"
       ],
@@ -7162,7 +7689,9 @@
         "https://www.starwarsccg.org/2024-ryloth-regionals-floris-de-vries-ls-hunt-for-the-droid-general/",
         "https://www.starwarsccg.org/2024-tatooine-regionals-ken-cross-ls-hunt-for-the-droid-general/",
         "https://www.starwarsccg.org/2024-toola-regionals-koen-meijssen-ls-clones/",
-        "https://www.starwarsccg.org/2025-morristown-melee-chris-westergard-ls-clones/"
+        "https://www.starwarsccg.org/2025-european-championship-floris-de-vries-ls-clones/",
+        "https://www.starwarsccg.org/2025-morristown-melee-chris-westergard-ls-clones/",
+        "https://www.starwarsccg.org/2025-us-nationals-chris-westergard-ls-clones/"
       ],
       "shortName": "Clones",
       "aliases": [
@@ -7229,8 +7758,13 @@
         "https://www.starwarsccg.org/2024-scarif-regionals-ryan-jellison-ls-the-empire-knows-were-here/",
         "https://www.starwarsccg.org/2024-sss-stephen-sesnick-ls-hoth-speeders/",
         "https://www.starwarsccg.org/2024-world-championships-andrew-moss-ls-the-empire-knows-were-here/",
+        "https://www.starwarsccg.org/2025-bespin-regionals-will-tarbox-ls-speeders/",
+        "https://www.starwarsccg.org/2025-gempc-jack-douglass-ls-speeders/",
+        "https://www.starwarsccg.org/2025-gempc-robbie-hendon-ls-speeders/",
         "https://www.starwarsccg.org/2025-morristown-melee-chris-gogolen-ls-speeders/",
-        "https://www.starwarsccg.org/2025-morristown-melee-top-8-chris-gogolen-ls-speeders/"
+        "https://www.starwarsccg.org/2025-morristown-melee-top-8-chris-gogolen-ls-speeders/",
+        "https://www.starwarsccg.org/2025-naboo-regionals-andrew-davies-ls-speeders/",
+        "https://www.starwarsccg.org/2025-us-nationals-nick-swedal-ls-speeders/"
       ],
       "shortName": "Hoth Speeders",
       "aliases": [
@@ -7353,6 +7887,197 @@
       "startingInterrupt": {
         "id": "200_117",
         "title": "Combat Readiness (V)"
+      }
+    },
+    {
+      "name": "Unknown",
+      "side": "Dark",
+      "decklistUrls": [
+        "https://www.starwarsccg.org/2025-corellia-regionals-brad-eier-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-karl-koenig-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-coruscant-regionals-greg-zinn-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-endor-regionals-chris-wirfs-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-endor-regionals-justin-miyashiro-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-endor-regionals-kyle-kallin-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-european-championship-john-moorley-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-european-championship-justin-branch-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-european-championship-kevin-jaap-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-finals-pat-johnson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-anthony-howard-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-greg-shaw-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-joe-olson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-pat-johnson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-semi-finals-joe-olson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-semi-finals-matthew-harrison-trainor-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-semi-finals-pat-johnson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-anthony-howard-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-jeff-lavigne-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-joe-olson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-justin-desai-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-matthew-harrison-trainor-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-pat-johnson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-paul-coggins-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-abe-christensen-ds-the-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-anthony-howard-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-carson-stockman-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-chris-kelly-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-garrett-larson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-greg-shaw-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-joe-horbey-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-brian-fred-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-chris-kelly-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-matt-scott-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-amar-banger-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-apollo-chu-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-benji-chu-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-bill-kafer-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-chris-wirfs-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-daniel-amor-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-hayes-hunter-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-jarad-ds-konsker-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-jeff-lavigne-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-joe-horbey-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-joe-olson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-jonny-chu-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-kyle-kallin-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-kyle-krueger-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-mark-billings-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-mike-turner-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-nathan-russell-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-pat-johnson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-phil-aasen-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-steve-harpster-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-benji-chu-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-hayes-hunter-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-joe-olson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-pat-johnson-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-world-championship-ziemowit-skwara-ds-first-order-reigns/"
+      ],
+      "shortName": "Unknown",
+      "aliases": [
+        "Unknown"
+      ],
+      "matchers": [
+        "Unknown",
+        "First Order Reigns",
+        "The First Order Reigns"
+      ]
+    },
+    {
+      "name": "Dagobah: Yoda's Hut (V)",
+      "side": "Light",
+      "decklistUrls": [
+        "https://www.starwarsccg.org/2025-coruscant-regionals-scott-lingrell-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-endor-regionals-chris-wirfs-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-european-championship-john-moorley-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-european-championship-kevin-jaap-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-quarterfinals-jarad-konsker-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-jarad-konsker-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-ken-cross-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-tatooine-regionals-mark-billings-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-us-nationals-andrew-moss-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-us-nationals-ellie-hoyt-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-andrew-moss-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-brian-fred-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-chris-kelly-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-us-nationals-top-8-matt-scott-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-world-championship-justin-miyashiro-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-world-championship-ken-cross-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-world-championship-mark-billings-ls-mwyhl-v/",
+        "https://www.starwarsccg.org/2025-world-championship-nate-davis-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-world-championship-scott-lingrell-ls-mwyhlv/",
+        "https://www.starwarsccg.org/2025-world-championship-top-8-benji-chu-ls-mwyhlv/"
+      ],
+      "shortName": "Dagobah: Yoda's Hut (V)",
+      "aliases": [
+        "Dagobah: Yoda's Hut (V)"
+      ],
+      "matchers": [
+        "Dagobah: Yoda's Hut (V)",
+        "MWYHL(V)"
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
+      "startingLocation": {
+        "id": "216_26",
+        "title": "Dagobah: Yoda's Hut (V)"
+      }
+    },
+    {
+      "name": "D'Qar",
+      "side": "Dark",
+      "decklistUrls": [],
+      "shortName": "D'Qar",
+      "aliases": [
+        "D'Qar"
+      ],
+      "matchers": [
+        "D'Qar"
+      ]
+    },
+    {
+      "name": "Endor",
+      "side": "Dark",
+      "decklistUrls": [],
+      "shortName": "Endor",
+      "aliases": [
+        "Endor",
+        "Endor"
+      ],
+      "matchers": [
+        "Endor",
+        "Endor"
+      ]
+    },
+    {
+      "name": "Mustafar: Vader's Castle Slip Sliding Away (V)",
+      "side": "Dark",
+      "decklistUrls": [
+        "https://www.starwarsccg.org/2025-ocs-playoff-top-16-ryan-jellison-ds-vaders-castle-ssav/"
+      ],
+      "shortName": "Mustafar: Vader's Castle SSA(V)",
+      "aliases": [
+        "Mustafar: Vader's Castle Slip Sliding Away (V)",
+        "Mustafar: Vader's Castle SSA(V)"
+      ],
+      "matchers": [
+        "Mustafar: Vader's Castle Slip Sliding Away (V)",
+        "Mustafar: Vader's Castle SSA(V)",
+        "Vader's Castle SSA(V)"
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual9-Dark/large/mustafarvaderscastle.gif",
+      "startingLocation": {
+        "id": "209_50",
+        "title": "Mustafar: Vader's Castle"
+      },
+      "startingInterrupt": {
+        "id": "212_4",
+        "title": "Slip Sliding Away (V)"
+      }
+    },
+    {
+      "name": "Naboo: Boss Nass' Chambers LTWW(V)",
+      "side": "Light",
+      "decklistUrls": [
+        "https://www.starwarsccg.org/2025-world-championship-amar-banger-ls-ltwwv-boss-nass/"
+      ],
+      "shortName": "Boss Nass Chambers LTWW(V)",
+      "aliases": [
+        "Naboo: Boss Nass' Chambers LTWW(V)",
+        "Boss Nass Chambers LTWW(V)"
+      ],
+      "matchers": [
+        "Naboo: Boss Nass' Chambers LTWW(V)",
+        "Boss Nass Chambers LTWW(V)",
+        "LTWW(V) Boss Nass"
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/TheedPalace-Light/large/naboobossnassschambers.gif",
+      "startingLocation": {
+        "id": "14_49",
+        "title": "Naboo: Boss Nass' Chambers"
+      },
+      "startingInterrupt": {
+        "id": "215_16",
+        "title": "Let The Wookiee Win (V)"
       }
     }
   ]

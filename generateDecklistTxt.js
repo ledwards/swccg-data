@@ -98,7 +98,7 @@ const main = async () => {
         // Extract h1 title - using a more robust approach to handle nested tags
         const h1Regex = /<h1[^>]*>([\s\S]*?)<\/h1>/i;
         const h1Match = html.match(h1Regex);
-  
+
         // Extract text content from h1, removing any HTML tags and decode entities
         let h1Text = "";
         if (h1Match) {
@@ -139,7 +139,7 @@ const main = async () => {
 
         // Decode HTML entities in the raw content before processing
         const decodedRawContentHTML = decodeHtmlEntities(rawContentHTML);
-        
+
         const plaintext = plaintextFromRawContent(
           h1Text,
           date,
@@ -158,6 +158,16 @@ const main = async () => {
           case "2022-us-nationals-day-1-kyle-krueger-ls-old-allies":
             decklist.plaintext +=
               "\nOBJECTIVES\n1x Old Allies / We Need Your Help\n\n";
+            break;
+          case "2023-ralltiir-regionals-patrik-csapi-ds-tto":
+            decklist.plaintext = decklist.plaintext.replace(/1x 2xControl&Set For Stun\n/g, "");
+            break;
+          case "2024-north-american-continental-championship-top-8-joe-olson-ls-he-is-the-chosen-one":
+            // Add missing OBJECTIVES header
+            decklist.plaintext = decklist.plaintext.replace(
+              /1x A Stunning Move \/ A Valuable Hostage\nCHARACTERS/,
+              "OBJECTIVES\n1x A Stunning Move / A Valuable Hostage\n\nCHARACTERS"
+            );
             break;
         }
 
@@ -229,11 +239,17 @@ const plaintextFromRawContent = (title, date, url, doc) => {
     .replace("<p>CTER", "<p>CHARACTER")
     .replace("<p>VEH</p>", "")
     .replace(
-      "2x Sorry About The Mess &amp; Blaster\nProficiency<br>",
-      "2x Sorry About The Mess &amp; Blaster Proficiency",
+      /2x Sorry About The Mess &amp; Blaster\nProficiency<br>\n?/g,
+      "2x Sorry About The Mess &amp; Blaster Proficiency<br>",
     )
-    .replace("2xControl&amp;SetForStun<br>\n", "")
-    .replace("1xUhoh!<br>\n", "")
+    .replace(
+      /1x Sorry About The Mess &amp; Blaster\nProficiency<br>\n?/g,
+      "1x Sorry About The Mess &amp; Blaster Proficiency<br>",
+    )
+    .replace(/2xControl&amp;SetForStun<br\s*\/?>\n?/g, "")
+    .replace(/1xUhoh!<br\s*\/?>\n?/g, "")
+    .replace(/2xControl&amp;Set For Stun<br\s*\/?>\n?/g, "")
+    .replace(/1x 2xControl&amp;Set For Stun<br\s*\/?>\n?/g, "")
     .replace(
       "4-LOM With Concussion Rifle (V)1x Allegiant General Pryde",
       "4-LOM With Concussion Rifle (V)\n1x Allegiant General Pryde",
@@ -243,6 +259,7 @@ const plaintextFromRawContent = (title, date, url, doc) => {
       "Officer Evax Captain Khurgee (V)",
       "Officer Evax\nCaptain Khurgee (V)",
     )
+    .replace("2X-3KPR", "ZZ-TEMP-2X-3KPR-ZZ") // Protect from quantity regex
     .replaceAll("Darth (V)ader", "Darth Vader")
     .replace("Jakku Spaceport Street", "Jakku\nSpaceport Street")
     .replace("WEAPONSMace", "WEAPONS<br>Mace")
@@ -297,11 +314,13 @@ const plaintextFromRawContent = (title, date, url, doc) => {
 
   // console.log("2", body);
 
+  body = body.replace(/ZZ-TEMP-2X-3KPR-ZZ/g, "2X-3KPR"); // Restore protected card name
+
   body = removeHtmlTagsAndEscapes(body)
       // Process lines individually to avoid memory-intensive array operations
       const lines = body.split("\n");
       let result = [];
-  
+
       for (let i = 0; i < lines.length; i++) {
         if (lines[i].trim()) {
           // Make sure to decode any HTML entities that might have survived
@@ -369,7 +388,7 @@ const removeEuroStyleText = (line) =>
 // Comprehensive HTML entity decoder for Node.js environment
 const decodeHtmlEntities = (html) => {
   if (!html) return '';
-  
+
   return html
     // Named entities
     .replace(/&amp;/g, '&')
@@ -466,7 +485,8 @@ const normalizeLine = (line) => {
     line == "Light:" ||
     line == "Deck:" ||
     line.match(/\w+ \d{1,2}, \d{4}/) ||
-    line.match(/^\d+$/)
+    line.match(/^\d+$/) ||
+    line.match(/^Proficiency$/) // Standalone "Proficiency" from line breaks
   ) {
     return "";
   }
@@ -561,6 +581,11 @@ const normalizeLine = (line) => {
 
   line = `${qty}x ${normalizeCardTitle(cardTitle)}`;
 
+  // Filter out lines that are just quantity with no card name
+  if (line.match(/^\d+x\s*$/)) {
+    return "";
+  }
+
   // console.log("NL5 FINAL:", line);
 
   return line;
@@ -568,6 +593,22 @@ const normalizeLine = (line) => {
 
 const fixSpecificLineLevelTyposAndDataEntryErrors = (line) =>
   line
+    // Skip non-card lines (comments, notes, section headers)
+    .replace(/^1x PLEASE NOTE:.*$/i, "")
+    .replace(/^PLEASE NOTE:.*$/i, "")
+    .replace(/^NOTE:.*$/i, "")
+    .replace(/^1x\s+(STARSHIP|VEHICLE|WEAPON|DEVICE)\s*\/\s*(VEHICLE|WEAPON|DEVICE|STARSHIP)\s*$/i, "")
+    .replace(/^1x\s+(WEAPON|DEVICE)\s*\/\s*(WEAPON|DEVICE)\s*$/i, "")
+    .replace(/^DEVICE\s*\/\s*WEAPON\s*$/i, "")
+    .replace(/^WEAPON\s*\/\s*DEVICE\s*$/i, "")
+    .replace(/^STARSHIP\s*\/\s*VEHICLE\s*\/\s*WEAPON\s*$/i, "")
+
+    // Fix duplicate quantity prefixes (e.g., "1x 2xControl" -> "Control")
+    .replace(/^(\d{1,2})x\s+\d{1,2}x\s*/i, (match, qty) => `${qty}x `)
+
+    // Fix concatenated card names with missing spaces
+    .replace("Ysanne IsardDEVICE", "Ysanne Isard")
+
     // put back excalamation points!
     .replace("Turn It Off! Turn It Off (V)", "Turn It Off! Turn It Off! (V)")
     .replace("I Can't Shake Him (V)", "I Can't Shake Him! (V)")
@@ -761,6 +802,22 @@ const fixSpecificGlobalTyposAndDataEntryErrors = (line) =>
     .replace("Kylo With Lightsaber", "Kylo Ren With Lightsaber")
     .replace("Repairs ć Starship", "Repairs & Starship")
 
+    // Fix capitalization errors
+    .replace(/Seal [Oo]ff [Tt]he [Bb]ridge/g, "Seal Off The Bridge")
+    .replace(/Were You Looking For Me\??$/g, "Were You Looking For Me?")
+
+    // Remove (V) from cards that don't have a V version (typos in source data)
+    .replace("Galactic Republic Navy (V)", "Galactic Republic Navy")
+    .replace("Tatooine: Skywalker Hut (V)", "Tatooine: Skywalker Hut")
+    .replace("Death Star II: Chasm Walkway (V)", "Death Star II: Chasm Walkway")
+    .replace("Luke's Bionic Hand (V)", "Luke's Bionic Hand")
+    .replace("Aurra Sing With Blaster Rifle (V)", "Aurra Sing With Blaster Rifle")
+    .replace("Lord Maul With Lightsaber (V)", "Lord Maul With Lightsaber")
+    .replace("Rey (V)", "Rey")
+
+    // Fix combo cards that need specific handling
+    .replace("Force Push & Podracer Collision (V)", "Force Push (V)")
+
     // Doesn't need (V)
     .replace("Death Squadron Assignment (V)", "Death Squadron Assignment")
     .replace("A Brave Resistance (V)", "A Brave Resistance")
@@ -839,7 +896,24 @@ const disambiguateCardsWithSameTitles = (body) =>
     .replace("Boba Fett (SE)", "Boba Fett (Special Edition")
     .replace("Boba Fett (CC)", "Boba Fett (Cloud City")
 
-    .replace("Alter (V)", "Alter (Premiere) (V)"); // official title for Premiere (V) only
-// .replace("Sense (V)", "Sense (Premiere) (V)") // this cards is blanked
+    .replace("Alter (V)", "Alter (Premiere) (V)") // official title for Premiere (V) only
+    // .replace("Sense (V)", "Sense (Premiere) (V)") // this cards is blanked
+
+    // Fix bracket notation to parenthesis notation for (V) cards
+    .replace(/\[V\]/g, "(V)")
+    .replace(/\[v\]/g, "(V)")
+
+    // Fix common typos in card names
+    .replace("Mirax Terriks", "Mirax Terrik")
+    .replace("Darth Vader, Dark Lod Of The Sith", "Darth Vader, Dark Lord Of The Sith")
+    .replace("Threepio With His Parts Shown", "Threepio With His Parts Showing")
+
+    // Fix combo card names to match database format
+    .replace(/Sorry About The Mess & Blaster(?! Proficiency)/g, "Sorry About The Mess & Blaster Proficiency")
+    .replace("A Fine Addition To my Collection", "A Fine Addition To My Collection")
+
+    // Remove stray text appended to card names
+    .replace("Short Range Fighters & Watch Your Back! LOCATION", "Short Range Fighters & Watch Your Back!")
+  ;
 
 main();

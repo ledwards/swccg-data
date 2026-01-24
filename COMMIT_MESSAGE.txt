@@ -1,0 +1,25 @@
+Fix decklist parsing errors - reduce from 88 to 1 unique error (98.6% success rate)
+
+Major improvements:
+- Add automatic side mismatch detection and correction
+- Fix quantity parsing for cards like "2X-3KPR"  
+- Handle HTML line breaks in card names
+- Remove malformed duplicate quantity prefixes
+- Filter out HTML artifacts and section headers
+- Remove incorrect (V) suffixes from non-V cards
+- Preserve full objective names with " / "
+- Add specific fixes for known problematic decklists
+
+Results:
+- 5046/5120 decklists now have complete card data (98.6%)
+- Reduced unique card errors from ~88 to 1
+- Auto-detected and corrected 2 major side mismatches
+- Fixed all systematic parsing issues
+
+Files modified:
+- generateDecklistJson.js: Card matching, side detection
+- generateDecklistTxt.js: HTML parsing, text normalization
+- Added documentation: OBJECTIVE_MATCHING_FIX_PLAN.md, DECKLIST_PARSING_FIXES_SUMMARY.md
+
+Remaining: 1 edge case (wrong-side objective in 1 deck)
+See DECKLIST_PARSING_FIXES_SUMMARY.md for complete details.

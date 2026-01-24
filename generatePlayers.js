@@ -212,7 +212,6 @@ const matchableDecklistTitle = (title) => {
   // TODO: is this redundant? Try to merge these functions
   let fixedTitle = title
     .replace(roundMatcher, "")
-    .replace("  ", " ")
     .replace("EUROPEAN CHAMPIONSHIPS", "European Championship")
     .replace("TMW", "Texas Mini-Worlds")
     .replace("EGP", "Endor Grand Prix")
@@ -228,8 +227,9 @@ const matchableDecklistTitle = (title) => {
     .replace(" EUR ", " ")
     .replace(" USA ", " ")
     .replace("(TOP 8)", "Top 8")
-    .replace(/\s+–\s+/, " ")
-    .replace(/\s+/, " ");
+    .replace(/\s+–\s+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 
   return fixedTitle;
 };
@@ -252,9 +252,11 @@ const fixSpecificDecklistTitles = (title, side) => {
     .replaceAll(")", "\\)")
     .replaceAll("...", `\\.\\.\\.`)
     .replaceAll("?", "\\?")}`;
-  const archetypeRE = archetypeClause ? new RegExp(`(${archetypeClause})`) : "";
+  const archetypeRE = archetypeClause ? new RegExp(`(${archetypeClause})$`) : "";
 
-  if (!title.includes("DS") && !title.includes("LS")) {
+  // Check for " DS " or " LS " with spaces to avoid false positives like "DS2" or words containing "LS"
+  const hasSidePrefix = title.match(/\s(DS|LS)\s/);
+  if (!hasSidePrefix) {
     const matches = title.match(archetypeRE);
     if (matches) {
       const archetypeName = matches[1];
@@ -263,19 +265,19 @@ const fixSpecificDecklistTitles = (title, side) => {
   }
 
   // this is only necessary because some decks fail to match the regex since DS/LS is used as a delimiter
-  if (title.includes("DS Combat")) {
+  if (title.includes("DS Combat") && !title.includes("Dark Combat")) {
     title = title.replace("DS Combat", "DS Dark Combat");
   }
 
-  if (title.includes("LS Combat")) {
+  if (title.includes("LS Combat") && !title.includes("Light Combat")) {
     title = title.replace("LS Combat", "LS Light Combat");
   }
 
-  if (title.includes("DS Senate")) {
+  if (title.includes("DS Senate") && !title.includes("Dark Senate")) {
     title = title.replace("DS Senate", "DS Dark Senate");
   }
 
-  if (title.includes("LS Senate")) {
+  if (title.includes("LS Senate") && !title.includes("Light Senate")) {
     title = title.replace("LS Senate", "LS Light Senate");
   }
 
@@ -283,7 +285,7 @@ const fixSpecificDecklistTitles = (title, side) => {
 };
 
 const playerRegex = (archetype) => {
-  const tournamentClause = `${tournamentSignifiers.join(" | ")}`;
+  const tournamentClause = `${tournamentSignifiers.join("|")}`;
 
   const archetypeClause = archetype
     ? `${archetype.matchers
@@ -297,7 +299,7 @@ const playerRegex = (archetype) => {
   const roundClause = `${roundNames.join("|")}`;
 
   const tournamentRE = new RegExp(
-    `(\\d{0,4})\\s?(.+(${tournamentClause}))\\s?(${roundClause})?\\s?(.+)(${roundClause})?\\s(DS|LS)\\s?(${archetypeClause})`,
+    `(\\d{0,4})\\s?(.+(${tournamentClause}))\\s?(${roundClause})?\\s?(.+?)(${roundClause})?\\s(DS|LS)\\s?(${archetypeClause})`,
     "i",
   );
   return tournamentRE;

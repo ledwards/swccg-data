@@ -179,6 +179,15 @@ const main = async () => {
       }
       decklist.cards = []; // for modifier checking, we need to know the actual cards
 
+      // Pre-scan to detect actual side from card names (before filtering by archetype side)
+      const detectedSide = detectSideFromCardNames(lines.slice(3));
+      if (detectedSide && detectedSide !== decklist.side) {
+        console.log(
+          `SIDE MISMATCH DETECTED in ${decklist.slug}: archetype says ${decklist.side} but cards are ${detectedSide}. Overriding to ${detectedSide}.`,
+        );
+        decklist.side = detectedSide;
+      }
+
       lines.slice(3).forEach((line, i) => {
         if (
           line.trim() == "" ||
@@ -187,15 +196,40 @@ const main = async () => {
           return;
         }
 
+        // Skip lines that are clearly not cards
+        const trimmedLine = line.trim();
+        if (
+          trimmedLine.startsWith("PLEASE NOTE:") ||
+          trimmedLine.startsWith("NOTE:") ||
+          trimmedLine.includes("deck building error") ||
+          trimmedLine.includes("significant error") ||
+          /^1x\s+(STARSHIP|VEHICLE|WEAPON|DEVICE)\s*\/\s*(VEHICLE|WEAPON|DEVICE|STARSHIP)$/i.test(trimmedLine) ||
+          /^1x\s+(WEAPON|DEVICE)\s*\/\s*(WEAPON|DEVICE)$/i.test(trimmedLine) ||
+          trimmedLine === "LOCATION" ||
+          trimmedLine === "DEVICE / WEAPON" ||
+          trimmedLine === "WEAPON / DEVICE" ||
+          trimmedLine === "STARSHIP / VEHICLE / WEAPON"
+        ) {
+          return;
+        }
+
         let qtyStr = "";
         let qty = 1;
         let cardTitle = line.trim();
 
-        const qtyMatch = line.match(/\s?x?(\d{1,2})x?\s?/i);
+        // Match quantity prefix like "1x", "2x", etc. at the start of the line
+        const qtyMatch = line.match(/^\s*(\d{1,2})x\s*/i);
         if (qtyMatch) {
           qtyStr = qtyMatch[0];
           qty = parseInt(qtyMatch[1]);
           cardTitle = line.replace(qtyStr, "").trim();
+
+          // Handle malformed cases like "1x 2xControl" where quantity is duplicated
+          // But don't match card names like "2X-3KPR" (number-X-rest pattern)
+          const doubleQtyMatch = cardTitle.match(/^(\d{1,2})x\s+/i);
+          if (doubleQtyMatch) {
+            cardTitle = cardTitle.replace(doubleQtyMatch[0], "").trim();
+          }
         }
 
         // substitute if card is blanked
@@ -218,6 +252,7 @@ const main = async () => {
           setToMatch = setMapping[setMatches[1]];
         }
 
+        // Match cards: objectives can be wrong-side, so check them first without side filter
         const matchingCard = allCards.find(
           (c) =>
             (!isEp1Counterpart ||
@@ -225,8 +260,14 @@ const main = async () => {
                 c.front.icons &&
                 c.front.icons.includes("Episode I"))) &&
             (!setToMatch || c.set == setToMatch) &&
-            (!decklist.side || decklist.side == c.side) &&
-            cleanCardTitle(cardTitle) == cleanCardTitle(c.front.title),
+            (
+              // Objectives: exact match, no side check
+              (c.front.type === "Objective" && cardTitle === c.front.title) ||
+              // Non-objectives: cleaned match with side check
+              (c.front.type !== "Objective" &&
+               (!decklist.side || decklist.side == c.side) &&
+               cleanCardTitle(cardTitle) == cleanCardTitle(c.front.title))
+            ),
         );
 
         if (matchingCard) {
@@ -384,7 +425,11 @@ const substituteTitleIfNeeded = (title) =>
     .replace("Civil Disorder (V)", "Civil Disorder")
     .replace("Strategic Reserves (V)", "Strategic Reserves")
     .replace("Sense (V)", "Sense")
-    .replace("Macroscan (V)", "Macroscan");
+    .replace("Macroscan (V)", "Macroscan")
+    .replace("Obi-Wan In Radiant VII", "Madakor In Radiant VII")
+    .replace("Sith Probe Droid (V)", "DRK-1 (Dark Eye Probe Droid)")
+    .replace("BoShek (V)", "BoShek, Gritty Smuggler")
+    .replace("A Good Blaster At Your Side & Restricted Deployment", "A Good Blaster At Your Side");
 
 const lookupTournament = (decklist) => tournamentLookupTable[decklist.url];
 const lookupArchetype = (decklist) => archetypeLookupTable[decklist.url];
@@ -648,6 +693,68 @@ const findCard = (cardTitle, side) => {
   );
 
   return matchingCard;
+};
+
+const detectSideFromCardNames = (lines) => {
+  // Try to match card names without side filtering to detect actual side
+  let darkMatches = 0;
+  let lightMatches = 0;
+
+  const headings = cardTypes.map((ct) => ct.toUpperCase() + "S");
+
+  lines.forEach((line) => {
+    if (
+      line.trim() == "" ||
+      headings.map((h) => h.toUpperCase()).includes(line)
+    ) {
+      return;
+    }
+
+    // Skip non-card lines
+    const trimmedLine = line.trim();
+    if (
+      trimmedLine.startsWith("PLEASE NOTE:") ||
+      trimmedLine.startsWith("NOTE:") ||
+      trimmedLine.includes("deck building error") ||
+      trimmedLine.includes("significant error") ||
+      /^1x\s+(STARSHIP|VEHICLE|WEAPON|DEVICE)\s*\/\s*(VEHICLE|WEAPON|DEVICE|STARSHIP)$/i.test(trimmedLine) ||
+      /^1x\s+(WEAPON|DEVICE)\s*\/\s*(WEAPON|DEVICE)$/i.test(trimmedLine) ||
+      trimmedLine === "LOCATION" ||
+      trimmedLine === "DEVICE / WEAPON" ||
+      trimmedLine === "WEAPON / DEVICE" ||
+      trimmedLine === "STARSHIP / VEHICLE / WEAPON"
+    ) {
+      return;
+    }
+
+    let cardTitle = line.trim();
+    const qtyMatch = line.match(/^\s*(\d{1,2})x\s*/i);
+    if (qtyMatch) {
+      cardTitle = line.replace(qtyMatch[0], "").trim();
+    }
+
+    cardTitle = substituteTitleIfNeeded(cardTitle);
+
+    // Try to find card in both sides
+    const darkCard = allCards.find(
+      (c) => c.side === "Dark" && cleanCardTitle(cardTitle) == cleanCardTitle(c.front.title),
+    );
+    const lightCard = allCards.find(
+      (c) => c.side === "Light" && cleanCardTitle(cardTitle) == cleanCardTitle(c.front.title),
+    );
+
+    if (darkCard) darkMatches++;
+    if (lightCard) lightMatches++;
+  });
+
+  const total = darkMatches + lightMatches;
+  if (total === 0) return null;
+
+  // If more than 70% of cards match one side, that's the actual side
+  if (darkMatches / total > 0.7) return "Dark";
+  if (lightMatches / total > 0.7) return "Light";
+
+  return null; // Mixed or unclear
 };
 
 main();
