@@ -163,10 +163,10 @@ const main = async () => {
             decklist.plaintext = decklist.plaintext.replace(/1x 2xControl&Set For Stun\n/g, "");
             break;
           case "2024-north-american-continental-championship-top-8-joe-olson-ls-he-is-the-chosen-one":
-            // Add missing OBJECTIVES header
+            // This LS deck incorrectly has a DS objective - remove it
             decklist.plaintext = decklist.plaintext.replace(
-              /1x A Stunning Move \/ A Valuable Hostage\nCHARACTERS/,
-              "OBJECTIVES\n1x A Stunning Move / A Valuable Hostage\n\nCHARACTERS"
+              /1x A Stunning Move \/ A Valuable Hostage\n/g,
+              ""
             );
             break;
         }

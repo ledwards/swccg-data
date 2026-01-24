@@ -179,13 +179,20 @@ const main = async () => {
       }
       decklist.cards = []; // for modifier checking, we need to know the actual cards
 
-      // Pre-scan to detect actual side from card names (before filtering by archetype side)
-      const detectedSide = detectSideFromCardNames(lines.slice(3));
-      if (detectedSide && detectedSide !== decklist.side) {
-        console.log(
-          `SIDE MISMATCH DETECTED in ${decklist.slug}: archetype says ${decklist.side} but cards are ${detectedSide}. Overriding to ${detectedSide}.`,
-        );
-        decklist.side = detectedSide;
+      // Only run side detection for known problematic decklists (prevents performance issues)
+      const knownSideMismatchSlugs = [
+        "2024-world-championships-gyorgy-pora-ds-tto",
+        "2024-world-championships-tony-petersson-ls-hitco"
+      ];
+
+      if (knownSideMismatchSlugs.includes(decklist.slug)) {
+        const detectedSide = detectSideFromCardNames(lines.slice(3));
+        if (detectedSide && detectedSide !== decklist.side) {
+          console.log(
+            `SIDE MISMATCH DETECTED in ${decklist.slug}: archetype says ${decklist.side} but cards are ${detectedSide}. Overriding to ${detectedSide}.`,
+          );
+          decklist.side = detectedSide;
+        }
       }
 
       lines.slice(3).forEach((line, i) => {
@@ -252,7 +259,6 @@ const main = async () => {
           setToMatch = setMapping[setMatches[1]];
         }
 
-        // Match cards: objectives can be wrong-side, so check them first without side filter
         const matchingCard = allCards.find(
           (c) =>
             (!isEp1Counterpart ||
@@ -260,14 +266,8 @@ const main = async () => {
                 c.front.icons &&
                 c.front.icons.includes("Episode I"))) &&
             (!setToMatch || c.set == setToMatch) &&
-            (
-              // Objectives: exact match, no side check
-              (c.front.type === "Objective" && cardTitle === c.front.title) ||
-              // Non-objectives: cleaned match with side check
-              (c.front.type !== "Objective" &&
-               (!decklist.side || decklist.side == c.side) &&
-               cleanCardTitle(cardTitle) == cleanCardTitle(c.front.title))
-            ),
+            (!decklist.side || decklist.side == c.side) &&
+            cleanCardTitle(cardTitle) == cleanCardTitle(c.front.title),
         );
 
         if (matchingCard) {
