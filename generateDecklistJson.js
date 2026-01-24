@@ -28,6 +28,25 @@ let allTournaments = [];
 let allArchetypes = [];
 let allPlayers = [];
 
+// Known URL variations - maps actual decklist URLs to tournament URLs
+const urlVariations = {
+  'https://www.starwarsccg.org/2019-outrider-cup-round-1-emil-wallin-ds-watto/': 'https://www.starwarsccg.org/2019-outrider-cup-emil-wallin-ds-watto/',
+  'https://www.starwarsccg.org/2022-mpc-top-8-mike-kessling-ds-map/': 'https://www.starwarsccg.org/2022-mpc-top-8-mike-kessling-ds-map-2/',
+  'https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-yavin-4-base-operations/': 'https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-communing-yoda/',
+};
+
+// Normalize URL to handle variations (trailing slashes, etc.)
+const normalizeUrl = (url) => {
+  if (!url) return url;
+
+  // Check if there's a known variation for this URL
+  const normalizedUrl = url
+    .replace(/\/+$/, '/') // replace multiple trailing slashes with single slash
+    .replace(/([^:])\/\/+/g, '$1/'); // replace double slashes in path with single slash
+
+  return urlVariations[normalizedUrl] || normalizedUrl;
+};
+
 const main = async () => {
   let players = [];
 
@@ -61,7 +80,8 @@ const main = async () => {
 
   allTournaments.forEach((tournament) => {
     tournament.decklistUrls.forEach((url) => {
-      tournamentLookupTable[url] = tournament;
+      const normalizedUrl = normalizeUrl(url);
+      tournamentLookupTable[normalizedUrl] = tournament;
     });
   });
 
@@ -76,7 +96,8 @@ const main = async () => {
 
   allArchetypes.forEach((archetype) => {
     archetype.decklistUrls.forEach((url) => {
-      archetypeLookupTable[url] = archetype;
+      const normalizedUrl = normalizeUrl(url);
+      archetypeLookupTable[normalizedUrl] = archetype;
     });
   });
 
@@ -88,7 +109,8 @@ const main = async () => {
 
   allPlayers.forEach((player) => {
     player.decklistUrls.forEach((url) => {
-      playerLookupTable[url] = player;
+      const normalizedUrl = normalizeUrl(url);
+      playerLookupTable[normalizedUrl] = player;
     });
   });
 
@@ -431,9 +453,9 @@ const substituteTitleIfNeeded = (title) =>
     .replace("BoShek (V)", "BoShek, Gritty Smuggler")
     .replace("A Good Blaster At Your Side & Restricted Deployment", "A Good Blaster At Your Side");
 
-const lookupTournament = (decklist) => tournamentLookupTable[decklist.url];
-const lookupArchetype = (decklist) => archetypeLookupTable[decklist.url];
-const lookupPlayer = (decklist) => playerLookupTable[decklist.url];
+const lookupTournament = (decklist) => tournamentLookupTable[normalizeUrl(decklist.url)];
+const lookupArchetype = (decklist) => archetypeLookupTable[normalizeUrl(decklist.url)];
+const lookupPlayer = (decklist) => playerLookupTable[normalizeUrl(decklist.url)];
 
 const determineModifiers = (decklist) => {
   const cardTitles = decklist.cards.map((c) => cleanCardTitle(c.title));

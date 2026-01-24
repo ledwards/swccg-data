@@ -164615,6 +164615,10 @@
       "date": "January 21, 2020",
       "url": "https://www.starwarsccg.org/2019-outrider-cup-round-1-emil-wallin-ds-watto/",
       "tournament": {
+        "name": "2019 Outrider Cup",
+        "shortName": "2019 Outrider",
+        "eventName": "Outrider Cup",
+        "url": "https://www.starwarsccg.org/2019-outrider-cup/",
         "round": "Round 1",
         "format": "Match Play"
       },
@@ -1012865,6 +1012869,10 @@
       "date": "January 24, 2022",
       "url": "https://www.starwarsccg.org/2022-mpc-top-8-mike-kessling-ds-map/",
       "tournament": {
+        "name": "2022 Match Play Championship",
+        "shortName": "2022 MPC",
+        "eventName": "Match Play Championship",
+        "url": "https://www.starwarsccg.org/2022-match-play-championship/",
         "round": "Top 8",
         "format": "Match Play"
       },
@@ -1327743,28 +1327751,28 @@
       "date": "November 27, 2023",
       "url": "https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-yavin-4-base-operations/",
       "tournament": {
+        "name": "2023 OCS Playoffs",
+        "shortName": "2023 OCS",
+        "eventName": "OCS Playoffs",
+        "url": "https://www.starwarsccg.org/2023-10-2023-online-championship-series-playoffs/",
         "round": "Quarterfinals",
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Yavin 4 Base Operations",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual8-Light/large/yavin4baseoperations.gif",
-        "shortName": "Y4O",
+        "name": "Communing (Yoda)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/masteryoda.gif",
+        "shortName": "Yodamuning",
         "aliases": [
-          "Yavin 4 Base Operations",
-          "Y4O",
-          "Y4BO/TTTFIS",
-          "YBO",
-          "YOPS",
-          "Y4BO"
+          "Communing (Yoda)",
+          "Yodamuning"
         ],
-        "objective": {
-          "id": "208_26",
-          "title": "Yavin 4 Base Operations"
+        "startingLocation": {
+          "id": "216_26",
+          "title": "Dagobah: Yoda's Hut (V)"
         },
         "startingInterrupt": {
-          "id": "9_51",
-          "title": "Heading For The Medical Frigate"
+          "id": "216_39",
+          "title": "I Am Part Of The Living Force"
         },
         "modifiers": []
       },
@@ -1368072,10 +1368080,15 @@
     },
     {
       "slug": "2023-ryloth-quirin-furgut-ds-ropsv",
-      "title": "2023 Ryloth QUIRIN FÜRGUT DS ROps(V)",
+      "title": "2023 Ryloth Regionals Quirin Fürgut DS ROps(V)",
       "date": "May 5, 2023",
       "url": "https://www.starwarsccg.org/2023-ryloth-quirin-furgut-ds-ropsv/",
-      "tournament": {},
+      "tournament": {
+        "name": "2023 Ryloth Regionals",
+        "shortName": "2023 Ryloth",
+        "eventName": "Ryloth Regionals",
+        "url": "https://www.starwarsccg.org/2023-03-2023-regional-championship-events/"
+      },
       "archetype": {
         "name": "Ralltiir Operations (V)",
         "imageUrl": "https://res.starwarsccg.org/cards/SpecialEdition-Dark/large/ralltiiroperations.gif",
@@ -1368521,10 +1368534,15 @@
     },
     {
       "slug": "2023-ryloth-quirin-furgut-ls-obi-communing",
-      "title": "2023 Ryloth QUIRIN FÜRGUT LS Obi Communing",
+      "title": "2023 Ryloth Regionals Quirin Fürgut LS Obi Communing",
       "date": "May 5, 2023",
       "url": "https://www.starwarsccg.org/2023-ryloth-quirin-furgut-ls-obi-communing/",
-      "tournament": {},
+      "tournament": {
+        "name": "2023 Ryloth Regionals",
+        "shortName": "2023 Ryloth",
+        "eventName": "Ryloth Regionals",
+        "url": "https://www.starwarsccg.org/2023-03-2023-regional-championship-events/"
+      },
       "archetype": {
         "name": "Communing (Obi-Wan)",
         "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/masterkenobi.gif",
@@ -1655096,6 +1655114,10 @@
       "date": "April 26, 2024",
       "url": "https://www.starwarsccg.org/2024-gempc-finals-mike-kessling-ls-hitco/",
       "tournament": {
+        "name": "2024 GEMPC",
+        "shortName": "2024 GEMPC",
+        "eventName": "GEMPC",
+        "url": "https://www.starwarsccg.org/8th-annual-gempc-feb-may-2024/",
         "round": "Finals",
         "format": "Match Play"
       },
@@ -1907864,11 +1907886,18 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -1910255,11 +1910284,18 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -1914840,11 +1914876,18 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -1916058,15 +1916101,24 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -1917372,11 +1917424,18 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -1917797,15 +1917856,24 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -1919943,11 +1920011,18 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -1920844,11 +1920919,18 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -1926892,11 +1926974,18 @@
         "url": "https://www.starwarsccg.org/2025-08-european-championship-bochum-germany-sept-20-21-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -1927303,15 +1927392,24 @@
         "url": "https://www.starwarsccg.org/2025-08-european-championship-bochum-germany-sept-20-21-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -1930370,11 +1930468,18 @@
         "url": "https://www.starwarsccg.org/2025-08-european-championship-bochum-germany-sept-20-21-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -1931284,11 +1931389,18 @@
         "url": "https://www.starwarsccg.org/2025-08-european-championship-bochum-germany-sept-20-21-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -1931698,15 +1931810,24 @@
         "url": "https://www.starwarsccg.org/2025-08-european-championship-bochum-germany-sept-20-21-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2073712,11 +2073833,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2074586,11 +2074714,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2076264,11 +2076399,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2077477,15 +2077619,24 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2077891,11 +2078042,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2080518,11 +2080676,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2082142,11 +2082307,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2082905,11 +2083077,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2083321,11 +2083500,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2084151,11 +2084337,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2088827,15 +2089020,24 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2089241,11 +2089443,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2090076,11 +2090285,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2090912,11 +2091128,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2092555,11 +2092778,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2093387,11 +2093617,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2099219,15 +2099456,24 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2100122,15 +2100368,24 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2100630,11 +2100885,18 @@
         "url": "https://www.starwarsccg.org/2025-03-regional-championships/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2102404,11 +2102666,18 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2104586,15 +2104855,24 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2105044,11 +2105322,18 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2114156,11 +2114441,18 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2116667,11 +2116959,18 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2120347,15 +2120646,24 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2120802,11 +2121110,18 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2121709,11 +2122024,18 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2125855,11 +2126177,18 @@
         "url": "https://www.starwarsccg.org/2025-07-u-s-national-championship-columbus-ohio-aug-23-24-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2139092,15 +2139421,24 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2140306,11 +2140644,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2140694,15 +2141039,24 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2141132,11 +2141486,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2141554,15 +2141915,24 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2143643,11 +2144013,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2144031,15 +2144408,24 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2147051,11 +2147437,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2148753,11 +2149146,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2150358,11 +2150758,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2151137,11 +2151544,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2155357,11 +2155771,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2156200,11 +2156621,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2158819,11 +2159247,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2161247,11 +2161682,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2162057,11 +2162499,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2162798,11 +2163247,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2163616,11 +2164072,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2165188,11 +2165651,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2167269,15 +2167739,24 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2169057,15 +2169536,24 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2169508,11 +2169996,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2170419,11 +2170914,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2172016,11 +2172518,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2172502,15 +2173011,24 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2176396,11 +2176914,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2178587,15 +2179112,24 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2179044,11 +2179578,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2180756,11 +2181297,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2182521,11 +2183069,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2188221,15 +2188776,24 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2189544,11 +2190108,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2191183,11 +2191754,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2191561,15 +2192139,24 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Dagobah: Yoda's Hut (V)",
-        "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-        "shortName": "Dagobah: Yoda's Hut (V)",
+        "name": "Mind What You Have Learned (V)",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+        "shortName": "Mind What You Have Learned (V)",
         "aliases": [
-          "Dagobah: Yoda's Hut (V)"
+          "Mind What You Have Learned (V)",
+          "MWYHL/SYICv",
+          "MWYHLv",
+          "Jedi Testing V",
+          "MWYHL",
+          "Jedi Testing V (V)"
         ],
-        "startingLocation": {
-          "id": "216_26",
-          "title": "Dagobah: Yoda's Hut (V)"
+        "objective": {
+          "id": "225_53",
+          "title": "Mind What You Have Learned (V)"
+        },
+        "startingInterrupt": {
+          "id": "225_59",
+          "title": "You Will Go To The Dagobah System (V)"
         },
         "modifiers": []
       },
@@ -2193538,11 +2194125,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2194389,11 +2194983,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]
@@ -2196085,11 +2196686,18 @@
         "format": "Match Play"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": []
       },
       "player": {
@@ -2198630,11 +2199238,18 @@
         "url": "https://www.starwarsccg.org/2025-09-world-championship-seattle-washington-october-4-5-2025/"
       },
       "archetype": {
-        "name": "Unknown",
-        "shortName": "Unknown",
+        "name": "The First Order Reigns",
+        "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+        "shortName": "The First Order Reigns",
         "aliases": [
-          "Unknown"
+          "The First Order Reigns",
+          "TFOR/TRID",
+          "TFOR"
         ],
+        "objective": {
+          "id": "225_32",
+          "title": "The First Order Reigns"
+        },
         "modifiers": [
           "Troopers"
         ]

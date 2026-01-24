@@ -70,10 +70,10 @@ const main = async () => {
     xml += "</deck>\n";
 
     const MAX_FILENAME_LENGTH = 40;
-    const tournamentShortName = decklist.tournamentShortName || "Unknown";
-    const shortRound = shortRoundName(decklist.round);
+    const tournamentShortName = decklist.tournament?.shortName || "UNKNOWN";
+    const shortRound = shortRoundName(decklist.tournament?.round);
     const tournamentName =
-      decklist.tournamentShortName || decklist.tournament || "Unknown";
+      decklist.tournament?.name || decklist.tournament?.shortName || "UNKNOWN";
     const lettersUsedBeforePlayerName =
       tournamentName.length +
       decklist.archetype.shortName.length +

@@ -7890,7 +7890,7 @@
       }
     },
     {
-      "name": "Unknown",
+      "name": "The First Order Reigns",
       "side": "Dark",
       "decklistUrls": [
         "https://www.starwarsccg.org/2025-corellia-regionals-brad-eier-ds-first-order-reigns/",
@@ -7953,18 +7953,26 @@
         "https://www.starwarsccg.org/2025-world-championship-top-8-pat-johnson-ds-first-order-reigns/",
         "https://www.starwarsccg.org/2025-world-championship-ziemowit-skwara-ds-first-order-reigns/"
       ],
-      "shortName": "Unknown",
+      "shortName": "The First Order Reigns",
       "aliases": [
-        "Unknown"
+        "The First Order Reigns",
+        "TFOR/TRID",
+        "TFOR"
       ],
       "matchers": [
-        "Unknown",
-        "First Order Reigns",
-        "The First Order Reigns"
-      ]
+        "The First Order Reigns",
+        "TFOR/TRID",
+        "TFOR",
+        "First Order Reigns"
+      ],
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Dark/large/thefirstorderreigns.gif",
+      "objective": {
+        "id": "225_32",
+        "title": "The First Order Reigns"
+      }
     },
     {
-      "name": "Dagobah: Yoda's Hut (V)",
+      "name": "Mind What You Have Learned (V)",
       "side": "Light",
       "decklistUrls": [
         "https://www.starwarsccg.org/2025-coruscant-regionals-scott-lingrell-ls-mwyhlv/",
@@ -7988,31 +7996,33 @@
         "https://www.starwarsccg.org/2025-world-championship-scott-lingrell-ls-mwyhlv/",
         "https://www.starwarsccg.org/2025-world-championship-top-8-benji-chu-ls-mwyhlv/"
       ],
-      "shortName": "Dagobah: Yoda's Hut (V)",
+      "shortName": "Mind What You Have Learned (V)",
       "aliases": [
-        "Dagobah: Yoda's Hut (V)"
+        "Mind What You Have Learned (V)",
+        "MWYHL/SYICv",
+        "MWYHLv",
+        "Jedi Testing V",
+        "MWYHL",
+        "Jedi Testing V (V)"
       ],
       "matchers": [
-        "Dagobah: Yoda's Hut (V)",
+        "Mind What You Have Learned (V)",
+        "MWYHL/SYICv",
+        "MWYHLv",
+        "Jedi Testing V",
+        "MWYHL",
+        "Jedi Testing V (V)",
         "MWYHL(V)"
       ],
-      "imageUrl": "https://res.starwarsccg.org/cards/Virtual16-Light/large/dagobahyodashut.gif",
-      "startingLocation": {
-        "id": "216_26",
-        "title": "Dagobah: Yoda's Hut (V)"
+      "imageUrl": "https://res.starwarsccg.org/cards/Virtual25-Light/large/mindwhatyouhavelearned.gif",
+      "objective": {
+        "id": "225_53",
+        "title": "Mind What You Have Learned (V)"
+      },
+      "startingInterrupt": {
+        "id": "225_59",
+        "title": "You Will Go To The Dagobah System (V)"
       }
-    },
-    {
-      "name": "D'Qar",
-      "side": "Dark",
-      "decklistUrls": [],
-      "shortName": "D'Qar",
-      "aliases": [
-        "D'Qar"
-      ],
-      "matchers": [
-        "D'Qar"
-      ]
     },
     {
       "name": "Endor",
@@ -8053,6 +8063,20 @@
         "id": "212_4",
         "title": "Slip Sliding Away (V)"
       }
+    },
+    {
+      "name": "Unknown",
+      "side": "Light",
+      "decklistUrls": [],
+      "shortName": "Unknown",
+      "aliases": [
+        "Unknown",
+        "Unknown"
+      ],
+      "matchers": [
+        "Unknown",
+        "Unknown"
+      ]
     },
     {
       "name": "Naboo: Boss Nass' Chambers LTWW(V)",

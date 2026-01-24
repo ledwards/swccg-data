@@ -8,5 +8,3 @@
 ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2019-outrider-cup-round-1-emil-wallin-ds-watto/
 ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2022-mpc-top-8-mike-kessling-ds-map/
 ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2023-ocs-playoff-quarterfinals-timo-dusel-ls-yavin-4-base-operations/
-ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2023-ryloth-quirin-furgut-ds-ropsv/
-ERROR: Could not find tournament for decklist https://www.starwarsccg.org/2023-ryloth-quirin-furgut-ls-obi-communing/
