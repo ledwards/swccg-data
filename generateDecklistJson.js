@@ -29,6 +29,54 @@ let allTournaments = [];
 let allArchetypes = [];
 let allPlayers = [];
 
+// Every card title we have matched, by side, with its card ID and display
+// fields. Upstream renames cards (The Emperor (V) became The Emperor,
+// Relentless, same ID) and occasionally removes them (No Bargain (V), May 2026
+// errata), but decklists keep the title they were posted with. A title that no
+// longer matches resolves through its ID to the current card, or, if the card
+// is gone, to the archived entry, so old decks stay complete.
+const CARD_HISTORY_PATH = path.resolve(__dirname, "public", "card-history.json");
+let cardHistory = {};
+const historyKey = (side, title) => `${side}|${cleanCardTitle(title)}`;
+
+const rememberCard = (side, decklistCard) => {
+  const data = decklistCard.cardData;
+  cardHistory[historyKey(side, decklistCard.title)] = {
+    id: decklistCard.id,
+    title: cleanCardTitle(data.front.title),
+    type: data.front.type,
+    subType: data.front.subType,
+    imageUrl: data.front.imageUrl,
+    imageBackUrl: data.back?.imageUrl,
+  };
+};
+
+const cardFromHistory = (side, cardTitle) => {
+  const archived = cardHistory[historyKey(side, cardTitle)];
+  if (!archived) {
+    return null;
+  }
+  const current = allCards.find((c) => c.gempId == archived.id);
+  if (current) {
+    return { title: cleanCardTitle(current.front.title), card: current };
+  }
+  return {
+    title: archived.title,
+    card: {
+      gempId: archived.id,
+      side,
+      front: {
+        title: archived.title,
+        type: archived.type,
+        subType: archived.subType,
+        imageUrl: archived.imageUrl,
+        lore: "",
+      },
+      back: archived.imageBackUrl ? { imageUrl: archived.imageBackUrl } : undefined,
+    },
+  };
+};
+
 // Known URL variations - maps actual decklist URLs to tournament URLs
 const urlVariations = {
   'https://www.starwarsccg.org/2019-outrider-cup-round-1-emil-wallin-ds-watto/': 'https://www.starwarsccg.org/2019-outrider-cup-emil-wallin-ds-watto/',
@@ -66,6 +114,9 @@ const main = async () => {
   );
   allCards = [...darkCardData.cards, ...lightCardData.cards];
   allCards.push(...blankedObjectives()); // blanked Obj still used in decklists
+  if (fs.existsSync(CARD_HISTORY_PATH)) {
+    cardHistory = JSON.parse(fs.readFileSync(CARD_HISTORY_PATH, "utf8"));
+  }
   cardTypes = [
     ...new Set(
       allCards.map((c) => c.front.type.replace(/Jedi Test.*/, "Jedi Test")),
@@ -301,7 +352,19 @@ const main = async () => {
             cardData: matchingCard,
           };
 
+          rememberCard(decklist.side, decklistCard);
           insertCardIntoDecklist(decklist, decklistCard);
+        } else if (cardFromHistory(decklist.side, cardTitle)) {
+          const { title, card } = cardFromHistory(decklist.side, cardTitle);
+          console.log(
+            `Matched ${cardTitle} through card history: ${card.gempId} ${title} in decklist ${decklist.slug}`,
+          );
+          insertCardIntoDecklist(decklist, {
+            title,
+            id: card.gempId,
+            quantity: qty,
+            cardData: card,
+          });
         } else {
           console.log(
             `Could not find card for: ${line} in decklist ${DECKLIST_HTML_DIR}/${decklist.slug}.html`,
@@ -370,6 +433,11 @@ const main = async () => {
     path.resolve(__dirname, "public", "decklists.json"),
     JSON.stringify({ decklists: decklists }),
   );
+
+  const sortedHistory = Object.fromEntries(
+    Object.entries(cardHistory).sort(([a], [b]) => a.localeCompare(b)),
+  );
+  fs.writeFileSync(CARD_HISTORY_PATH, JSON.stringify(sortedHistory, null, 2));
 
   console.log(`Parsed ${decklists.length} decklists.`);
   console.log(

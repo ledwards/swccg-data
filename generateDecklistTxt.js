@@ -609,6 +609,12 @@ const fixSpecificLineLevelTyposAndDataEntryErrors = (line) =>
     // Fix concatenated card names with missing spaces
     .replace("Ysanne IsardDEVICE", "Ysanne Isard")
 
+    // Truncated or annotated titles (2026 decklists)
+    .replace(/Dooku's L$/, "Dooku's Lightsaber")
+    .replace(/\bResolu$/, "Resolute")
+    .replace(/Wedge In Red Squadron$/, "Wedge In Red Squadron 1")
+    .replace("General Calrissian (politics)", "General Calrissian")
+
     // put back excalamation points!
     .replace("Turn It Off! Turn It Off (V)", "Turn It Off! Turn It Off! (V)")
     .replace("I Can't Shake Him (V)", "I Can't Shake Him! (V)")
