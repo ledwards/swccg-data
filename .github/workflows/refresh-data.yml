@@ -1,0 +1,78 @@
+# Rebuilds the public data (tournaments, decklists, players, archetypes, card
+# facts) from the PC website on the first of every month, and commits it when
+# anything changed. Holocron reads public/decklists.json straight from main.
+name: Refresh data
+
+on:
+  schedule:
+    - cron: "0 12 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    # A cold cache re-scrapes every decklist at the site's 2s pace (~3h).
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install --no-audit --no-fund
+
+      # Scraped decklist pages never change once posted, and only new ones are
+      # fetched, so they carry over from run to run.
+      - name: Restore scraped decklist pages
+        uses: actions/cache/restore@v4
+        with:
+          path: output/decklists/html
+          key: decklist-html-${{ github.run_id }}
+          restore-keys: decklist-html-
+
+      - name: Count current decklists
+        id: before
+        run: echo "count=$(node -p 'require("./public/decklists.json").decklists.length')" >> "$GITHUB_OUTPUT"
+
+      - name: Run the pipeline
+        env:
+          ANTIBOT_QUERY: ${{ secrets.ANTIBOT_QUERY }}
+        run: sh bootstrap.sh
+
+      - name: Save scraped decklist pages
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: output/decklists/html
+          key: decklist-html-${{ github.run_id }}
+
+      # A blocked or broken scrape tends to produce fewer decklists, not an
+      # error; never publish a shrunken archive.
+      - name: Check the archive did not shrink
+        run: |
+          after=$(node -p 'require("./public/decklists.json").decklists.length')
+          echo "decklists: ${{ steps.before.outputs.count }} -> $after"
+          if [ "$after" -lt "${{ steps.before.outputs.count }}" ]; then
+            echo "::error::decklists.json shrank from ${{ steps.before.outputs.count }} to $after; not publishing"
+            exit 1
+          fi
+
+      - name: Commit and push
+        run: |
+          git add public
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Monthly data refresh $(date -u +%Y-%m-%d)"
+          git push

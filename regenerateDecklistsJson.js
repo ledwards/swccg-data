@@ -24,7 +24,7 @@ const main = () => {
 
   fs.writeFileSync(
     path.resolve(__dirname, "public", "decklists.json"),
-    JSON.stringify({ decklists: decklists }, null, 2)
+    JSON.stringify({ decklists: decklists })
   );
 
   console.log(`Successfully wrote ${decklists.length} decklists to public/decklists.json`);

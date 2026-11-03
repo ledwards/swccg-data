@@ -413,6 +413,11 @@ const determineStartingSectionCards = (lines, decklist) => {
 };
 
 const determineSide = (decklist) => {
+  // The objective is the most reliable signal: titles are hand-typed and
+  // sometimes say LS for a Dark deck (e.g. 2026 Yavin 4 Regionals, Jacob
+  // Vawter, TDIGWATT (V)), and every deck's side overwrites its archetype's.
+  const sideFromObjective = decklist.objective ? decklist.objective.side : null;
+
   const sidefromTitle =
     (decklist.title.includes(" DS ") ? "Dark" : null) ||
     (decklist.title.includes(" LS ") ? "Light" : null);
@@ -422,7 +427,7 @@ const determineSide = (decklist) => {
     (cardTitles.includes("Knowledge And Defense (V)") ? "Dark" : null) ||
     (cardTitles.includes("Anger, Fear, Aggression (V)") ? "Light" : null);
 
-  return sidefromTitle || sideFromCards;
+  return sideFromObjective || sidefromTitle || sideFromCards;
 };
 
 const determineStartingInterrupt = (decklist) => {

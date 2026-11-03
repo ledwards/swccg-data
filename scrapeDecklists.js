@@ -5,6 +5,9 @@ require('dotenv').config();
 
 const ANTIBOT_QUERY = process.env.ANTIBOT_QUERY;
 const REQUEST_DELAY = 2_000;
+// Decklist pages often take longer than REQUEST_DELAY to load; a 2s deadline
+// aborted most new fetches.
+const REQUEST_TIMEOUT = 60_000;
 const YEAR = 2019;
 
 const slugFromUrl = (url) => url.split("/")[3].replaceAll(/\//g, "");
@@ -44,7 +47,7 @@ const main = async () => {
           setTimeout(
             () =>
               resolve(
-                fetch(decklistUrl + ANTIBOT_QUERY, { signal: AbortSignal.timeout(REQUEST_DELAY) })
+                fetch(decklistUrl + ANTIBOT_QUERY, { signal: AbortSignal.timeout(REQUEST_TIMEOUT) })
                   .then((res) => {
                     if (res.status === 403) {
                       console.log(`ERROR: 403 Forbidden for URL: ${decklistUrl + ANTIBOT_QUERY}`);

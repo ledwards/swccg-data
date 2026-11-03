@@ -6,6 +6,9 @@ require('dotenv').config();
 const ANTIBOT_QUERY = process.env.ANTIBOT_QUERY;
 const DECKLISTS_URL = `https://www.starwarsccg.org/tournaments${ANTIBOT_QUERY}/#decklists`;
 const REQUEST_DELAY = 5_000;
+// The site often takes several seconds to respond; the delay between
+// requests is politeness, not a deadline.
+const REQUEST_TIMEOUT = 60_000;
 
 const { tournamentSignifiers } = require("./lib/constants");
 const { titleCase } = require("./lib/utils");
@@ -14,7 +17,7 @@ const main = async () => {
   let tournaments = [];
 
   console.log(`(Step 1) Fetching: ${DECKLISTS_URL}`);
-  const tournamentPageUrls = await fetch(DECKLISTS_URL, { signal: AbortSignal.timeout(REQUEST_DELAY) })
+  const tournamentPageUrls = await fetch(DECKLISTS_URL, { signal: AbortSignal.timeout(REQUEST_TIMEOUT) })
     .then((res) => {
       if (res.status === 403) {
         console.log(`ERROR: 403 Forbidden for URL: ${DECKLISTS_URL}`);
@@ -37,7 +40,7 @@ const main = async () => {
   console.log(`(Step 2) Fetching: ${tournamentPageUrls.length} tournaments`);
   const fetchTournamentPagePromises = tournamentPageUrls.map((url, i) =>
     new Promise((resolve) => setTimeout(resolve, REQUEST_DELAY * i)).then(() =>
-      fetch(url + ANTIBOT_QUERY)
+      fetch(url + ANTIBOT_QUERY, { signal: AbortSignal.timeout(REQUEST_TIMEOUT) })
         .then((res) => {
           if (res.status === 403) {
             console.log(`ERROR: 403 Forbidden for URL: ${url + ANTIBOT_QUERY}`);
@@ -96,10 +99,18 @@ const main = async () => {
 
   tournaments = (await Promise.all(fetchTournamentPagePromises)).flat();
 
-  tournaments.forEach((tournament) => {
+  // The index also links some individual decklist posts (e.g. 2026 Worlds),
+  // which have no decklists of their own; those decks are already listed under
+  // their tournament. Failed fetches leave undefined entries.
+  tournaments = tournaments.filter((tournament) => {
+    if (!tournament) {
+      return false;
+    }
     if (tournament.decklistUrls.length === 0) {
       console.log(`No decklists found for ${tournament.url}`);
+      return false;
     }
+    return true;
   });
 
   // break out regionals by regions
@@ -142,7 +153,7 @@ const main = async () => {
 
   const tournamentsFirstDecklistPromises = tournaments.map((tournament, i) =>
     new Promise((resolve) => setTimeout(resolve, REQUEST_DELAY * i)).then(() =>
-      fetch(tournament.decklistUrls[0] + ANTIBOT_QUERY)
+      fetch(tournament.decklistUrls[0] + ANTIBOT_QUERY, { signal: AbortSignal.timeout(REQUEST_TIMEOUT) })
         .then((res) => {
           if (res.status === 403) {
             console.log(`ERROR: 403 Forbidden for URL: ${tournament.decklistUrls[0] + ANTIBOT_QUERY}`);
@@ -267,10 +278,36 @@ const main = async () => {
     console.log(`ERROR: ${err}`);
   });
 
+  const tournamentsPath = path.resolve(__dirname, "public", "tournaments.json");
   fs.writeFileSync(
-    path.resolve(__dirname, "public", "tournaments.json"),
-    JSON.stringify(tournaments, null, 2),
+    tournamentsPath,
+    JSON.stringify(withArchivedDecklists(tournaments, tournamentsPath), null, 2),
   );
+};
+
+// The site sometimes drops decklists from a tournament's page (2023 Ryloth
+// Regionals lost two) or a tournament from the index. The archive keeps what
+// it already had: decklist links are merged into the matching tournament, and
+// tournaments missing from this scrape are carried over.
+const withArchivedDecklists = (tournaments, tournamentsPath) => {
+  if (!fs.existsSync(tournamentsPath)) {
+    return tournaments;
+  }
+  const key = (t) => `${t.url}|${t.name}`;
+  const previous = JSON.parse(fs.readFileSync(tournamentsPath, "utf8"));
+  const current = new Map(tournaments.map((t) => [key(t), t]));
+  previous.forEach((old) => {
+    const match = current.get(key(old));
+    if (match) {
+      match.decklistUrls = [
+        ...new Set([...match.decklistUrls, ...old.decklistUrls]),
+      ];
+    } else if (old.name) {
+      console.log(`Keeping ${old.name}, no longer listed on the site`);
+      tournaments.push(old);
+    }
+  });
+  return tournaments;
 };
 
 const shortName = (name) => {

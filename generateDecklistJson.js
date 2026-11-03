@@ -8,6 +8,7 @@ const { roundNames } = require("./lib/constants");
 const DECKLIST_TXT_DIR = "./output/decklists/txt";
 const DECKLIST_HTML_DIR = "./output/decklists/html";
 const DECKLIST_JSON_DIR = "./output/decklists/json";
+fs.mkdirSync(DECKLIST_JSON_DIR, { recursive: true });
 
 let tournamentLookupTable = {};
 let archetypeLookupTable = {};
@@ -367,7 +368,7 @@ const main = async () => {
 
   fs.writeFileSync(
     path.resolve(__dirname, "public", "decklists.json"),
-    JSON.stringify({ decklists: decklists }, null, 2),
+    JSON.stringify({ decklists: decklists }),
   );
 
   console.log(`Parsed ${decklists.length} decklists.`);

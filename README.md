@@ -40,6 +40,11 @@ This will download all images for all cards locally.
 Scrapes the PC website for tournament data and generates the tournaments.json file. This is a pre-requisite for the scrapeDecklists.js script.
 
 
+### Monthly refresh
+`.github/workflows/refresh-data.yml` runs `bootstrap.sh` at 12:00 UTC on the 1st of every month (or on demand from the Actions tab) and commits `public/` when anything changed. It needs the `ANTIBOT_QUERY` repository secret (the same value as in `.env`). Scraped decklist pages are kept in the Actions cache, so only new decklists are fetched; with a cold cache the run re-scrapes everything (about 3 hours). The run fails rather than publishing a `decklists.json` with fewer decklists than before.
+
+To run it locally: `sh bootstrap.sh`.
+
 ## Data Pipeline
 |-> [TODO: downloadCardData.js] *right now every script just does this*
 
