@@ -10,7 +10,7 @@ const REQUEST_DELAY = 5_000;
 // requests is politeness, not a deadline.
 const REQUEST_TIMEOUT = 60_000;
 
-const { tournamentSignifiers } = require("./lib/constants");
+const { tournamentSignifiers, decklistUrlFixes } = require("./lib/constants");
 const { titleCase } = require("./lib/utils");
 
 const main = async () => {
@@ -281,9 +281,21 @@ const main = async () => {
   const tournamentsPath = path.resolve(__dirname, "public", "tournaments.json");
   fs.writeFileSync(
     tournamentsPath,
-    JSON.stringify(withArchivedDecklists(tournaments, tournamentsPath), null, 2),
+    JSON.stringify(
+      withFixedDecklistUrls(withArchivedDecklists(tournaments, tournamentsPath)),
+      null,
+      2,
+    ),
   );
 };
+
+const withFixedDecklistUrls = (tournaments) =>
+  tournaments.map((t) => ({
+    ...t,
+    decklistUrls: [
+      ...new Set(t.decklistUrls.map((url) => decklistUrlFixes[url] || url)),
+    ],
+  }));
 
 // The site sometimes drops decklists from a tournament's page (2023 Ryloth
 // Regionals lost two) or a tournament from the index. The archive keeps what

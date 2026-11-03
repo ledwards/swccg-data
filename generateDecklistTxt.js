@@ -4,6 +4,9 @@ const path = require("path");
 
 const DECKLIST_HTML_DIR = "./output/decklists/html";
 const DECKLIST_URL_BASE = "https://www.starwarsccg.org";
+// Hand-entered pages for decklists the site serves incomplete. They replace
+// the scraped copy of the same slug, so a refresh can't overwrite them.
+const MANUAL_DECKLIST_HTML_DIR = "./manual/decklists/html";
 
 // Run this script with the max-old-space-size flag
 // e.g. `node --max-old-space-size=16384 generateDecklistTxt.js`
@@ -59,6 +62,18 @@ const main = async () => {
         .map((c) => c.front.title),
     ),
   ].concat(["Ralltiir Operations / In The Hands Of The Empire (V)"]);
+
+  if (fs.existsSync(MANUAL_DECKLIST_HTML_DIR)) {
+    fs.readdirSync(MANUAL_DECKLIST_HTML_DIR)
+      .filter((fn) => fn.endsWith(".html"))
+      .forEach((fn) => {
+        console.log(`Using manual decklist: ${fn}`);
+        fs.copyFileSync(
+          path.resolve(MANUAL_DECKLIST_HTML_DIR, fn),
+          path.resolve(DECKLIST_HTML_DIR, fn),
+        );
+      });
+  }
 
   const filenames = fs
     .readdirSync(DECKLIST_HTML_DIR)
