@@ -330592,7 +330592,7 @@ STARSHIPS
 WEAPONS
 4x Battle Droid Blaster Rifle
 1x Dark Jedi Lightsaber (V)
-1x Dooku's L
+1x Dooku's Lightsaber
 
 
 
@@ -335480,7 +335480,7 @@ CHARACTERS
 1x Admiral Kilian
 1x Admiral Yularen
 1x Ahsoka Tano With Lightsabers
-1x General Calrissian (politics)
+1x General Calrissian
 4x Luke Skywalker, Jedi Knight
 1x Qui-Gon Jinn With Lightsaber
 1x Rey
@@ -344989,7 +344989,7 @@ STARSHIPS
 1x Gold Leader In Gold 1 (V)
 2x Han, Chewie, And The Falcon (V)
 1x Tantive IV (V)
-1x Wedge In Red Squadron
+1x Wedge In Red Squadron 1
 
 
 
@@ -364748,7 +364748,7 @@ OBJECTIVES
 1x Plead My Case To The Senate / Sanity And Compassion
 STARSHIPS
 1x Han, Chewie, And The Falcon (V)
-1x Resolu
+1x Resolute
 
 
 
