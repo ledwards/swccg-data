@@ -497,7 +497,9 @@ const cleanCardTitle = (title) =>
   title
     .replaceAll(/[<>•]/g, "")
     .replaceAll(/ \/ .*\(V\)/g, " (V)")
-    .replaceAll(/ \/.*/g, "");
+    .replaceAll(/ \/.*/g, "")
+    // Two-sided systems (Geonosis, Utapau) are listed by planet name alone
+    .replace(/ \((Separatist|Republic) Controlled\)/, "");
 
 const substituteTitleIfNeeded = (title) =>
   title

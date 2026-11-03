@@ -3452,6 +3452,14 @@
     "subType": "Imperial",
     "imageUrl": "https://res.starwarsccg.org/cards/Virtual0-Dark/large/generalveers.gif"
   },
+  "Dark|Geonosis": {
+    "id": "227_9",
+    "title": "Geonosis",
+    "type": "Location",
+    "subType": "System",
+    "imageUrl": "https://res.starwarsccg.org/cards/Virtual27-Dark/large/geonosisseparatistcontrolled.gif",
+    "imageBackUrl": "https://res.starwarsccg.org/cards/Virtual27-Dark/large/geonosisrepubliccontrolled.gif"
+  },
   "Dark|Geonosis: Petranaki Arena": {
     "id": "227_10",
     "title": "Geonosis: Petranaki Arena",
@@ -8067,6 +8075,14 @@
     "type": "Interrupt",
     "subType": "Used",
     "imageUrl": "https://res.starwarsccg.org/cards/ReflectionsIII-Dark/large/unsalvageable.gif"
+  },
+  "Dark|Utapau": {
+    "id": "227_15",
+    "title": "Utapau",
+    "type": "Location",
+    "subType": "System",
+    "imageUrl": "https://res.starwarsccg.org/cards/Virtual27-Dark/large/utapaurepubliccontrolled.gif",
+    "imageBackUrl": "https://res.starwarsccg.org/cards/Virtual27-Dark/large/utapauseparatistcontrolled.gif"
   },
   "Dark|Utapau: Pau City": {
     "id": "227_16",

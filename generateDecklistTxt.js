@@ -629,6 +629,14 @@ const fixSpecificLineLevelTyposAndDataEntryErrors = (line) =>
     .replace(/\bResolu$/, "Resolute")
     .replace(/Wedge In Red Squadron$/, "Wedge In Red Squadron 1")
     .replace("General Calrissian (politics)", "General Calrissian")
+    .replace("Asaijj Ventress With Lightsabers (V)", "Asajj Ventress With Lightsabers")
+    .replace("Boba Fett (Cloud City, V)", "Boba Fett (V)")
+    .replace("Savage Opress (V)", "Savage Opress")
+    .replace("Relatively Unprotected (V)", "Relatively Unprotected")
+    .replace("Escape Pod & We're Doomed (V)", "Escape Pod & We're Doomed")
+    .replace("Zam Wesell (V)", "Zam Wesell")
+    .replace("A Dark Time For The Rebellion & Tarkin's Orders (V)", "A Dark Time For The Rebellion & Tarkin's Orders")
+    .replace(/\ba new hope \([vV]\)$/, "A New Hope")
 
     // put back excalamation points!
     .replace("Turn It Off! Turn It Off (V)", "Turn It Off! Turn It Off! (V)")

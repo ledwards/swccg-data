@@ -335572,7 +335572,7 @@ https://www.starwarsccg.org/2026-european-championship-chris-menzel-ds-hunt-down
 
 CHARACTERS
 1x 4-LOM With Concussion Rifle (V)
-1x Asaijj Ventress With Lightsabers (V)
+1x Asajj Ventress With Lightsabers
 1x Darth Maul With Lightsaber
 1x Lord Maul With Lightsaber
 2x Darth Vader, Emperor's Enforcer
@@ -335582,9 +335582,9 @@ CHARACTERS
 2x Grand Moff Tarkin (V)
 1x Kylo Ren With Lightsaber
 1x Mara Jade With Lightsaber
-1x Boba Fett (Cloud City, V)
+1x Boba Fett (V)
 1x P-59
-1x Savage Opress (V)
+1x Savage Opress
 2x Vanee
 EFFECTS
 1x Blast Door Controls (V)
@@ -335658,7 +335658,7 @@ EFFECTS
 1x Strike Planning
 1x Senate Hovercam
 1x You Assume Too Much
-1x Relatively Unprotected (V)
+1x Relatively Unprotected
 EPIC EVENTS
 1x How Liberty Dies
 INTERRUPTS
@@ -335666,7 +335666,7 @@ INTERRUPTS
 4x Might Of The Republic
 3x Rebel Leadership (V)
 3x Wesa Gotta Grand Army
-2x Escape Pod & We're Doomed (V)
+2x Escape Pod & We're Doomed
 1x Odin Nesloor & First Aid
 1x Free Ride & Endor Celebration (V)
 1x Houjix
@@ -335714,7 +335714,7 @@ CHARACTERS
 1x Rystall (V)
 5x The Emperor, Relentless
 2x Vigo (V)
-1x Zam Wesell (V)
+1x Zam Wesell
 EFFECTS
 1x Blast Door Controls (V)
 1x Disarmed
@@ -335727,7 +335727,7 @@ EFFECTS
 1x Xizor's Bounty
 INTERRUPTS
 1x A Dark Time For The Rebellion (V)
-1x A Dark Time For The Rebellion & Tarkin's Orders (V)
+1x A Dark Time For The Rebellion & Tarkin's Orders
 1x ComScan Detection (V)
 1x Elis Helrot
 1x Force Push (V)
@@ -338788,7 +338788,7 @@ INTERRUPTS
 2x Keep Your Eyes Open (V)
 1x Lost In The Wilderness
 2x Might Of The Republic
-1x a new hope (V)
+1x A New Hope
 1x Narrow Escape
 1x Quite A Mercenary (V)
 1x Rebel Barrier
