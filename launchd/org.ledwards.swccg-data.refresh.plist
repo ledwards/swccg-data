@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Runs refresh-local.sh at noon on the 1st of every month. If the Mac is
+     asleep then, launchd runs it once on wake. Install with:
+     cp launchd/org.ledwards.swccg-data.refresh.plist ~/Library/LaunchAgents/
+     launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/org.ledwards.swccg-data.refresh.plist -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>org.ledwards.swccg-data.refresh</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/lee/Repos/ledwards/swccg-data/refresh-local.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Day</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>12</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/lee/Library/Logs/swccg-data-refresh.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/lee/Library/Logs/swccg-data-refresh.log</string>
+</dict>
+</plist>

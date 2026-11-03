@@ -1,11 +1,12 @@
 # Rebuilds the public data (tournaments, decklists, players, archetypes, card
-# facts) from the PC website on the first of every month, and commits it when
-# anything changed. Holocron reads public/decklists.json straight from main.
+# facts) from the PC website, and commits it when anything changed. Holocron
+# reads public/decklists.json straight from main.
+#
+# Manual only: the site answers GitHub's runners with 403, so the monthly
+# refresh runs on Lee's Mac instead (refresh-local.sh, scheduled by launchd).
 name: Refresh data
 
 on:
-  schedule:
-    - cron: "0 12 1 * *"
   workflow_dispatch:
 
 permissions:

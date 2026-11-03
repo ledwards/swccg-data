@@ -44,7 +44,9 @@ Scrapes the PC website for tournament data and generates the tournaments.json fi
 
 
 ### Monthly refresh
-`.github/workflows/refresh-data.yml` runs `bootstrap.sh` at 12:00 UTC on the 1st of every month (or on demand from the Actions tab) and commits `public/` when anything changed. It needs the `ANTIBOT_QUERY` repository secret (the same value as in `.env`). Scraped decklist pages are kept in the Actions cache, so only new decklists are fetched; with a cold cache the run re-scrapes everything (about 3 hours). The run fails rather than publishing a `decklists.json` with fewer decklists than before.
+`refresh-local.sh` runs `bootstrap.sh` and pushes `public/` when anything changed. launchd runs it on Lee's Mac at noon on the 1st of every month (once on wake if the Mac was asleep); the job is `launchd/org.ledwards.swccg-data.refresh.plist`, installed in `~/Library/LaunchAgents`, and logs to `~/Library/Logs/swccg-data-refresh.log`. It skips the month if the working tree has local changes, and never publishes a `decklists.json` with fewer decklists than before. Run it by hand with `launchctl kickstart gui/$(id -u)/org.ledwards.swccg-data.refresh`.
+
+It runs locally because the site answers GitHub's runners with 403. `.github/workflows/refresh-data.yml` does the same job on demand from the Actions tab, for when that changes. It needs the `ANTIBOT_QUERY` repository secret (the same value as in `.env`). Scraped decklist pages are kept in the Actions cache, so only new decklists are fetched; with a cold cache the run re-scrapes everything (about 3 hours). The run fails rather than publishing a `decklists.json` with fewer decklists than before.
 
 To run it locally: `sh bootstrap.sh`.
 
