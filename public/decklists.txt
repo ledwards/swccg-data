@@ -286270,6 +286270,73 @@ WEAPONS
 
 
 
+2025 Coruscant Regionals Greg Shaw LS Watch Your Step
+November 18, 2025
+https://www.starwarsccg.org/2025-coruscant-regionals-greg-shaw-ls-watch-your-step/
+
+
+CHARACTERS
+1x Artoo, Brave Little Droid
+1x BoShek, Gritty Smuggler
+1x Chewie With Blaster Rifle (V)
+1x Corran Horn
+1x Dash Rendar
+1x Ellorrs Madak, Pilot Instructor
+1x Han Solo (V)
+1x Lando With Blaster Rifle
+2x Luke With Lightsaber
+1x Mara Jade
+1x Melas (V)
+1x Mirax Terrik
+1x Nien Nunb, Sullustan Smuggler
+1x Obi-Wan Kenobi (V)
+1x Rio Durant
+2x Talon Karrde
+1x Theron Nett (V)
+1x Val
+1x Wedge Antilles (V)
+EFFECTS
+1x Anger, Fear, Aggression (V)
+1x I Must Be Allowed To Speak & Smuggler's Blues
+1x Menace Fades
+1x Squadron Assignments
+1x Wokling (V)
+INTERRUPTS
+1x A Jedi's Resilience
+3x All Wings Report In & Darklighter Spin
+2x Antilles Maneuver (V)
+1x Ascension Guns (V)
+2x Careful Planning
+1x Escape Pod & We're Doomed
+1x Heading For The Medical Frigate
+1x Houjix
+1x Inconsequential Barriers
+1x It Could Be Worse
+1x It's A Hit!
+1x It's A Trap!
+1x Local Defense & Put That Down
+2x Moving To Attack Position
+1x Rebel Barrier
+1x Rescue In The Clouds (V)
+1x Sorry About The Mess & Blaster Proficiency
+1x They're Tracking Us (V)
+1x Transmission Terminated (V)
+LOCATIONS
+1x Corellia (V)
+1x Tatooine
+1x Tatooine: Cantina
+1x Tatooine: Docking Bay 94
+1x Tatooine: Mos Eisley (V)
+OBJECTIVES
+1x Watch Your Step / This Place Can Be A Little Rough
+STARSHIPS
+1x Millennium Falcon (V)
+1x Outrider (V)
+1x Pulsar Skate
+1x Wild Karrde
+
+
+
 2025 Coruscant Regionals Greg Zinn DS First Order Reigns
 November 18, 2025
 https://www.starwarsccg.org/2025-coruscant-regionals-greg-zinn-ds-first-order-reigns/
@@ -289809,6 +289876,76 @@ VEHICLES
 WEAPONS
 1x Anakin's Lightsaber (V)
 1x Jedi Lightsaber (V)
+
+
+
+2025 European Championship Top 4 Justin Branch DS First Order Reigns
+September 22, 2025
+https://www.starwarsccg.org/2025-european-championship-top-4-justin-branch-ds-first-order-reigns/
+
+
+ADMIRAL'S ORDERS
+1x We're In Attack Position Now
+CHARACTERS
+1x Allegiant General Pryde
+1x Ap'lek
+1x BB-9E
+1x Captain Moden Canady
+1x Captain Peavey
+1x Captain Phasma
+1x Cardo
+1x FN-2003
+1x FN-2199 (Nines)
+1x First Order Stormtrooper
+1x General Hux
+2x Kylo Ren With Lightsaber
+4x Lieutenant Dopheld Mitaka
+1x P-59
+1x Supreme Leader Snoke
+EFFECTS
+1x Bow To The First Order
+1x Coarse And Rough And Irritating
+1x I've Lost Artoo!
+1x Imperial Decree
+1x Imperial Decree (V)
+1x Knowledge And Defense (V)
+1x Lateral Damage
+1x Navy Of The First Order
+1x No Escape (V)
+1x Tentacle (V)
+EPIC EVENTS
+1x Tracked Fleet
+INTERRUPTS
+1x A Dark Time For The Rebellion & Tarkin's Orders
+1x Blast Points (V)
+1x Close Call (V)
+2x Control & Set For Stun
+1x Force Push & Podracer Collision
+1x Ghhhk & Those Rebels Won't Escape Us
+1x Imperial Code Cylinder (V)
+1x Imperial Command
+1x Overwhelmed
+2x Tauntaun Skull
+1x Trooper Assault
+1x You Know What I've Come For
+LOCATIONS
+1x Crait
+1x Crait: Salt Plateau
+1x D'Qar
+1x Hosnian Prime
+1x Jakku
+1x Jakku: Landing Site
+1x Supremacy: Bridge
+OBJECTIVES
+1x The First Order Reigns / The Resistance Is Doomed
+STARSHIPS
+1x Finalizer
+1x Fulminatrix
+1x Kylo Ren's Command Shuttle
+1x Steadfast
+1x Supremacy
+VEHICLES
+2x First Order AT-M6
 
 
 
@@ -334531,6 +334668,33 @@ EFFECTS
 1x I'm Sorry (V)
 1x Imperial Decree (V)
 1x Knowledge And Defense (V)
+1x No Escape (V)
+1x Security Precautions (V)
+1x Tarkin's Bounty (V)
+1x Tentacle (V)
+INTERRUPTS
+3x A Real Hero
+1x Blast Points (V)
+1x Force Push (V)
+1x Ghhhk & Those Rebels Won't Escape Us
+1x Imbalance & Kintan Strider
+2x Imperial Barrier
+2x Imperial Command
+1x Not Within Sight Or Reach
+1x Oo-ta Goo-ta, Solo? (V)
+1x Orbital Bombardment
+1x Slip Sliding Away (V)
+LOCATIONS
+1x Bespin (V)
+1x Cloud City: Dining Room (V)
+1x Cloud City: Security Tower (V)
+1x Cloud City: Upper Walkway
+1x Cloud City: West Gallery
+OBJECTIVES
+1x This Deal Is Getting Worse All The Time / Pray I Don't Alter It Any Further (V)
+STARSHIPS
+1x Eli Vanto In Dreadnaught
+1x Executor
 
 
 
