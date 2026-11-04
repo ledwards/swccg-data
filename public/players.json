@@ -397,10 +397,16 @@
         "https://www.starwarsccg.org/2026-boston-winter-classic-aj-hatoum-ls-whap/",
         "https://www.starwarsccg.org/2026-boston-winter-classic-top-8-aj-hatoum-ds-senate/",
         "https://www.starwarsccg.org/2026-boston-winter-classic-top-8-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2026-european-championship-aj-hatoum-ds-endor-operations/",
+        "https://www.starwarsccg.org/2026-european-championship-aj-hatoum-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2026-gempc-aj-hatoum-ds-hunt-downv/",
+        "https://www.starwarsccg.org/2026-gempc-aj-hatoum-ls-watch-your-step/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-1-aj-hatoum-ds-senate/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-1-aj-hatoum-ls-whap/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-2-aj-hatoum-ds-senate/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-2-aj-hatoum-ls-whap/",
+        "https://www.starwarsccg.org/2026-us-nationals-aj-hatoum-ds-endor-operations/",
+        "https://www.starwarsccg.org/2026-us-nationals-aj-hatoum-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2026-world-championship-aj-hatoum-ds-my-kind-of-scum/",
         "https://www.starwarsccg.org/2026-world-championship-aj-hatoum-ls-watch-your-step/"
       ],
@@ -530,7 +536,9 @@
         "https://www.starwarsccg.org/2023-naboo-regionals-andrew-davies-ds-rops-v/",
         "https://www.starwarsccg.org/2023-naboo-regionals-andrew-davies-ls-qui-gon-communing/",
         "https://www.starwarsccg.org/2025-naboo-regionals-andrew-davies-ds-walkers/",
-        "https://www.starwarsccg.org/2025-naboo-regionals-andrew-davies-ls-speeders/"
+        "https://www.starwarsccg.org/2025-naboo-regionals-andrew-davies-ls-speeders/",
+        "https://www.starwarsccg.org/2026-naboo-regionals-andrew-davies-ds-rots-vader/",
+        "https://www.starwarsccg.org/2026-naboo-regionals-andrew-davies-ls-whap/"
       ],
       "aliases": [
         "Andrew Davies",
@@ -2996,6 +3004,8 @@
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-day-2-dennis-reinhardt-ls-hitco/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-dennis-reinhardt-ds-eops/",
         "https://www.starwarsccg.org/2025-las-vegas-grand-prix-dennis-reinhardt-ls-skywalker-saga-rey/",
+        "https://www.starwarsccg.org/2026-boston-winter-classic-dennis-reinhardt-ds-tdigwattv/",
+        "https://www.starwarsccg.org/2026-boston-winter-classic-dennis-reinhardt-ls-hidden-path/",
         "https://www.starwarsccg.org/2026-gempc-dennis-reinhardt-ds-mkos/",
         "https://www.starwarsccg.org/2026-gempc-dennis-reinhardt-ls-whap/",
         "https://www.starwarsccg.org/2026-world-championship-dennis-reinhardt-ds-rots-dooku/",
@@ -3242,6 +3252,7 @@
         "https://www.starwarsccg.org/2025-european-championship-top-4-emil-wallin-ls-old-allies/",
         "https://www.starwarsccg.org/2026-european-championship-emil-wallin-ds-aobs/",
         "https://www.starwarsccg.org/2026-european-championship-emil-wallin-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2026-naboo-regionals-emil-wallin-ds-agents-of-black-sun/",
         "https://www.starwarsccg.org/2026-naboo-regionals-emil-wallin-ls-watch-your-step/",
         "https://www.starwarsccg.org/2026-outrider-cup-emil-wallin-ds-endor-operations/",
         "https://www.starwarsccg.org/2026-outrider-cup-emil-wallin-ls-old-allies/"
@@ -4025,6 +4036,8 @@
         "https://www.starwarsccg.org/2024-world-championships-hayes-hunter-ls-qmc/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-hayes-hunter-ds-endor-operations/",
         "https://www.starwarsccg.org/2024-world-championships-top-8-hayes-hunter-ls-qmc/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-hayes-hunter-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2025-corellia-regionals-hayes-hunter-ls-rescue-the-princess-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-hayes-hunter-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2025-morristown-melee-hayes-hunter-ls-qmc/",
         "https://www.starwarsccg.org/2025-morristown-melee-top-8-hayes-hunter-ds-hunt-down-v/",
@@ -4039,8 +4052,12 @@
         "https://www.starwarsccg.org/2025-world-championship-hayes-hunter-ls-rescue-the-princess-v/",
         "https://www.starwarsccg.org/2025-world-championship-top-8-hayes-hunter-ds-first-order-reigns/",
         "https://www.starwarsccg.org/2025-world-championship-top-8-hayes-hunter-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2026-boston-winter-classic-hayes-hunter-ds-first-order-reigns/",
+        "https://www.starwarsccg.org/2026-boston-winter-classic-hayes-hunter-ls-hidden-path/",
         "https://www.starwarsccg.org/2026-boston-winter-classic-top-8-hayes-hunter-ds-first-order-reigns/",
         "https://www.starwarsccg.org/2026-boston-winter-classic-top-8-hayes-hunter-ls-skywalker-saga-luke/",
+        "https://www.starwarsccg.org/2026-european-championship-hayes-hunter-ds-tdigwattv/",
+        "https://www.starwarsccg.org/2026-european-championship-hayes-hunter-ls-chewies-hut/",
         "https://www.starwarsccg.org/2026-outrider-cup-hayes-hunter-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2026-outrider-cup-hayes-hunter-ls-hidden-path/",
         "https://www.starwarsccg.org/2026-us-nationals-hayes-hunter-ds-tdigwattv/",
@@ -4232,6 +4249,7 @@
         "https://www.starwarsccg.org/2025-world-championship-jacy-smith-ds-senate/",
         "https://www.starwarsccg.org/2025-world-championship-jacy-smith-ls-skywalker-saga-anakin/",
         "https://www.starwarsccg.org/2026-endor-regionals-jacy-smith-ds-mkos/",
+        "https://www.starwarsccg.org/2026-endor-regionals-jacy-smith-ls-yavin-4-base-operations/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-1-jacy-smith-ds-hunt-down-v/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-1-jacy-smith-ls-skywalker-hut/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-2-jacy-smith-ds-hunt-down-v/",
@@ -4970,6 +4988,8 @@
         "https://www.starwarsccg.org/2025-world-championship-joe-olson-ls-watch-your-step/",
         "https://www.starwarsccg.org/2025-world-championship-top-8-joe-olson-ds-first-order-reigns/",
         "https://www.starwarsccg.org/2025-world-championship-top-8-joe-olson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2026-boston-winter-classic-joe-olson-ds-imperial-entanglements/",
+        "https://www.starwarsccg.org/2026-boston-winter-classic-joe-olson-ls-hidden-path/",
         "https://www.starwarsccg.org/2026-boston-winter-classic-top-8-joe-olson-ds-endor-operations/",
         "https://www.starwarsccg.org/2026-boston-winter-classic-top-8-joe-olson-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2026-european-championship-joe-olson-ds-tdigwattv/",
@@ -4986,6 +5006,8 @@
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-1-joe-olson-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-2-joe-olson-ds-endor-operations/",
         "https://www.starwarsccg.org/2026-san-diego-super-open-day-2-joe-olson-ls-watch-your-step/",
+        "https://www.starwarsccg.org/2026-us-nationals-joe-olson-ds-tdigwattv/",
+        "https://www.starwarsccg.org/2026-us-nationals-joe-olson-ls-ltwwv-chewies-hut/",
         "https://www.starwarsccg.org/2026-us-nationals-top-8-joe-olson-ds-tdigwattv/",
         "https://www.starwarsccg.org/2026-us-nationals-top-8-joe-olson-ls-chewies-hut/",
         "https://www.starwarsccg.org/2026-world-championship-joe-olson-ds-my-kind-of-scum/",
@@ -8423,7 +8445,10 @@
         "https://www.starwarsccg.org/2025-naboo-regionals-quirin-furgut-ls-skywalker-saga-luke/",
         "https://www.starwarsccg.org/2026-european-championship-quirin-furgut-ds-a-stunning-move/",
         "https://www.starwarsccg.org/2026-european-championship-quirin-furgut-ls-chewies-hut/",
-        "https://www.starwarsccg.org/2026-european-championship-top-8-quirin-furgut-ds-sycfa/"
+        "https://www.starwarsccg.org/2026-european-championship-top-8-quirin-furgut-ds-sycfa/",
+        "https://www.starwarsccg.org/2026-european-championship-top-8-quirin-furgut-ls-chewies-hut/",
+        "https://www.starwarsccg.org/2026-naboo-regionals-quirin-furgut-ds-sycfa/",
+        "https://www.starwarsccg.org/2026-naboo-regionals-quirin-furgut-ls-wookiees/"
       ],
       "aliases": [
         "Quirin Fürgut",
@@ -10129,7 +10154,9 @@
         "https://www.starwarsccg.org/2022-naboo-regionals-wayne-poppleton-ds-asm/",
         "https://www.starwarsccg.org/2022-naboo-regionals-wayne-poppleton-ls-qui-gon-communing/",
         "https://www.starwarsccg.org/2025-naboo-regionals-wayne-poppleton-ds-a-stunning-move/",
-        "https://www.starwarsccg.org/2025-naboo-regionals-wayne-poppleton-ls-tigih/"
+        "https://www.starwarsccg.org/2025-naboo-regionals-wayne-poppleton-ls-tigih/",
+        "https://www.starwarsccg.org/2026-naboo-regionals-wayne-poppleton-ds-a-stunning-move/",
+        "https://www.starwarsccg.org/2026-naboo-regionals-wayne-poppleton-ls-diplo/"
       ],
       "aliases": [
         "Wayne Poppleton"

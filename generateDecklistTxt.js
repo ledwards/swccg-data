@@ -102,10 +102,12 @@ const main = async () => {
       const decklistUrl = `${DECKLIST_URL_BASE}/${decklistSlug}/`;
 
       try {
-        const html = fs.readFileSync(
-          path.resolve(__dirname, DECKLIST_HTML_DIR, filename),
-          "utf8",
-        );
+        const html = fs
+          .readFileSync(path.resolve(__dirname, DECKLIST_HTML_DIR, filename), "utf8")
+          // Some 2025-26 posts put each line in its own <div> or
+          // <div dir="auto"> (pasted from Facebook), which ends the content
+          // match at the first line; flatten them to the usual <br /> lines.
+          .replace(/<div(?: dir="auto")?>((?:(?!<\/?div)[\s\S])*?)<\/div>/g, "$1<br />\n");
 
         let decklist;
 
