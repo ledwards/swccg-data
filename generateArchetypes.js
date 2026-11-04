@@ -1031,13 +1031,15 @@ const determineArchetypeName = (decklist) => {
   }
 
   if ((c = findCardInDecklist("The Force Is Strong In My Family", decklist))) {
+    // Without one of the three sites, a Saga deck plays as Anakin's.
+    let chosenSkywalker = "Anakin";
     if (
       findCardInDecklist("Tatooine: Slave Quarters (V)", decklist) ||
       findCardInDecklist("Tatooine: Slave Quarters", decklist)
     ) {
       chosenSkywalker = "Anakin";
     }
-    if (findCardInDecklist("Endor: Funeral Pyre", decklist)) {
+    if (findCardInDecklist("Endor: Anakin's Funeral Pyre", decklist)) {
       chosenSkywalker = "Luke";
     }
     if (findCardInDecklist("Ajan Kloss: Training Course", decklist)) {
